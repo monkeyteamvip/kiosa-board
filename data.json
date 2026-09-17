@@ -604,15 +604,60 @@
     "this is f*cking gold / WHAT THE F*CK cold opens"
   ],
   "no_hits": [
-    "@scottybeamio",
-    "@bober_smart",
-    "@antpalkin",
-    "@polydao",
-    "@zostaff",
-    "@ridark_eth",
-    "@insomnia_vip",
-    "@bl888m_eth",
-    "@leopardracer"
+    {
+      "handle": "@scottybeamio",
+      "reason": "No original Sep 15 post found; latest non-pinned post shown was Sep 14 and had 67,205 views.",
+      "max_views": 67205,
+      "likely": true
+    },
+    {
+      "handle": "@bober_smart",
+      "reason": "Original Sep 15 posts were below the 5,000-view threshold; maximum was 2,455 views.",
+      "max_views": 2455,
+      "likely": true
+    },
+    {
+      "handle": "@antpalkin",
+      "reason": "No original Sep 15 post found; latest visible original was Sep 13 and had 7,707 views.",
+      "max_views": 7707,
+      "likely": true
+    },
+    {
+      "handle": "@polydao",
+      "reason": "The Sep 15 original post was below the 5,000-view threshold.",
+      "max_views": 3182,
+      "likely": true
+    },
+    {
+      "handle": "@zostaff",
+      "reason": "The Sep 15 original post was below the 5,000-view threshold.",
+      "max_views": 2022,
+      "likely": true
+    },
+    {
+      "handle": "@ridark_eth",
+      "reason": "No unpinned Sep 15 original reached 5,000 views; highest observed was 4,315 views.",
+      "max_views": 4315,
+      "likely": true
+    },
+    {
+      "handle": "@insomnia_vip",
+      "reason": "No unpinned Sep 15 original reached 5,000 views; highest observed was 2,162 views.",
+      "max_views": 2162,
+      "likely": true
+    },
+    {
+      "handle": "@bl888m_eth",
+      "reason": "No qualifying unpinned Sep 15 original; the only Sep 15 item was pinned (1,368 views). The next unpinned Sep 14 item had 3,055 views.",
+      "max_views": 0,
+      "likely": true
+    },
+    {
+      "handle": "@leopardracer",
+      "reason": "No unpinned Sep 15 original reached 5,000 views; highest observed was 2,016 views.",
+      "max_views": 2016,
+      "likely": true
+    }
   ],
   "narrative_synthesis": "Fresh outsider AI narratives clustered around agents becoming infrastructure: autonomous teams, agent-callable software and trading, and practical workflows that turn models into production systems. GPT-6 Astra also drove a strong capability thread—embodied spatial reasoning, Minecraft persistence, coding verification, creative tooling, and cheaper/faster inference—while a parallel story framed AI as an economic/productivity shock (Jev, Salesforce, slop grenades, and OpenAI’s valuation).",
   "virals_narrative": "Fresh outsider AI narratives clustered around agents becoming infrastructure: autonomous teams, agent-callable software and trading, and practical workflows that turn models into production systems. GPT-6 Astra also drove a strong capability thread—embodied spatial reasoning, Minecraft persistence, coding verification, creative tooling, and cheaper/faster inference—while a parallel story framed AI as an economic/productivity shock (Jev, Salesforce, slop grenades, and OpenAI’s valuation).",
@@ -1001,5 +1046,320 @@
     }
   ],
   "outsiders_count": 20,
-  "hits_count": 14
+  "hits_count": 14,
+  "leaderboards": {
+    "as_of": "2026-09-15",
+    "week": {
+      "label": "Week · Sep 11–15",
+      "range": [
+        "2026-09-11",
+        "2026-09-15"
+      ],
+      "entries": [
+        {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "views": 251574,
+          "hits": 5,
+          "days": 3,
+          "best": 199158,
+          "best_url": "https://x.com/Argona0x/status/2098861767912767926",
+          "best_hook": "Someone handed GPT-6 Astra a port's public records and one question — \"what does not add up.\" It flagged a plant that \"burned down\" three years ago, still took "
+        },
+        {
+          "handle": "@antpalkin",
+          "name": "cvxv666",
+          "views": 242598,
+          "hits": 11,
+          "days": 3,
+          "best": 95070,
+          "best_url": "https://x.com/antpalkin/status/2098739813914730677",
+          "best_hook": "Sam Altman after finding out his $20 GPT-6 Astra built a neural copy of 169 best memecoin traders — fused into one mind, thinking live, for free."
+        },
+        {
+          "handle": "@shmidtqq",
+          "name": "shmidt",
+          "views": 191645,
+          "hits": 7,
+          "days": 4,
+          "best": 82164,
+          "best_url": "https://x.com/shmidtqq/status/2099104230913053156",
+          "best_hook": "I thought my fruit fly only outtraded crypto influencers — then I wired its connectome into CS2 and watched it clutch Dust2 with instant AWPs."
+        },
+        {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "views": 127680,
+          "hits": 5,
+          "days": 4,
+          "best": 50103,
+          "best_url": "https://x.com/slash1sol/status/2099472862226559480",
+          "best_hook": "Someone connected GPT-6 Astra to TradingView inside an AI trading firm — TradingAgents research + TradingView MCP strategy + Alpaca MCP execution — and the whol"
+        },
+        {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "views": 125098,
+          "hits": 5,
+          "days": 4,
+          "best": 61252,
+          "best_url": "https://x.com/N01ennn/status/2098469055917080613",
+          "best_hook": "Sam Altman watching six Astra agents make $240 million trading and still split a $20 subscription six ways."
+        },
+        {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "views": 81721,
+          "hits": 8,
+          "days": 3,
+          "best": 33800,
+          "best_url": "https://x.com/0x_kaize/status/2098474861257498863",
+          "best_hook": "Introducing freeLLM v1.0 - the FREE AI models directory\n\nPeople still pay $20-200/mo while FREE frontier APIs sit right next to them\n\nI collected 900+ ways to g"
+        },
+        {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "views": 66665,
+          "hits": 4,
+          "days": 4,
+          "best": 26000,
+          "best_url": "https://x.com/polydao/status/2098417503928041671",
+          "best_hook": "this is free f*cking gold for AI engineers\n\n10 repos i'd actually keep, from python fundamentals to LLMs, agents and production AI. skip the random tutorials\n\n1"
+        },
+        {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "views": 57185,
+          "hits": 6,
+          "days": 5,
+          "best": 14626,
+          "best_url": "https://x.com/0xWast3/status/2099503167742398716",
+          "best_hook": "$PELLET is live — an open-source owl that wakes dormant wallets, tracks first buy/size/direction, then funds its own DEX listing, buybacks, and burns every 2 ho"
+        },
+        {
+          "handle": "@ScottyBeamIO",
+          "name": "SCOTTY BEAM",
+          "views": 47134,
+          "hits": 1,
+          "days": 1,
+          "best": 47134,
+          "best_url": "https://x.com/ScottyBeamIO/status/2099568297301709038",
+          "best_hook": "Grok Bot Galaxy starts tomorrow — but the 7-agent content system (chief of staff → researcher → writer → visualiser → analyst → scheduler → publisher) is alread"
+        },
+        {
+          "handle": "@gippp69",
+          "name": "Gipp 🦅",
+          "views": 43007,
+          "hits": 6,
+          "days": 4,
+          "best": 10515,
+          "best_url": "https://x.com/gippp69/status/2099921509485580396",
+          "best_hook": "Buzzdrop turns ordinary robot footage into a live courier nervous system — optical flow → neural spikes → speed/heading/ETA HUD — no sensors, no telemetry, just"
+        },
+        {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "views": 38350,
+          "hits": 3,
+          "days": 3,
+          "best": 26995,
+          "best_url": "https://x.com/Sprytixl/status/2099055139206099422",
+          "best_hook": "Anthropic leaked a $4.8M file where five agents (scout → architect → builders → critic → operator) spin up a $120K/mo business in 60 minutes — one ROOT.md, zero"
+        },
+        {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "views": 21519,
+          "hits": 3,
+          "days": 3,
+          "best": 10304,
+          "best_url": "https://x.com/ridark_eth/status/2098759974704861542",
+          "best_hook": "A solo Shopify operator runs the whole store on $20 of Claude — and pulled $10,478 profit off $19,100 monthly revenue."
+        }
+      ]
+    },
+    "month": {
+      "label": "Month · Sep 2026",
+      "range": [
+        "2026-09-01",
+        "2026-09-15"
+      ],
+      "entries": [
+        {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "views": 251574,
+          "hits": 5,
+          "days": 3,
+          "best": 199158,
+          "best_url": "https://x.com/Argona0x/status/2098861767912767926",
+          "best_hook": "Someone handed GPT-6 Astra a port's public records and one question — \"what does not add up.\" It flagged a plant that \"burned down\" three years ago, still took "
+        },
+        {
+          "handle": "@antpalkin",
+          "name": "cvxv666",
+          "views": 242598,
+          "hits": 11,
+          "days": 3,
+          "best": 95070,
+          "best_url": "https://x.com/antpalkin/status/2098739813914730677",
+          "best_hook": "Sam Altman after finding out his $20 GPT-6 Astra built a neural copy of 169 best memecoin traders — fused into one mind, thinking live, for free."
+        },
+        {
+          "handle": "@shmidtqq",
+          "name": "shmidt",
+          "views": 191645,
+          "hits": 7,
+          "days": 4,
+          "best": 82164,
+          "best_url": "https://x.com/shmidtqq/status/2099104230913053156",
+          "best_hook": "I thought my fruit fly only outtraded crypto influencers — then I wired its connectome into CS2 and watched it clutch Dust2 with instant AWPs."
+        },
+        {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "views": 127680,
+          "hits": 5,
+          "days": 4,
+          "best": 50103,
+          "best_url": "https://x.com/slash1sol/status/2099472862226559480",
+          "best_hook": "Someone connected GPT-6 Astra to TradingView inside an AI trading firm — TradingAgents research + TradingView MCP strategy + Alpaca MCP execution — and the whol"
+        },
+        {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "views": 125098,
+          "hits": 5,
+          "days": 4,
+          "best": 61252,
+          "best_url": "https://x.com/N01ennn/status/2098469055917080613",
+          "best_hook": "Sam Altman watching six Astra agents make $240 million trading and still split a $20 subscription six ways."
+        },
+        {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "views": 81721,
+          "hits": 8,
+          "days": 3,
+          "best": 33800,
+          "best_url": "https://x.com/0x_kaize/status/2098474861257498863",
+          "best_hook": "Introducing freeLLM v1.0 - the FREE AI models directory\n\nPeople still pay $20-200/mo while FREE frontier APIs sit right next to them\n\nI collected 900+ ways to g"
+        },
+        {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "views": 66665,
+          "hits": 4,
+          "days": 4,
+          "best": 26000,
+          "best_url": "https://x.com/polydao/status/2098417503928041671",
+          "best_hook": "this is free f*cking gold for AI engineers\n\n10 repos i'd actually keep, from python fundamentals to LLMs, agents and production AI. skip the random tutorials\n\n1"
+        },
+        {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "views": 57185,
+          "hits": 6,
+          "days": 5,
+          "best": 14626,
+          "best_url": "https://x.com/0xWast3/status/2099503167742398716",
+          "best_hook": "$PELLET is live — an open-source owl that wakes dormant wallets, tracks first buy/size/direction, then funds its own DEX listing, buybacks, and burns every 2 ho"
+        },
+        {
+          "handle": "@ScottyBeamIO",
+          "name": "SCOTTY BEAM",
+          "views": 47134,
+          "hits": 1,
+          "days": 1,
+          "best": 47134,
+          "best_url": "https://x.com/ScottyBeamIO/status/2099568297301709038",
+          "best_hook": "Grok Bot Galaxy starts tomorrow — but the 7-agent content system (chief of staff → researcher → writer → visualiser → analyst → scheduler → publisher) is alread"
+        },
+        {
+          "handle": "@gippp69",
+          "name": "Gipp 🦅",
+          "views": 43007,
+          "hits": 6,
+          "days": 4,
+          "best": 10515,
+          "best_url": "https://x.com/gippp69/status/2099921509485580396",
+          "best_hook": "Buzzdrop turns ordinary robot footage into a live courier nervous system — optical flow → neural spikes → speed/heading/ETA HUD — no sensors, no telemetry, just"
+        },
+        {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "views": 38350,
+          "hits": 3,
+          "days": 3,
+          "best": 26995,
+          "best_url": "https://x.com/Sprytixl/status/2099055139206099422",
+          "best_hook": "Anthropic leaked a $4.8M file where five agents (scout → architect → builders → critic → operator) spin up a $120K/mo business in 60 minutes — one ROOT.md, zero"
+        },
+        {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "views": 21519,
+          "hits": 3,
+          "days": 3,
+          "best": 10304,
+          "best_url": "https://x.com/ridark_eth/status/2098759974704861542",
+          "best_hook": "A solo Shopify operator runs the whole store on $20 of Claude — and pulled $10,478 profit off $19,100 monthly revenue."
+        }
+      ],
+      "note": "Month board uses all available Sep digests under /workspace/x-digest/2026-09-*/"
+    },
+    "days_included": [
+      "2026-09-11",
+      "2026-09-12",
+      "2026-09-13",
+      "2026-09-14",
+      "2026-09-15"
+    ]
+  },
+  "previous_day": {
+    "date": "2026-09-14",
+    "hits_count": 13,
+    "total_views": 252126,
+    "x_score": 100
+  },
+  "history_days": [
+    {
+      "date": "2026-09-11",
+      "hits_count": 10,
+      "total_views": 247921,
+      "x_score": 92
+    },
+    {
+      "date": "2026-09-12",
+      "hits_count": 23,
+      "total_views": 533139,
+      "x_score": 100
+    },
+    {
+      "date": "2026-09-13",
+      "hits_count": 10,
+      "total_views": 159222,
+      "x_score": 92
+    },
+    {
+      "date": "2026-09-14",
+      "hits_count": 13,
+      "total_views": 252126,
+      "x_score": 100
+    },
+    {
+      "date": "2026-09-15",
+      "hits_count": 14,
+      "total_views": 137614,
+      "x_score": 100
+    }
+  ],
+  "board_features": {
+    "count_up": true,
+    "live_pulse": true,
+    "theme_toggle": true,
+    "grok_ambient": true,
+    "week_month_boards": true,
+    "no_hits_reasons": true
+  }
 }
