@@ -171,6 +171,24 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:v
 @keyframes wiggle{0%,100%{transform:rotate(0)}50%{transform:rotate(8deg)}}
 .grok-trail{position:fixed;right:42px;bottom:78px;width:6px;height:6px;border-radius:50%;background:var(--cyan);opacity:.35;z-index:19;pointer-events:none;animation:trail 4.5s ease-in-out infinite}
 @keyframes trail{0%,100%{transform:translateY(0);opacity:.15}50%{transform:translateY(-18px);opacity:.45}}
+
+.lb-row.you,.roster-row.you{border:1px solid rgba(184,255,61,.55);background:rgba(184,255,61,.07);box-shadow:inset 3px 0 0 var(--lime);padding-left:10px;margin:4px 0;border-radius:2px}
+.you-chip{display:inline-flex;align-items:center;margin-left:8px;padding:2px 7px;border:1px solid var(--lime);color:var(--lime);font:800 9px IBM Plex Mono,monospace;letter-spacing:.1em;vertical-align:middle}
+.your-day{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}
+.your-day .yd-label{font:600 10px IBM Plex Mono,monospace;text-transform:uppercase;letter-spacing:.14em;color:var(--lime);margin-bottom:10px}
+.your-day .yd-meta{font:500 11px IBM Plex Mono,monospace;color:var(--muted);margin-bottom:12px}
+.your-day .yd-meta a{color:var(--cyan);text-decoration:none;border-bottom:1px solid rgba(32,217,255,.35)}
+.roster-panel{padding:20px 22px;margin-bottom:8px}
+.roster-list{display:grid;gap:0}
+.roster-row{display:grid;grid-template-columns:36px 1fr auto auto;gap:12px;align-items:center;padding:9px 8px;border-top:1px solid var(--line)}
+.roster-row:first-child{border-top:0}
+.roster-handle{font:700 13px IBM Plex Mono,monospace;color:var(--cyan)}
+.roster-name{font:500 10px IBM Plex Mono,monospace;color:var(--muted);margin-top:2px}
+.roster-views{font:700 13px IBM Plex Mono,monospace;color:var(--lime);text-align:right}
+.roster-badge{font:700 9px IBM Plex Mono,monospace;letter-spacing:.08em;text-transform:uppercase;text-align:right;min-width:52px}
+.roster-badge.hit{color:var(--green)}.roster-badge.miss{color:var(--amber)}
+@media(max-width:620px){.roster-row{grid-template-columns:32px 1fr auto}}
+
 @media(max-width:900px){.hero{grid-template-columns:1fr}.stats{grid-template-columns:repeat(3,1fr)}.score-panel,.target-panel{min-height:260px}.grid,.boards{grid-template-columns:1fr}.nohit{grid-template-columns:1fr}.nohit-max{text-align:left}}
 @media(max-width:620px){.wrap{width:min(100% - 24px,1180px);padding-top:12px}.site-header{align-items:flex-start;flex-wrap:wrap}.header-meta{align-items:flex-start;text-align:left}.x-logo{width:39px;height:39px}h1{font-size:20px}.hero{margin-top:12px}.score-panel{padding:22px 18px;grid-template-columns:1fr auto;min-height:245px}.score-ring{width:130px;height:130px}.score-number{font-size:52px}.score-copy h2{font-size:34px}.score-copy p{font-size:11px}.target-panel{padding:22px 18px}.stats{grid-template-columns:repeat(2,1fr)}.stat{min-height:112px;padding:15px}.stat-v{font-size:29px}.chart-panel{padding:18px 14px}.card{padding:16px}.card-top{display:block}.views-big{text-align:left;margin:13px 0 0}.grid{grid-template-columns:1fr}.section-head{align-items:flex-start}.section-note{max-width:140px}.footer-row{display:block}.footer-mark{display:block;margin-top:8px}.privacy{padding:18px}.grok-ambient,.grok-trail{display:none}}
 @media(max-width:400px){.score-panel{display:block}.score-ring{margin:20px auto 0}.score-copy{text-align:center}.stats{grid-template-columns:1fr 1fr}.stat:last-child{grid-column:1/-1}}
@@ -181,7 +199,7 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:v
 </head>
 <body>
 <div class="grok-trail" aria-hidden="true"></div>
-<div class="grok-ambient" aria-hidden="true" title="Grok Bot">
+<div class="grok-ambient" aria-hidden="true" title="Grok Bot (decorative)">
   <svg viewBox="0 0 64 64" role="img">
     <defs>
       <linearGradient id="gb" x1="0" y1="0" x2="1" y2="1">
@@ -237,34 +255,50 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:v
           <div><div class="target-row-head"><span>Watchlist hits</span><b id="hits-target-copy">—</b></div><div class="target-track"><div class="target-fill" id="hits-progress"></div></div></div>
           <div><div class="target-row-head"><span>Total views</span><b id="views-target-copy">—</b></div><div class="target-track"><div class="target-fill" id="views-progress"></div></div></div>
         </div>
+
+        <div class="your-day" id="your-day">
+          <div class="yd-label">Your day · @thegreatest_sv</div>
+          <div class="yd-meta" id="your-day-meta">loading…</div>
+          <div class="target-list" style="padding-top:0;margin-top:0;gap:16px">
+            <div><div class="target-row-head"><span>Best post vs 5k</span><b id="you-5k-copy">—</b></div><div class="target-track"><div class="target-fill" id="you-5k-progress"></div></div></div>
+            <div><div class="target-row-head"><span>Best post vs 10k ★</span><b id="you-10k-copy">—</b></div><div class="target-track"><div class="target-fill" id="you-10k-progress"></div></div></div>
+          </div>
+        </div>
       </article>
     </section>
 
     <section class="stats" id="stats" aria-label="Daily metrics"></section>
 
+
+    <div class="section-head"><div><div class="section-index">03 / you vs watchlist</div><h2>Daily rank</h2></div><div class="section-note" id="roster-note">best post today · all accounts</div></div>
+    <section class="panel roster-panel" aria-label="You versus watchlist">
+      <div class="panel-label"><strong>YOU /</strong> ranked by max views</div>
+      <div class="roster-list" id="day-roster"></div>
+    </section>
+
     <section class="panel chart-panel">
-      <div class="chart-head"><div><div class="panel-label"><strong>03 /</strong> velocity map</div><h2>Top hit views</h2></div><div class="chart-scale" id="chart-scale">top watchlist signals</div></div>
+      <div class="chart-head"><div><div class="panel-label"><strong>04 /</strong> velocity map</div><h2>Top hit views</h2></div><div class="chart-scale" id="chart-scale">top watchlist signals</div></div>
       <svg id="sparkline" viewBox="0 0 1000 120" preserveAspectRatio="none" role="img" aria-label="Mini bar chart of top hit views"></svg>
       <div class="spark-labels" id="spark-labels"></div>
     </section>
 
-    <div class="section-head"><div><div class="section-index">04 / leaderboards</div><h2>Week · Month</h2></div><div class="section-note" id="lb-note">from data.json + digest days</div></div>
+    <div class="section-head"><div><div class="section-index">05 / leaderboards</div><h2>Week · Month</h2></div><div class="section-note" id="lb-note">from data.json + digest days</div></div>
     <section class="boards" aria-label="Week and month leaderboards">
       <article class="panel board-panel"><div class="panel-label"><strong>W /</strong> rolling week</div><h3 id="week-title">Week</h3><div id="week-board"></div></article>
       <article class="panel board-panel"><div class="panel-label"><strong>M /</strong> calendar month</div><h3 id="month-title">Month</h3><div id="month-board"></div></article>
     </section>
 
-    <div class="section-head"><div><div class="section-index">05 / watchlist</div><h2>Top hits</h2></div><div class="section-note">full drafts · copy ready · per-hit target status</div></div>
+    <div class="section-head"><div><div class="section-index">06 / watchlist</div><h2>Top hits</h2></div><div class="section-note">full drafts · copy ready · per-hit target status</div></div>
     <section class="hits-col" id="hits"></section>
 
-    <div class="section-head"><div><div class="section-index">06 / pattern layer</div><h2>Pattern brief</h2></div><div class="section-note">keywords + recurring hooks and structures</div></div>
+    <div class="section-head"><div><div class="section-index">07 / pattern layer</div><h2>Pattern brief</h2></div><div class="section-note">keywords + recurring hooks and structures</div></div>
     <section class="tags" id="patterns"></section>
 
-    <div class="section-head"><div><div class="section-index">07 / outside radar</div><h2>AI virals · last 48h</h2></div><div class="section-note" id="viral-count">20 outsider signals</div></div>
+    <div class="section-head"><div><div class="section-index">08 / outside radar</div><h2>AI virals · last 48h</h2></div><div class="section-note" id="viral-count">20 outsider signals</div></div>
     <section class="grid" id="virals"></section>
     <div class="narrative" id="virals-narrative" hidden></div>
 
-    <div class="section-head"><div><div class="section-index">08 / below floor</div><h2>No hits ≥5k</h2></div><div class="section-note">handles + likely reasons</div></div>
+    <div class="section-head"><div><div class="section-index">09 / below floor</div><h2>No hits ≥5k</h2></div><div class="section-note">handles + likely reasons</div></div>
     <section class="nohits-block" id="nohits" aria-label="Accounts without 5k hits"></section>
   </main>
 
@@ -324,10 +358,70 @@ function initTheme(){
 }
 async function copyDraft(btn,text){try{await navigator.clipboard.writeText(text)}catch(e){const ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.left='-9999px';document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove()}const prev=btn.textContent;btn.textContent='COPIED';btn.classList.add('copied');setTimeout(()=>{btn.textContent=prev;btn.classList.remove('copied')},1400)}
 function renderSparkline(hits){const top=[...hits].sort((a,b)=>num(b.views)-num(a.views)).slice(0,10);const svg=document.getElementById('sparkline');const labels=document.getElementById('spark-labels');if(!top.length){svg.innerHTML='<text x="500" y="65" text-anchor="middle" fill="#899398" font-size="13">NO SIGNALS</text>';labels.innerHTML='';return}const max=Math.max(...top.map(h=>num(h.views)),1);const gap=18,w=(1000-gap*(top.length+1))/top.length;svg.innerHTML=`<line x1="0" y1="112" x2="1000" y2="112" stroke="currentColor" opacity=".25" stroke-width="1"/>`+top.map((h,i)=>{const height=Math.max(8,94*num(h.views)/max),x=gap+i*(w+gap),y=112-height;const fill=i===0?'#b8ff3d':'#20d9ff';return`<g><rect x="${x}" y="${y}" width="${w}" height="${height}" fill="${fill}" opacity="${i===0?1:.78}"/><rect x="${x}" y="${y}" width="${w}" height="2" fill="#fff" opacity=".65"/><text x="${x+w/2}" y="${Math.max(10,y-7)}" text-anchor="middle" fill="${fill}" font-family="IBM Plex Mono" font-size="10">${esc(fmt(h.views))}</text></g>`}).join('');labels.innerHTML=top.map(h=>`<span>${esc((h.handle||h.name||'—').replace('@',''))}</span>`).join('')}
-function renderLeaderboard(el, entries){
+function isYouEntry(e, op){
+  if(!e) return false;
+  if(e.is_you===true) return true;
+  const h=String(e.handle||'').toLowerCase();
+  const oh=String((op&&op.handle)||'@thegreatest_sv').toLowerCase();
+  return h===oh;
+}
+function renderLeaderboard(el, entries, op){
   if(!el) return;
   if(!entries||!entries.length){el.innerHTML='<p class="muted">No leaderboard data yet.</p>';return}
-  el.innerHTML=entries.map((e,i)=>`<div class="lb-row"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="lb-handle">${esc(e.handle||'')}</div><div class="lb-meta">${esc(e.name||'—')} · ${num(e.hits)} hits · ${num(e.days)}d</div></div><div class="lb-views">${esc(fmt(e.views))}<small>best ${esc(fmt(e.best||0))}</small></div></div>`).join('');
+  el.innerHTML=entries.map((e,i)=>{
+    const you=isYouEntry(e,op);
+    return `<div class="lb-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="lb-handle">${esc(e.handle||'')}${you?'<span class="you-chip">YOU</span>':''}</div><div class="lb-meta">${esc(e.name||'—')} · ${num(e.hits)} hits · ${num(e.days)}d</div></div><div class="lb-views">${esc(fmt(e.views))}<small>best ${esc(fmt(e.best||0))}</small></div></div>`;
+  }).join('');
+}
+function renderDayRoster(list, op, youRank){
+  const el=document.getElementById('day-roster');
+  const note=document.getElementById('roster-note');
+  if(!el) return;
+  if(!list||!list.length){
+    el.innerHTML='<p class="muted">No day roster yet. Scrape needed for operator + watchlist.</p>';
+    if(note) note.textContent='awaiting scrape';
+    return;
+  }
+  if(note){
+    const yv=youRank&&youRank.best_views!=null?fmt(youRank.best_views):'—';
+    const rk=youRank&&youRank.rank_among_watchlist!=null?`#${youRank.rank_among_watchlist}`:'—';
+    note.textContent=`you ${rk} / ${list.length} · best ${yv}`;
+  }
+  el.innerHTML=list.map((r,i)=>{
+    const you=isYouEntry(r,op);
+    const hit=r.hit===true||num(r.views)>=DASHBOARD_TARGETS.minHitViews;
+    return `<div class="roster-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="roster-handle">${esc(r.handle||'')}${you?'<span class="you-chip">YOU</span>':''}</div><div class="roster-name">${esc(r.name||'—')}</div></div><div class="roster-views">${r.views==null||r.views===0&&!hit?'—':esc(fmt(r.views))}</div><div class="roster-badge ${hit?'hit':'miss'}">${hit?'HIT':'BELOW'}</div></div>`;
+  }).join('');
+}
+function renderYourDay(youRank){
+  const meta=document.getElementById('your-day-meta');
+  if(!youRank){
+    if(meta) meta.textContent='No personal day data yet — scrape needed for @thegreatest_sv.';
+    return;
+  }
+  const bv=youRank.best_views;
+  if(meta){
+    if(bv==null){
+      meta.textContent=youRank.note||'Best post unavailable — scrape needed.';
+    }else{
+      const link=youRank.best_url?` · <a href="${esc(youRank.best_url)}" target="_blank" rel="noopener">open best post ↗</a>`:'';
+      const rk=youRank.rank_among_watchlist!=null?` · rank #${youRank.rank_among_watchlist}/${youRank.total_accounts||'?'} `:'';
+      meta.innerHTML=`Best today <b style="color:var(--text)">${esc(fmt(bv))}</b> views${rk}${link}`;
+    }
+  }
+  const v=num(bv);
+  const p5=Math.min(100, pct(v, DASHBOARD_TARGETS.minHitViews));
+  const p10=Math.min(100, pct(v, DASHBOARD_TARGETS.starViews));
+  const c5=document.getElementById('you-5k-copy');
+  const c10=document.getElementById('you-10k-copy');
+  if(c5) c5.textContent = bv==null ? '—' : `${fmt(v)} / 5K · ${p5}% · ${youRank.vs_5k==='done'?'DONE':'PENDING'}`;
+  if(c10) c10.textContent = bv==null ? '—' : `${fmt(v)} / 10K · ${p10}% · ${youRank.vs_10k==='done'?'DONE':'PENDING'}`;
+  requestAnimationFrame(()=>{
+    const a=document.getElementById('you-5k-progress');
+    const b=document.getElementById('you-10k-progress');
+    if(a){a.style.width=(bv==null?0:p5)+'%'; if(p5>=100)a.classList.add('done')}
+    if(b){b.style.width=(bv==null?0:p10)+'%'; if(p10>=100)b.classList.add('done')}
+  });
 }
 function normalizeNoHits(raw){
   if(!Array.isArray(raw)) return [];
@@ -344,7 +438,12 @@ function normalizeNoHits(raw){
 function renderNoHits(list){
   const el=document.getElementById('nohits');
   if(!list.length){el.innerHTML='<p class="muted">All watchlist accounts cleared the 5k floor today.</p>';return}
-  el.innerHTML=list.map(n=>`<article class="nohit"><div><div class="nohit-handle">${esc(n.handle)}</div><div class="nohit-badge">no hit ≥5k</div></div><div class="nohit-reason">${esc(n.reason)}</div><div class="nohit-max">max seen<b>${n.max_views==null?'—':esc(fmt(n.max_views))}</b></div></article>`).join('');
+  const sorted=[...list].sort((a,b)=>{
+    const av=a.max_views==null?-1:num(a.max_views);
+    const bv=b.max_views==null?-1:num(b.max_views);
+    return bv-av;
+  });
+  el.innerHTML=sorted.map(n=>`<article class="nohit"><div><div class="nohit-handle">${esc(n.handle)}</div><div class="nohit-badge">no hit ≥5k</div></div><div class="nohit-reason">${esc(n.reason)}</div><div class="nohit-max">max seen<b>${n.max_views==null?'—':esc(fmt(n.max_views))}</b></div></article>`).join('');
 }
 async function boot(){
   const res=await fetch('./data.json?ts='+Date.now());if(!res.ok)throw new Error('data.json '+res.status);const d=await res.json();
@@ -380,8 +479,11 @@ async function boot(){
   document.getElementById('month-title').textContent=(lbs.month&&lbs.month.label)||'Month';
   const daysInc=(lbs.days_included||[]).join(', ')||'—';
   document.getElementById('lb-note').textContent=`as of ${lbs.as_of||d.date||'—'} · days ${daysInc}`;
-  renderLeaderboard(document.getElementById('week-board'), lbs.week&&lbs.week.entries);
-  renderLeaderboard(document.getElementById('month-board'), lbs.month&&lbs.month.entries);
+  const op=d.operator||{handle:'@thegreatest_sv',name:'The Greatest'};
+  renderLeaderboard(document.getElementById('week-board'), lbs.week&&lbs.week.entries, op);
+  renderLeaderboard(document.getElementById('month-board'), lbs.month&&lbs.month.entries, op);
+  renderYourDay(d.you_rank||null);
+  renderDayRoster(d.day_roster||[], op, d.you_rank||null);
   const sorted=[...hits].sort((a,b)=>num(b.views)-num(a.views));document.getElementById('hits').innerHTML=sorted.map((h,i)=>{const threshold=h.highlight===true?DASHBOARD_TARGETS.starViews:DASHBOARD_TARGETS.minHitViews;const done=num(h.views)>=threshold;const draftId='draft-'+i;const draft=h.draft_en||'';return`<article class="card"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(h.name||h.display_name||'Unknown')}</div><div class="handle">${esc(h.handle||'')}</div></div></div><div class="views-big">${esc(h.views_label||fmt(h.views))}<small>views</small></div></div><div class="hit-target ${done?'done':'not-done'}"><span class="mark">${done?'✓':'×'}</span><span>${done?'DONE':'NOT DONE'} · day target ≥${fmt(threshold)}${threshold===DASHBOARD_TARGETS.starViews?' ★':''}</span></div><div class="hook">${esc(h.hook||h.text||'')}</div>${h.video_tip?`<div class="chip">${esc(h.video_tip)}</div>`:''}<div class="draft-block"><div class="draft-head"><span class="draft-label">Draft · EN</span><button type="button" class="copy-btn" data-draft-id="${draftId}">COPY DRAFT</button></div><pre class="draft-text" id="${draftId}">${esc(draft)}</pre></div><a class="post-link" href="${esc(h.url||h.status_url||'#')}" target="_blank" rel="noopener">OPEN POST ↗</a></article>`}).join('')||'<p class="muted">No watchlist hits today.</p>';
   document.querySelectorAll('.copy-btn').forEach(btn=>btn.addEventListener('click',()=>{const el=document.getElementById(btn.dataset.draftId);copyDraft(btn,el?el.textContent:'')}));
   document.getElementById('patterns').innerHTML=(d.patterns||[]).map(p=>`<span class="tag">${esc(p)}</span>`).join('');document.getElementById('viral-count').textContent=`${virals.length} outsider signals`;
