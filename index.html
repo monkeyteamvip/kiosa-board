@@ -4,7 +4,7 @@
 <meta http-equiv="Cache-Control" content="no-cache" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="theme-color" content="#07090b" />
 <meta name="color-scheme" content="dark light" />
 <title>Grok Bot X Virality Score · @thegreatest_sv</title>
@@ -13,6 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 <style>
 /* xvs-dash-2026 · Grok Bot X Virality Score board */
+/* xvs-mobile-2026 · phone / tablet layout pass */
 :root, html[data-theme="night"] {
   --bg:#07090b;
   --bg-elev:#0c1013;
@@ -82,7 +83,13 @@ html[data-theme="day"] {
   --scan:rgba(4,143,173,.025);
 }
 *,*::before,*::after{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:hidden;max-width:100%}
+body.xvs-dash-2026,body.xvs-mobile-2026{overflow-x:hidden;max-width:100%;-webkit-tap-highlight-color:transparent}
+body.xvs-mobile-2026{
+  padding-left:env(safe-area-inset-left,0px);
+  padding-right:env(safe-area-inset-right,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
 body.xvs-dash-2026{
   margin:0;min-height:100vh;color:var(--text);
   font-family:Inter,system-ui,sans-serif;
@@ -374,50 +381,132 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
 .week-day.on{border-color:var(--cyan);color:var(--cyan);background:var(--cyan-dim)}
 .week-day .wd-d{display:block;font-size:11px;color:var(--text);margin-top:3px;letter-spacing:0}
 
-@media(max-width:620px){.roster-row{grid-template-columns:32px 1fr auto}}
 @media(max-width:980px){
   .hero,.charts-row{grid-template-columns:1fr}
   .stats{grid-template-columns:repeat(3,1fr)}
-  .score-panel,.target-panel{min-height:260px}
+  .score-panel,.target-panel{min-height:0}
   .grid,.boards{grid-template-columns:1fr}
   .nohit{grid-template-columns:1fr}
   .nohit-max{text-align:left}
 }
-@media(max-width:620px){
-  .wrap{width:min(100% - 24px,1160px);padding-top:14px}
-  .site-header{align-items:flex-start;flex-wrap:wrap}
-  .header-meta{align-items:flex-start;text-align:left}
-  .x-logo{width:40px;height:40px}
-  h1{font-size:20px}
-  .hero{margin-top:14px}
-  .score-panel{padding:22px 18px;grid-template-columns:1fr auto;min-height:245px}
-  .score-ring{width:128px;height:128px}
-  .score-number{font-size:50px}
-  .score-copy h2{font-size:32px}
-  .score-copy p{font-size:11px}
-  .target-panel{padding:22px 18px}
-  .stats{grid-template-columns:repeat(2,1fr)}
-  .stat{min-height:112px;padding:15px}
-  .stat-v{font-size:28px}
-  .chart-panel{padding:18px 14px}
-  .card{padding:16px}
-  .card-top{display:block}
-  .views-big{text-align:left;margin:13px 0 0}
-  .grid{grid-template-columns:1fr}
-  .section-head{align-items:flex-start}
-  .section-note{max-width:140px}
-  .footer-row{display:block}
-  .footer-mark{display:block;margin-top:8px}
-  .privacy{padding:18px}
+/* —— xvs-mobile-2026 —— */
+@media(max-width:768px){
+  .wrap{
+    width:min(100% - 24px,1160px);
+    padding:14px 0 calc(64px + env(safe-area-inset-bottom,0px));
+  }
+  .site-header{
+    flex-direction:column;align-items:stretch;gap:14px;
+    padding:max(8px,env(safe-area-inset-top,0px)) 0 18px;
+  }
+  .brand-lockup{gap:12px}
+  .header-meta{align-items:stretch;text-align:left;width:100%}
+  .header-actions{flex-wrap:wrap;gap:10px;width:100%}
+  .theme-toggle{
+    min-height:44px;min-width:44px;padding:12px 16px;font-size:11px;
+    touch-action:manipulation;
+  }
+  .live{min-height:44px;padding:0 4px;display:inline-flex;align-items:center}
+  .x-logo{width:44px;height:44px}
+  h1{font-size:clamp(18px,5.2vw,24px);word-break:break-word}
+  .handle{display:inline}
+  #meta{font-size:10px;line-height:1.45;word-break:break-word}
+  .hero,.charts-row{grid-template-columns:1fr;gap:12px;margin-top:14px}
+  .score-panel,.target-panel{min-height:0}
+  .score-panel{
+    padding:20px 16px;grid-template-columns:1fr;justify-items:center;text-align:center;gap:16px;
+  }
+  .score-copy{width:100%;text-align:center}
+  .score-title-row{justify-content:center}
+  .score-copy p{max-width:none;margin:0 auto;font-size:12px}
+  .score-copy h2{font-size:clamp(28px,8vw,40px)}
+  .score-ring{width:min(148px,42vw);height:min(148px,42vw);margin:0 auto}
+  .score-number{font-size:clamp(42px,12vw,56px)}
+  .target-panel{padding:20px 16px}
+  .target-head{flex-wrap:wrap;gap:10px}
+  .target-title{font-size:clamp(22px,6vw,28px)}
+  .target-row-head{flex-wrap:wrap;gap:6px}
+  .target-row-head b{font-size:clamp(13px,3.6vw,16px);word-break:break-word}
+  .stats{grid-template-columns:repeat(2,1fr);gap:8px}
+  .stat{min-height:104px;padding:14px 12px}
+  .stat-v{font-size:clamp(22px,6.5vw,30px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .stat-note{font-size:9px}
+  .chart-panel{padding:16px 12px;overflow:hidden}
+  .chart-head{flex-wrap:wrap;align-items:flex-start;gap:8px}
+  .chart-head h2{font-size:18px}
+  #sparkline,#day-compare{height:110px;max-width:100%}
+  .spark-labels,.compare-labels{
+    justify-content:space-between;gap:2px;overflow:hidden;width:100%;
+  }
+  .spark-labels span,.compare-labels span{
+    max-width:none;flex:1 1 0;min-width:0;font-size:8px;text-align:center;
+  }
+  .week-strip{gap:5px}
+  .week-day{min-width:calc(25% - 5px);flex:1 1 calc(25% - 5px);padding:10px 4px}
+  .section-head{flex-wrap:wrap;align-items:flex-start;gap:8px;margin:28px 0 12px}
+  .section-head h2{font-size:18px}
+  .section-note{text-align:left;max-width:100%;font-size:9px}
+  .roster-panel,.board-panel{padding:14px 12px;overflow:hidden}
+  .roster-row{
+    grid-template-columns:28px minmax(0,1fr) auto;gap:8px;padding:10px 4px;align-items:start;
+  }
+  .roster-row .roster-badge{grid-column:3;grid-row:1}
+  .roster-views{
+    grid-column:2 / -1;grid-row:2;text-align:left;font-size:11px;
+    white-space:normal;word-break:break-word;padding-left:0;
+  }
+  .roster-handle,.lb-handle{font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+  .roster-name,.lb-meta{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+  .boards,.grid{grid-template-columns:1fr}
+  .lb-row{grid-template-columns:28px minmax(0,1fr);gap:8px;align-items:start}
+  .lb-views{
+    grid-column:2;text-align:left;font-size:12px;white-space:normal;word-break:break-word;margin-top:2px;
+  }
+  .card{padding:16px 14px;width:100%;max-width:100%}
+  .card-top{flex-direction:column;gap:10px;align-items:stretch}
+  .views-big{text-align:left;font-size:16px;white-space:normal;word-break:break-word}
+  .identity{min-width:0}
+  .name{overflow:hidden;text-overflow:ellipsis}
+  .draft-block{padding:12px;max-width:100%}
+  .draft-head{flex-wrap:wrap;gap:8px}
+  .copy-btn{
+    min-height:44px;min-width:72px;padding:10px 16px;font-size:11px;
+    touch-action:manipulation;
+  }
+  .draft-text{max-height:180px;-webkit-overflow-scrolling:touch;font-size:10px}
+  .nohit{grid-template-columns:1fr;gap:10px}
+  .nohit-max{text-align:left}
+  .tags{gap:6px}
+  .tag{padding:10px 12px;font-size:11px}
+  .footer-row{flex-direction:column;gap:8px}
+  .privacy{padding:16px}
   .grok-ambient,.grok-trail{display:none}
+  .panel::after{display:none}
 }
-@media(max-width:400px){
-  .score-panel{display:block}
-  .score-ring{margin:20px auto 0}
-  .score-copy{text-align:center}
-  .stats{grid-template-columns:1fr 1fr}
-  .stat:last-child{grid-column:1/-1}
+@media(max-width:430px){
+  .wrap{width:min(100% - 16px,1160px)}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .stat:nth-child(5){grid-column:1 / -1}
+  .score-ring{width:124px;height:124px}
+  .score-number{font-size:44px}
+  .target-row-head b{font-size:12px}
+  .week-day{min-width:calc(33.33% - 5px);flex:1 1 calc(33.33% - 5px)}
+  .eyebrow{letter-spacing:.12em;font-size:9px}
+  .powered{font-size:9px}
 }
+@media(min-width:431px) and (max-width:620px){
+  .score-panel{grid-template-columns:1fr auto;justify-items:stretch;text-align:left}
+  .score-copy{text-align:left}
+  .score-title-row{justify-content:flex-start}
+  .score-ring{margin:0}
+}
+@media(hover:none){
+  .stat:hover,.card:hover,.panel:hover,.theme-toggle:hover,.x-logo:hover,.tag:hover{transform:none}
+  .card:hover{box-shadow:none}
+  .roster-row:hover{background:transparent}
+  .roster-row.you:hover{background:var(--lime-dim)}
+}
+
 @media (prefers-reduced-motion: reduce){
   body.xvs-dash-2026{animation:none!important}
   .live-dot::after,.grok-ambient,.grok-ambient .eye,.grok-ambient .antenna,.grok-trail,
@@ -426,7 +515,7 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
 }
 </style>
 </head>
-<body class="xvs-dash-2026">
+<body class="xvs-dash-2026 xvs-mobile-2026">
 <div class="grok-trail" aria-hidden="true"></div>
 <div class="grok-ambient" aria-hidden="true" title="Grok Bot (decorative)">
   <svg viewBox="0 0 64 64" role="img">
