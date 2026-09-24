@@ -910,8 +910,15 @@ async function boot(){
   const lbs=d.leaderboards||{};
   document.getElementById('week-title').textContent=(lbs.week&&lbs.week.label)||'Week';
   document.getElementById('month-title').textContent=(lbs.month&&lbs.month.label)||'Month';
-  const daysInc=(lbs.days_included||[]).join(', ')||'—';
-  document.getElementById('lb-note').textContent=`best / total (≥5k hits) · as of ${lbs.as_of||d.date||'—'} · days ${daysInc}`;
+  const fmtRange=(r)=>{
+    if(!r||!r.length) return null;
+    const a=String(r[0]||''), b=String(r[r.length-1]||a);
+    const short=(s)=>{const m=s.match(/(\d{4})-(\d{2})-(\d{2})/); if(!m) return s; const months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']; return months[+m[2]-1]+(+m[3]);};
+    return a===b?short(a):`${short(a)}–${short(b)}`;
+  };
+  const weekR=fmtRange((lbs.week&&lbs.week.range)||lbs.days_included)||'—';
+  const monthR=fmtRange((lbs.month&&lbs.month.range)||lbs.month_days_included)||'—';
+  document.getElementById('lb-note').textContent=`best / total · week ${weekR} · month ${monthR} · as of ${lbs.as_of||d.date||'—'}`;
   renderLeaderboard(document.getElementById('week-board'), lbs.week&&lbs.week.entries, op);
   renderLeaderboard(document.getElementById('month-board'), lbs.month&&lbs.month.entries, op);
   renderYourDay(d.you_rank||null, brand.handle);

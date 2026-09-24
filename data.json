@@ -2,7 +2,7 @@
   "title": "X Digest Board",
   "date": "2026-09-23",
   "timezone": "Europe/Moscow",
-  "updated": "2026-09-24T14:46:44+03:00",
+  "updated": "2026-09-24T22:53:12+03:00",
   "hits": [
     {
       "display_name": "slash1s",
@@ -1418,6 +1418,7 @@
   },
   "leaderboards": {
     "as_of": "2026-09-23",
+    "tracking_start": "2026-09-13",
     "days_included": [
       "2026-09-17",
       "2026-09-18",
@@ -1427,360 +1428,6 @@
       "2026-09-22",
       "2026-09-23"
     ],
-    "week": {
-      "label": "Rolling week · Sep 17–Sep 23",
-      "entries": [
-        {
-          "handle": "@antpalkin",
-          "name": "cvxv666",
-          "hits": 5,
-          "days": 4,
-          "views": 1020082,
-          "best": 506248
-        },
-        {
-          "handle": "@carverfomo",
-          "name": "Carver",
-          "hits": 6,
-          "days": 4,
-          "views": 658301,
-          "best": 285919
-        },
-        {
-          "handle": "@Sprytixl",
-          "name": "Sprytix",
-          "hits": 7,
-          "days": 6,
-          "views": 318659,
-          "best": 208155
-        },
-        {
-          "handle": "@beamnxw",
-          "name": "beamnxw ./",
-          "hits": 13,
-          "days": 6,
-          "views": 241289,
-          "best": 68328
-        },
-        {
-          "handle": "@0xWast3",
-          "name": "wast3",
-          "hits": 4,
-          "days": 4,
-          "views": 217892,
-          "best": 132429
-        },
-        {
-          "handle": "@everestchris6",
-          "name": "Chris",
-          "hits": 9,
-          "days": 6,
-          "views": 217477,
-          "best": 54641
-        },
-        {
-          "handle": "@AnnatarXBT",
-          "name": "Annatar.md",
-          "hits": 9,
-          "days": 7,
-          "views": 183787,
-          "best": 36263
-        },
-        {
-          "handle": "@Argona0x",
-          "name": "Argona",
-          "hits": 8,
-          "days": 4,
-          "views": 145334,
-          "best": 43540
-        },
-        {
-          "handle": "@slash1sol",
-          "name": "slash1s",
-          "hits": 7,
-          "days": 4,
-          "views": 137761,
-          "best": 41374
-        },
-        {
-          "handle": "@ScottyBeamIO",
-          "name": "SCOTTY BEAM",
-          "hits": 3,
-          "days": 2,
-          "views": 127278,
-          "best": 97960
-        },
-        {
-          "handle": "@insomnia_vip",
-          "name": "Insomnia",
-          "hits": 6,
-          "days": 5,
-          "views": 117914,
-          "best": 83009
-        },
-        {
-          "handle": "@ridark_eth",
-          "name": "Ridark",
-          "hits": 7,
-          "days": 4,
-          "views": 100257,
-          "best": 29228
-        },
-        {
-          "handle": "@N01ennn",
-          "name": "NO1ennn",
-          "hits": 7,
-          "days": 5,
-          "views": 95545,
-          "best": 26040
-        },
-        {
-          "handle": "@polydao",
-          "name": "Mr. Buzzoni",
-          "hits": 6,
-          "days": 5,
-          "views": 73930,
-          "best": 24748
-        },
-        {
-          "handle": "@leopardracer",
-          "name": "leopardracer",
-          "hits": 4,
-          "days": 3,
-          "views": 52701,
-          "best": 20223
-        },
-        {
-          "handle": "@bl888m_eth",
-          "name": "bl888m",
-          "hits": 1,
-          "days": 1,
-          "views": 45669,
-          "best": 45669
-        },
-        {
-          "handle": "@0x_kaize",
-          "name": "kaize",
-          "hits": 4,
-          "days": 2,
-          "views": 42103,
-          "best": 12411
-        },
-        {
-          "handle": "@thegreatest_sv",
-          "name": "The Greatest",
-          "hits": 3,
-          "days": 2,
-          "views": 36799,
-          "best": 19361
-        },
-        {
-          "handle": "@gippp69",
-          "name": "Gipp ",
-          "hits": 4,
-          "days": 4,
-          "views": 28753,
-          "best": 12173
-        },
-        {
-          "handle": "@zostaff",
-          "name": "zostaff",
-          "hits": 2,
-          "days": 2,
-          "views": 12525,
-          "best": 7083
-        },
-        {
-          "handle": "@RetroChainer",
-          "name": "RetroChainer",
-          "hits": 2,
-          "days": 2,
-          "views": 10605,
-          "best": 5538
-        }
-      ]
-    },
-    "month": {
-      "label": "September 2026",
-      "entries": [
-        {
-          "handle": "@antpalkin",
-          "name": "cvxv666",
-          "hits": 6,
-          "days": 5,
-          "views": 1025266,
-          "best": 506248
-        },
-        {
-          "handle": "@carverfomo",
-          "name": "Carver",
-          "hits": 6,
-          "days": 4,
-          "views": 658301,
-          "best": 285919
-        },
-        {
-          "handle": "@Sprytixl",
-          "name": "Sprytix",
-          "hits": 10,
-          "days": 9,
-          "views": 468333,
-          "best": 208155
-        },
-        {
-          "handle": "@Argona0x",
-          "name": "Argona",
-          "hits": 12,
-          "days": 7,
-          "views": 298015,
-          "best": 74977
-        },
-        {
-          "handle": "@beamnxw",
-          "name": "beamnxw ./",
-          "hits": 15,
-          "days": 7,
-          "views": 258564,
-          "best": 68328
-        },
-        {
-          "handle": "@0xWast3",
-          "name": "wast3",
-          "hits": 8,
-          "days": 7,
-          "views": 254828,
-          "best": 132429
-        },
-        {
-          "handle": "@slash1sol",
-          "name": "slash1s",
-          "hits": 12,
-          "days": 8,
-          "views": 237158,
-          "best": 50103
-        },
-        {
-          "handle": "@N01ennn",
-          "name": "NO1ennn",
-          "hits": 11,
-          "days": 8,
-          "views": 234683,
-          "best": 86536
-        },
-        {
-          "handle": "@everestchris6",
-          "name": "Chris",
-          "hits": 9,
-          "days": 6,
-          "views": 217477,
-          "best": 54641
-        },
-        {
-          "handle": "@AnnatarXBT",
-          "name": "Annatar.md",
-          "hits": 9,
-          "days": 7,
-          "views": 183787,
-          "best": 36263
-        },
-        {
-          "handle": "@ScottyBeamIO",
-          "name": "SCOTTY BEAM",
-          "hits": 4,
-          "days": 3,
-          "views": 174412,
-          "best": 97960
-        },
-        {
-          "handle": "@shmidtqq",
-          "name": "shmidt",
-          "hits": 7,
-          "days": 4,
-          "views": 158429,
-          "best": 82164
-        },
-        {
-          "handle": "@polydao",
-          "name": "Mr. Buzzoni",
-          "hits": 9,
-          "days": 8,
-          "views": 142198,
-          "best": 37872
-        },
-        {
-          "handle": "@insomnia_vip",
-          "name": "Insomnia",
-          "hits": 7,
-          "days": 6,
-          "views": 124994,
-          "best": 83009
-        },
-        {
-          "handle": "@ridark_eth",
-          "name": "Ridark",
-          "hits": 10,
-          "days": 7,
-          "views": 116611,
-          "best": 29228
-        },
-        {
-          "handle": "@0x_kaize",
-          "name": "kaize",
-          "hits": 8,
-          "days": 3,
-          "views": 70755,
-          "best": 12411
-        },
-        {
-          "handle": "@gippp69",
-          "name": "Gipp ",
-          "hits": 8,
-          "days": 6,
-          "views": 58481,
-          "best": 12173
-        },
-        {
-          "handle": "@leopardracer",
-          "name": "leopardracer",
-          "hits": 4,
-          "days": 3,
-          "views": 52701,
-          "best": 20223
-        },
-        {
-          "handle": "@bl888m_eth",
-          "name": "bl888m",
-          "hits": 1,
-          "days": 1,
-          "views": 45669,
-          "best": 45669
-        },
-        {
-          "handle": "@thegreatest_sv",
-          "name": "The Greatest",
-          "hits": 3,
-          "days": 2,
-          "views": 36799,
-          "best": 19361
-        },
-        {
-          "handle": "@RetroChainer",
-          "name": "RetroChainer",
-          "hits": 4,
-          "days": 4,
-          "views": 22451,
-          "best": 6360
-        },
-        {
-          "handle": "@zostaff",
-          "name": "zostaff",
-          "hits": 2,
-          "days": 2,
-          "views": 12525,
-          "best": 7083
-        }
-      ]
-    },
     "month_days_included": [
       "2026-09-13",
       "2026-09-14",
@@ -1793,6 +1440,411 @@
       "2026-09-21",
       "2026-09-22",
       "2026-09-23"
-    ]
+    ],
+    "week": {
+      "label": "Rolling week · Sep 17–Sep 23",
+      "range": [
+        "2026-09-17",
+        "2026-09-23"
+      ],
+      "entries": [
+        {
+          "handle": "@antpalkin",
+          "name": "cvxv666",
+          "hits": 5,
+          "days": 4,
+          "views": 1020082,
+          "best": 506248,
+          "best_url": "https://x.com/antpalkin/status/2102080476630683832"
+        },
+        {
+          "handle": "@carverfomo",
+          "name": "Carver",
+          "hits": 6,
+          "days": 4,
+          "views": 658301,
+          "best": 285919,
+          "best_url": "https://x.com/carverfomo/status/2102204438085612020"
+        },
+        {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 7,
+          "days": 6,
+          "views": 318659,
+          "best": 208155,
+          "best_url": "https://x.com/Sprytixl/status/2100489442674798669"
+        },
+        {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 13,
+          "days": 6,
+          "views": 241289,
+          "best": 68328,
+          "best_url": "https://x.com/beamnxw/status/2100625120691720385"
+        },
+        {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 4,
+          "days": 4,
+          "views": 217892,
+          "best": 132429,
+          "best_url": "https://x.com/0xWast3/status/2101254505249505402"
+        },
+        {
+          "handle": "@everestchris6",
+          "name": "Chris",
+          "hits": 9,
+          "days": 6,
+          "views": 217477,
+          "best": 54641,
+          "best_url": "https://x.com/everestchris6/status/2101706320261128398"
+        },
+        {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 9,
+          "days": 7,
+          "views": 183787,
+          "best": 36263,
+          "best_url": "https://x.com/AnnatarXBT/status/2102665268162076922"
+        },
+        {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 8,
+          "days": 4,
+          "views": 145334,
+          "best": 43540,
+          "best_url": "https://x.com/Argona0x/status/2102420702762602991"
+        },
+        {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 7,
+          "days": 4,
+          "views": 137761,
+          "best": 41374,
+          "best_url": "https://x.com/slash1sol/status/2102725949095551006"
+        },
+        {
+          "handle": "@ScottyBeamIO",
+          "name": "SCOTTY BEAM",
+          "hits": 3,
+          "days": 2,
+          "views": 127278,
+          "best": 97960,
+          "best_url": "https://x.com/ScottyBeamIO/status/2101280444914258251"
+        },
+        {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 6,
+          "days": 5,
+          "views": 117914,
+          "best": 83009,
+          "best_url": "https://x.com/insomnia_vip/status/2100597102715789479"
+        },
+        {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 7,
+          "days": 4,
+          "views": 100257,
+          "best": 29228,
+          "best_url": "https://x.com/ridark_eth/status/2100972106586439809"
+        },
+        {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 7,
+          "days": 5,
+          "views": 95545,
+          "best": 26040,
+          "best_url": "https://x.com/N01ennn/status/2100693085428564151"
+        },
+        {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 6,
+          "days": 5,
+          "views": 73930,
+          "best": 24748,
+          "best_url": "https://x.com/polydao/status/2102274694682386754"
+        },
+        {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 4,
+          "days": 3,
+          "views": 52701,
+          "best": 20223,
+          "best_url": "https://x.com/leopardracer/status/2101613618710122551"
+        },
+        {
+          "handle": "@bl888m_eth",
+          "name": "bl888m",
+          "hits": 1,
+          "days": 1,
+          "views": 45669,
+          "best": 45669,
+          "best_url": "https://x.com/bl888m_eth/status/2102417420300468735"
+        },
+        {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 4,
+          "days": 2,
+          "views": 42103,
+          "best": 12411,
+          "best_url": "https://x.com/0x_kaize/status/2101653979583189266"
+        },
+        {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 3,
+          "days": 2,
+          "views": 36799,
+          "best": 19361,
+          "best_url": "https://x.com/thegreatest_sv/status/2102730591556731353"
+        },
+        {
+          "handle": "@gippp69",
+          "name": "Gipp ",
+          "hits": 4,
+          "days": 4,
+          "views": 28753,
+          "best": 12173,
+          "best_url": "https://x.com/gippp69/status/2102361073206587588"
+        },
+        {
+          "handle": "@zostaff",
+          "name": "zostaff",
+          "hits": 2,
+          "days": 2,
+          "views": 12525,
+          "best": 7083,
+          "best_url": "https://x.com/zostaff/status/2102054058852786382"
+        },
+        {
+          "handle": "@RetroChainer",
+          "name": "RetroChainer",
+          "hits": 2,
+          "days": 2,
+          "views": 10605,
+          "best": 5538,
+          "best_url": "https://x.com/RetroChainer/status/2100554058683625782"
+        }
+      ]
+    },
+    "month": {
+      "label": "September 2026 · from Sep 13",
+      "range": [
+        "2026-09-13",
+        "2026-09-23"
+      ],
+      "entries": [
+        {
+          "handle": "@antpalkin",
+          "name": "cvxv666",
+          "hits": 6,
+          "days": 5,
+          "views": 1025266,
+          "best": 506248,
+          "best_url": "https://x.com/antpalkin/status/2102080476630683832"
+        },
+        {
+          "handle": "@carverfomo",
+          "name": "Carver",
+          "hits": 6,
+          "days": 4,
+          "views": 658301,
+          "best": 285919,
+          "best_url": "https://x.com/carverfomo/status/2102204438085612020"
+        },
+        {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 10,
+          "days": 9,
+          "views": 468333,
+          "best": 208155,
+          "best_url": "https://x.com/Sprytixl/status/2100489442674798669"
+        },
+        {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 12,
+          "days": 7,
+          "views": 298015,
+          "best": 74977,
+          "best_url": "https://x.com/Argona0x/status/2100317660072337748"
+        },
+        {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 15,
+          "days": 7,
+          "views": 258564,
+          "best": 68328,
+          "best_url": "https://x.com/beamnxw/status/2100625120691720385"
+        },
+        {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 8,
+          "days": 7,
+          "views": 254828,
+          "best": 132429,
+          "best_url": "https://x.com/0xWast3/status/2101254505249505402"
+        },
+        {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 12,
+          "days": 8,
+          "views": 237158,
+          "best": 50103,
+          "best_url": "https://x.com/slash1sol/status/2099472862226559480"
+        },
+        {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 11,
+          "days": 8,
+          "views": 234683,
+          "best": 86536,
+          "best_url": "https://x.com/N01ennn/status/2100321670401605931"
+        },
+        {
+          "handle": "@everestchris6",
+          "name": "Chris",
+          "hits": 9,
+          "days": 6,
+          "views": 217477,
+          "best": 54641,
+          "best_url": "https://x.com/everestchris6/status/2101706320261128398"
+        },
+        {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 9,
+          "days": 7,
+          "views": 183787,
+          "best": 36263,
+          "best_url": "https://x.com/AnnatarXBT/status/2102665268162076922"
+        },
+        {
+          "handle": "@ScottyBeamIO",
+          "name": "SCOTTY BEAM",
+          "hits": 4,
+          "days": 3,
+          "views": 174412,
+          "best": 97960,
+          "best_url": "https://x.com/ScottyBeamIO/status/2101280444914258251"
+        },
+        {
+          "handle": "@shmidtqq",
+          "name": "shmidt",
+          "hits": 7,
+          "days": 4,
+          "views": 158429,
+          "best": 82164,
+          "best_url": "https://x.com/shmidtqq/status/2099104230913053156"
+        },
+        {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 9,
+          "days": 8,
+          "views": 142198,
+          "best": 37872,
+          "best_url": "https://x.com/polydao/status/2100136858185289824"
+        },
+        {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 7,
+          "days": 6,
+          "views": 124994,
+          "best": 83009,
+          "best_url": "https://x.com/insomnia_vip/status/2100597102715789479"
+        },
+        {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 10,
+          "days": 7,
+          "views": 116611,
+          "best": 29228,
+          "best_url": "https://x.com/ridark_eth/status/2100972106586439809"
+        },
+        {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 8,
+          "days": 3,
+          "views": 70755,
+          "best": 12411,
+          "best_url": "https://x.com/0x_kaize/status/2101653979583189266"
+        },
+        {
+          "handle": "@gippp69",
+          "name": "Gipp ",
+          "hits": 8,
+          "days": 6,
+          "views": 58481,
+          "best": 12173,
+          "best_url": "https://x.com/gippp69/status/2102361073206587588"
+        },
+        {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 4,
+          "days": 3,
+          "views": 52701,
+          "best": 20223,
+          "best_url": "https://x.com/leopardracer/status/2101613618710122551"
+        },
+        {
+          "handle": "@bl888m_eth",
+          "name": "bl888m",
+          "hits": 1,
+          "days": 1,
+          "views": 45669,
+          "best": 45669,
+          "best_url": "https://x.com/bl888m_eth/status/2102417420300468735"
+        },
+        {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 3,
+          "days": 2,
+          "views": 36799,
+          "best": 19361,
+          "best_url": "https://x.com/thegreatest_sv/status/2102730591556731353"
+        },
+        {
+          "handle": "@RetroChainer",
+          "name": "RetroChainer",
+          "hits": 4,
+          "days": 4,
+          "views": 22451,
+          "best": 6360,
+          "best_url": "https://x.com/RetroChainer/status/2099533123478253677"
+        },
+        {
+          "handle": "@zostaff",
+          "name": "zostaff",
+          "hits": 2,
+          "days": 2,
+          "views": 12525,
+          "best": 7083,
+          "best_url": "https://x.com/zostaff/status/2102054058852786382"
+        }
+      ]
+    }
   }
 }
