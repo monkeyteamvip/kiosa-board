@@ -2,7 +2,7 @@
   "title": "X Digest Board",
   "date": "2026-09-23",
   "timezone": "Europe/Moscow",
-  "updated": "2026-09-24T11:07:27+03:00",
+  "updated": "2026-09-24T14:46:44+03:00",
   "hits": [
     {
       "display_name": "slash1s",
@@ -1224,6 +1224,7 @@
       "handle": "@slash1sol",
       "name": "slash1s",
       "views": 41374,
+      "total_views": 68870,
       "hit": true,
       "is_you": false
     },
@@ -1231,6 +1232,7 @@
       "handle": "@annatarxbt",
       "name": "Annatar.md",
       "views": 36263,
+      "total_views": 36263,
       "hit": true,
       "is_you": false
     },
@@ -1238,6 +1240,7 @@
       "handle": "@argona0x",
       "name": "Argona",
       "views": 27412,
+      "total_views": 27412,
       "hit": true,
       "is_you": false
     },
@@ -1245,6 +1248,7 @@
       "handle": "@thegreatest_sv",
       "name": "The Greatest",
       "views": 19361,
+      "total_views": 33629,
       "hit": true,
       "is_you": true
     },
@@ -1252,6 +1256,7 @@
       "handle": "@polydao",
       "name": "Mr. Buzzoni",
       "views": 17932,
+      "total_views": 17932,
       "hit": true,
       "is_you": false
     },
@@ -1259,6 +1264,7 @@
       "handle": "@everestchris6",
       "name": "Chris",
       "views": 15370,
+      "total_views": 15370,
       "hit": true,
       "is_you": false
     },
@@ -1266,6 +1272,7 @@
       "handle": "@0xwast3",
       "name": "wast3",
       "views": 13296,
+      "total_views": 13296,
       "hit": true,
       "is_you": false
     },
@@ -1273,6 +1280,7 @@
       "handle": "@beamnxw",
       "name": "beamnxw ./",
       "views": 13089,
+      "total_views": 19161,
       "hit": true,
       "is_you": false
     },
@@ -1280,6 +1288,7 @@
       "handle": "@sprytixl",
       "name": "Sprytix",
       "views": 7728,
+      "total_views": 7728,
       "hit": true,
       "is_you": false
     },
@@ -1287,6 +1296,7 @@
       "handle": "@ridark_eth",
       "name": "Ridark",
       "views": 7074,
+      "total_views": 13464,
       "hit": true,
       "is_you": false
     },
@@ -1294,6 +1304,7 @@
       "handle": "@gippp69",
       "name": "Gipp ",
       "views": 5091,
+      "total_views": 5091,
       "hit": true,
       "is_you": false
     },
@@ -1301,6 +1312,7 @@
       "handle": "@0x_kaize",
       "name": "kaize",
       "views": 0,
+      "total_views": 0,
       "hit": false,
       "is_you": false
     },
@@ -1308,6 +1320,7 @@
       "handle": "@antpalkin",
       "name": "cvxv666",
       "views": 0,
+      "total_views": 0,
       "hit": false,
       "is_you": false
     },
@@ -1315,6 +1328,7 @@
       "handle": "@bl888m_eth",
       "name": "bl888m",
       "views": 0,
+      "total_views": 0,
       "hit": false,
       "is_you": false
     },
@@ -1322,6 +1336,7 @@
       "handle": "@bober_smart",
       "name": "bober_smart",
       "views": 0,
+      "total_views": 0,
       "hit": false,
       "is_you": false
     },
@@ -1329,6 +1344,7 @@
       "handle": "@carverfomo",
       "name": "Carver",
       "views": 0,
+      "total_views": 0,
       "hit": false,
       "is_you": false
     },
@@ -1336,6 +1352,7 @@
       "handle": "@insomnia_vip",
       "name": "Insomnia",
       "views": 0,
+      "total_views": 0,
       "hit": false,
       "is_you": false
     },
@@ -1343,6 +1360,7 @@
       "handle": "@leopardracer",
       "name": "leopardracer",
       "views": 0,
+      "total_views": 0,
       "hit": false,
       "is_you": false
     },
@@ -1350,6 +1368,7 @@
       "handle": "@n01ennn",
       "name": "NO1ennn",
       "views": 0,
+      "total_views": 0,
       "hit": false,
       "is_you": false
     },
@@ -1357,6 +1376,7 @@
       "handle": "@retrochainer",
       "name": "RetroChainer",
       "views": 0,
+      "total_views": 0,
       "hit": false,
       "is_you": false
     },
@@ -1364,6 +1384,7 @@
       "handle": "@scottybeamio",
       "name": "SCOTTY BEAM",
       "views": 0,
+      "total_views": 0,
       "hit": false,
       "is_you": false
     },
@@ -1371,6 +1392,7 @@
       "handle": "@shmidtqq",
       "name": "shmidtqq",
       "views": 0,
+      "total_views": 0,
       "hit": false,
       "is_you": false
     },
@@ -1378,6 +1400,7 @@
       "handle": "@zostaff",
       "name": "zostaff",
       "views": 0,
+      "total_views": 0,
       "hit": false,
       "is_you": false
     }
@@ -1385,12 +1408,13 @@
   "you_rank": {
     "date": "2026-09-23",
     "best_views": 19361,
+    "total_views": 33629,
     "best_url": "https://x.com/thegreatest_sv/status/2102730591556731353",
     "rank_among_watchlist": 4,
     "total_accounts": 23,
     "vs_5k": "done",
     "vs_10k": "done",
-    "note": "Best original on 2026-09-23: 19361 views (scraped read-only from profile)."
+    "note": "Best / total on 2026-09-23: 19361 / 33629 (scraped read-only from profile; total = all posts that day)."
   },
   "leaderboards": {
     "as_of": "2026-09-23",
@@ -1543,20 +1567,20 @@
           "best": 12411
         },
         {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 3,
+          "days": 2,
+          "views": 36799,
+          "best": 19361
+        },
+        {
           "handle": "@gippp69",
           "name": "Gipp ",
           "hits": 4,
           "days": 4,
           "views": 28753,
           "best": 12173
-        },
-        {
-          "handle": "@thegreatest_sv",
-          "name": "The Greatest",
-          "hits": 2,
-          "days": 2,
-          "views": 26440,
-          "best": 19361
         },
         {
           "handle": "@zostaff",
@@ -1734,9 +1758,9 @@
         {
           "handle": "@thegreatest_sv",
           "name": "The Greatest",
-          "hits": 2,
+          "hits": 3,
           "days": 2,
-          "views": 26440,
+          "views": 36799,
           "best": 19361
         },
         {

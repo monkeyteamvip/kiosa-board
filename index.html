@@ -143,7 +143,7 @@ html[data-theme="day"] .chip{border-color:#9ad3e0;background:#e8f7fb}
 .lb-row:first-of-type{border-top:0}
 .lb-handle{font:700 13px IBM Plex Mono,monospace;color:var(--cyan)}
 .lb-meta{font:500 10px IBM Plex Mono,monospace;color:var(--muted);margin-top:3px}
-.lb-views{font:700 14px IBM Plex Mono,monospace;color:var(--lime);text-align:right}
+.lb-views{font:700 13px IBM Plex Mono,monospace;color:var(--lime);text-align:right;white-space:nowrap}
 .lb-views small{display:block;color:var(--muted);font-size:9px;margin-top:3px;font-weight:500}
 .nohits-block{display:grid;gap:10px}
 .nohit{display:grid;grid-template-columns:minmax(140px,180px) 1fr auto;gap:14px;align-items:start;background:var(--card);border:1px solid var(--line);padding:16px 18px;position:relative;overflow:hidden}
@@ -184,7 +184,7 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:v
 .roster-row:first-child{border-top:0}
 .roster-handle{font:700 13px IBM Plex Mono,monospace;color:var(--cyan)}
 .roster-name{font:500 10px IBM Plex Mono,monospace;color:var(--muted);margin-top:2px}
-.roster-views{font:700 13px IBM Plex Mono,monospace;color:var(--lime);text-align:right}
+.roster-views{font:700 12px IBM Plex Mono,monospace;color:var(--lime);text-align:right;white-space:nowrap}
 .roster-badge{font:700 9px IBM Plex Mono,monospace;letter-spacing:.08em;text-transform:uppercase;text-align:right;min-width:52px}
 .roster-badge.hit{color:var(--green)}.roster-badge.miss{color:var(--amber)}
 @media(max-width:620px){.roster-row{grid-template-columns:32px 1fr auto}}
@@ -270,9 +270,9 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:v
     <section class="stats" id="stats" aria-label="Daily metrics"></section>
 
 
-    <div class="section-head"><div><div class="section-index">03 / you vs watchlist</div><h2>Daily rank</h2></div><div class="section-note" id="roster-note">best post today · all accounts</div></div>
+    <div class="section-head"><div><div class="section-index">03 / you vs watchlist</div><h2>Daily rank</h2></div><div class="section-note" id="roster-note">best / total · ranked by best</div></div>
     <section class="panel roster-panel" aria-label="You versus watchlist">
-      <div class="panel-label"><strong>YOU /</strong> ranked by max views</div>
+      <div class="panel-label"><strong>YOU /</strong> ranked by best</div>
       <div class="roster-list" id="day-roster"></div>
     </section>
 
@@ -282,7 +282,7 @@ footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:v
       <div class="spark-labels" id="spark-labels"></div>
     </section>
 
-    <div class="section-head"><div><div class="section-index">05 / leaderboards</div><h2>Week · Month</h2></div><div class="section-note" id="lb-note">from data.json + digest days</div></div>
+    <div class="section-head"><div><div class="section-index">05 / leaderboards</div><h2>Week · Month</h2></div><div class="section-note" id="lb-note">best / total (≥5k hits)</div></div>
     <section class="boards" aria-label="Week and month leaderboards">
       <article class="panel board-panel"><div class="panel-label"><strong>W /</strong> rolling week</div><h3 id="week-title">Week</h3><div id="week-board"></div></article>
       <article class="panel board-panel"><div class="panel-label"><strong>M /</strong> calendar month</div><h3 id="month-title">Month</h3><div id="month-board"></div></article>
@@ -327,6 +327,7 @@ const THEME_KEY = 'xvs-theme';
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;')}
 function num(n){n=Number(n);return Number.isFinite(n)?n:0}
 function fmt(n){n=num(n);if(n===0)return'0';if(n>=1e6)return(n/1e6).toFixed(n>=1e7?0:2).replace(/\.0+$/,'').replace(/(\.\d)0$/,'$1')+'M';if(n>=1e3)return(n/1e3).toFixed(n>=1e5?0:1).replace(/\.0$/,'')+'K';return String(Math.round(n))}
+function fmtBestTotal(best,total){const b=num(best),t=total==null?b:num(total);if(!b&&!t)return'—';return `${fmt(b)} / ${fmt(t)}`}
 function pct(value,target){return target?Math.round(value/target*100):0}
 function scoreFor(hits,views){return Math.round(100*(.45*Math.min(hits/DASHBOARD_TARGETS.hits,1)+.55*Math.min(views/DASHBOARD_TARGETS.views,1)))}
 function rawIndex(hits,views){return Math.round(100*(.45*(hits/DASHBOARD_TARGETS.hits)+.55*(views/DASHBOARD_TARGETS.views)))}
@@ -370,7 +371,7 @@ function renderLeaderboard(el, entries, op){
   if(!entries||!entries.length){el.innerHTML='<p class="muted">No leaderboard data yet.</p>';return}
   el.innerHTML=entries.map((e,i)=>{
     const you=isYouEntry(e,op);
-    return `<div class="lb-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="lb-handle">${esc(e.handle||'')}${you?'<span class="you-chip">YOU</span>':''}</div><div class="lb-meta">${esc(e.name||'—')} · ${num(e.hits)} hits · ${num(e.days)}d</div></div><div class="lb-views">${esc(fmt(e.views))}<small>best ${esc(fmt(e.best||0))}</small></div></div>`;
+    return `<div class="lb-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="lb-handle">${esc(e.handle||'')}${you?'<span class="you-chip">YOU</span>':''}</div><div class="lb-meta">${esc(e.name||'—')} · ${num(e.hits)} hits · ${num(e.days)}d</div></div><div class="lb-views">${esc(fmtBestTotal(e.best||0,e.views))}</div></div>`;
   }).join('');
 }
 function renderDayRoster(list, op, youRank){
@@ -383,14 +384,17 @@ function renderDayRoster(list, op, youRank){
     return;
   }
   if(note){
-    const yv=youRank&&youRank.best_views!=null?fmt(youRank.best_views):'—';
+    const ybt=youRank?fmtBestTotal(youRank.best_views, youRank.total_views!=null?youRank.total_views:youRank.best_views):'—';
     const rk=youRank&&youRank.rank_among_watchlist!=null?`#${youRank.rank_among_watchlist}`:'—';
-    note.textContent=`you ${rk} / ${list.length} · best ${yv}`;
+    note.textContent=`you ${rk} / ${list.length} · best / total · ranked by best · ${ybt}`;
   }
   el.innerHTML=list.map((r,i)=>{
     const you=isYouEntry(r,op);
     const hit=r.hit===true||num(r.views)>=DASHBOARD_TARGETS.minHitViews;
-    return `<div class="roster-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="roster-handle">${esc(r.handle||'')}${you?'<span class="you-chip">YOU</span>':''}</div><div class="roster-name">${esc(r.name||'—')}</div></div><div class="roster-views">${r.views==null||r.views===0&&!hit?'—':esc(fmt(r.views))}</div><div class="roster-badge ${hit?'hit':'miss'}">${hit?'HIT':'BELOW'}</div></div>`;
+    const best=num(r.views);
+    const total=r.total_views!=null?num(r.total_views):best;
+    const cell=best===0&&!hit?'—':esc(fmtBestTotal(best,total));
+    return `<div class="roster-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="roster-handle">${esc(r.handle||'')}${you?'<span class="you-chip">YOU</span>':''}</div><div class="roster-name">${esc(r.name||'—')}</div></div><div class="roster-views">${cell}</div><div class="roster-badge ${hit?'hit':'miss'}">${hit?'HIT':'BELOW'}</div></div>`;
   }).join('');
 }
 function renderYourDay(youRank){
@@ -400,13 +404,14 @@ function renderYourDay(youRank){
     return;
   }
   const bv=youRank.best_views;
+  const tv=youRank.total_views!=null?youRank.total_views:bv;
   if(meta){
     if(bv==null){
       meta.textContent=youRank.note||'Best post unavailable — scrape needed.';
     }else{
       const link=youRank.best_url?` · <a href="${esc(youRank.best_url)}" target="_blank" rel="noopener">open best post ↗</a>`:'';
       const rk=youRank.rank_among_watchlist!=null?` · rank #${youRank.rank_among_watchlist}/${youRank.total_accounts||'?'} `:'';
-      meta.innerHTML=`Best today <b style="color:var(--text)">${esc(fmt(bv))}</b> views${rk}${link}`;
+      meta.innerHTML=`Today <b style="color:var(--text)">${esc(fmtBestTotal(bv,tv))}</b> best / total${rk}${link}`;
     }
   }
   const v=num(bv);
@@ -478,7 +483,7 @@ async function boot(){
   document.getElementById('week-title').textContent=(lbs.week&&lbs.week.label)||'Week';
   document.getElementById('month-title').textContent=(lbs.month&&lbs.month.label)||'Month';
   const daysInc=(lbs.days_included||[]).join(', ')||'—';
-  document.getElementById('lb-note').textContent=`as of ${lbs.as_of||d.date||'—'} · days ${daysInc}`;
+  document.getElementById('lb-note').textContent=`best / total (≥5k hits) · as of ${lbs.as_of||d.date||'—'} · days ${daysInc}`;
   const op=d.operator||{handle:'@thegreatest_sv',name:'The Greatest'};
   renderLeaderboard(document.getElementById('week-board'), lbs.week&&lbs.week.entries, op);
   renderLeaderboard(document.getElementById('month-board'), lbs.month&&lbs.month.entries, op);
