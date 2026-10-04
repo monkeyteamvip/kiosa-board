@@ -2,7 +2,7 @@
   "title": "X Digest Board",
   "date": "2026-10-03",
   "timezone": "Europe/Moscow",
-  "updated": "2026-10-04T12:50:37+03:00",
+  "updated": "2026-10-04T12:56:48+03:00",
   "hits": [
     {
       "display_name": "kaize",
@@ -1217,14 +1217,14 @@
   },
   "you_rank": {
     "date": "2026-10-03",
-    "best_views": null,
-    "total_views": null,
-    "best_url": "",
-    "rank_among_watchlist": null,
+    "best_views": 33846,
+    "total_views": 52200,
+    "best_url": "https://x.com/thegreatest_sv/status/2106403149162455349",
+    "rank_among_watchlist": 7,
     "total_accounts": 25,
-    "vs_5k": "pending",
-    "vs_10k": "pending",
-    "note": "Operator profile was not re-scraped on 2026-10-03 (local assemble only, no X). Last measured day 2026-10-02: best 2202 / total 5879, rank 19/25. https://x.com/thegreatest_sv/status/2105994047810670818"
+    "vs_5k": "done",
+    "vs_10k": "done",
+    "note": "Best / total on 2026-10-03: 33846 / 52200 (public originals only, measured 2026-10-04 ~13:00 MSK via guest tweet lookup; total = 3 originals posted that day. Not X analytics impressions.)"
   },
   "day_roster": [
     {
@@ -1274,6 +1274,14 @@
       "total_views": 35727,
       "hit": true,
       "is_you": false
+    },
+    {
+      "handle": "@thegreatest_sv",
+      "name": "The Greatest",
+      "views": 33846,
+      "total_views": 52200,
+      "hit": true,
+      "is_you": true
     },
     {
       "handle": "@bober_smart",
@@ -1412,14 +1420,6 @@
       "is_you": false
     },
     {
-      "handle": "@thegreatest_sv",
-      "name": "The Greatest",
-      "views": 0,
-      "total_views": 0,
-      "hit": false,
-      "is_you": true
-    },
-    {
       "handle": "@zostaff",
       "name": "zostaff",
       "views": 0,
@@ -1543,6 +1543,15 @@
           "best_url": "https://x.com/slash1sol/status/2104975408319926389"
         },
         {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 10,
+          "days": 6,
+          "views": 161404,
+          "best": 33846,
+          "best_url": "https://x.com/thegreatest_sv/status/2106403149162455349"
+        },
+        {
           "handle": "@0xWast3",
           "name": "wast3",
           "hits": 4,
@@ -1559,15 +1568,6 @@
           "views": 114070,
           "best": 49081,
           "best_url": "https://x.com/everestchris6/status/2104965415164399895"
-        },
-        {
-          "handle": "@thegreatest_sv",
-          "name": "The Greatest",
-          "hits": 7,
-          "days": 5,
-          "views": 109204,
-          "best": 32842,
-          "best_url": "https://x.com/thegreatest_sv/status/2105674850782036089"
         },
         {
           "handle": "@gippp69",
@@ -1741,6 +1741,15 @@
           "best_url": "https://x.com/beamnxw/status/2106009853797814755"
         },
         {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 5,
+          "days": 2,
+          "views": 95895,
+          "best": 33846,
+          "best_url": "https://x.com/thegreatest_sv/status/2106403149162455349"
+        },
+        {
           "handle": "@0xWast3",
           "name": "wast3",
           "hits": 2,
@@ -1766,15 +1775,6 @@
           "views": 44447,
           "best": 15700,
           "best_url": "https://x.com/leopardracer/status/2105949574548406782"
-        },
-        {
-          "handle": "@thegreatest_sv",
-          "name": "The Greatest",
-          "hits": 2,
-          "days": 1,
-          "views": 43695,
-          "best": 32842,
-          "best_url": "https://x.com/thegreatest_sv/status/2105674850782036089"
         },
         {
           "handle": "@gippp69",
