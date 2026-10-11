@@ -1,0 +1,2903 @@
+{
+  "tracking_start": "2026-09-13",
+  "timezone": "Europe/Moscow",
+  "threshold": 5000,
+  "days": {
+    "2026-09-13": {
+      "accounts": {
+        "shmidtqq": {
+          "handle": "@shmidtqq",
+          "name": "shmidt",
+          "hits": 1,
+          "best": 82164,
+          "total": 82164,
+          "best_url": "https://x.com/shmidtqq/status/2099104230913053156"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 26995,
+          "total": 26995,
+          "best_url": "https://x.com/Sprytixl/status/2099055139206099422"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 1,
+          "best": 8410,
+          "total": 8410,
+          "best_url": "https://x.com/slash1sol/status/2099224604032057689"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 7199,
+          "total": 7199,
+          "best_url": "https://x.com/polydao/status/2099074105337139440"
+        },
+        "insomnia_vip": {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 1,
+          "best": 7080,
+          "total": 7080,
+          "best_url": "https://x.com/insomnia_vip/status/2099114856808948126"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp",
+          "hits": 2,
+          "best": 5956,
+          "total": 11650,
+          "best_url": "https://x.com/gippp69/status/2099200661783015666"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 5270,
+          "total": 5270,
+          "best_url": "https://x.com/0xWast3/status/2099092995073032259"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 1,
+          "best": 5270,
+          "total": 5270,
+          "best_url": "https://x.com/ridark_eth/status/2099181137331408926"
+        },
+        "antpalkin": {
+          "handle": "@antpalkin",
+          "name": "cvxv666",
+          "hits": 1,
+          "best": 5184,
+          "total": 5184,
+          "best_url": "https://x.com/antpalkin/status/2099167471202918566"
+        }
+      }
+    },
+    "2026-09-14": {
+      "accounts": {
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 14626,
+          "total": 14626,
+          "best_url": "https://x.com/0xWast3/status/2099503167742398716"
+        },
+        "scottybeamio": {
+          "handle": "@ScottyBeamIO",
+          "name": "SCOTTY BEAM",
+          "hits": 1,
+          "best": 47134,
+          "total": 47134,
+          "best_url": "https://x.com/ScottyBeamIO/status/2099568297301709038"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 23197,
+          "total": 23197,
+          "best_url": "https://x.com/polydao/status/2099373578492031417"
+        },
+        "shmidtqq": {
+          "handle": "@shmidtqq",
+          "name": "shmidt",
+          "hits": 4,
+          "best": 21625,
+          "total": 52718,
+          "best_url": "https://x.com/shmidtqq/status/2099518651250421809"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 1,
+          "best": 5945,
+          "total": 5945,
+          "best_url": "https://x.com/ridark_eth/status/2099497335189389437"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 1,
+          "best": 18019,
+          "total": 18019,
+          "best_url": "https://x.com/Argona0x/status/2099545460339851492"
+        },
+        "retrochainer": {
+          "handle": "@RetroChainer",
+          "name": "RetroChainer",
+          "hits": 1,
+          "best": 6360,
+          "total": 6360,
+          "best_url": "https://x.com/RetroChainer/status/2099533123478253677"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 1,
+          "best": 25795,
+          "total": 25795,
+          "best_url": "https://x.com/N01ennn/status/2099530235154739389"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 2,
+          "best": 50103,
+          "total": 58332,
+          "best_url": "https://x.com/slash1sol/status/2099472862226559480"
+        }
+      }
+    },
+    "2026-09-15": {
+      "accounts": {
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 1,
+          "best": 25888,
+          "total": 25888,
+          "best_url": "https://x.com/slash1sol/status/2099845347811966998"
+        },
+        "shmidtqq": {
+          "handle": "@shmidtqq",
+          "name": "shmidt",
+          "hits": 1,
+          "best": 15491,
+          "total": 15491,
+          "best_url": "https://x.com/shmidtqq/status/2099867294704763343"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 1,
+          "best": 10847,
+          "total": 10847,
+          "best_url": "https://x.com/N01ennn/status/2099817536313266325"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp 🦅",
+          "hits": 2,
+          "best": 10515,
+          "total": 18078,
+          "best_url": "https://x.com/gippp69/status/2099921509485580396"
+        },
+        "0x_kaize": {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 4,
+          "best": 10500,
+          "total": 28652,
+          "best_url": "https://x.com/0x_kaize/status/2099925532083359834"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 2,
+          "best": 10160,
+          "total": 17040,
+          "best_url": "https://x.com/0xWast3/status/2099802401616052549"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 1,
+          "best": 9890,
+          "total": 9890,
+          "best_url": "https://x.com/Argona0x/status/2099928690155217373"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 6242,
+          "total": 6242,
+          "best_url": "https://x.com/Sprytixl/status/2099777134566801682"
+        },
+        "retrochainer": {
+          "handle": "@RetroChainer",
+          "name": "RetroChainer",
+          "hits": 1,
+          "best": 5486,
+          "total": 5486,
+          "best_url": "https://x.com/RetroChainer/status/2099847782613827707"
+        }
+      }
+    },
+    "2026-09-16": {
+      "accounts": {
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 116437,
+          "total": 116437,
+          "best_url": "https://x.com/Sprytixl/status/2100153825562702234"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 2,
+          "best": 86536,
+          "total": 102496,
+          "best_url": "https://x.com/N01ennn/status/2100321670401605931"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 2,
+          "best": 74977,
+          "total": 124772,
+          "best_url": "https://x.com/Argona0x/status/2100317660072337748"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 37872,
+          "total": 37872,
+          "best_url": "https://x.com/polydao/status/2100136858185289824"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 2,
+          "best": 8914,
+          "total": 17275,
+          "best_url": "https://x.com/beamnxw/status/2100243404558839815"
+        },
+        "shmidtqq": {
+          "handle": "@shmidtqq",
+          "name": "shmidt",
+          "hits": 1,
+          "best": 8056,
+          "total": 8056,
+          "best_url": "https://x.com/shmidtqq/status/2100321427308294224"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 1,
+          "best": 6767,
+          "total": 6767,
+          "best_url": "https://x.com/slash1sol/status/2100228875699540153"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 1,
+          "best": 5139,
+          "total": 5139,
+          "best_url": "https://x.com/ridark_eth/status/2100201761898172713"
+        }
+      }
+    },
+    "2026-09-17": {
+      "accounts": {
+        "sprytixl": {
+          "handle": "@sprytixl",
+          "name": "Sprytix",
+          "hits": 2,
+          "best": 208155,
+          "total": 218876,
+          "best_url": "https://x.com/Sprytixl/status/2100489442674798669"
+        },
+        "insomnia_vip": {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 2,
+          "best": 83009,
+          "total": 91129,
+          "best_url": "https://x.com/insomnia_vip/status/2100597102715789479"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw",
+          "hits": 1,
+          "best": 68328,
+          "total": 68328,
+          "best_url": "https://x.com/beamnxw/status/2100625120691720385"
+        },
+        "everestchris6": {
+          "handle": "@everestchris6",
+          "name": "everestchris6",
+          "hits": 3,
+          "best": 36182,
+          "total": 87922,
+          "best_url": "https://x.com/everestchris6/status/2100668987956937158"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 1,
+          "best": 19671,
+          "total": 19671,
+          "best_url": "https://x.com/leopardracer/status/2100580882377474302"
+        },
+        "annatarxbt": {
+          "handle": "@annatarxbt",
+          "name": "annatarxbt",
+          "hits": 2,
+          "best": 18018,
+          "total": 34901,
+          "best_url": "https://x.com/AnnatarXBT/status/2100594374266503574"
+        },
+        "n01ennn": {
+          "handle": "@n01ennn",
+          "name": "NO1ennn",
+          "hits": 2,
+          "best": 16076,
+          "total": 23627,
+          "best_url": "https://x.com/N01ennn/status/2100530944960557494"
+        },
+        "0x_kaize": {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 2,
+          "best": 12121,
+          "total": 17323,
+          "best_url": "https://x.com/0x_kaize/status/2100577574690689085"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 9985,
+          "total": 9985,
+          "best_url": "https://x.com/polydao/status/2100642691210006603"
+        },
+        "antpalkin": {
+          "handle": "@antpalkin",
+          "name": "cvxv666",
+          "hits": 1,
+          "best": 8363,
+          "total": 8363,
+          "best_url": "https://x.com/antpalkin/status/2100662340350066829"
+        },
+        "retrochainer": {
+          "handle": "@retrochainer",
+          "name": "RetroChainer",
+          "hits": 1,
+          "best": 5538,
+          "total": 5538,
+          "best_url": "https://x.com/RetroChainer/status/2100554058683625782"
+        }
+      }
+    },
+    "2026-09-18": {
+      "accounts": {
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw",
+          "hits": 3,
+          "best": 49071,
+          "total": 66838,
+          "best_url": "https://x.com/beamnxw/status/2100967660703908072"
+        },
+        "everestchris6": {
+          "handle": "@everestchris6",
+          "name": "everestchris6",
+          "hits": 2,
+          "best": 36226,
+          "total": 44544,
+          "best_url": "https://x.com/everestchris6/status/2100729853171667160"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 1,
+          "best": 29228,
+          "total": 29228,
+          "best_url": "https://x.com/ridark_eth/status/2100972106586439809"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 1,
+          "best": 26040,
+          "total": 26040,
+          "best_url": "https://x.com/N01ennn/status/2100693085428564151"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar",
+          "hits": 2,
+          "best": 23579,
+          "total": 30632,
+          "best_url": "https://x.com/AnnatarXBT/status/2100856349101875400"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 18365,
+          "total": 18365,
+          "best_url": "https://x.com/0xWast3/status/2100889702509297821"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1sol",
+          "hits": 1,
+          "best": 12181,
+          "total": 12181,
+          "best_url": "https://x.com/slash1sol/status/2100724236411093406"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 8378,
+          "total": 8378,
+          "best_url": "https://x.com/polydao/status/2100823129966944576"
+        },
+        "antpalkin": {
+          "handle": "@antpalkin",
+          "name": "cvxv666",
+          "hits": 1,
+          "best": 6881,
+          "total": 6881,
+          "best_url": "https://x.com/antpalkin/status/2101031552138563887"
+        },
+        "insomnia_vip": {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 1,
+          "best": 6548,
+          "total": 6548,
+          "best_url": "https://x.com/insomnia_vip/status/2100986432701489559"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "gippp69",
+          "hits": 1,
+          "best": 5099,
+          "total": 5099,
+          "best_url": "https://x.com/gippp69/status/2100961582595396026"
+        }
+      }
+    },
+    "2026-09-19": {
+      "accounts": {
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 132429,
+          "total": 132429,
+          "best_url": "https://x.com/0xWast3/status/2101254505249505402"
+        },
+        "scottybeamio": {
+          "handle": "@ScottyBeamIO",
+          "name": "SCOTTY BEAM",
+          "hits": 1,
+          "best": 97960,
+          "total": 97960,
+          "best_url": "https://x.com/ScottyBeamIO/status/2101280444914258251"
+        },
+        "carverfomo": {
+          "handle": "@carverfomo",
+          "name": "Carver",
+          "hits": 1,
+          "best": 29230,
+          "total": 29230,
+          "best_url": "https://x.com/carverfomo/status/2101291090871533886"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 3,
+          "best": 25626,
+          "total": 50917,
+          "best_url": "https://x.com/ridark_eth/status/2101073416505979029"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 3,
+          "best": 20642,
+          "total": 51999,
+          "best_url": "https://x.com/Argona0x/status/2101400788731846664"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 3,
+          "best": 18064,
+          "total": 37834,
+          "best_url": "https://x.com/beamnxw/status/2101278282700226824"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 17521,
+          "total": 17521,
+          "best_url": "https://x.com/Sprytixl/status/2101253623623676000"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 2,
+          "best": 16835,
+          "total": 31200,
+          "best_url": "https://x.com/N01ennn/status/2101354068425793652"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 10193,
+          "total": 10193,
+          "best_url": "https://x.com/AnnatarXBT/status/2101227296619208725"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 1,
+          "best": 9073,
+          "total": 9073,
+          "best_url": "https://x.com/slash1sol/status/2101244375925723559"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 2,
+          "best": 7481,
+          "total": 12887,
+          "best_url": "https://x.com/polydao/status/2101316605300838608"
+        },
+        "everestchris6": {
+          "handle": "@everestchris6",
+          "name": "Chris",
+          "hits": 1,
+          "best": 7085,
+          "total": 7085,
+          "best_url": "https://x.com/everestchris6/status/2101339268685902265"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 2,
+          "best": 7014,
+          "total": 12807,
+          "best_url": "https://x.com/leopardracer/status/2101262617406849533"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp ",
+          "hits": 1,
+          "best": 6390,
+          "total": 6390,
+          "best_url": "https://x.com/gippp69/status/2101325557380100452"
+        },
+        "insomnia_vip": {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 1,
+          "best": 5617,
+          "total": 5617,
+          "best_url": "https://x.com/insomnia_vip/status/2101298723670130959"
+        }
+      }
+    },
+    "2026-09-20": {
+      "accounts": {
+        "carverfomo": {
+          "handle": "@carverfomo",
+          "name": "Carver",
+          "hits": 1,
+          "best": 75638,
+          "total": 75638,
+          "best_url": "https://x.com/carverfomo/status/2101644857345192111"
+        },
+        "everestchris6": {
+          "handle": "@everestchris6",
+          "name": "Chris",
+          "hits": 1,
+          "best": 54641,
+          "total": 54641,
+          "best_url": "https://x.com/everestchris6/status/2101706320261128398"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 53802,
+          "total": 53802,
+          "best_url": "https://x.com/0xWast3/status/2101615930518262245"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 37357,
+          "total": 37357,
+          "best_url": "https://x.com/Sprytixl/status/2101587647403540815"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 2,
+          "best": 34944,
+          "total": 47637,
+          "best_url": "https://x.com/slash1sol/status/2101715300441817395"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 27392,
+          "total": 27392,
+          "best_url": "https://x.com/AnnatarXBT/status/2101680189067411500"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 1,
+          "best": 20223,
+          "total": 20223,
+          "best_url": "https://x.com/leopardracer/status/2101613618710122551"
+        },
+        "scottybeamio": {
+          "handle": "@ScottyBeamIO",
+          "name": "SCOTTY BEAM",
+          "hits": 2,
+          "best": 19642,
+          "total": 29318,
+          "best_url": "https://x.com/ScottyBeamIO/status/2101419129643380772"
+        },
+        "0x_kaize": {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 2,
+          "best": 12411,
+          "total": 24780,
+          "best_url": "https://x.com/0x_kaize/status/2101653979583189266"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 2,
+          "best": 11139,
+          "total": 17635,
+          "best_url": "https://x.com/beamnxw/status/2101686594159669672"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 1,
+          "best": 9618,
+          "total": 9618,
+          "best_url": "https://x.com/Argona0x/status/2101742794993783261"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 1,
+          "best": 9396,
+          "total": 9396,
+          "best_url": "https://x.com/N01ennn/status/2101639021143244848"
+        },
+        "insomnia_vip": {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 1,
+          "best": 8578,
+          "total": 8578,
+          "best_url": "https://x.com/insomnia_vip/status/2101614011993223288"
+        },
+        "zostaff": {
+          "handle": "@zostaff",
+          "name": "zostaff",
+          "hits": 1,
+          "best": 5442,
+          "total": 5442,
+          "best_url": "https://x.com/zostaff/status/2101693557664862537"
+        },
+        "retrochainer": {
+          "handle": "@RetroChainer",
+          "name": "RetroChainer",
+          "hits": 1,
+          "best": 5067,
+          "total": 5067,
+          "best_url": "https://x.com/RetroChainer/status/2101668128644005892"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 1,
+          "best": 7079,
+          "total": 7079,
+          "best_url": ""
+        }
+      }
+    },
+    "2026-09-21": {
+      "accounts": {
+        "antpalkin": {
+          "handle": "@antpalkin",
+          "name": "cvxv666",
+          "hits": 2,
+          "best": 506248,
+          "total": 995297,
+          "best_url": "https://x.com/antpalkin/status/2102080476630683832"
+        },
+        "carverfomo": {
+          "handle": "@carverfomo",
+          "name": "Carver",
+          "hits": 2,
+          "best": 122136,
+          "total": 160983,
+          "best_url": "https://x.com/carverfomo/status/2101828513468731776"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 30416,
+          "total": 30416,
+          "best_url": "https://x.com/Sprytixl/status/2101974802491756671"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 28133,
+          "total": 28133,
+          "best_url": "https://x.com/AnnatarXBT/status/2101925393322091005"
+        },
+        "everestchris6": {
+          "handle": "@everestchris6",
+          "name": "Chris",
+          "hits": 1,
+          "best": 7915,
+          "total": 7915,
+          "best_url": "https://x.com/everestchris6/status/2102096824270233799"
+        },
+        "zostaff": {
+          "handle": "@zostaff",
+          "name": "zostaff",
+          "hits": 1,
+          "best": 7083,
+          "total": 7083,
+          "best_url": "https://x.com/zostaff/status/2102054058852786382"
+        }
+      }
+    },
+    "2026-09-22": {
+      "accounts": {
+        "carverfomo": {
+          "handle": "@carverfomo",
+          "name": "Carver",
+          "hits": 2,
+          "best": 285919,
+          "total": 392450,
+          "best_url": "https://x.com/carverfomo/status/2102204438085612020"
+        },
+        "bl888m_eth": {
+          "handle": "@bl888m_eth",
+          "name": "bl888m",
+          "hits": 1,
+          "best": 45669,
+          "total": 45669,
+          "best_url": "https://x.com/bl888m_eth/status/2102417420300468735"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 3,
+          "best": 43540,
+          "total": 56305,
+          "best_url": "https://x.com/Argona0x/status/2102420702762602991"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 2,
+          "best": 25271,
+          "total": 31493,
+          "best_url": "https://x.com/beamnxw/status/2102377851450220968"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 24748,
+          "total": 24748,
+          "best_url": "https://x.com/polydao/status/2102274694682386754"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 16273,
+          "total": 16273,
+          "best_url": "https://x.com/AnnatarXBT/status/2102303383856296206"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp ",
+          "hits": 1,
+          "best": 12173,
+          "total": 12173,
+          "best_url": "https://x.com/gippp69/status/2102361073206587588"
+        },
+        "antpalkin": {
+          "handle": "@antpalkin",
+          "name": "cvxv666",
+          "hits": 1,
+          "best": 9541,
+          "total": 9541,
+          "best_url": "https://x.com/antpalkin/status/2102395813666418723"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 6761,
+          "total": 6761,
+          "best_url": "https://x.com/Sprytixl/status/2102349199446614147"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 1,
+          "best": 6648,
+          "total": 6648,
+          "best_url": "https://x.com/ridark_eth/status/2102417476885660084"
+        },
+        "insomnia_vip": {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 1,
+          "best": 6042,
+          "total": 6042,
+          "best_url": "https://x.com/insomnia_vip/status/2102378218606989339"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 1,
+          "best": 5282,
+          "total": 5282,
+          "best_url": "https://x.com/N01ennn/status/2102459665686634935"
+        }
+      }
+    },
+    "2026-09-23": {
+      "accounts": {
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 3,
+          "best": 41374,
+          "total": 68870,
+          "best_url": "https://x.com/slash1sol/status/2102725949095551006"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 36263,
+          "total": 36263,
+          "best_url": "https://x.com/AnnatarXBT/status/2102665268162076922"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 1,
+          "best": 27412,
+          "total": 27412,
+          "best_url": "https://x.com/Argona0x/status/2102503207364641094"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 17932,
+          "total": 17932,
+          "best_url": "https://x.com/polydao/status/2102649414208876922"
+        },
+        "everestchris6": {
+          "handle": "@everestchris6",
+          "name": "Chris",
+          "hits": 1,
+          "best": 15370,
+          "total": 15370,
+          "best_url": "https://x.com/everestchris6/status/2102794633227198805"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 13296,
+          "total": 13296,
+          "best_url": "https://x.com/0xWast3/status/2102713012771512358"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 2,
+          "best": 13089,
+          "total": 19161,
+          "best_url": "https://x.com/beamnxw/status/2102736046744105074"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 7728,
+          "total": 7728,
+          "best_url": "https://x.com/Sprytixl/status/2102704420517490958"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 2,
+          "best": 7074,
+          "total": 13464,
+          "best_url": "https://x.com/ridark_eth/status/2102846450392760434"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp ",
+          "hits": 1,
+          "best": 5091,
+          "total": 5091,
+          "best_url": "https://x.com/gippp69/status/2102726296291680275"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 2,
+          "best": 19361,
+          "total": 29720,
+          "best_url": "https://x.com/thegreatest_sv/status/2102730591556731353"
+        }
+      }
+    },
+    "2026-09-24": {
+      "accounts": {
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 1,
+          "best": 65654,
+          "total": 65654,
+          "best_url": "https://x.com/Argona0x/status/2103195240924598623"
+        },
+        "bl888m_eth": {
+          "handle": "@bl888m_eth",
+          "name": "bl888m",
+          "hits": 1,
+          "best": 51380,
+          "total": 51380,
+          "best_url": "https://x.com/bl888m_eth/status/2103161923881873574"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 48519,
+          "total": 48519,
+          "best_url": "https://x.com/0xWast3/status/2103063497760202789"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 31071,
+          "total": 31071,
+          "best_url": "https://x.com/polydao/status/2102998212235899321"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 3,
+          "best": 25568,
+          "total": 51067,
+          "best_url": "https://x.com/beamnxw/status/2103198736075599908"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 15484,
+          "total": 15484,
+          "best_url": "https://x.com/Sprytixl/status/2103060689745027163"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 1,
+          "best": 8118,
+          "total": 8118,
+          "best_url": "https://x.com/N01ennn/status/2103213792104734856"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 7574,
+          "total": 7574,
+          "best_url": "https://x.com/AnnatarXBT/status/2103119282842321337"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 1,
+          "best": 5589,
+          "total": 5589,
+          "best_url": "https://x.com/leopardracer/status/2103077714815070427"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 3,
+          "best": 26880,
+          "total": 52754,
+          "best_url": "https://x.com/thegreatest_sv/status/2103184942872346801"
+        }
+      }
+    },
+    "2026-09-25": {
+      "accounts": {
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 2,
+          "best": 28290,
+          "total": 38957,
+          "best_url": "https://x.com/beamnxw/status/2103424901709287540"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 4,
+          "best": 14879,
+          "total": 46741,
+          "best_url": "https://x.com/cyrilXBT/status/2103431843999797358"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 2,
+          "best": 13520,
+          "total": 24268,
+          "best_url": "https://x.com/AnnatarXBT/status/2103399104093049176"
+        },
+        "antpalkin": {
+          "handle": "@antpalkin",
+          "name": "cvxv666",
+          "hits": 1,
+          "best": 11944,
+          "total": 11944,
+          "best_url": "https://x.com/antpalkin/status/2103541125361598880"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 6800,
+          "total": 6800,
+          "best_url": "https://x.com/polydao/status/2103418985182081141"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 2,
+          "best": 6604,
+          "total": 13090,
+          "best_url": "https://x.com/Argona0x/status/2103227982659698996"
+        },
+        "insomnia_vip": {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 1,
+          "best": 6569,
+          "total": 6569,
+          "best_url": "https://x.com/insomnia_vip/status/2103497570047635577"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 2,
+          "best": 6511,
+          "total": 12118,
+          "best_url": "https://x.com/N01ennn/status/2103542021071978601"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 5817,
+          "total": 5817,
+          "best_url": "https://x.com/Sprytixl/status/2103548138501853521"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 5806,
+          "total": 5806,
+          "best_url": "https://x.com/0xWast3/status/2103513328077222104"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 3,
+          "best": 49143,
+          "total": 108328,
+          "best_url": "https://x.com/thegreatest_sv/status/2103457238673449245"
+        }
+      }
+    },
+    "2026-09-26": {
+      "accounts": {
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 124364,
+          "total": 124364,
+          "best_url": "https://x.com/0xWast3/status/2103793322934370742"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 112267,
+          "total": 112267,
+          "best_url": "https://x.com/polydao/status/2103722987832717407"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 4,
+          "best": 74714,
+          "total": 116646,
+          "best_url": "https://x.com/beamnxw/status/2103757085393490284"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 2,
+          "best": 53819,
+          "total": 73201,
+          "best_url": "https://x.com/N01ennn/status/2103818303642689696"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp ",
+          "hits": 2,
+          "best": 31360,
+          "total": 41327,
+          "best_url": "https://x.com/gippp69/status/2103864511157457291"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 1,
+          "best": 30323,
+          "total": 30323,
+          "best_url": "https://x.com/leopardracer/status/2103783920248528997"
+        },
+        "scottybeamio": {
+          "handle": "@ScottyBeamIO",
+          "name": "SCOTTY BEAM",
+          "hits": 1,
+          "best": 15637,
+          "total": 15637,
+          "best_url": "https://x.com/ScottyBeamIO/status/2103856238014378000"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 6,
+          "best": 13753,
+          "total": 57414,
+          "best_url": "https://x.com/cyrilXBT/status/2103704028798750769"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 3,
+          "best": 9914,
+          "total": 28061,
+          "best_url": "https://x.com/slash1sol/status/2103810777849192630"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 8935,
+          "total": 8935,
+          "best_url": "https://x.com/Sprytixl/status/2103923970408104296"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 8817,
+          "total": 8817,
+          "best_url": "https://x.com/AnnatarXBT/status/2103820379706015856"
+        },
+        "insomnia_vip": {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 1,
+          "best": 6631,
+          "total": 6631,
+          "best_url": "https://x.com/insomnia_vip/status/2103786718977482805"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 1,
+          "best": 6314,
+          "total": 6314,
+          "best_url": "https://x.com/Bober_smart/status/2103898386269167934"
+        },
+        "retrochainer": {
+          "handle": "@RetroChainer",
+          "name": "RetroChainer",
+          "hits": 1,
+          "best": 5958,
+          "total": 5958,
+          "best_url": "https://x.com/RetroChainer/status/2103863937234030708"
+        },
+        "shmidtqq": {
+          "handle": "@shmidtqq",
+          "name": "shmidt",
+          "hits": 1,
+          "best": 5303,
+          "total": 5303,
+          "best_url": "https://x.com/shmidtqq/status/2103874274398282175"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 2,
+          "best": 67535,
+          "total": 76101,
+          "best_url": "https://x.com/thegreatest_sv/status/2103864671430426739"
+        }
+      }
+    },
+    "2026-09-27": {
+      "accounts": {
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 2,
+          "best": 101244,
+          "total": 107847,
+          "best_url": "https://x.com/Argona0x/status/2104303755537834287"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 72101,
+          "total": 72101,
+          "best_url": "https://x.com/polydao/status/2104090661041369397"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 3,
+          "best": 68563,
+          "total": 85373,
+          "best_url": "https://x.com/beamnxw/status/2104148916149092664"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 3,
+          "best": 31060,
+          "total": 57639,
+          "best_url": "https://x.com/N01ennn/status/2104176492896715072"
+        },
+        "everestchris6": {
+          "handle": "@everestchris6",
+          "name": "Chris",
+          "hits": 1,
+          "best": 24938,
+          "total": 24938,
+          "best_url": "https://x.com/everestchris6/status/2104234619025682463"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 1,
+          "best": 20973,
+          "total": 20973,
+          "best_url": "https://x.com/slash1sol/status/2104119904810959177"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 5,
+          "best": 17584,
+          "total": 50110,
+          "best_url": "https://x.com/cyrilXBT/status/2104171710568403174"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 15709,
+          "total": 15709,
+          "best_url": "https://x.com/Sprytixl/status/2104157211488371082"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp ",
+          "hits": 3,
+          "best": 12657,
+          "total": 32882,
+          "best_url": "https://x.com/gippp69/status/2104287246786683258"
+        },
+        "scottybeamio": {
+          "handle": "@ScottyBeamIO",
+          "name": "SCOTTY BEAM",
+          "hits": 1,
+          "best": 9245,
+          "total": 9245,
+          "best_url": "https://x.com/ScottyBeamIO/status/2104299623246365138"
+        },
+        "0x_kaize": {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 1,
+          "best": 8520,
+          "total": 8520,
+          "best_url": "https://x.com/0x_kaize/status/2104178462034374915"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 2,
+          "best": 8013,
+          "total": 16013,
+          "best_url": "https://x.com/Bober_smart/status/2104269257689162060"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 7776,
+          "total": 7776,
+          "best_url": "https://x.com/AnnatarXBT/status/2104228111604731911"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 6120,
+          "total": 6120,
+          "best_url": "https://x.com/0xWast3/status/2104240316400238801"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 1,
+          "best": 25629,
+          "total": 25629,
+          "best_url": "https://x.com/thegreatest_sv/status/2104181006131450053"
+        }
+      }
+    },
+    "2026-09-28": {
+      "accounts": {
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 2,
+          "best": 129023,
+          "total": 139552,
+          "best_url": "https://x.com/N01ennn/status/2104514351147155889"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 2,
+          "best": 78830,
+          "total": 89370,
+          "best_url": "https://x.com/polydao/status/2104448518966432240"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 1,
+          "best": 31194,
+          "total": 31194,
+          "best_url": "https://x.com/beamnxw/status/2104475279208907004"
+        },
+        "everestchris6": {
+          "handle": "@everestchris6",
+          "name": "Chris",
+          "hits": 1,
+          "best": 27407,
+          "total": 27407,
+          "best_url": "https://x.com/everestchris6/status/2104374320575427014"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 2,
+          "best": 22031,
+          "total": 32617,
+          "best_url": "https://x.com/slash1sol/status/2104325976721346716"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 21368,
+          "total": 21368,
+          "best_url": "https://x.com/0xWast3/status/2104513763302842829"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 4,
+          "best": 15256,
+          "total": 45835,
+          "best_url": "https://x.com/cyrilXBT/status/2104522797229965516"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 2,
+          "best": 14806,
+          "total": 27676,
+          "best_url": "https://x.com/AnnatarXBT/status/2104485512161657013"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 2,
+          "best": 13839,
+          "total": 26441,
+          "best_url": "https://x.com/Bober_smart/status/2104551823793123424"
+        },
+        "scottybeamio": {
+          "handle": "@ScottyBeamIO",
+          "name": "SCOTTY BEAM",
+          "hits": 1,
+          "best": 9220,
+          "total": 9220,
+          "best_url": "https://x.com/ScottyBeamIO/status/2104550420831949061"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 7336,
+          "total": 7336,
+          "best_url": "https://x.com/Sprytixl/status/2104315940477251927"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 1,
+          "best": 7136,
+          "total": 7136,
+          "best_url": "https://x.com/Argona0x/status/2104584375010529762"
+        },
+        "0x_kaize": {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 1,
+          "best": 5944,
+          "total": 5944,
+          "best_url": "https://x.com/0x_kaize/status/2104625151400681746"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 1,
+          "best": 5528,
+          "total": 5528,
+          "best_url": "https://x.com/leopardracer/status/2104638726886293904"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp ",
+          "hits": 1,
+          "best": 5343,
+          "total": 5343,
+          "best_url": "https://x.com/gippp69/status/2104540710812692914"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 1,
+          "best": 5018,
+          "total": 5018,
+          "best_url": "https://x.com/thegreatest_sv/status/2104542387917738408"
+        }
+      }
+    },
+    "2026-09-29": {
+      "accounts": {
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 2,
+          "best": 113914,
+          "total": 140784,
+          "best_url": "https://x.com/polydao/status/2104783226833186920"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 2,
+          "best": 85709,
+          "total": 91673,
+          "best_url": "https://x.com/Argona0x/status/2104954932994494485"
+        },
+        "everestchris6": {
+          "handle": "@everestchris6",
+          "name": "Chris",
+          "hits": 1,
+          "best": 49081,
+          "total": 49081,
+          "best_url": "https://x.com/everestchris6/status/2104965415164399895"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 45578,
+          "total": 45578,
+          "best_url": "https://x.com/AnnatarXBT/status/2104851423959851119"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 2,
+          "best": 35011,
+          "total": 42161,
+          "best_url": "https://x.com/slash1sol/status/2104975408319926389"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 2,
+          "best": 23170,
+          "total": 33713,
+          "best_url": "https://x.com/Bober_smart/status/2104998107750535196"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 2,
+          "best": 20196,
+          "total": 25802,
+          "best_url": "https://x.com/N01ennn/status/2104876056893104461"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 2,
+          "best": 8519,
+          "total": 15958,
+          "best_url": "https://x.com/beamnxw/status/2104916939759853955"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 4,
+          "best": 8335,
+          "total": 30316,
+          "best_url": "https://x.com/cyrilXBT/status/2104891420087550316"
+        },
+        "insomnia_vip": {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 1,
+          "best": 6366,
+          "total": 6366,
+          "best_url": "https://x.com/insomnia_vip/status/2104942451735572595"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 2,
+          "best": 18594,
+          "total": 28983,
+          "best_url": "https://x.com/thegreatest_sv/status/2104951080652030300"
+        }
+      }
+    },
+    "2026-09-30": {
+      "accounts": {
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 6,
+          "best": 105958,
+          "total": 164229,
+          "best_url": "https://x.com/cyrilXBT/status/2105202255393890790"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 2,
+          "best": 92498,
+          "total": 159872,
+          "best_url": "https://x.com/AnnatarXBT/status/2105263136638996553"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 1,
+          "best": 30799,
+          "total": 30799,
+          "best_url": "https://x.com/Argona0x/status/2105379600444366919"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 2,
+          "best": 29262,
+          "total": 37744,
+          "best_url": "https://x.com/polydao/status/2105177069730615556"
+        },
+        "bl888m_eth": {
+          "handle": "@bl888m_eth",
+          "name": "bl888m",
+          "hits": 1,
+          "best": 26397,
+          "total": 26397,
+          "best_url": "https://x.com/bl888m_eth/status/2105300799337398341"
+        },
+        "0x_kaize": {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 2,
+          "best": 24992,
+          "total": 31235,
+          "best_url": "https://x.com/0x_kaize/status/2105302059138380194"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 1,
+          "best": 17794,
+          "total": 17794,
+          "best_url": "https://x.com/N01ennn/status/2105241246054711764"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 3,
+          "best": 13606,
+          "total": 30730,
+          "best_url": "https://x.com/Bober_smart/status/2105357660711252351"
+        },
+        "everestchris6": {
+          "handle": "@everestchris6",
+          "name": "Chris",
+          "hits": 1,
+          "best": 12644,
+          "total": 12644,
+          "best_url": "https://x.com/everestchris6/status/2105346533223010558"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 2,
+          "best": 10554,
+          "total": 17115,
+          "best_url": "https://x.com/slash1sol/status/2105051002873278951"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 1,
+          "best": 9757,
+          "total": 9757,
+          "best_url": "https://x.com/ridark_eth/status/2105313903764725859"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 1,
+          "best": 5975,
+          "total": 5975,
+          "best_url": "https://x.com/beamnxw/status/2105202083834081743"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 1,
+          "best": 5879,
+          "total": 5879,
+          "best_url": "https://x.com/thegreatest_sv/status/2105359018386678095"
+        }
+      }
+    },
+    "2026-10-01": {
+      "accounts": {
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 2,
+          "best": 132440,
+          "total": 147333,
+          "best_url": "https://x.com/polydao/status/2105535430645207333"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 1,
+          "best": 127975,
+          "total": 127975,
+          "best_url": "https://x.com/Argona0x/status/2105417415257383264"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 108109,
+          "total": 108109,
+          "best_url": "https://x.com/AnnatarXBT/status/2105550278359662756"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 3,
+          "best": 40482,
+          "total": 72479,
+          "best_url": "https://x.com/Bober_smart/status/2105720546914697275"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 2,
+          "best": 35886,
+          "total": 43925,
+          "best_url": "https://x.com/N01ennn/status/2105606036639932433"
+        },
+        "0x_kaize": {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 1,
+          "best": 30178,
+          "total": 30178,
+          "best_url": "https://x.com/0x_kaize/status/2105627155359031390"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 4,
+          "best": 21680,
+          "total": 53731,
+          "best_url": "https://x.com/slash1sol/status/2105561142730883134"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 5,
+          "best": 15370,
+          "total": 53849,
+          "best_url": "https://x.com/cyrilXBT/status/2105564629170839596"
+        },
+        "shmidtqq": {
+          "handle": "@shmidtqq",
+          "name": "shmidt",
+          "hits": 1,
+          "best": 11574,
+          "total": 11574,
+          "best_url": "https://x.com/shmidtqq/status/2105658381197336874"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp ",
+          "hits": 2,
+          "best": 10369,
+          "total": 16220,
+          "best_url": "https://x.com/gippp69/status/2105629068330709120"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 2,
+          "best": 9147,
+          "total": 14210,
+          "best_url": "https://x.com/beamnxw/status/2105592304392151109"
+        },
+        "bl888m_eth": {
+          "handle": "@bl888m_eth",
+          "name": "bl888m",
+          "hits": 1,
+          "best": 8187,
+          "total": 8187,
+          "best_url": "https://x.com/bl888m_eth/status/2105633734095683588"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 6984,
+          "total": 6984,
+          "best_url": "https://x.com/Sprytixl/status/2105589137273200725"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 1,
+          "best": 5668,
+          "total": 5668,
+          "best_url": "https://x.com/leopardracer/status/2105587277875327455"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 2,
+          "best": 32842,
+          "total": 43695,
+          "best_url": "https://x.com/thegreatest_sv/status/2105674850782036089"
+        }
+      }
+    },
+    "2026-10-02": {
+      "accounts": {
+        "carverfomo": {
+          "handle": "@carverfomo",
+          "name": "Carver",
+          "hits": 1,
+          "best": 124384,
+          "total": 124384,
+          "best_url": "https://x.com/carverfomo/status/2105991207847387186"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 2,
+          "best": 65582,
+          "total": 83745,
+          "best_url": "https://x.com/beamnxw/status/2106009853797814755"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 2,
+          "best": 55292,
+          "total": 66976,
+          "best_url": "https://x.com/Argona0x/status/2106054021479842293"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 7,
+          "best": 50929,
+          "total": 120970,
+          "best_url": "https://x.com/cyrilXBT/status/2105972331189551509"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 2,
+          "best": 22975,
+          "total": 30984,
+          "best_url": "https://x.com/N01ennn/status/2106076347374125476"
+        },
+        "shmidtqq": {
+          "handle": "@shmidtqq",
+          "name": "shmidt",
+          "hits": 1,
+          "best": 17726,
+          "total": 17726,
+          "best_url": "https://x.com/shmidtqq/status/2106020975724658989"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 17367,
+          "total": 17367,
+          "best_url": "https://x.com/AnnatarXBT/status/2105942613895319891"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 2,
+          "best": 15115,
+          "total": 21880,
+          "best_url": "https://x.com/ridark_eth/status/2106005237190275109"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 1,
+          "best": 13884,
+          "total": 13884,
+          "best_url": "https://x.com/leopardracer/status/2105949574548406782"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 10191,
+          "total": 10191,
+          "best_url": "https://x.com/0xWast3/status/2106089143746920449"
+        },
+        "0x_kaize": {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 1,
+          "best": 9751,
+          "total": 9751,
+          "best_url": "https://x.com/0x_kaize/status/2106011717033504933"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 3,
+          "best": 9202,
+          "total": 21297,
+          "best_url": "https://x.com/Bober_smart/status/2106010480149942512"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 8049,
+          "total": 8049,
+          "best_url": "https://x.com/Sprytixl/status/2105982276752327105"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp ",
+          "hits": 1,
+          "best": 7613,
+          "total": 7613,
+          "best_url": "https://x.com/gippp69/status/2106005109247226221"
+        },
+        "retrochainer": {
+          "handle": "@RetroChainer",
+          "name": "RetroChainer",
+          "hits": 1,
+          "best": 7410,
+          "total": 7410,
+          "best_url": "https://x.com/RetroChainer/status/2106070287582216494"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 7003,
+          "total": 7003,
+          "best_url": "https://x.com/polydao/status/2105977846095040587"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 1,
+          "best": 6125,
+          "total": 6125,
+          "best_url": "https://x.com/slash1sol/status/2106008267201613994"
+        },
+        "insomnia_vip": {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 1,
+          "best": 5417,
+          "total": 5417,
+          "best_url": "https://x.com/insomnia_vip/status/2106048781443621248"
+        }
+      }
+    },
+    "2026-10-03": {
+      "accounts": {
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 84752,
+          "total": 84752,
+          "best_url": "https://x.com/0xWast3/status/2106089143746920449"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 3,
+          "best": 18250,
+          "total": 33800,
+          "best_url": "https://x.com/Bober_smart/status/2106573931314401576"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 35727,
+          "total": 35727,
+          "best_url": "https://x.com/polydao/status/2106320604634702070"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp",
+          "hits": 1,
+          "best": 15000,
+          "total": 15000,
+          "best_url": "https://x.com/gippp69/status/2106409052133548441"
+        },
+        "0x_kaize": {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 1,
+          "best": 302000,
+          "total": 302000,
+          "best_url": "https://x.com/0x_kaize/status/2106321758655750290"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 1,
+          "best": 7000,
+          "total": 7000,
+          "best_url": "https://x.com/ridark_eth/status/2106479297989136561"
+        },
+        "bl888m_eth": {
+          "handle": "@bl888m_eth",
+          "name": "bl888m",
+          "hits": 1,
+          "best": 9110,
+          "total": 9110,
+          "best_url": "https://x.com/bl888m_eth/status/2106423611552850144"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 2,
+          "best": 100700,
+          "total": 149100,
+          "best_url": "https://x.com/N01ennn/status/2106365993035472979"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 2,
+          "best": 14800,
+          "total": 20692,
+          "best_url": "https://x.com/Sprytixl/status/2106317561906237562"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 2,
+          "best": 15700,
+          "total": 24895,
+          "best_url": "https://x.com/leopardracer/status/2105949574548406782"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 152500,
+          "total": 152500,
+          "best_url": "https://x.com/AnnatarXBT/status/2106286882191712423"
+        },
+        "carverfomo": {
+          "handle": "@carverfomo",
+          "name": "Carver",
+          "hits": 1,
+          "best": 184600,
+          "total": 184600,
+          "best_url": "https://x.com/carverfomo/status/2105991207847387186"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 1,
+          "best": 5556,
+          "total": 5556,
+          "best_url": "https://x.com/cyrilXBT/status/2106644272162435262"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 3,
+          "best": 33846,
+          "total": 52200,
+          "best_url": "https://x.com/thegreatest_sv/status/2106403149162455349"
+        }
+      }
+    },
+    "2026-10-04": {
+      "accounts": {
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 2,
+          "best": 104519,
+          "total": 135548,
+          "best_url": "https://x.com/cyrilXBT/status/2106576295094288608"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 1,
+          "best": 37571,
+          "total": 37571,
+          "best_url": "https://x.com/0xWast3/status/2106765252972916961"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp 🦅",
+          "hits": 2,
+          "best": 17899,
+          "total": 25801,
+          "best_url": "https://x.com/gippp69/status/2106744347836153989"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 17522,
+          "total": 17522,
+          "best_url": "https://x.com/AnnatarXBT/status/2106658581667877357"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 1,
+          "best": 17350,
+          "total": 17350,
+          "best_url": "https://x.com/Bober_smart/status/2106724268583030974"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 1,
+          "best": 17147,
+          "total": 17147,
+          "best_url": "https://x.com/N01ennn/status/2106701497857703955"
+        },
+        "everestchris6": {
+          "handle": "@everestchris6",
+          "name": "Chris",
+          "hits": 1,
+          "best": 6710,
+          "total": 6710,
+          "best_url": "https://x.com/everestchris6/status/2106765163047309559"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 1,
+          "best": 6188,
+          "total": 6188,
+          "best_url": "https://x.com/beamnxw/status/2106777772894941642"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 6151,
+          "total": 6151,
+          "best_url": "https://x.com/polydao/status/2106798822659608607"
+        },
+        "shmidtqq": {
+          "handle": "@shmidtqq",
+          "name": "shmidt",
+          "hits": 1,
+          "best": 5169,
+          "total": 5169,
+          "best_url": "https://x.com/shmidtqq/status/2106812652114886984"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 2,
+          "best": 68465,
+          "total": 77171,
+          "best_url": "https://x.com/thegreatest_sv/status/2106715907519062379"
+        }
+      }
+    },
+    "2026-10-05": {
+      "accounts": {
+        "0x_kaize": {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 2,
+          "best": 53635,
+          "total": 63864,
+          "best_url": "https://x.com/0x_kaize/status/2107161160470413411"
+        },
+        "everestchris6": {
+          "handle": "@everestchris6",
+          "name": "Chris",
+          "hits": 2,
+          "best": 46992,
+          "total": 78046,
+          "best_url": "https://x.com/everestchris6/status/2107135574469746896"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 2,
+          "best": 41282,
+          "total": 52459,
+          "best_url": "https://x.com/polydao/status/2106996306946498606"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 2,
+          "best": 38712,
+          "total": 48171,
+          "best_url": "https://x.com/AnnatarXBT/status/2107028518983131548"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 10,
+          "best": 35838,
+          "total": 141107,
+          "best_url": "https://x.com/cyrilXBT/status/2106948473044210132"
+        },
+        "zostaff": {
+          "handle": "@zostaff",
+          "name": "zostaff",
+          "hits": 1,
+          "best": 25430,
+          "total": 25430,
+          "best_url": "https://x.com/zostaff/status/2107146358142402954"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 2,
+          "best": 24381,
+          "total": 34494,
+          "best_url": "https://x.com/0xWast3/status/2107054996663521770"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 3,
+          "best": 13034,
+          "total": 26894,
+          "best_url": "https://x.com/Bober_smart/status/2107090677062406646"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 10826,
+          "total": 10826,
+          "best_url": "https://x.com/Sprytixl/status/2107049820892344646"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp",
+          "hits": 1,
+          "best": 10256,
+          "total": 10256,
+          "best_url": "https://x.com/gippp69/status/2107153066134790406"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 1,
+          "best": 10135,
+          "total": 10135,
+          "best_url": "https://x.com/slash1sol/status/2107146014163362103"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 2,
+          "best": 8445,
+          "total": 13615,
+          "best_url": "https://x.com/beamnxw/status/2107143806546002398"
+        },
+        "shmidtqq": {
+          "handle": "@shmidtqq",
+          "name": "shmidt",
+          "hits": 1,
+          "best": 8199,
+          "total": 8199,
+          "best_url": "https://x.com/shmidtqq/status/2106921766509809796"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 1,
+          "best": 5876,
+          "total": 5876,
+          "best_url": "https://x.com/N01ennn/status/2107174675071598676"
+        },
+        "bl888m_eth": {
+          "handle": "@bl888m_eth",
+          "name": "bl888m",
+          "hits": 1,
+          "best": 5138,
+          "total": 5138,
+          "best_url": "https://x.com/bl888m_eth/status/2107079430577574345"
+        },
+        "retrochainer": {
+          "handle": "@RetroChainer",
+          "name": "RetroChainer",
+          "hits": 1,
+          "best": 5085,
+          "total": 5085,
+          "best_url": "https://x.com/RetroChainer/status/2107099238245011702"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 2,
+          "best": 26480,
+          "total": 35976,
+          "best_url": "https://x.com/thegreatest_sv/status/2107127924252090786"
+        }
+      }
+    },
+    "2026-10-06": {
+      "accounts": {
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 2,
+          "best": 115146,
+          "total": 129596,
+          "best_url": "https://x.com/0xWast3/status/2107514047578955935"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 2,
+          "best": 76620,
+          "total": 89909,
+          "best_url": "https://x.com/beamnxw/status/2107522996046905797"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 9,
+          "best": 62012,
+          "total": 176007,
+          "best_url": "https://x.com/cyrilXBT/status/2107318803013226811"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 2,
+          "best": 55263,
+          "total": 81127,
+          "best_url": "https://x.com/polydao/status/2107347369763156099"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp",
+          "hits": 2,
+          "best": 17760,
+          "total": 26376,
+          "best_url": "https://x.com/gippp69/status/2107548226081444016"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 16671,
+          "total": 16671,
+          "best_url": "https://x.com/AnnatarXBT/status/2107368509114044629"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 2,
+          "best": 13985,
+          "total": 19183,
+          "best_url": "https://x.com/Bober_smart/status/2107455618122444832"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 1,
+          "best": 12892,
+          "total": 12892,
+          "best_url": "https://x.com/ridark_eth/status/2107452682160001212"
+        },
+        "zostaff": {
+          "handle": "@zostaff",
+          "name": "zostaff",
+          "hits": 1,
+          "best": 12512,
+          "total": 12512,
+          "best_url": "https://x.com/zostaff/status/2107466259436654718"
+        },
+        "bl888m_eth": {
+          "handle": "@bl888m_eth",
+          "name": "bl888m",
+          "hits": 1,
+          "best": 8142,
+          "total": 8142,
+          "best_url": "https://x.com/bl888m_eth/status/2107499822626603454"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 1,
+          "best": 7892,
+          "total": 7892,
+          "best_url": "https://x.com/N01ennn/status/2107460256162807968"
+        },
+        "insomnia_vip": {
+          "handle": "@insomnia_vip",
+          "name": "Insomnia",
+          "hits": 1,
+          "best": 7434,
+          "total": 7434,
+          "best_url": "https://x.com/insomnia_vip/status/2107400176637817171"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 6653,
+          "total": 6653,
+          "best_url": "https://x.com/Sprytixl/status/2107410297153573303"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 1,
+          "best": 5216,
+          "total": 5216,
+          "best_url": "https://x.com/Argona0x/status/2107420104019542089"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 2,
+          "best": 19000,
+          "total": 25200,
+          "best_url": "https://x.com/thegreatest_sv/status/2107489054249861141"
+        }
+      }
+    },
+    "2026-10-07": {
+      "accounts": {
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 1,
+          "best": 447525,
+          "total": 447525,
+          "best_url": "https://x.com/beamnxw/status/2107836535995568551"
+        },
+        "shelpid_wi3m": {
+          "handle": "@Shelpid_WI3M",
+          "name": "Shelpid.WI3M",
+          "hits": 1,
+          "best": 157936,
+          "total": 157936,
+          "best_url": "https://x.com/Shelpid_WI3M/status/2107791227236003989"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 2,
+          "best": 37319,
+          "total": 47437,
+          "best_url": "https://x.com/0xWast3/status/2107898724286361928"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 11,
+          "best": 35929,
+          "total": 139900,
+          "best_url": "https://x.com/cyrilXBT/status/2107664148524130655"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 2,
+          "best": 31708,
+          "total": 38556,
+          "best_url": "https://x.com/polydao/status/2107711770802753785"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 1,
+          "best": 17424,
+          "total": 17424,
+          "best_url": "https://x.com/Bober_smart/status/2107814329361793261"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 3,
+          "best": 15337,
+          "total": 29130,
+          "best_url": "https://x.com/N01ennn/status/2107826459804840072"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 1,
+          "best": 13266,
+          "total": 13266,
+          "best_url": "https://x.com/leopardracer/status/2107748821308481630"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp 🦅",
+          "hits": 1,
+          "best": 9493,
+          "total": 9493,
+          "best_url": "https://x.com/gippp69/status/2107914347326673016"
+        },
+        "sprytixl": {
+          "handle": "@Sprytixl",
+          "name": "Sprytix",
+          "hits": 1,
+          "best": 8231,
+          "total": 8231,
+          "best_url": "https://x.com/Sprytixl/status/2107763347097534680"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 1,
+          "best": 7394,
+          "total": 7394,
+          "best_url": "https://x.com/ridark_eth/status/2107583521820729500"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 6660,
+          "total": 6660,
+          "best_url": "https://x.com/AnnatarXBT/status/2107739453397602313"
+        },
+        "slash1sol": {
+          "handle": "@slash1sol",
+          "name": "slash1s",
+          "hits": 1,
+          "best": 6654,
+          "total": 6654,
+          "best_url": "https://x.com/slash1sol/status/2107878663488188775"
+        },
+        "bl888m_eth": {
+          "handle": "@bl888m_eth",
+          "name": "bl888m",
+          "hits": 1,
+          "best": 5483,
+          "total": 5483,
+          "best_url": "https://x.com/bl888m_eth/status/2107819855546331573"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 3,
+          "best": 46495,
+          "total": 82925,
+          "best_url": "https://x.com/thegreatest_sv/status/2107851693232975941"
+        }
+      }
+    },
+    "2026-10-08": {
+      "accounts": {
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 2,
+          "best": 190320,
+          "total": 196470,
+          "best_url": "https://x.com/N01ennn/status/2108182955671580771"
+        },
+        "0x_kaize": {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 1,
+          "best": 179941,
+          "total": 179941,
+          "best_url": "https://x.com/0x_kaize/status/2108281278181110108"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 3,
+          "best": 34955,
+          "total": 47007,
+          "best_url": "https://x.com/beamnxw/status/2108101310515925217"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 1,
+          "best": 23828,
+          "total": 23828,
+          "best_url": "https://x.com/leopardracer/status/2108142806451507542"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 9,
+          "best": 22205,
+          "total": 97120,
+          "best_url": "https://x.com/cyrilXBT/status/2108101372411592866"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 2,
+          "best": 17736,
+          "total": 28262,
+          "best_url": "https://x.com/polydao/status/2108079443650441568"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 2,
+          "best": 14616,
+          "total": 26217,
+          "best_url": "https://x.com/0xWast3/status/2108142921547440248"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 1,
+          "best": 12744,
+          "total": 12744,
+          "best_url": "https://x.com/Argona0x/status/2108282091775426928"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp 🦅",
+          "hits": 1,
+          "best": 11530,
+          "total": 11530,
+          "best_url": "https://x.com/gippp69/status/2108167896065085463"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 2,
+          "best": 10373,
+          "total": 16250,
+          "best_url": "https://x.com/ridark_eth/status/2108195353690247270"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 2,
+          "best": 8319,
+          "total": 14487,
+          "best_url": "https://x.com/Bober_smart/status/2108181423270101238"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 2,
+          "best": 13662,
+          "total": 20728,
+          "best_url": "https://x.com/thegreatest_sv/status/2108164052253917690"
+        }
+      }
+    },
+    "2026-10-09": {
+      "accounts": {
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 1,
+          "best": 98017,
+          "total": 98017,
+          "best_url": "https://x.com/N01ennn/status/2108520767092597182"
+        },
+        "carverfomo": {
+          "handle": "@carverfomo",
+          "name": "Carver",
+          "hits": 1,
+          "best": 74566,
+          "total": 74566,
+          "best_url": "https://x.com/carverfomo/status/2108349436049125751"
+        },
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 9,
+          "best": 48656,
+          "total": 112261,
+          "best_url": "https://x.com/cyrilXBT/status/2108475067902701928"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 1,
+          "best": 15320,
+          "total": 15320,
+          "best_url": "https://x.com/leopardracer/status/2108479372675977496"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 2,
+          "best": 12284,
+          "total": 18892,
+          "best_url": "https://x.com/0xWast3/status/2108500270464303133"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 11315,
+          "total": 11315,
+          "best_url": "https://x.com/polydao/status/2108444096532488445"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp 🦅",
+          "hits": 1,
+          "best": 8608,
+          "total": 8608,
+          "best_url": "https://x.com/gippp69/status/2108523944219119864"
+        },
+        "argona0x": {
+          "handle": "@Argona0x",
+          "name": "Argona",
+          "hits": 1,
+          "best": 8591,
+          "total": 8591,
+          "best_url": "https://x.com/Argona0x/status/2108308957844684807"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 2,
+          "best": 40637,
+          "total": 50091,
+          "best_url": "https://x.com/thegreatest_sv/status/2108529912537661559"
+        }
+      }
+    },
+    "2026-10-10": {
+      "accounts": {
+        "cyrilxbt": {
+          "handle": "@cyrilXBT",
+          "name": "CyrilXBT",
+          "hits": 9,
+          "best": 187841,
+          "total": 399213,
+          "best_url": "https://x.com/cyrilXBT/status/2108693524900110515"
+        },
+        "bober_smart": {
+          "handle": "@Bober_smart",
+          "name": "Bober_smart",
+          "hits": 2,
+          "best": 169636,
+          "total": 178052,
+          "best_url": "https://x.com/Bober_smart/status/2108974132058603803"
+        },
+        "annatarxbt": {
+          "handle": "@AnnatarXBT",
+          "name": "Annatar.md",
+          "hits": 1,
+          "best": 43534,
+          "total": 43534,
+          "best_url": "https://x.com/AnnatarXBT/status/2108868206358085779"
+        },
+        "0xwast3": {
+          "handle": "@0xWast3",
+          "name": "wast3",
+          "hits": 3,
+          "best": 34914,
+          "total": 58451,
+          "best_url": "https://x.com/0xWast3/status/2108986760311066656"
+        },
+        "0x_kaize": {
+          "handle": "@0x_kaize",
+          "name": "kaize",
+          "hits": 1,
+          "best": 26109,
+          "total": 26109,
+          "best_url": "https://x.com/0x_kaize/status/2108910368613437460"
+        },
+        "n01ennn": {
+          "handle": "@N01ennn",
+          "name": "NO1ennn",
+          "hits": 1,
+          "best": 19058,
+          "total": 19058,
+          "best_url": "https://x.com/N01ennn/status/2108898093580116305"
+        },
+        "beamnxw": {
+          "handle": "@beamnxw",
+          "name": "beamnxw ./",
+          "hits": 2,
+          "best": 18256,
+          "total": 30731,
+          "best_url": "https://x.com/beamnxw/status/2108953385189732416"
+        },
+        "scottybeamio": {
+          "handle": "@ScottyBeamIO",
+          "name": "SCOTTY BEAM",
+          "hits": 1,
+          "best": 16778,
+          "total": 16778,
+          "best_url": "https://x.com/ScottyBeamIO/status/2108880513301610556"
+        },
+        "leopardracer": {
+          "handle": "@leopardracer",
+          "name": "leopardracer",
+          "hits": 1,
+          "best": 10558,
+          "total": 10558,
+          "best_url": "https://x.com/leopardracer/status/2108885874037469658"
+        },
+        "polydao": {
+          "handle": "@polydao",
+          "name": "Mr. Buzzoni",
+          "hits": 1,
+          "best": 9083,
+          "total": 9083,
+          "best_url": "https://x.com/polydao/status/2108878115510632782"
+        },
+        "ridark_eth": {
+          "handle": "@ridark_eth",
+          "name": "Ridark",
+          "hits": 3,
+          "best": 7819,
+          "total": 18427,
+          "best_url": "https://x.com/ridark_eth/status/2108684166086713783"
+        },
+        "gippp69": {
+          "handle": "@gippp69",
+          "name": "Gipp 🦅",
+          "hits": 1,
+          "best": 7050,
+          "total": 7050,
+          "best_url": "https://x.com/gippp69/status/2108937823327772918"
+        },
+        "thegreatest_sv": {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 3,
+          "best": 17443,
+          "total": 32032,
+          "best_url": "https://x.com/thegreatest_sv/status/2108891042313330903"
+        }
+      }
+    }
+  }
+}
