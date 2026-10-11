@@ -381,6 +381,24 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
 .week-day.on{border-color:var(--cyan);color:var(--cyan);background:var(--cyan-dim)}
 .week-day .wd-d{display:block;font-size:11px;color:var(--text);margin-top:3px;letter-spacing:0}
 
+/* xvs-refresh-2026 · live view refresh + followers */
+.fol{color:var(--muted);font-weight:500;font-size:.86em;margin-left:4px;white-space:nowrap}
+.fol .fd.up{color:var(--green)}.fol .fd.down{color:var(--red)}
+.delta{display:block;margin-top:5px;font:600 10px "IBM Plex Mono",monospace;letter-spacing:.02em;color:var(--green);text-transform:none}
+.delta.zero{color:var(--muted)}.delta.first{color:var(--muted);font-weight:500}
+.stale{display:inline-flex;margin-left:6px;padding:1px 6px;border:1px solid var(--amber);color:var(--amber);border-radius:999px;font:700 8px "IBM Plex Mono",monospace;letter-spacing:.08em;text-transform:uppercase;vertical-align:middle}
+.views-big .vnum{font-variant-numeric:tabular-nums}
+.yday-panel{padding:20px 22px;margin-bottom:8px}
+.yday-row{display:grid;grid-template-columns:36px minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 6px;border-top:1px solid var(--line);border-radius:6px}
+.yday-row:first-child{border-top:0}
+.yday-row.you{border:1px solid rgba(200,240,74,.5);background:var(--lime-dim);box-shadow:inset 3px 0 0 var(--lime);margin:4px 0}
+.yday-handle{font:700 13px "IBM Plex Mono",monospace;color:var(--cyan)}
+.yday-hook{font-size:12px;color:var(--muted);margin-top:3px;line-height:1.45;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.yday-hook a{color:inherit;text-decoration:none}
+.yday-views{font:700 13px "IBM Plex Mono",monospace;color:var(--lime);text-align:right;white-space:nowrap}
+.yday-views .delta{text-align:right}
+.yday-sum{font:500 10px "IBM Plex Mono",monospace;color:var(--muted);margin:4px 0 10px}
+.lb-views .delta{text-align:right;margin-top:3px}
 @media(max-width:980px){
   .hero,.charts-row{grid-template-columns:1fr}
   .stats{grid-template-columns:repeat(3,1fr)}
@@ -462,6 +480,11 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
   .lb-views{
     grid-column:2;text-align:left;font-size:12px;white-space:normal;word-break:break-word;margin-top:2px;
   }
+  .yday-panel{padding:14px 12px;overflow:hidden}
+  .yday-row{grid-template-columns:28px minmax(0,1fr);gap:8px;align-items:start}
+  .yday-views{grid-column:2;text-align:left;white-space:normal}
+  .yday-views .delta,.lb-views .delta{text-align:left}
+  .fol{font-size:.8em}
   .card{padding:16px 14px;width:100%;max-width:100%}
   .card-top{flex-direction:column;gap:10px;align-items:stretch}
   .views-big{text-align:left;font-size:16px;white-space:normal;word-break:break-word}
@@ -592,6 +615,13 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
       <div class="roster-list" id="day-roster"></div>
     </section>
 
+    <div class="section-head reveal" id="yday-head" hidden><div><div class="section-index">03b / вчера — обновлено</div><h2 id="yday-title">Вчера — обновлено</h2></div><div class="section-note" id="yday-note">fresh views · delta since previous snapshot</div></div>
+    <section class="panel yday-panel reveal" id="yday-panel" aria-label="Yesterday refreshed" hidden>
+      <div class="panel-label"><strong>D-1 /</strong> refreshed views</div>
+      <div class="yday-sum" id="yday-sum"></div>
+      <div id="yday-list"></div>
+    </section>
+
     <div class="section-head reveal"><div><div class="section-index">04 / velocity</div><h2>Charts</h2></div><div class="section-note">top hits · day compare · week coverage</div></div>
     <div class="charts-row">
       <section class="panel chart-panel reveal">
@@ -653,6 +683,14 @@ let CONFIG_DEFAULT_THEME = null;
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;')}
 function num(n){n=Number(n);return Number.isFinite(n)?n:0}
 function fmt(n){n=num(n);if(n===0)return'0';if(n>=1e6)return(n/1e6).toFixed(n>=1e7?0:2).replace(/\.0+$/,'').replace(/(\.\d)0$/,'$1')+'M';if(n>=1e3)return(n/1e3).toFixed(n>=1e5?0:1).replace(/\.0$/,'')+'K';return String(Math.round(n))}
+let FOLLOWERS={};
+function nfull(n){return num(n).toLocaleString('en-US')}
+function sgn(n){n=num(n);return (n>=0?'+':'−')+Math.abs(n).toLocaleString('en-US')}
+function shortTs(s){if(!s)return'';const m=String(s).match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);if(!m)return String(s);return `${m[3]}.${m[2]} ${m[4]}:${m[5]}`}
+function folInfo(h,fi){if(fi)return fi;const k=String(h||'').replace(/^@/,'').toLowerCase();return FOLLOWERS[k]||null}
+function folHtml(h,fi){fi=folInfo(h,fi);if(!fi||fi.count==null)return'';const lab=fi.label||fmt(fi.count);let d='';if(fi.delta!=null){const dir=fi.delta>0?'up':fi.delta<0?'down':'';d=`, <span class="fd ${dir}">${esc(sgn(fi.delta))}</span>`}return `<span class="fol" title="followers as of ${esc(shortTs(fi.as_of))} MSK${fi.stale?' · stale':''}">(${esc(lab)}${d})</span>`}
+function handleHtml(h,fi){return `${esc(h||'')}${folHtml(h,fi)}`}
+function deltaHtml(r){if(!r)return'';if(r.stale)return `<span class="delta zero">last known ${esc(shortTs(r.views_as_of))}<span class="stale">stale</span></span>`;if(r.views_delta!=null){return `<span class="delta${r.views_delta===0?' zero':''}">${esc(sgn(r.views_delta))} since ${esc(shortTs(r.delta_since))}</span>`}if(r.views_as_of)return `<span class="delta first">snapshot ${esc(shortTs(r.views_as_of))}</span>`;return''}
 function fmtBestTotal(best,total){const b=num(best),t=total==null?b:num(total);if(!b&&!t)return'—';return `${fmt(b)} / ${fmt(t)}`}
 function pct(value,target){return target?Math.round(value/target*100):0}
 function scoreFor(hits,views){return Math.round(100*(.45*Math.min(hits/DASHBOARD_TARGETS.hits,1)+.55*Math.min(views/DASHBOARD_TARGETS.views,1)))}
@@ -775,7 +813,7 @@ function applyBrand(d){
   const tEl=document.getElementById('brand-title');
   const yd=document.getElementById('your-day-label');
   if(tEl) tEl.innerHTML=`${esc(title)} <span class="handle" id="brand-handle">· ${esc(handle)}</span>`;
-  if(yd) yd.textContent=`Your day · ${handle}`;
+  if(yd) yd.innerHTML=`Your day · ${handleHtml(handle, op.followers)}`;
   document.title=`${title} · ${handle}`;
   return {handle, name:op.name||'Operator', profile_url:op.profile_url};
 }
@@ -784,7 +822,7 @@ function renderLeaderboard(el, entries, op){
   if(!entries||!entries.length){el.innerHTML='<p class="muted">No leaderboard data yet.</p>';return}
   el.innerHTML=entries.map((e,i)=>{
     const you=isYouEntry(e,op);
-    return `<div class="lb-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="lb-handle">${esc(e.handle||'')}${you?'<span class="you-chip">YOU</span>':''}</div><div class="lb-meta">${esc(e.name||'—')} · ${num(e.hits)} hits · ${num(e.days)}d</div></div><div class="lb-views">${esc(fmtBestTotal(e.best||0,e.views))}</div></div>`;
+    return `<div class="lb-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="lb-handle">${handleHtml(e.handle,e.followers)}${you?'<span class="you-chip">YOU</span>':''}</div><div class="lb-meta">${esc(e.name||'—')} · ${num(e.hits)} hits · ${num(e.days)}d</div></div><div class="lb-views">${esc(fmtBestTotal(e.best||0,e.views))}</div></div>`;
   }).join('');
 }
 function renderDayRoster(list, op, youRank){
@@ -807,7 +845,7 @@ function renderDayRoster(list, op, youRank){
     const best=num(r.views);
     const total=r.total_views!=null?num(r.total_views):best;
     const cell=best===0&&!hit?'—':esc(fmtBestTotal(best,total));
-    return `<div class="roster-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="roster-handle">${esc(r.handle||'')}${you?'<span class="you-chip">YOU</span>':''}</div><div class="roster-name">${esc(r.name||'—')}</div></div><div class="roster-views">${cell}</div><div class="roster-badge ${hit?'hit':'miss'}">${hit?'HIT':'BELOW'}</div></div>`;
+    return `<div class="roster-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="roster-handle">${handleHtml(r.handle,r.followers)}${you?'<span class="you-chip">YOU</span>':''}</div><div class="roster-name">${esc(r.name||'—')}</div></div><div class="roster-views">${cell}${best?deltaHtml(r):''}</div><div class="roster-badge ${hit?'hit':'miss'}">${hit?'HIT':'BELOW'}</div></div>`;
   }).join('');
 }
 function renderYourDay(youRank, handle){
@@ -824,7 +862,9 @@ function renderYourDay(youRank, handle){
     }else{
       const link=youRank.best_url?` · <a href="${esc(youRank.best_url)}" target="_blank" rel="noopener">open best post ↗</a>`:'';
       const rk=youRank.rank_among_watchlist!=null?` · rank #${youRank.rank_among_watchlist}/${youRank.total_accounts||'?'} `:'';
-      meta.innerHTML=`Today <b style="color:var(--text)">${esc(fmtBestTotal(bv,tv))}</b> best / total${rk}${link}`;
+      const dl=youRank.best_delta_label?` · best ${esc(youRank.best_delta_label)}`:'';
+      const asof=youRank.views_as_of?` · views as of ${esc(shortTs(youRank.views_as_of))}`:'';
+      meta.innerHTML=`Day <b style="color:var(--text)">${esc(fmtBestTotal(bv,tv))}</b> best / total${rk}${dl}${asof}${link}`;
     }
   }
   const v=num(bv);
@@ -840,6 +880,15 @@ function renderYourDay(youRank, handle){
     if(a){a.style.width=(bv==null?0:p5)+'%'; if(p5>=100)a.classList.add('done')}
     if(b){b.style.width=(bv==null?0:p10)+'%'; if(p10>=100)b.classList.add('done')}
   });
+}
+function renderYesterday(y, op){
+  const head=document.getElementById('yday-head'), panel=document.getElementById('yday-panel');
+  if(!y||!Array.isArray(y.hits)||!y.hits.length){if(head)head.hidden=true;if(panel)panel.hidden=true;return}
+  head.hidden=false;panel.hidden=false;
+  document.getElementById('yday-title').textContent=y.label||'Вчера — обновлено';
+  document.getElementById('yday-note').textContent=`${y.hits.length} posts · refreshed ${shortTs(y.refreshed_at)} MSK`;
+  document.getElementById('yday-sum').textContent=`watchlist total ${nfull(y.total_views)} views (${sgn(y.total_delta)} since previous snapshot)`;
+  document.getElementById('yday-list').innerHTML=y.hits.map((h,i)=>{const you=h.is_you===true;return `<div class="yday-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div style="min-width:0"><div class="yday-handle">${handleHtml(h.handle,h.followers)}${you?'<span class="you-chip">YOU</span>':''}</div><div class="yday-hook"><a href="${esc(h.url||'#')}" target="_blank" rel="noopener">${esc(h.hook||'open post ↗')}</a></div></div><div class="yday-views">${esc(nfull(h.views))}${deltaHtml(h)}</div></div>`}).join('');
 }
 function normalizeNoHits(raw){
   if(!Array.isArray(raw)) return [];
@@ -861,7 +910,7 @@ function renderNoHits(list){
     const bv=b.max_views==null?-1:num(b.max_views);
     return bv-av;
   });
-  el.innerHTML=sorted.map(n=>`<article class="nohit"><div><div class="nohit-handle">${esc(n.handle)}</div><div class="nohit-badge">no hit ≥5k</div></div><div class="nohit-reason">${esc(n.reason)}</div><div class="nohit-max">max seen<b>${n.max_views==null?'—':esc(fmt(n.max_views))}</b></div></article>`).join('');
+  el.innerHTML=sorted.map(n=>`<article class="nohit"><div><div class="nohit-handle">${handleHtml(n.handle)}</div><div class="nohit-badge">no hit ≥5k</div></div><div class="nohit-reason">${esc(n.reason)}</div><div class="nohit-max">max seen<b>${n.max_views==null?'—':esc(fmt(n.max_views))}</b></div></article>`).join('');
 }
 function staggerCards(rootSel){
   const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -874,6 +923,7 @@ function staggerCards(rootSel){
 async function boot(){
   const res=await fetch('./data.json?ts='+Date.now());if(!res.ok)throw new Error('data.json '+res.status);const d=await res.json();
   resolveThemeFromData(d);
+  FOLLOWERS=d.followers||{};
   const brand=applyBrand(d);
   const op={handle:brand.handle, name:brand.name, ...(d.operator||{})};
   const hits=Array.isArray(d.hits)?d.hits:[];const virals=Array.isArray(d.virals)?d.virals:(Array.isArray(d.outsiders)?d.outsiders:[]);
@@ -904,7 +954,9 @@ async function boot(){
   });
   const tz=d.timezone||'Europe/Moscow';
   const updated=(()=>{if(!d.updated)return '—'; const s=String(d.updated); const hasTime=/T\d|\d{2}:\d{2}/.test(s); const dt=new Date(hasTime?s:s+'T12:00:00+03:00'); try{return dt.toLocaleString('en-GB',{timeZone:tz,day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false})}catch(e){return dt.toLocaleString('en-GB',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false})}})();
-  document.getElementById('meta').textContent=`${d.date||'—'} · updated ${updated} · ${tz}`;
+  const rf=d.refresh&&d.refresh.ts?` · views refreshed ${shortTs(d.refresh.ts)} MSK${d.refresh.stale?` (${d.refresh.stale} stale)`:''}`:'';
+  document.getElementById('meta').textContent=`${d.date||'—'} · updated ${updated} · ${tz}${rf}`;
+  renderYesterday(d.yesterday||null, op);
   document.getElementById('chart-scale').textContent=`peak ${fmt(maxViews)} · ${hits.length} signals`;
   renderSparkline(hits);
   const lbs=d.leaderboards||{};
@@ -918,7 +970,7 @@ async function boot(){
   };
   const weekR=fmtRange((lbs.week&&lbs.week.range)||lbs.days_included)||'—';
   const monthR=fmtRange((lbs.month&&lbs.month.range)||lbs.month_days_included)||'—';
-  document.getElementById('lb-note').textContent=`best / total · week ${weekR} · month ${monthR} · as of ${lbs.as_of||d.date||'—'}`;
+  document.getElementById('lb-note').textContent=`best / total · week ${weekR} · month ${monthR} · as of ${lbs.as_of||d.date||'—'}${lbs.views_as_of?` · views ${shortTs(lbs.views_as_of)}`:''}`;
   renderLeaderboard(document.getElementById('week-board'), lbs.week&&lbs.week.entries, op);
   renderLeaderboard(document.getElementById('month-board'), lbs.month&&lbs.month.entries, op);
   renderYourDay(d.you_rank||null, brand.handle);
@@ -929,11 +981,11 @@ async function boot(){
   document.getElementById('theme-toggle')?.addEventListener('click',()=>{
     setTimeout(()=>{renderSparkline(hits);renderDayCompare(d.day_roster||[], op)}, 50);
   });
-  const sorted=[...hits].sort((a,b)=>num(b.views)-num(a.views));document.getElementById('hits').innerHTML=sorted.map((h,i)=>{const threshold=h.highlight===true?DASHBOARD_TARGETS.starViews:DASHBOARD_TARGETS.minHitViews;const done=num(h.views)>=threshold;const draftId='draft-'+i;const draft=h.draft_en||'';return`<article class="card"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(h.name||h.display_name||'Unknown')}</div><div class="handle">${esc(h.handle||'')}</div></div></div><div class="views-big">${esc(h.views_label||fmt(h.views))}<small>views</small></div></div><div class="hit-target ${done?'done':'not-done'}"><span class="mark">${done?'✓':'×'}</span><span>${done?'DONE':'NOT DONE'} · day target ≥${fmt(threshold)}${threshold===DASHBOARD_TARGETS.starViews?' ★':''}</span></div><div class="hook">${esc(h.hook||h.text||'')}</div>${h.video_tip?`<div class="chip">${esc(h.video_tip)}</div>`:''}<div class="draft-block"><div class="draft-head"><span class="draft-label">Draft · EN</span><button type="button" class="copy-btn" data-draft-id="${draftId}">COPY DRAFT</button></div><pre class="draft-text" id="${draftId}">${esc(draft)}</pre></div><a class="post-link" href="${esc(h.url||h.status_url||'#')}" target="_blank" rel="noopener">OPEN POST ↗</a></article>`}).join('')||'<p class="muted">No watchlist hits today.</p>';
+  const sorted=[...hits].sort((a,b)=>num(b.views)-num(a.views));document.getElementById('hits').innerHTML=sorted.map((h,i)=>{const threshold=h.highlight===true?DASHBOARD_TARGETS.starViews:DASHBOARD_TARGETS.minHitViews;const done=num(h.views)>=threshold;const draftId='draft-'+i;const draft=h.draft_en||'';return`<article class="card"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(h.name||h.display_name||'Unknown')}</div><div class="handle">${handleHtml(h.handle,h.followers)}</div></div></div><div class="views-big"><span class="vnum">${esc(nfull(h.views))}</span><small>views${h.views_first!=null&&h.views_first!==h.views?` · first ${esc(nfull(h.views_first))}`:''}</small>${deltaHtml(h)}</div></div><div class="hit-target ${done?'done':'not-done'}"><span class="mark">${done?'✓':'×'}</span><span>${done?'DONE':'NOT DONE'} · day target ≥${fmt(threshold)}${threshold===DASHBOARD_TARGETS.starViews?' ★':''}</span></div><div class="hook">${esc(h.hook||h.text||'')}</div>${h.video_tip?`<div class="chip">${esc(h.video_tip)}</div>`:''}<div class="draft-block"><div class="draft-head"><span class="draft-label">Draft · EN</span><button type="button" class="copy-btn" data-draft-id="${draftId}">COPY DRAFT</button></div><pre class="draft-text" id="${draftId}">${esc(draft)}</pre></div><a class="post-link" href="${esc(h.url||h.status_url||'#')}" target="_blank" rel="noopener">OPEN POST ↗</a></article>`}).join('')||'<p class="muted">No watchlist hits today.</p>';
   document.querySelectorAll('.copy-btn').forEach(btn=>btn.addEventListener('click',()=>{const el=document.getElementById(btn.dataset.draftId);copyDraft(btn,el?el.textContent:'')}));
   staggerCards('#hits .card');
   document.getElementById('patterns').innerHTML=(d.patterns||[]).map(p=>`<span class="tag">${esc(p)}</span>`).join('');document.getElementById('viral-count').textContent=`${virals.length} outsider signals`;
-  document.getElementById('virals').innerHTML=virals.map((v,i)=>{const pending=!v.url||v.url==='#';return`<article class="card${pending?' pending':''}"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(v.name||v.display_name||'Unknown')}</div><div class="handle">${esc(v.handle||'')}</div></div></div><div class="views-big">${esc(v.views_label||fmt(v.views))}<small>views</small></div></div><div class="hook">${esc(v.hook||v.text||'')}</div><a class="post-link${pending?' disabled':''}" href="${esc(v.url||'#')}" target="_blank" rel="noopener">${pending?'PENDING SCRAPE':'OPEN POST ↗'}</a></article>`}).join('');
+  document.getElementById('virals').innerHTML=virals.map((v,i)=>{const pending=!v.url||v.url==='#';return`<article class="card${pending?' pending':''}"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(v.name||v.display_name||'Unknown')}</div><div class="handle">${handleHtml(v.handle,v.followers)}</div></div></div><div class="views-big"><span class="vnum">${esc(nfull(v.views))}</span><small>views</small>${deltaHtml(v)}</div></div><div class="hook">${esc(v.hook||v.text||'')}</div><a class="post-link${pending?' disabled':''}" href="${esc(v.url||'#')}" target="_blank" rel="noopener">${pending?'PENDING SCRAPE':'OPEN POST ↗'}</a></article>`}).join('');
   staggerCards('#virals .card');
   const narr=document.getElementById('virals-narrative');if(d.virals_narrative||d.narrative_synthesis){narr.hidden=false;narr.textContent=d.virals_narrative||d.narrative_synthesis}
   renderNoHits(normalizeNoHits(d.no_hits));
