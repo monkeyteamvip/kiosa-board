@@ -536,6 +536,27 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
   .score-ring::after,.target-fill,.reveal,.stat,.card,.theme-toggle,.x-logo{animation:none!important;transition:none!important}
   .reveal{opacity:1;transform:none}
 }
+
+/* v3: window tabs, 24h view, self-quote badges */
+[hidden]{display:none!important}
+.view-tabs{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 18px}
+.view-tab{appearance:none;cursor:pointer;padding:8px 14px;border:1px solid var(--line);background:var(--stat-bg);color:var(--muted);font:700 11px "IBM Plex Mono",monospace;letter-spacing:.08em;text-transform:uppercase;border-radius:999px;transition:all .2s var(--ease)}
+.view-tab:hover{color:var(--text);border-color:rgba(42,212,245,.35)}
+.view-tab[aria-selected="true"]{color:var(--cyan-2);border-color:rgba(42,212,245,.6);background:var(--cyan-dim);box-shadow:0 0 16px rgba(42,212,245,.18)}
+.window-note{font:500 10px "IBM Plex Mono",monospace;color:var(--muted);letter-spacing:.02em}
+.sq{display:inline-flex;margin-left:6px;padding:1px 7px;border:1px solid var(--amber);color:var(--amber);border-radius:999px;font:700 9px "IBM Plex Mono",monospace;letter-spacing:.04em;vertical-align:middle;text-transform:none;white-space:nowrap}
+.qo{display:inline-flex;margin-left:6px;padding:1px 7px;border:1px solid var(--line);color:var(--muted);border-radius:999px;font:600 9px "IBM Plex Mono",monospace;vertical-align:middle;white-space:nowrap}
+.promo{display:inline-flex;margin-left:6px;padding:1px 7px;border:1px solid rgba(200,240,74,.5);color:var(--lime);border-radius:999px;font:700 9px "IBM Plex Mono",monospace;vertical-align:middle;white-space:nowrap}
+.g24{display:block;font:800 13px "IBM Plex Mono",monospace;color:var(--green);text-align:right}
+.g24.na{color:var(--muted);font-weight:600}
+.tot{display:block;font:500 10px "IBM Plex Mono",monospace;color:var(--muted);margin-top:3px;text-align:right}
+.excluded-block{margin-top:14px;background:var(--stat-bg);border:1px solid var(--line);border-radius:var(--radius);padding:14px 18px}
+.excluded-block summary{cursor:pointer;font:700 11px "IBM Plex Mono",monospace;color:var(--amber);letter-spacing:.06em;text-transform:uppercase}
+.excluded-block .yday-row{opacity:.85}
+.h24-panel{padding:20px 22px;margin-bottom:8px}
+.h24-row.hit .yday-views{color:var(--lime)}
+.h24-row:not(.hit) .yday-views{color:var(--muted)}
+@media (max-width:640px){.g24,.tot{text-align:left}}
 </style>
 </head>
 <body class="xvs-dash-2026 xvs-mobile-2026">
@@ -578,6 +599,17 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
   </header>
 
   <main>
+    <nav class="view-tabs reveal" role="tablist" aria-label="Окно данных">
+      <button type="button" class="view-tab" role="tab" id="tab-day" aria-selected="true" data-view="day">За день</button>
+      <button type="button" class="view-tab" role="tab" id="tab-24h" aria-selected="false" data-view="24h">Последние 24 ч</button>
+      <span class="window-note" id="window-note"></span>
+    </nav>
+    <div class="section-head" id="h24-head" data-view-only="24h" hidden><div><div class="section-index">24h / rolling window</div><h2 id="h24-title">Последние 24 ч</h2></div><div class="section-note" id="h24-note">posts in window · views · growth</div></div>
+    <section class="panel h24-panel" id="h24-panel" data-view-only="24h" aria-label="Last 24 hours" hidden>
+      <div class="panel-label"><strong>24H /</strong> rolling window</div>
+      <div class="yday-sum" id="h24-sum"></div>
+      <div id="h24-list"></div>
+    </section>
     <section class="hero" aria-label="X Score and day target">
       <article class="panel score-panel reveal">
         <div class="score-copy">
@@ -615,9 +647,9 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
       <div class="roster-list" id="day-roster"></div>
     </section>
 
-    <div class="section-head reveal" id="yday-head" hidden><div><div class="section-index">03b / вчера — обновлено</div><h2 id="yday-title">Вчера — обновлено</h2></div><div class="section-note" id="yday-note">fresh views · delta since previous snapshot</div></div>
+    <div class="section-head reveal" id="yday-head" hidden><div><div class="section-index">03b / вчера — рост за 24 ч</div><h2 id="yday-title">Вчера — рост за 24 ч</h2></div><div class="section-note" id="yday-note">рост за 24 ч · всего</div></div>
     <section class="panel yday-panel reveal" id="yday-panel" aria-label="Yesterday refreshed" hidden>
-      <div class="panel-label"><strong>D-1 /</strong> refreshed views</div>
+      <div class="panel-label"><strong>D-1 /</strong> рост за 24 ч · всего</div>
       <div class="yday-sum" id="yday-sum"></div>
       <div id="yday-list"></div>
     </section>
@@ -643,8 +675,9 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
       <article class="panel board-panel reveal"><div class="panel-label"><strong>M /</strong> calendar month</div><h3 id="month-title">Month</h3><div id="month-board"></div></article>
     </section>
 
-    <div class="section-head reveal"><div><div class="section-index">06 / watchlist</div><h2>Top hits</h2></div><div class="section-note">full drafts · copy ready · per-hit target status</div></div>
+    <div class="section-head reveal"><div><div class="section-index">06 / watchlist</div><h2>Top hits</h2></div><div class="section-note" id="hits-note">без самоцитат · full drafts · copy ready</div></div>
     <section class="hits-col" id="hits"></section>
+    <details class="excluded-block reveal" id="excluded-block" hidden><summary id="excluded-sum">Исключено</summary><div id="excluded-list"></div></details>
 
     <div class="section-head reveal"><div><div class="section-index">07 / pattern layer</div><h2>Pattern brief</h2></div><div class="section-note">keywords + recurring hooks and structures</div></div>
     <section class="tags" id="patterns"></section>
@@ -664,7 +697,8 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
         <li>Grok Bot X Virality Score is a free public experimental tool for creators, not a company product.</li>
         <li>No personal data is collected from visitors. No accounts, no analytics IDs, no email capture.</li>
         <li>No cookies for tracking. Theme preference may stay in localStorage on your device only.</li>
-        <li>X content is scraped read-only via the operator session on the box. Visitor accounts are never used or requested.</li>
+        <li>X data is read-only via the X API connector. Visitor accounts are never used or requested.</li>
+        <li>Window: posts of the calendar day (00:00–24:00 MSK); views are lifetime totals at the snapshot time. Self-quotes (quote of the author's own post) and same-text duplicates are not counted as hits.</li>
         <li>Not affiliated with X Corp / Twitter, Inc. or any of their products.</li>
         <li>Third-party posts remain the property of their authors. This board only mirrors public signals for research.</li>
         <li>Provided as-is, with no warranty of accuracy, uptime, or fitness for any purpose.</li>
@@ -690,7 +724,10 @@ function shortTs(s){if(!s)return'';const m=String(s).match(/^(\d{4})-(\d{2})-(\d
 function folInfo(h,fi){if(fi)return fi;const k=String(h||'').replace(/^@/,'').toLowerCase();return FOLLOWERS[k]||null}
 function folHtml(h,fi){fi=folInfo(h,fi);if(!fi||fi.count==null)return'';const lab=fi.label||fmt(fi.count);let d='';if(fi.delta!=null){const dir=fi.delta>0?'up':fi.delta<0?'down':'';d=`, <span class="fd ${dir}">${esc(sgn(fi.delta))}</span>`}return `<span class="fol" title="followers as of ${esc(shortTs(fi.as_of))} MSK${fi.stale?' · stale':''}">(${esc(lab)}${d})</span>`}
 function handleHtml(h,fi){return `${esc(h||'')}${folHtml(h,fi)}`}
-function deltaHtml(r){if(!r)return'';if(r.stale)return `<span class="delta zero">last known ${esc(shortTs(r.views_as_of))}<span class="stale">stale</span></span>`;if(r.views_delta!=null){return `<span class="delta${r.views_delta===0?' zero':''}">${esc(sgn(r.views_delta))} since ${esc(shortTs(r.delta_since))}</span>`}if(r.views_as_of)return `<span class="delta first">snapshot ${esc(shortTs(r.views_as_of))}</span>`;return''}
+function deltaHtml(r){if(!r)return'';if(r.stale)return `<span class="delta zero">${esc(r.stale_age?('не обновлялось с '+shortTs(r.views_as_of)):('last known '+shortTs(r.views_as_of)))}<span class="stale">stale</span></span>`;if(r.views_delta!=null){return `<span class="delta${r.views_delta===0?' zero':''}">${esc(sgn(r.views_delta))} since ${esc(shortTs(r.delta_since))}</span>`}if(r.views_as_of)return `<span class="delta first">snapshot ${esc(shortTs(r.views_as_of))}</span>`;return''}
+function sqHtml(r){if(!r)return'';let o='';if(r.excluded_reason)o+=`<span class="sq" title="не считается хитом">${esc(r.excluded_reason)}</span>`;else if(r.is_quote&&r.quote_of_date)o+=`<span class="qo" title="цитата чужого поста">цитата ${esc(r.quote_of_date)}</span>`;if(r.promoted)o+=`<span class="promo" title="${esc(r.promoted)}">перепроверка</span>`;return o}
+function g24Html(r){if(r&&r.g24!=null)return `<span class="g24">${esc(sgn(r.g24))} за ${r.g24_hours&&Math.abs(r.g24_hours-24)>2?r.g24_hours:24} ч</span>`;return `<span class="g24 na">рост за 24 ч н/д</span>`}
+function ageTxt(h){h=num(h);return h<1?'<1 ч назад':`${Math.round(h)} ч назад`}
 function fmtBestTotal(best,total){const b=num(best),t=total==null?b:num(total);if(!b&&!t)return'—';return `${fmt(b)} / ${fmt(t)}`}
 function pct(value,target){return target?Math.round(value/target*100):0}
 function scoreFor(hits,views){return Math.round(100*(.45*Math.min(hits/DASHBOARD_TARGETS.hits,1)+.55*Math.min(views/DASHBOARD_TARGETS.views,1)))}
@@ -822,7 +859,7 @@ function renderLeaderboard(el, entries, op){
   if(!entries||!entries.length){el.innerHTML='<p class="muted">No leaderboard data yet.</p>';return}
   el.innerHTML=entries.map((e,i)=>{
     const you=isYouEntry(e,op);
-    return `<div class="lb-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="lb-handle">${handleHtml(e.handle,e.followers)}${you?'<span class="you-chip">YOU</span>':''}</div><div class="lb-meta">${esc(e.name||'—')} · ${num(e.hits)} hits · ${num(e.days)}d</div></div><div class="lb-views">${esc(fmtBestTotal(e.best||0,e.views))}</div></div>`;
+    return `<div class="lb-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="lb-handle">${handleHtml(e.handle,e.followers)}${you?'<span class="you-chip">YOU</span>':''}</div><div class="lb-meta">${esc(e.name||'—')} · ${num(e.hits)} hits · ${num(e.days)}d</div></div><div class="lb-views">${esc(fmtBestTotal(e.best||0,e.views))}${e.best_stale?`<span class="stale" title="best не обновлялось с ${esc(shortTs(e.best_as_of))}">stale</span>`:''}</div></div>`;
   }).join('');
 }
 function renderDayRoster(list, op, youRank){
@@ -845,7 +882,7 @@ function renderDayRoster(list, op, youRank){
     const best=num(r.views);
     const total=r.total_views!=null?num(r.total_views):best;
     const cell=best===0&&!hit?'—':esc(fmtBestTotal(best,total));
-    return `<div class="roster-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="roster-handle">${handleHtml(r.handle,r.followers)}${you?'<span class="you-chip">YOU</span>':''}</div><div class="roster-name">${esc(r.name||'—')}</div></div><div class="roster-views">${cell}${best?deltaHtml(r):''}</div><div class="roster-badge ${hit?'hit':'miss'}">${hit?'HIT':'BELOW'}</div></div>`;
+    return `<div class="roster-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="roster-handle">${handleHtml(r.handle,r.followers)}${you?'<span class="you-chip">YOU</span>':''}</div><div class="roster-name">${esc(r.name||'—')}${r.excluded?` · <span style="color:var(--amber)">${num(r.excluded)} самоцит. искл.</span>`:''}</div></div><div class="roster-views">${cell}${best?deltaHtml(r):''}</div><div class="roster-badge ${hit?'hit':'miss'}">${hit?'HIT':'BELOW'}</div></div>`;
   }).join('');
 }
 function renderYourDay(youRank, handle){
@@ -859,6 +896,9 @@ function renderYourDay(youRank, handle){
   if(meta){
     if(bv==null){
       meta.textContent=youRank.note||'Best post unavailable — scrape needed.';
+    }else if(!num(bv)&&num(youRank.best_incl_self)){
+      const l2=youRank.best_incl_self_url?` · <a href="${esc(youRank.best_incl_self_url)}" target="_blank" rel="noopener">лучшая ↗</a>`:'';
+      meta.innerHTML=`0 зачётных постов — все ${num(youRank.self_quotes)} самоцитаты (лучшая <b style="color:var(--text)">${esc(fmt(youRank.best_incl_self))}</b>, не в зачёт) · rank #${youRank.rank_among_watchlist}/${youRank.total_accounts||'?'}${l2}`;
     }else{
       const link=youRank.best_url?` · <a href="${esc(youRank.best_url)}" target="_blank" rel="noopener">open best post ↗</a>`:'';
       const rk=youRank.rank_among_watchlist!=null?` · rank #${youRank.rank_among_watchlist}/${youRank.total_accounts||'?'} `:'';
@@ -885,10 +925,38 @@ function renderYesterday(y, op){
   const head=document.getElementById('yday-head'), panel=document.getElementById('yday-panel');
   if(!y||!Array.isArray(y.hits)||!y.hits.length){if(head)head.hidden=true;if(panel)panel.hidden=true;return}
   head.hidden=false;panel.hidden=false;
-  document.getElementById('yday-title').textContent=y.label||'Вчера — обновлено';
-  document.getElementById('yday-note').textContent=`${y.hits.length} posts · refreshed ${shortTs(y.refreshed_at)} MSK`;
-  document.getElementById('yday-sum').textContent=`watchlist total ${nfull(y.total_views)} views (${sgn(y.total_delta)} since previous snapshot)`;
-  document.getElementById('yday-list').innerHTML=y.hits.map((h,i)=>{const you=h.is_you===true;return `<div class="yday-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div style="min-width:0"><div class="yday-handle">${handleHtml(h.handle,h.followers)}${you?'<span class="you-chip">YOU</span>':''}</div><div class="yday-hook"><a href="${esc(h.url||'#')}" target="_blank" rel="noopener">${esc(h.hook||'open post ↗')}</a></div></div><div class="yday-views">${esc(nfull(h.views))}${deltaHtml(h)}</div></div>`}).join('');
+  document.getElementById('yday-title').textContent=y.label||'Вчера — рост за 24 ч';
+  document.getElementById('yday-note').textContent=`${y.hits.length} posts · снимок ${shortTs(y.refreshed_at)} MSK · Δ = рост за ~24 ч`;
+  const tg=y.total_g24!=null?y.total_g24:y.total_delta;
+  document.getElementById('yday-sum').textContent=`watchlist: рост за 24 ч ${sgn(tg)} · всего ${nfull(y.total_views)}${y.excluded?` · ${y.excluded} самоцитат/дублей исключено`:''}`;
+  document.getElementById('yday-list').innerHTML=y.hits.map((h,i)=>{const you=h.is_you===true;return `<div class="yday-row${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div style="min-width:0"><div class="yday-handle">${handleHtml(h.handle,h.followers)}${you?'<span class="you-chip">YOU</span>':''}${sqHtml(h)}</div><div class="yday-hook"><a href="${esc(h.url||'#')}" target="_blank" rel="noopener">${esc(h.hook||'open post ↗')}</a></div></div><div class="yday-views">${g24Html(h)}<span class="tot">всего ${esc(nfull(h.views))}${h.stale?' · stale':''}</span></div></div>`}).join('');
+}
+function render24h(l){
+  const list=document.getElementById('h24-list'), sum=document.getElementById('h24-sum');
+  if(!l||!Array.isArray(l.posts)){if(list)list.innerHTML='<p class="muted">Нет данных за последние 24 ч в этой сборке.</p>';return}
+  document.getElementById('h24-title').textContent=l.label?l.label.replace(/^последние/,'Последние'):'Последние 24 ч';
+  document.getElementById('h24-note').textContent=`${l.posts.length} posts · fetched ${shortTs(l.fetched_at)} MSK`;
+  sum.textContent=`${num(l.hits_count)} хитов ≥5k (${num(l.star_count)} ★) без самоцитат · ${num(l.excluded)} самоцитат ≥5k исключено · всего ${nfull(l.total_views)} просмотров (зачётные посты) · ${l.note||''}`;
+  list.innerHTML=l.posts.map((h,i)=>{const you=h.is_you===true;const d=h.views_delta!=null&&h.delta_since?`<span class="delta${h.views_delta===0?' zero':''}">${esc(sgn(h.views_delta))} since ${esc(shortTs(h.delta_since))}</span>`:'';return `<div class="yday-row h24-row${h.hit?' hit':''}${you?' you':''}"><div class="rank">${String(i+1).padStart(2,'0')}</div><div style="min-width:0"><div class="yday-handle">${handleHtml(h.handle,h.followers)}${you?'<span class="you-chip">YOU</span>':''}${h.star?'<span class="you-chip" style="border-color:var(--amber);color:var(--amber)">10K+</span>':''}${sqHtml(h)}</div><div class="yday-hook"><a href="${esc(h.url||'#')}" target="_blank" rel="noopener">${esc(shortTs(h.posted_at))} · ${esc(ageTxt(h.age_h))} — ${esc(h.hook||'open post ↗')}</a></div></div><div class="yday-views">${esc(nfull(h.views))}${d}</div></div>`}).join('')||'<p class="muted">Нет постов в окне.</p>';
+}
+function setView(v){
+  document.querySelectorAll('.view-tab').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.view===v)));
+  document.querySelectorAll('main > *').forEach(el=>{
+    if(el.classList.contains('view-tabs')) return;
+    if(el.dataset.origHidden==null) el.dataset.origHidden=el.hidden?'1':'0';
+    const only=el.dataset.viewOnly;
+    if(v==='24h') el.hidden=only!=='24h';
+    else el.hidden=only==='24h'?true:el.dataset.origHidden==='1';
+  });
+  try{history.replaceState(null,'',v==='24h'?'#24h':location.pathname+location.search)}catch(e){}
+}
+function renderExcluded(ex, ec){
+  const blk=document.getElementById('excluded-block');
+  if(!blk) return;
+  if(!Array.isArray(ex)||!ex.length){blk.hidden=true;return}
+  blk.hidden=false;blk.dataset.origHidden='0';
+  document.getElementById('excluded-sum').textContent=`Исключено из хитов: ${ex.length} (самоцитаты ${num(ec&&ec.self_quotes)}${ec&&ec.duplicates?`, дубли ${ec.duplicates}`:''}) — не входят в счёт, week/month/all-time`;
+  document.getElementById('excluded-list').innerHTML=ex.map((h,i)=>`<div class="yday-row"><div class="rank">${String(i+1).padStart(2,'0')}</div><div style="min-width:0"><div class="yday-handle">${handleHtml(h.handle,h.followers)}${sqHtml(h)}</div><div class="yday-hook"><a href="${esc(h.url||'#')}" target="_blank" rel="noopener">${esc(h.hook||h.text||'open post ↗')}</a></div></div><div class="yday-views" style="color:var(--muted)">${esc(nfull(h.views))}</div></div>`).join('');
 }
 function normalizeNoHits(raw){
   if(!Array.isArray(raw)) return [];
@@ -904,7 +972,7 @@ function normalizeNoHits(raw){
 }
 function renderNoHits(list){
   const el=document.getElementById('nohits');
-  if(!list.length){el.innerHTML='<p class="muted">All watchlist accounts cleared the 5k floor today.</p>';return}
+  if(!list.length){el.innerHTML='<p class="muted">All watchlist accounts cleared the 5k floor on this day.</p>';return}
   const sorted=[...list].sort((a,b)=>{
     const av=a.max_views==null?-1:num(a.max_views);
     const bv=b.max_views==null?-1:num(b.max_views);
@@ -942,7 +1010,7 @@ async function boot(){
   const metrics=[
     ['Hits',hits.length,null,trendMarkup(hits.length-DASHBOARD_TARGETS.hits,'vs target')],
     ['★ Highlights',highlights,null,{dir:highlights?'up':'flat',html:`${highlights?'↑':'→'} ≥${fmt(DASHBOARD_TARGETS.starViews)} each`}],
-    ['Total views',totalViews,fmt,trendMarkup(pct(totalViews,DASHBOARD_TARGETS.views)-100,'vs target')],
+    ['Total views (всего)',totalViews,fmt,trendMarkup(pct(totalViews,DASHBOARD_TARGETS.views)-100,'vs target')],
     ['Outsiders',virals.length,null,trendMarkup(virals.length-num(d.virals_target||20),'vs brief')],
     ['Top view',maxViews,fmt,trendMarkup(pct(maxViews,DASHBOARD_TARGETS.starViews)-100,'vs ★ line')]
   ];
@@ -954,8 +1022,17 @@ async function boot(){
   });
   const tz=d.timezone||'Europe/Moscow';
   const updated=(()=>{if(!d.updated)return '—'; const s=String(d.updated); const hasTime=/T\d|\d{2}:\d{2}/.test(s); const dt=new Date(hasTime?s:s+'T12:00:00+03:00'); try{return dt.toLocaleString('en-GB',{timeZone:tz,day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false})}catch(e){return dt.toLocaleString('en-GB',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit',hour12:false})}})();
-  const rf=d.refresh&&d.refresh.ts?` · views refreshed ${shortTs(d.refresh.ts)} MSK${d.refresh.stale?` (${d.refresh.stale} stale)`:''}`:'';
-  document.getElementById('meta').textContent=`${d.date||'—'} · updated ${updated} · ${tz}${rf}`;
+  const R=d.refresh||{};const stTot=R.stale_total!=null?R.stale_total:R.stale;
+  const rf=R.ts?` · stale ${num(stTot)} total / ${num(R.stale_this_fetch)} this fetch`:'';
+  const wl=(d.window&&d.window.label)||`за ${d.date||'—'}`;
+  document.getElementById('meta').textContent=`${wl} · updated ${updated}${rf}`;
+  const dm=String(d.date||'').match(/\d{4}-(\d{2})-(\d{2})/);const ddmm=dm?`${dm[2]}.${dm[1]}`:'';
+  document.getElementById('tab-day').textContent=ddmm?`За ${ddmm} (00–24 MSK)`:'За день';
+  document.getElementById('window-note').textContent=(d.window&&d.window.views_note)||'';
+  document.getElementById('hits-note').textContent=`за ${ddmm} · ≥5k без самоцитат · ${num(d.hits_count!=null?d.hits_count:hits.length)} хитов${d.hits_count_raw?` (собрано ${d.hits_count_raw})`:''}`;
+  render24h(d.last24h||null);
+  renderExcluded(d.excluded_hits||[], d.exclusions||null);
+  document.querySelectorAll('.view-tab').forEach(b=>b.addEventListener('click',()=>setView(b.dataset.view)));
   renderYesterday(d.yesterday||null, op);
   document.getElementById('chart-scale').textContent=`peak ${fmt(maxViews)} · ${hits.length} signals`;
   renderSparkline(hits);
@@ -981,7 +1058,7 @@ async function boot(){
   document.getElementById('theme-toggle')?.addEventListener('click',()=>{
     setTimeout(()=>{renderSparkline(hits);renderDayCompare(d.day_roster||[], op)}, 50);
   });
-  const sorted=[...hits].sort((a,b)=>num(b.views)-num(a.views));document.getElementById('hits').innerHTML=sorted.map((h,i)=>{const threshold=h.highlight===true?DASHBOARD_TARGETS.starViews:DASHBOARD_TARGETS.minHitViews;const done=num(h.views)>=threshold;const draftId='draft-'+i;const draft=h.draft_en||'';return`<article class="card"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(h.name||h.display_name||'Unknown')}</div><div class="handle">${handleHtml(h.handle,h.followers)}</div></div></div><div class="views-big"><span class="vnum">${esc(nfull(h.views))}</span><small>views${h.views_first!=null&&h.views_first!==h.views?` · first ${esc(nfull(h.views_first))}`:''}</small>${deltaHtml(h)}</div></div><div class="hit-target ${done?'done':'not-done'}"><span class="mark">${done?'✓':'×'}</span><span>${done?'DONE':'NOT DONE'} · day target ≥${fmt(threshold)}${threshold===DASHBOARD_TARGETS.starViews?' ★':''}</span></div><div class="hook">${esc(h.hook||h.text||'')}</div>${h.video_tip?`<div class="chip">${esc(h.video_tip)}</div>`:''}<div class="draft-block"><div class="draft-head"><span class="draft-label">Draft · EN</span><button type="button" class="copy-btn" data-draft-id="${draftId}">COPY DRAFT</button></div><pre class="draft-text" id="${draftId}">${esc(draft)}</pre></div><a class="post-link" href="${esc(h.url||h.status_url||'#')}" target="_blank" rel="noopener">OPEN POST ↗</a></article>`}).join('')||'<p class="muted">No watchlist hits today.</p>';
+  const sorted=[...hits].sort((a,b)=>num(b.views)-num(a.views));document.getElementById('hits').innerHTML=sorted.map((h,i)=>{const threshold=h.highlight===true?DASHBOARD_TARGETS.starViews:DASHBOARD_TARGETS.minHitViews;const done=num(h.views)>=threshold;const draftId='draft-'+i;const draft=h.draft_en||'';return`<article class="card"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(h.name||h.display_name||'Unknown')}</div><div class="handle">${handleHtml(h.handle,h.followers)}${sqHtml(h)}</div></div></div><div class="views-big"><span class="vnum">${esc(nfull(h.views))}</span><small>views всего${h.posted_at?` · опубл. ${esc(String(h.posted_at).includes('T')?shortTs(h.posted_at):h.posted_at)}`:''}</small>${deltaHtml(h)}</div></div><div class="hit-target ${done?'done':'not-done'}"><span class="mark">${done?'✓':'×'}</span><span>${done?'DONE':'NOT DONE'} · day target ≥${fmt(threshold)}${threshold===DASHBOARD_TARGETS.starViews?' ★':''}</span></div><div class="hook">${esc(h.hook||h.text||'')}</div>${h.video_tip?`<div class="chip">${esc(h.video_tip)}</div>`:''}<div class="draft-block"><div class="draft-head"><span class="draft-label">Draft · EN</span><button type="button" class="copy-btn" data-draft-id="${draftId}">COPY DRAFT</button></div><pre class="draft-text" id="${draftId}">${esc(draft)}</pre></div><a class="post-link" href="${esc(h.url||h.status_url||'#')}" target="_blank" rel="noopener">OPEN POST ↗</a></article>`}).join('')||'<p class="muted">No watchlist hits (≥5k, без самоцитат) for this day.</p>';
   document.querySelectorAll('.copy-btn').forEach(btn=>btn.addEventListener('click',()=>{const el=document.getElementById(btn.dataset.draftId);copyDraft(btn,el?el.textContent:'')}));
   staggerCards('#hits .card');
   document.getElementById('patterns').innerHTML=(d.patterns||[]).map(p=>`<span class="tag">${esc(p)}</span>`).join('');document.getElementById('viral-count').textContent=`${virals.length} outsider signals`;
@@ -989,6 +1066,7 @@ async function boot(){
   staggerCards('#virals .card');
   const narr=document.getElementById('virals-narrative');if(d.virals_narrative||d.narrative_synthesis){narr.hidden=false;narr.textContent=d.virals_narrative||d.narrative_synthesis}
   renderNoHits(normalizeNoHits(d.no_hits));
+  setView(location.hash==='#24h'?'24h':'day');
 }
 initTheme();
 boot().catch(err=>{document.getElementById('meta').textContent='failed to load data.json';console.error(err)});
