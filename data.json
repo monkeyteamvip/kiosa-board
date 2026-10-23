@@ -2,7 +2,7 @@
   "title": "X Digest Board",
   "date": "2026-10-22",
   "timezone": "Europe/Moscow",
-  "updated": "2026-10-23T11:53:10+03:00",
+  "updated": "2026-10-23T12:36:36+03:00",
   "hits": [
     {
       "display_name": "wast3",
@@ -1905,6 +1905,25 @@
       "handle_label": "@gippp69 (12.2K, +41)"
     },
     {
+      "handle": "@thegreatest_sv",
+      "name": "The Greatest",
+      "views": 8502,
+      "total_views": 20289,
+      "hit": true,
+      "is_you": true,
+      "best_url": "https://x.com/thegreatest_sv/status/2113331431254728726",
+      "stale": false,
+      "followers": {
+        "count": 7831,
+        "label": "7.8K",
+        "as_of": "2026-10-23T11:44:16+03:00",
+        "stale": false,
+        "delta": 124,
+        "delta_since": "2026-10-22T10:53:18+03:00"
+      },
+      "handle_label": "@thegreatest_sv (7.8K, +124)"
+    },
+    {
       "handle": "@insomnia_vip",
       "name": "Insomnia",
       "views": 7053,
@@ -2332,24 +2351,6 @@
       "handle_label": "@Sprytixl (8.8K, +48)"
     },
     {
-      "handle": "@thegreatest_sv",
-      "name": "The Greatest",
-      "views": 0,
-      "total_views": 0,
-      "hit": false,
-      "is_you": true,
-      "best_url": "",
-      "followers": {
-        "count": 7831,
-        "label": "7.8K",
-        "as_of": "2026-10-23T11:44:16+03:00",
-        "stale": false,
-        "delta": 124,
-        "delta_since": "2026-10-22T10:53:18+03:00"
-      },
-      "handle_label": "@thegreatest_sv (7.8K, +124)"
-    },
-    {
       "handle": "@zostaff",
       "name": "zostaff",
       "views": 0,
@@ -2370,16 +2371,17 @@
   ],
   "you_rank": {
     "date": "2026-10-22",
-    "best_views": 0,
-    "total_views": 0,
-    "best_url": "",
-    "rank_among_watchlist": 26,
+    "best_views": 8502,
+    "total_views": 20289,
+    "best_url": "https://x.com/thegreatest_sv/status/2113331431254728726",
+    "rank_among_watchlist": 3,
     "total_accounts": 27,
-    "vs_5k": "pending",
+    "vs_5k": "done",
     "vs_10k": "pending",
     "best_incl_self": 8502,
     "best_incl_self_url": "https://x.com/thegreatest_sv/status/2113331431254728726",
-    "self_quotes": 3,
+    "self_quotes": 0,
+    "self_quotes_counted": 3,
     "posts": [
       {
         "url": "https://x.com/thegreatest_sv/status/2113331431254728726",
@@ -2399,8 +2401,7 @@
         "quote_of_id": "2102802378378621355",
         "quote_of_date": "23.09",
         "self_quote": true,
-        "self_quote_label": "самоцитата 23.09",
-        "excluded_reason": "самоцитата 23.09"
+        "self_quote_label": "самоцитата 23.09"
       },
       {
         "url": "https://x.com/thegreatest_sv/status/2113237834265968922",
@@ -2420,8 +2421,7 @@
         "quote_of_id": "2080634616860320073",
         "quote_of_date": "24.07",
         "self_quote": true,
-        "self_quote_label": "самоцитата 24.07",
-        "excluded_reason": "самоцитата 24.07"
+        "self_quote_label": "самоцитата 24.07"
       },
       {
         "url": "https://x.com/thegreatest_sv/status/2113286001313653228",
@@ -2441,12 +2441,11 @@
         "quote_of_id": "2102802378378621355",
         "quote_of_date": "23.09",
         "self_quote": true,
-        "self_quote_label": "самоцитата 23.09",
-        "excluded_reason": "самоцитата 23.09"
+        "self_quote_label": "самоцитата 23.09"
       }
     ],
     "views_as_of": "2026-10-23T11:45:32+03:00",
-    "note": "Best / total on 2026-10-22 without self-quotes (0 of 3 posts count); x connector API, exact impression_count.",
+    "note": "Best / total on 2026-10-22: operator self-quotes count (badged); 3 of 3 posts count; x connector API, exact impression_count.",
     "followers": {
       "count": 7831,
       "label": "7.8K",
@@ -2454,7 +2453,13 @@
       "stale": false,
       "delta": 124,
       "delta_since": "2026-10-22T10:53:18+03:00"
-    }
+    },
+    "week_rank": 2,
+    "week_total": 15,
+    "month_rank": 4,
+    "month_total": 23,
+    "all_time_rank": 2,
+    "all_time_total": 24
   },
   "leaderboards": {
     "as_of": "2026-10-22",
@@ -2492,7 +2497,7 @@
       "2026-10-21",
       "2026-10-22"
     ],
-    "computed_from": "latest refreshed views per post; self-quotes and duplicates excluded",
+    "computed_from": "latest refreshed views per post; self-quotes and duplicates excluded (operator self-quotes count)",
     "views_as_of": "2026-10-23T11:44:16+03:00",
     "week": {
       "label": "Rolling week · Oct 16–Oct 22",
@@ -2521,6 +2526,27 @@
             "delta_since": "2026-10-22T10:53:18+03:00"
           },
           "handle_label": "@carverfomo (19.4K, +42)"
+        },
+        {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 16,
+          "days": 7,
+          "views": 448817,
+          "best": 107640,
+          "best_url": "https://x.com/thegreatest_sv/status/2111113436314648758",
+          "best_as_of": "2026-10-23T11:43:48+03:00",
+          "best_stale": false,
+          "is_you": true,
+          "followers": {
+            "count": 7831,
+            "label": "7.8K",
+            "as_of": "2026-10-23T11:44:16+03:00",
+            "stale": false,
+            "delta": 124,
+            "delta_since": "2026-10-22T10:53:18+03:00"
+          },
+          "handle_label": "@thegreatest_sv (7.8K, +124)"
         },
         {
           "handle": "@0xWast3",
@@ -2866,6 +2892,27 @@
             "delta_since": "2026-10-22T10:53:18+03:00"
           },
           "handle_label": "@gippp69 (12.2K, +41)"
+        },
+        {
+          "handle": "@thegreatest_sv",
+          "name": "The Greatest",
+          "hits": 57,
+          "days": 22,
+          "views": 1598964,
+          "best": 111262,
+          "best_url": "https://x.com/thegreatest_sv/status/2105674850782036089",
+          "best_as_of": "2026-10-23T11:43:01+03:00",
+          "best_stale": false,
+          "is_you": true,
+          "followers": {
+            "count": 7831,
+            "label": "7.8K",
+            "as_of": "2026-10-23T11:44:16+03:00",
+            "stale": false,
+            "delta": 124,
+            "delta_since": "2026-10-22T10:53:18+03:00"
+          },
+          "handle_label": "@thegreatest_sv (7.8K, +124)"
         },
         {
           "handle": "@cyrilXBT",
@@ -3349,7 +3396,6 @@
         "self_quote": true,
         "self_quote_label": "самоцитата 06.05",
         "views_label": "40.1K",
-        "excluded_reason": "самоцитата 06.05",
         "followers": {
           "count": 7831,
           "label": "7.8K",
@@ -3393,7 +3439,6 @@
         "self_quote": true,
         "self_quote_label": "самоцитата 24.07",
         "views_label": "27.1K",
-        "excluded_reason": "самоцитата 24.07",
         "followers": {
           "count": 7831,
           "label": "7.8K",
@@ -3437,7 +3482,6 @@
         "self_quote": true,
         "self_quote_label": "самоцитата 23.09",
         "views_label": "9.7K",
-        "excluded_reason": "самоцитата 23.09",
         "followers": {
           "count": 7831,
           "label": "7.8K",
@@ -3770,6 +3814,27 @@
         "handle_label": "@carverfomo (19.4K, +42)"
       },
       {
+        "handle": "@thegreatest_sv",
+        "name": "The Greatest",
+        "hits": 82,
+        "days": 31,
+        "views": 3464479,
+        "best": 1180366,
+        "best_url": "https://x.com/thegreatest_sv/status/2102802378378621355",
+        "best_as_of": "2026-10-23T11:42:39+03:00",
+        "best_stale": false,
+        "is_you": true,
+        "followers": {
+          "count": 7831,
+          "label": "7.8K",
+          "as_of": "2026-10-23T11:44:16+03:00",
+          "stale": false,
+          "delta": 124,
+          "delta_since": "2026-10-22T10:53:18+03:00"
+        },
+        "handle_label": "@thegreatest_sv (7.8K, +124)"
+      },
+      {
         "handle": "@beamnxw",
         "name": "beamnxw ./",
         "hits": 4,
@@ -3936,27 +4001,6 @@
           "delta_since": "2026-10-22T10:53:18+03:00"
         },
         "handle_label": "@AnnatarXBT (3.1K, +15)"
-      },
-      {
-        "handle": "@thegreatest_sv",
-        "name": "The Greatest",
-        "hits": 2,
-        "days": 2,
-        "views": 1187445,
-        "best": 1180366,
-        "best_url": "https://x.com/thegreatest_sv/status/2102802378378621355",
-        "best_as_of": "2026-10-23T11:42:39+03:00",
-        "best_stale": false,
-        "is_you": true,
-        "followers": {
-          "count": 7831,
-          "label": "7.8K",
-          "as_of": "2026-10-23T11:44:16+03:00",
-          "stale": false,
-          "delta": 124,
-          "delta_since": "2026-10-22T10:53:18+03:00"
-        },
-        "handle_label": "@thegreatest_sv (7.8K, +124)"
       },
       {
         "handle": "@0x_kaize",
@@ -5346,7 +5390,7 @@
     "promoted_near_miss": [
       "https://x.com/mika_systems/status/2113284235268087850"
     ],
-    "rule": "самоцитаты (quote of the author's own post) и дубли текста не считаются хитами и не входят в week/month/all-time; цитаты чужих постов считаются"
+    "rule": "самоцитаты (quote of the author's own post) и дубли текста не считаются хитами и не входят в week/month/all-time; цитаты чужих постов считаются; исключение: самоцитаты оператора @thegreatest_sv считаются (с меткой)"
   },
   "last24h": {
     "start": "2026-10-22T11:42:00+03:00",
@@ -5707,9 +5751,8 @@
         "quote_of_date": "23.09",
         "self_quote": true,
         "self_quote_label": "самоцитата 23.09",
-        "hit": false,
+        "hit": true,
         "star": false,
-        "excluded_reason": "самоцитата 23.09",
         "followers": {
           "count": 7831,
           "label": "7.8K",
@@ -5744,9 +5787,8 @@
         "quote_of_date": "24.07",
         "self_quote": true,
         "self_quote_label": "самоцитата 24.07",
-        "hit": false,
+        "hit": true,
         "star": false,
-        "excluded_reason": "самоцитата 24.07",
         "followers": {
           "count": 7831,
           "label": "7.8K",
@@ -6253,7 +6295,6 @@
         "self_quote_label": "самоцитата 23.09",
         "hit": false,
         "star": false,
-        "excluded_reason": "самоцитата 23.09",
         "followers": {
           "count": 7831,
           "label": "7.8K",
@@ -7531,7 +7572,7 @@
     ],
     "hits_count": 6,
     "star_count": 2,
-    "excluded": 14,
+    "excluded": 12,
     "total_views": 127900
   }
 }

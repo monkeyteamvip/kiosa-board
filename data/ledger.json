@@ -692,12 +692,15 @@
     "thegreatest_sv": {
      "handle": "@thegreatest_sv",
      "name": "The Greatest",
-     "hits": 1,
+     "hits": 4,
      "best": 1180366,
-     "total": 1180366,
+     "total": 1245541,
      "best_url": "https://x.com/thegreatest_sv/status/2102802378378621355",
      "post_ids": [
-      "2102802378378621355"
+      "2102802378378621355",
+      "2102730591556731353",
+      "2102770966766010814",
+      "2102848024405795104"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -754,6 +757,21 @@
      "best_url": "https://x.com/leopardracer/status/2103077714815070427",
      "post_ids": [
       "2103077714815070427"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 67825,
+     "total": 115719,
+     "best_url": "https://x.com/thegreatest_sv/status/2103184942872346801",
+     "post_ids": [
+      "2103184942872346801",
+      "2103095101165633624",
+      "2103141658439094639"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -814,6 +832,21 @@
       "2103548138501853521"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 76950,
+     "total": 204502,
+     "best_url": "https://x.com/thegreatest_sv/status/2103457238673449245",
+     "post_ids": [
+      "2103457238673449245",
+      "2103546576186560710",
+      "2103503039579500633"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
     }
    }
@@ -900,6 +933,21 @@
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 115887,
+     "total": 141616,
+     "best_url": "https://x.com/thegreatest_sv/status/2103864671430426739",
+     "post_ids": [
+      "2103864671430426739",
+      "2103908209060659700",
+      "2103822141410165127"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
     }
    }
   },
@@ -967,6 +1015,21 @@
      "best_url": "https://x.com/AnnatarXBT/status/2104228111604731911",
      "post_ids": [
       "2104228111604731911"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 38025,
+     "total": 57009,
+     "best_url": "https://x.com/thegreatest_sv/status/2104181006131450053",
+     "post_ids": [
+      "2104181006131450053",
+      "2104272861498413302",
+      "2104226807860101259"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
@@ -1056,6 +1119,20 @@
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 2,
+     "best": 7637,
+     "total": 13242,
+     "best_url": "https://x.com/thegreatest_sv/status/2104542387917738408",
+     "post_ids": [
+      "2104542387917738408",
+      "2104589195817984299"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
     }
    }
   },
@@ -1123,6 +1200,21 @@
      "best_url": "https://x.com/Argona0x/status/2105004986304225607",
      "post_ids": [
       "2105004986304225607"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 35180,
+     "total": 57236,
+     "best_url": "https://x.com/thegreatest_sv/status/2104951080652030300",
+     "post_ids": [
+      "2104951080652030300",
+      "2104907509509071192",
+      "2105001310018056647"
      ],
      "best_as_of": "2026-10-23T11:43:01+03:00",
      "best_stale": false
@@ -1195,6 +1287,21 @@
      "best_url": "https://x.com/0x_kaize/status/2105355376434741262",
      "post_ids": [
       "2105355376434741262"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 11277,
+     "total": 23571,
+     "best_url": "https://x.com/thegreatest_sv/status/2105359018386678095",
+     "post_ids": [
+      "2105359018386678095",
+      "2105269482813809085",
+      "2105313216784117879"
      ],
      "best_as_of": "2026-10-23T11:43:01+03:00",
      "best_stale": false
@@ -1280,6 +1387,21 @@
      "best_url": "https://x.com/gippp69/status/2105745580064452671",
      "post_ids": [
       "2105745580064452671"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 111262,
+     "total": 145599,
+     "best_url": "https://x.com/thegreatest_sv/status/2105674850782036089",
+     "post_ids": [
+      "2105674850782036089",
+      "2105722161071566877",
+      "2105627034667843754"
      ],
      "best_as_of": "2026-10-23T11:43:01+03:00",
      "best_stale": false
@@ -1420,6 +1542,19 @@
      ],
      "best_as_of": "2026-10-23T11:43:01+03:00",
      "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 1,
+     "best": 13104,
+     "total": 13104,
+     "best_url": "https://x.com/thegreatest_sv/status/2106082536053154051",
+     "post_ids": [
+      "2106082536053154051"
+     ],
+     "best_as_of": "2026-10-23T11:43:08+03:00",
+     "best_stale": false
     }
    }
   },
@@ -1489,6 +1624,21 @@
      "best_url": "https://x.com/AnnatarXBT/status/2106286882191712423",
      "post_ids": [
       "2106286882191712423"
+     ],
+     "best_as_of": "2026-10-23T11:43:08+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 70288,
+     "total": 98420,
+     "best_url": "https://x.com/thegreatest_sv/status/2106403149162455349",
+     "post_ids": [
+      "2106403149162455349",
+      "2106352825789812919",
+      "2106447440253436032"
      ],
      "best_as_of": "2026-10-23T11:43:08+03:00",
      "best_stale": false
@@ -1564,6 +1714,21 @@
      "best_url": "https://x.com/everestchris6/status/2106765163047309559",
      "post_ids": [
       "2106765163047309559"
+     ],
+     "best_as_of": "2026-10-23T11:43:08+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 104672,
+     "total": 124135,
+     "best_url": "https://x.com/thegreatest_sv/status/2106715907519062379",
+     "post_ids": [
+      "2106715907519062379",
+      "2106765536264921147",
+      "2106808569748242811"
      ],
      "best_as_of": "2026-10-23T11:43:08+03:00",
      "best_stale": false
@@ -1718,6 +1883,21 @@
      ],
      "best_as_of": "2026-10-06T11:16:00+03:00",
      "best_stale": true
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 71265,
+     "total": 119240,
+     "best_url": "https://x.com/thegreatest_sv/status/2107127924252090786",
+     "post_ids": [
+      "2107127924252090786",
+      "2107169457365725616",
+      "2107081565352218866"
+     ],
+     "best_as_of": "2026-10-23T11:43:08+03:00",
+     "best_stale": false
     }
    }
   },
@@ -1824,6 +2004,21 @@
      "best_url": "https://x.com/Argona0x/status/2107420104019542089",
      "post_ids": [
       "2107420104019542089"
+     ],
+     "best_as_of": "2026-10-23T11:43:08+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 34958,
+     "total": 50294,
+     "best_url": "https://x.com/thegreatest_sv/status/2107489054249861141",
+     "post_ids": [
+      "2107489054249861141",
+      "2107533597078946300",
+      "2107442497127674124"
      ],
      "best_as_of": "2026-10-23T11:43:08+03:00",
      "best_stale": false
@@ -1940,6 +2135,21 @@
      ],
      "best_as_of": "2026-10-23T11:43:15+03:00",
      "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 99171,
+     "total": 154811,
+     "best_url": "https://x.com/thegreatest_sv/status/2107851693232975941",
+     "post_ids": [
+      "2107851693232975941",
+      "2107804633238327717",
+      "2107894475259367471"
+     ],
+     "best_as_of": "2026-10-23T11:43:15+03:00",
+     "best_stale": false
     }
    }
   },
@@ -2038,6 +2248,21 @@
      ],
      "best_as_of": "2026-10-23T11:43:15+03:00",
      "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 18266,
+     "total": 41219,
+     "best_url": "https://x.com/thegreatest_sv/status/2108164052253917690",
+     "post_ids": [
+      "2108164052253917690",
+      "2108258372768395758",
+      "2108212571245572163"
+     ],
+     "best_as_of": "2026-10-23T11:43:15+03:00",
+     "best_stale": false
     }
    }
   },
@@ -2091,6 +2316,20 @@
      "best_url": "https://x.com/cyrilXBT/status/2108535477326499850",
      "post_ids": [
       "2108535477326499850"
+     ],
+     "best_as_of": "2026-10-23T11:43:15+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 2,
+     "best": 69575,
+     "total": 100115,
+     "best_url": "https://x.com/thegreatest_sv/status/2108529912537661559",
+     "post_ids": [
+      "2108529912537661559",
+      "2108618999538032779"
      ],
      "best_as_of": "2026-10-23T11:43:15+03:00",
      "best_stale": false
@@ -2161,6 +2400,21 @@
      "best_url": "https://x.com/Mr_Buzzoni/status/2108878115510632782",
      "post_ids": [
       "2108878115510632782"
+     ],
+     "best_as_of": "2026-10-23T11:43:22+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 25825,
+     "total": 58449,
+     "best_url": "https://x.com/thegreatest_sv/status/2108980639555056051",
+     "post_ids": [
+      "2108980639555056051",
+      "2108891042313330903",
+      "2108938605188260049"
      ],
      "best_as_of": "2026-10-23T11:43:22+03:00",
      "best_stale": false
@@ -2300,6 +2554,20 @@
      ],
      "best_as_of": "2026-10-23T11:43:22+03:00",
      "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 2,
+     "best": 87376,
+     "total": 105723,
+     "best_url": "https://x.com/thegreatest_sv/status/2109344781558288402",
+     "post_ids": [
+      "2109344781558288402",
+      "2109253932979732719"
+     ],
+     "best_as_of": "2026-10-23T11:43:35+03:00",
+     "best_stale": false
     }
    }
   },
@@ -2369,6 +2637,21 @@
      "best_url": "https://x.com/slash1sol/status/2109693627362398533",
      "post_ids": [
       "2109693627362398533"
+     ],
+     "best_as_of": "2026-10-23T11:43:35+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 23534,
+     "total": 38175,
+     "best_url": "https://x.com/thegreatest_sv/status/2109662374403727630",
+     "post_ids": [
+      "2109662374403727630",
+      "2109616321973391680",
+      "2109708679196885176"
      ],
      "best_as_of": "2026-10-23T11:43:35+03:00",
      "best_stale": false
@@ -2511,6 +2794,21 @@
      ],
      "best_as_of": "2026-10-23T11:43:35+03:00",
      "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 20148,
+     "total": 33279,
+     "best_url": "https://x.com/thegreatest_sv/status/2110069829889626112",
+     "post_ids": [
+      "2110069829889626112",
+      "2109978960516039012",
+      "2110023252538175984"
+     ],
+     "best_as_of": "2026-10-23T11:43:35+03:00",
+     "best_stale": false
     }
    }
   },
@@ -2607,6 +2905,21 @@
      "best_url": "https://x.com/mika_systems/status/2110392315558666391",
      "post_ids": [
       "2110392315558666391"
+     ],
+     "best_as_of": "2026-10-23T11:43:41+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 14720,
+     "total": 32360,
+     "best_url": "https://x.com/thegreatest_sv/status/2110324991594053813",
+     "post_ids": [
+      "2110324991594053813",
+      "2110440451291402752",
+      "2110391158874522014"
      ],
      "best_as_of": "2026-10-23T11:43:41+03:00",
      "best_stale": false
@@ -2720,6 +3033,21 @@
      ],
      "best_as_of": "2026-10-23T11:43:41+03:00",
      "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 20197,
+     "total": 35224,
+     "best_url": "https://x.com/thegreatest_sv/status/2110795094534295624",
+     "post_ids": [
+      "2110795094534295624",
+      "2110700212960309417",
+      "2110752628850196753"
+     ],
+     "best_as_of": "2026-10-23T11:43:41+03:00",
+     "best_stale": false
     }
    }
   },
@@ -2820,6 +3148,20 @@
      ],
      "best_as_of": "2026-10-23T11:43:48+03:00",
      "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 2,
+     "best": 107640,
+     "total": 137055,
+     "best_url": "https://x.com/thegreatest_sv/status/2111113436314648758",
+     "post_ids": [
+      "2111113436314648758",
+      "2111159488942084573"
+     ],
+     "best_as_of": "2026-10-23T11:43:48+03:00",
+     "best_stale": false
     }
    }
   },
@@ -2905,6 +3247,20 @@
      ],
      "best_as_of": "2026-10-23T11:43:48+03:00",
      "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 2,
+     "best": 61039,
+     "total": 82987,
+     "best_url": "https://x.com/thegreatest_sv/status/2111520366791414136",
+     "post_ids": [
+      "2111520366791414136",
+      "2111444869956739293"
+     ],
+     "best_as_of": "2026-10-23T11:43:48+03:00",
+     "best_stale": false
     }
    }
   },
@@ -2945,6 +3301,20 @@
      "best_url": "https://x.com/leopardracer/status/2111820087652909203",
      "post_ids": [
       "2111820087652909203"
+     ],
+     "best_as_of": "2026-10-23T11:44:01+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 2,
+     "best": 18320,
+     "total": 34773,
+     "best_url": "https://x.com/thegreatest_sv/status/2111881943117664275",
+     "post_ids": [
+      "2111881943117664275",
+      "2111807761562444214"
      ],
      "best_as_of": "2026-10-23T11:44:01+03:00",
      "best_stale": false
@@ -3002,6 +3372,20 @@
      "best_url": "https://x.com/Mr_Buzzoni/status/2111926454917243205",
      "post_ids": [
       "2111926454917243205"
+     ],
+     "best_as_of": "2026-10-23T11:44:01+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 2,
+     "best": 21683,
+     "total": 26741,
+     "best_url": "https://x.com/thegreatest_sv/status/2112163605642691062",
+     "post_ids": [
+      "2112163605642691062",
+      "2112237089597329857"
      ],
      "best_as_of": "2026-10-23T11:44:01+03:00",
      "best_stale": false
@@ -3076,6 +3460,21 @@
      ],
      "best_as_of": "2026-10-23T11:44:07+03:00",
      "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 36687,
+     "total": 73551,
+     "best_url": "https://x.com/thegreatest_sv/status/2112609040962359354",
+     "post_ids": [
+      "2112609040962359354",
+      "2112556192828461196",
+      "2112290441207152880"
+     ],
+     "best_as_of": "2026-10-23T11:44:07+03:00",
+     "best_stale": false
     }
    }
   },
@@ -3136,6 +3535,21 @@
      ],
      "best_as_of": "2026-10-23T11:44:07+03:00",
      "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 3,
+     "best": 40117,
+     "total": 76860,
+     "best_url": "https://x.com/thegreatest_sv/status/2112868500092097009",
+     "post_ids": [
+      "2112868500092097009",
+      "2112926633594364248",
+      "2112977971481030820"
+     ],
+     "best_as_of": "2026-10-23T11:44:07+03:00",
+     "best_stale": false
     }
    }
   },
@@ -3193,6 +3607,20 @@
       "2113224096645587296"
      ],
      "best_as_of": "2026-10-23T11:45:26+03:00",
+     "best_stale": false
+    },
+    "thegreatest_sv": {
+     "handle": "@thegreatest_sv",
+     "name": "The Greatest",
+     "hits": 2,
+     "best": 8502,
+     "total": 16850,
+     "best_url": "https://x.com/thegreatest_sv/status/2113331431254728726",
+     "post_ids": [
+      "2113331431254728726",
+      "2113237834265968922"
+     ],
+     "best_as_of": "2026-10-23T11:45:32+03:00",
      "best_stale": false
     },
     "mika_systems": {
