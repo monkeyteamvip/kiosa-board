@@ -2,7 +2,7 @@
   "title": "X Digest Board",
   "date": "2026-10-23",
   "timezone": "Europe/Moscow",
-  "updated": "2026-10-24T11:00:34+03:00",
+  "updated": "2026-10-24T14:35:42+03:00",
   "hits": [
     {
       "display_name": "Gipp 🦅",
@@ -27,8 +27,19 @@
       "text_note": "X Article: How to Run Viktor for a Month on $100 in Credits (Full Course) — post body is the article; text = title + article opening (plain_text), rest of article not shown",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "How to Run Viktor for a Month on $100 in Credits (Full Course)",
-      "draft_en": "How to Run Viktor for a Month on $100 in Credits (Full Course)",
+      "draft_en": "One month of Viktor on autopilot, paid for with $100 of credits.\n\nI put everything into a full course: how I keep a long-running AI agent going all month without blowing the budget.",
       "video_tip": "Credit counter starting at $100, a month calendar ticking by while Viktor keeps running (article cover). 7s.",
+      "draft_keywords": [
+        "AI agent",
+        "autopilot"
+      ],
+      "original_en": "How to Run Viktor for a Month on $100 in Credits (Full Course)",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.0,
+        "word_overlap": 0.4,
+        "max_copied_run": 2
+      },
       "followers": {
         "count": 12218,
         "label": "12.2K",
@@ -68,8 +79,18 @@
       "text_note": "API-truncated mid-sentence (no note_tweet)",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "THE WORLD'S MOST DANGEROUS HACKERS ARE F*CKING AMATEURS. I TRACED THEIR ENTIRE $625M HEIST IN 53 SECONDS",
-      "draft_en": "THE WORLD'S MOST DANGEROUS HACKERS ARE F*CKING AMATEURS. I TRACED THEIR ENTIRE $625M HEIST IN 53 SECONDS\n\nthe fucking Korean hacker group lazarus that the FSB was hunting for 4 years just sucked my dick\n\nI pasted one address into tracehound.\n53 seconds later I was looking at the",
+      "draft_en": "53 seconds. That's how long it took me to map a $625M heist pulled off by Lazarus, the Korean hacker crew with the scariest reputation in crypto security.\n\nTurns out the \"world's most dangerous hackers\" are amateurs. The FSB spent 4 years hunting this group.\n\nI dropped one address into tracehound, and under a minute later the whole trail was on my screen.",
       "video_tip": "One wallet address pasted, graph of hops explodes outward and resolves to the Lazarus cluster in a 53s timer. 8s.",
+      "draft_keywords": [
+        "security"
+      ],
+      "original_en": "THE WORLD'S MOST DANGEROUS HACKERS ARE F*CKING AMATEURS. I TRACED THEIR ENTIRE $625M HEIST IN 53 SECONDS\n\nthe fucking Korean hacker group lazarus that the FSB was hunting for 4 years just sucked my dick\n\nI pasted one address into tracehound.\n53 seconds later I was looking at the",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.067,
+        "word_overlap": 0.515,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 16443,
         "label": "16.4K",
@@ -111,8 +132,26 @@
       "full_text": "this harness engineering paper is required reading if you run Claude Code\n\nWavestone AI Lab read the source code of 11 coding agents, Claude Code and Codex included, and found the same 7-part harness inside every good one\n\nagent = model + harness\n\nthe 7 parts, smallest version to largest:\n> loop - a plain while loop up to fully replayable runs\n> LLM layer - one prompt template up to 29 provider profiles\n> tools - bash alone up to 43 typed tools loaded on demand\n> memory - raw history up to notes that survive between sessions\n> safety - a step limit up to rules, a reviewer model and a sandbox\n> orchestration - Aider skips sub-agents, the rest fork them\n> extensions - SKILL. md in 9 of the 11, MCP in 8\n\nthe pages to open first:\n> p.4 - the full 7-part map\n> p.12 - three loop types, with Claude Code and Codex as examples\n> p.67 - 18 design rules\n> p.71 - a 90-line harness that covers all 7 parts\n\nthe model gets the headlines\nthe harness decides whether the agent finishes the job\n\nengineers who can draw these 7 parts on a whiteboard are the ones getting hired to build agents\n\nthe complete guide to harnesses that hold up under real work is below 👇",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "this harness engineering paper is required reading if you run Claude Code",
-      "draft_en": "this harness engineering paper is required reading if you run Claude Code\n\nWavestone AI Lab read the source code of 11 coding agents, Claude Code and Codex included, and found the same 7-part harness inside every good one\n\nagent = model + harness\n\nthe 7 parts, smallest version to largest:\n> loop - a plain while loop up to fully replayable runs\n> LLM layer - one prompt template up to 29 provider profiles\n> tools - bash alone up to 43 typed tools loaded on demand\n> memory - raw history up to notes that survive between sessions\n> safety - a step limit up to rules, a reviewer model and a sandbox\n> orchestration - Aider skips sub-agents, the rest fork them\n> extensions - SKILL. md in 9 of the 11, MCP in 8\n\nthe pages to open first:\n> p.4 - the full 7-part map\n> p.12 - three loop types, with Claude Code and Codex as examples\n> p.67 - 18 design rules\n> p.71 - a 90-line harness that covers all 7 parts\n\nthe model gets the headlines\nthe harness decides whether the agent finishes the job\n\nengineers who can draw these 7 parts on a whiteboard are the ones getting hired to build agents\n\nthe complete guide to harnesses that hold up under real work is below 👇",
+      "draft_en": "If Claude Code is part of your daily stack, read the harness engineering paper from Wavestone AI Lab.\n\nThey went through the source of 11 coding agents (Codex and Claude Code among them). Every strong one shares the same 7-piece harness. The formula: model + harness = agent.\n\nEach piece, from minimal to maxed out:\n- loop: a basic while loop at the low end, fully replayable runs at the top\n- LLM layer: anywhere from a single prompt template to 29 provider profiles\n- tools: just bash, or 43 typed tools pulled in on demand\n- memory: raw chat history at first, persistent notes across sessions later\n- safety: from a simple step cap to rules plus a reviewer model plus a sandbox\n- orchestration: Aider does without sub-agents, all the others spawn them\n- extensions: SKILL.md skills show up in 9 out of 11, MCP in 8\n\nWhere to start reading:\n- p.4 for the whole 7-piece map\n- p.12 for the three loop styles, using Codex and Claude Code as examples\n- p.67 for 18 design rules\n- p.71 for a 90-line harness that hits all 7 pieces\n\nThe model grabs the attention. Whether the AI agent actually gets the job done is down to the harness.\n\nIf you can sketch these 7 pieces on a whiteboard, you're who teams hire to build agents.\n\nFull guide to harnesses that survive real workloads below",
       "video_tip": "Agent = model + harness: seven layers (loop, LLM, tools, memory, safety, orchestration, extensions) stacking up. 9s.",
+      "draft_keywords": [
+        "Claude Code",
+        "Codex",
+        "agents",
+        "AI agent",
+        "model",
+        "memory",
+        "skills",
+        "MCP",
+        "stack"
+      ],
+      "original_en": "this harness engineering paper is required reading if you run Claude Code\n\nWavestone AI Lab read the source code of 11 coding agents, Claude Code and Codex included, and found the same 7-part harness inside every good one\n\nagent = model + harness\n\nthe 7 parts, smallest version to largest:\n> loop - a plain while loop up to fully replayable runs\n> LLM layer - one prompt template up to 29 provider profiles\n> tools - bash alone up to 43 typed tools loaded on demand\n> memory - raw history up to notes that survive between sessions\n> safety - a step limit up to rules, a reviewer model and a sandbox\n> orchestration - Aider skips sub-agents, the rest fork them\n> extensions - SKILL. md in 9 of the 11, MCP in 8\n\nthe pages to open first:\n> p.4 - the full 7-part map\n> p.12 - three loop types, with Claude Code and Codex as examples\n> p.67 - 18 design rules\n> p.71 - a 90-line harness that covers all 7 parts\n\nthe model gets the headlines\nthe harness decides whether the agent finishes the job\n\nengineers who can draw these 7 parts on a whiteboard are the ones getting hired to build agents\n\nthe complete guide to harnesses that hold up under real work is below 👇",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.041,
+        "word_overlap": 0.578,
+        "max_copied_run": 5
+      },
       "followers": {
         "count": 3136,
         "label": "3.1K",
@@ -155,8 +194,18 @@
       "text_note": "API-truncated mid-sentence (no note_tweet)",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "This is f*cking insane. I just walked into an office where every employee is an AI and they talk back.",
-      "draft_en": "This is f*cking insane. I just walked into an office where every employee is an AI and they talk back.\n\nFront desk, finance, a copier, a board with notes. You walk with WASD and press E at any desk.\n\nI went straight to Jessica from finance and told her I trade crypto.\n\nShe said I",
+      "draft_en": "Wild one. I just walked around a virtual office where the whole staff is AI agents, and every one of them answers you.\n\nThere's a reception, a finance desk, a copy machine and a notes board. Move with WASD, hit E next to any desk to start talking.\n\nFirst stop: Jessica in finance. I told her my thing is crypto trading.\n\nWait till you see what she said back.",
       "video_tip": "Pixel office walkthrough with WASD, press E at the finance desk, AI employee answers back. 8s.",
+      "draft_keywords": [
+        "AI agent"
+      ],
+      "original_en": "This is f*cking insane. I just walked into an office where every employee is an AI and they talk back.\n\nFront desk, finance, a copier, a board with notes. You walk with WASD and press E at any desk.\n\nI went straight to Jessica from finance and told her I trade crypto.\n\nShe said I",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.0,
+        "word_overlap": 0.355,
+        "max_copied_run": 3
+      },
       "followers": {
         "count": 14374,
         "label": "14.4K",
@@ -198,8 +247,21 @@
       "full_text": "🚨 If anything you run touches PHP, stop scrolling.\n\nThe FBI just issued a warning about 2 critical PHP bugs.\n\nThey're being called PHP2Shell.\n\nHere's what you need to know in 60 seconds.\n\nWhat it is:\n\n→ 2 bugs in the core of PHP itself\n→ an attacker can run code on your server\n→ no login needed\n→ reportedly one single web request is enough\n\nWhy it's scary:\n\nPHP powers a huge share of the web.\n\nWordPress.\n\nLaravel apps.\n\nOld client sites nobody has touched in years.\n\nVendor products that quietly bundle PHP inside.\n\nAnd Amazon's threat team says it caught someone trying to exploit this 4 days BEFORE it was made public.\n\nWhat to do right now:\n\n1. Update PHP\nFixed versions: 8.5.12, 8.4.27, 8.3.36 and 8.2.35\n\n2. Find every place PHP runs\nPrioritize anything facing the internet first\n\n3. Can't patch today?\nTake it offline until you can. That's the FBI's advice, not mine.\n\n4. Watch your servers\nPHP launching command shells or downloading files is a red flag\n\n5. Found something?\nIsolate the system, save your logs, and report it at https://t.co/Ip9MrhmVYe\n\nThe builder tip:\n\nIf you have a pile of old projects, open Claude Code in each repo and ask:\n\n\"Find every place this project uses PHP, list the version, and tell me what needs updating.\"\n\nThe scariest part isn't the bug.\n\nIt's the thousands of old sites that will never get patched.\n\nDon't let one of them be yours.\n\nSave this and send it to whoever runs your servers.",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "🚨 If anything you run touches PHP, stop scrolling.",
-      "draft_en": "🚨 If anything you run touches PHP, stop scrolling.\n\nThe FBI just issued a warning about 2 critical PHP bugs.\n\nThey're being called PHP2Shell.\n\nHere's what you need to know in 60 seconds.\n\nWhat it is:\n\n→ 2 bugs in the core of PHP itself\n→ an attacker can run code on your server\n→ no login needed\n→ reportedly one single web request is enough\n\nWhy it's scary:\n\nPHP powers a huge share of the web.\n\nWordPress.\n\nLaravel apps.\n\nOld client sites nobody has touched in years.\n\nVendor products that quietly bundle PHP inside.\n\nAnd Amazon's threat team says it caught someone trying to exploit this 4 days BEFORE it was made public.\n\nWhat to do right now:\n\n1. Update PHP\nFixed versions: 8.5.12, 8.4.27, 8.3.36 and 8.2.35\n\n2. Find every place PHP runs\nPrioritize anything facing the internet first\n\n3. Can't patch today?\nTake it offline until you can. That's the FBI's advice, not mine.\n\n4. Watch your servers\nPHP launching command shells or downloading files is a red flag\n\n5. Found something?\nIsolate the system, save your logs, and report it at\n\nThe builder tip:\n\nIf you have a pile of old projects, open Claude Code in each repo and ask:\n\n\"Find every place this project uses PHP, list the version, and tell me what needs updating.\"\n\nThe scariest part isn't the bug.\n\nIt's the thousands of old sites that will never get patched.\n\nDon't let one of them be yours.\n\nSave this and send it to whoever runs your servers.",
+      "draft_en": "Running anything on PHP? This security alert takes 60 seconds to read.\n\nThe FBI put out a warning on 2 critical flaws in PHP's core. People are calling it PHP2Shell.\n\nThe short version:\n- the bugs live in PHP itself, not some plugin\n- an attacker can execute code on your server\n- no credentials required\n- one web request may be all it takes, per reports\n\nWhy this is bad: a massive chunk of the internet runs on PHP. WordPress, Laravel projects, forgotten client sites, vendor software with PHP tucked inside.\n\nAmazon's threat team says it spotted an exploit attempt 4 days before the disclosure went public.\n\nYour checklist:\n1. Patch. Safe versions are 8.5.12, 8.4.27, 8.3.36 and 8.2.35\n2. Map everywhere PHP is running, internet-facing stuff first\n3. Can't update today? Pull it offline until you can (the FBI's call, not mine)\n4. Monitor your servers. PHP spawning command shells or pulling down files is a warning sign\n5. Spotted something? Cut the box off, keep the logs, report it\n\nQuick win for builders: open Claude Code in every old repo in your stack and have it list each spot that relies on PHP, note the version and flag what needs an update.\n\nThe bug isn't the scary part. The scary part is the thousands of abandoned sites nobody will ever patch.\n\nMake sure none of them are yours. Save this and forward it to whoever handles your servers.",
       "video_tip": "Red PHP2Shell alert, one web request hitting a server, then the update-version checklist turning green. 7s.",
+      "draft_keywords": [
+        "security",
+        "PHP2Shell",
+        "Claude Code",
+        "stack"
+      ],
+      "original_en": "🚨 If anything you run touches PHP, stop scrolling.\n\nThe FBI just issued a warning about 2 critical PHP bugs.\n\nThey're being called PHP2Shell.\n\nHere's what you need to know in 60 seconds.\n\nWhat it is:\n\n→ 2 bugs in the core of PHP itself\n→ an attacker can run code on your server\n→ no login needed\n→ reportedly one single web request is enough\n\nWhy it's scary:\n\nPHP powers a huge share of the web.\n\nWordPress.\n\nLaravel apps.\n\nOld client sites nobody has touched in years.\n\nVendor products that quietly bundle PHP inside.\n\nAnd Amazon's threat team says it caught someone trying to exploit this 4 days BEFORE it was made public.\n\nWhat to do right now:\n\n1. Update PHP\nFixed versions: 8.5.12, 8.4.27, 8.3.36 and 8.2.35\n\n2. Find every place PHP runs\nPrioritize anything facing the internet first\n\n3. Can't patch today?\nTake it offline until you can. That's the FBI's advice, not mine.\n\n4. Watch your servers\nPHP launching command shells or downloading files is a red flag\n\n5. Found something?\nIsolate the system, save your logs, and report it at\n\nThe builder tip:\n\nIf you have a pile of old projects, open Claude Code in each repo and ask:\n\n\"Find every place this project uses PHP, list the version, and tell me what needs updating.\"\n\nThe scariest part isn't the bug.\n\nIt's the thousands of old sites that will never get patched.\n\nDon't let one of them be yours.\n\nSave this and send it to whoever runs your servers.",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.047,
+        "word_overlap": 0.522,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 197276,
         "label": "197K",
@@ -241,8 +303,27 @@
       "full_text": "STOP INSTALLING AI SKILLS YOU FOUND ON X WITHOUT SCANNING THEM.\n\n1 in 20 skills in one big study looked malicious.\n\n1 in 4 had vulnerabilities.\n\nNVIDIA's SkillSpector catches the dangerous ones:\n\n→ prompt injection\n→ stealing your data\n→ grabbing more permissions than it should\n→ poisoned MCP tools\n\nWorks on Claude Code, Codex and Gemini CLI skills.\n\nFree. Open source.\n\nInstall and scan in 2 commands 👇\nCommands below",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "STOP INSTALLING AI SKILLS YOU FOUND ON X WITHOUT SCANNING THEM.",
-      "draft_en": "STOP INSTALLING AI SKILLS YOU FOUND ON X WITHOUT SCANNING THEM.\n\n1 in 20 skills in one big study looked malicious.\n\n1 in 4 had vulnerabilities.\n\nNVIDIA's SkillSpector catches the dangerous ones:\n\n→ prompt injection\n→ stealing your data\n→ grabbing more permissions than it should\n→ poisoned MCP tools\n\nWorks on Claude Code, Codex and Gemini CLI skills.\n\nFree. Open source.\n\nInstall and scan in 2 commands 👇\nCommands below",
+      "draft_en": "Grabbed an AI skill off X and installed it without scanning? Quit doing that.\n\nIn one large study, roughly 1 in 20 skills looked malicious and 1 in 4 had vulnerabilities. That's a security problem sitting inside your AI agent.\n\nNVIDIA built SkillSpector to flag the bad ones. It looks for:\n- prompt injection\n- data theft\n- skills asking for more permissions than they need\n- poisoned MCP tools\n\nIt handles skills for Claude Code, Codex and Gemini CLI. Free and open source.\n\nTwo commands to install and scan, below",
       "video_tip": "SkillSpector terminal: two commands, skills list with prompt-injection and data-theft flags. 6s.",
+      "draft_keywords": [
+        "skills",
+        "AI agent",
+        "SkillSpector",
+        "prompt injection",
+        "MCP",
+        "Claude Code",
+        "Codex",
+        "Gemini",
+        "open source",
+        "security"
+      ],
+      "original_en": "STOP INSTALLING AI SKILLS YOU FOUND ON X WITHOUT SCANNING THEM.\n\n1 in 20 skills in one big study looked malicious.\n\n1 in 4 had vulnerabilities.\n\nNVIDIA's SkillSpector catches the dangerous ones:\n\n→ prompt injection\n→ stealing your data\n→ grabbing more permissions than it should\n→ poisoned MCP tools\n\nWorks on Claude Code, Codex and Gemini CLI skills.\n\nFree. Open source.\n\nInstall and scan in 2 commands 👇\nCommands below",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.071,
+        "word_overlap": 0.574,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 197276,
         "label": "197K",
@@ -281,8 +362,19 @@
       "full_text": "my unpopular opinion is that ChatGPT apps are the most underrated distribution channel right now\n\nthis is what it looks like when someone gets it right...\n\n$500K in new ARR in one week\n\nfrom one plugin launch\n\nwhy it works:\n\n> hundreds of millions of people already open ChatGPT every week\n> no new app to download, no new onboarding\n> your product shows up right where the question gets asked\n\nand most founders still haven't shipped one\n\nthat window won't stay open forever",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "my unpopular opinion is that ChatGPT apps are the most underrated distribution channel right now",
-      "draft_en": "my unpopular opinion is that ChatGPT apps are the most underrated distribution channel right now\n\nthis is what it looks like when someone gets it right...\n\n$500K in new ARR in one week\n\nfrom one plugin launch\n\nwhy it works:\n\n> hundreds of millions of people already open ChatGPT every week\n> no new app to download, no new onboarding\n> your product shows up right where the question gets asked\n\nand most founders still haven't shipped one\n\nthat window won't stay open forever",
+      "draft_en": "Hot take: ChatGPT apps are the most slept-on distribution play out there right now.\n\nProof: one plugin launch, $500K in new ARR, in a single week.\n\nWhy it lands:\n- ChatGPT already has weekly usage in the hundreds of millions\n- nothing to download, no fresh onboarding\n- your product appears at the exact moment someone asks the question\n\nMost founders still haven't built one. That window closes eventually.",
       "video_tip": "ChatGPT chat window, a plugin card appears inside the answer, ARR counter climbing to $500K. 6s.",
+      "draft_keywords": [
+        "usage",
+        "founder"
+      ],
+      "original_en": "my unpopular opinion is that ChatGPT apps are the most underrated distribution channel right now\n\nthis is what it looks like when someone gets it right...\n\n$500K in new ARR in one week\n\nfrom one plugin launch\n\nwhy it works:\n\n> hundreds of millions of people already open ChatGPT every week\n> no new app to download, no new onboarding\n> your product shows up right where the question gets asked\n\nand most founders still haven't shipped one\n\nthat window won't stay open forever",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.079,
+        "word_overlap": 0.5,
+        "max_copied_run": 5
+      },
       "followers": {
         "count": 197276,
         "label": "197K",
@@ -324,8 +416,20 @@
       "full_text": "🚨 BREAKING:  If you deploy on Railway, rotate your keys TODAY.\n\nRailway just disclosed a breach.\n\nAn attacker accessed encrypted customer environment variables.\n\nFor some accounts, they got the decrypted contents.\n\nThat means things like:\n\n→ API keys\n→ database passwords\n→ private registry tokens\n\nAll deployments are paused.\n\nRailway believes it's part of a wider campaign against platform companies to get at AI inference providers.\n\nDo this now:\n\n1. Rotate every secret stored in Railway\n2. Check your logs for unusual activity\n3. Watch your email for a direct notice\n4. Follow https://t.co/ykVN1tRWw0 for updates\n\nEven if you think you weren't affected.\n\nSource in the reply 👇",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "🚨 BREAKING:  If you deploy on Railway, rotate your keys TODAY.",
-      "draft_en": "🚨 BREAKING:  If you deploy on Railway, rotate your keys TODAY.\n\nRailway just disclosed a breach.\n\nAn attacker accessed encrypted customer environment variables.\n\nFor some accounts, they got the decrypted contents.\n\nThat means things like:\n\n→ API keys\n→ database passwords\n→ private registry tokens\n\nAll deployments are paused.\n\nRailway believes it's part of a wider campaign against platform companies to get at AI inference providers.\n\nDo this now:\n\n1. Rotate every secret stored in Railway\n2. Check your logs for unusual activity\n3. Watch your email for a direct notice\n4. Follow for updates\n\nEven if you think you weren't affected.\n\nSource in the reply 👇",
+      "draft_en": "If Railway hosts your deploys, rotate your keys today.\n\nRailway disclosed a security breach. Someone got into encrypted customer environment variables, and on some accounts pulled the decrypted values.\n\nThink:\n- API keys\n- passwords for your databases\n- private registry tokens\n\nEvery deployment is on pause right now.\n\nRailway thinks this is one piece of a bigger campaign hitting platform companies to reach AI inference providers.\n\nYour move:\n1. Swap out every secret you keep in Railway\n2. Scan your logs for anything odd\n3. Watch your inbox, Railway may email you directly\n4. Follow along, I'll share updates\n\nDo it even if you think you weren't hit. Source in the replies",
       "video_tip": "Railway breach banner, env-var keys flashing, then a 4-step rotate-your-secrets checklist. 6s.",
+      "draft_keywords": [
+        "rotate your keys",
+        "API",
+        "security"
+      ],
+      "original_en": "🚨 BREAKING:  If you deploy on Railway, rotate your keys TODAY.\n\nRailway just disclosed a breach.\n\nAn attacker accessed encrypted customer environment variables.\n\nFor some accounts, they got the decrypted contents.\n\nThat means things like:\n\n→ API keys\n→ database passwords\n→ private registry tokens\n\nAll deployments are paused.\n\nRailway believes it's part of a wider campaign against platform companies to get at AI inference providers.\n\nDo this now:\n\n1. Rotate every secret stored in Railway\n2. Check your logs for unusual activity\n3. Watch your email for a direct notice\n4. Follow for updates\n\nEven if you think you weren't affected.\n\nSource in the reply 👇",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.056,
+        "word_overlap": 0.536,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 197276,
         "label": "197K",
@@ -1310,7 +1414,7 @@
       "for a month on $100"
     ],
     "draft_rules": [
-      "Drafts = original post text as returned by the API (no rewrite); truncated posts are flagged, missing text is not invented."
+      "Draft rules v4 (paraphrase + 24h trend keywords, overlap-gated)."
     ]
   },
   "outsiders": [
@@ -4553,8 +4657,22 @@
       "full_text": "I CAN’T F*CKING BELIEVE IT, BUT ELON MUSK REPOSTED BOTH OF MY GROK BOT SETUPS.\n\nIF ELON APPROVED THEM, THEY’RE WORTH TRYING FOR EVERYONE.\n\nHere are the two setups.\n\n→ CONTENT GROK BOT SETUP: I use it every day in my work.\n\nA Chief of Staff routes every task to six agents. One researches what’s moving, one writes, one creates visuals in my style, one checks the numbers, one schedules and one publishes. They share memory, so the research is already inside the draft before the draft starts.\n\nThe result: I post consistently without spending my day switching between six different jobs.\n\n→ TRAVEL GROK BOT SETUP: I use it to plan and book my trips.\n\nI asked it to plan, research and book my trip to Lisbon. The agents searched for flights and stays, compared prices and total costs, then completed the bookings with my card and turned everything into one itinerary.\n\nI only had to ask, and my trip was booked.\n\nGrok Bot has become my main tool every single day, for work and for everything else. Content, research, travel, shopping, life admin: I hand it the task and it gets done. The range of what it can do is huge.\n\nEvery agent gets its own computer, browser and memory, it keeps working while I’m offline, and it can even learn a task by watching me do it once. It’s the first tool that actually gives me time back instead of adding more work.\n\nThat’s why I think everyone should try bringing it into their daily life. Start with my ready-made setups, or build your own around the way you live and work.\n\nBookmark this so you don’t lose these setups.\n\nAnd I broke down the latest major Grok Bot updates in my article below ↓",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "I CAN’T F*CKING BELIEVE IT, BUT ELON MUSK REPOSTED BOTH OF MY GROK BOT SETUPS.",
-      "draft_en": "I CAN’T F*CKING BELIEVE IT, BUT ELON MUSK REPOSTED BOTH OF MY GROK BOT SETUPS.\n\nIF ELON APPROVED THEM, THEY’RE WORTH TRYING FOR EVERYONE.\n\nHere are the two setups.\n\n→ CONTENT GROK BOT SETUP: I use it every day in my work.\n\nA Chief of Staff routes every task to six agents. One researches what’s moving, one writes, one creates visuals in my style, one checks the numbers, one schedules and one publishes. They share memory, so the research is already inside the draft before the draft starts.\n\nThe result: I post consistently without spending my day switching between six different jobs.\n\n→ TRAVEL GROK BOT SETUP: I use it to plan and book my trips.\n\nI asked it to plan, research and book my trip to Lisbon. The agents searched for flights and stays, compared prices and total costs, then completed the bookings with my card and turned everything into one itinerary.\n\nI only had to ask, and my trip was booked.\n\nGrok Bot has become my main tool every single day, for work and for everything else. Content, research, travel, shopping, life admin: I hand it the task and it gets done. The range of what it can do is huge.\n\nEvery agent gets its own computer, browser and memory, it keeps working while I’m offline, and it can even learn a task by watching me do it once. It’s the first tool that actually gives me time back instead of adding more work.\n\nThat’s why I think everyone should try bringing it into their daily life. Start with my ready-made setups, or build your own around the way you live and work.\n\nBookmark this so you don’t lose these setups.\n\nAnd I broke down the latest major Grok Bot updates in my article below ↓",
+      "draft_en": "Both of my Grok Bot setups just got a repost from Elon Musk. Still can't quite believe it.\n\nIf they got his nod, I think they're worth a shot for anyone.\n\nSetup 1: Content (my daily work driver)\nA Chief of Staff hands each task to one of six agents: a researcher tracking what's trending, a writer, a visuals agent working in my style, a fact checker for numbers, a scheduler and a publisher. Shared memory means the research is sitting in the draft before writing even begins.\nOutcome: I publish on a steady rhythm instead of juggling six jobs all day.\n\nSetup 2: Travel (planning and booking)\nLisbon was the test: research, planning and booking, all handed over. The agents hunted flights and stays, compared prices and full costs, booked everything on my card and packed it all into one itinerary.\nOutcome: one request, trip booked.\n\nGrok Bot is now the tool I open first every day, for work and everything around it. Content, research, trips, shopping, all the life admin - I hand it off and it gets handled. The range is wild.\n\nEvery agent gets a dedicated computer, browser and memory. Work continues while I'm offline, and it can learn a task after seeing me do it one time. Finally a tool that hands me time back instead of piling on more work.\n\nSo my advice: bring it into your daily routine. Copy my two setups as a starting point, or design one that fits your own life and work.\n\nBookmark this so the setups don't get lost. My breakdown of the latest big Grok Bot updates is in the article below",
       "video_tip": "Musk repost badge pops, then two setup cards (Content team of six agents, Travel planner) expand one after another. 8s.",
+      "draft_keywords": [
+        "Elon Musk",
+        "Grok Bot",
+        "agents",
+        "memory",
+        "offline"
+      ],
+      "original_en": "I CAN’T F*CKING BELIEVE IT, BUT ELON MUSK REPOSTED BOTH OF MY GROK BOT SETUPS.\n\nIF ELON APPROVED THEM, THEY’RE WORTH TRYING FOR EVERYONE.\n\nHere are the two setups.\n\n→ CONTENT GROK BOT SETUP: I use it every day in my work.\n\nA Chief of Staff routes every task to six agents. One researches what’s moving, one writes, one creates visuals in my style, one checks the numbers, one schedules and one publishes. They share memory, so the research is already inside the draft before the draft starts.\n\nThe result: I post consistently without spending my day switching between six different jobs.\n\n→ TRAVEL GROK BOT SETUP: I use it to plan and book my trips.\n\nI asked it to plan, research and book my trip to Lisbon. The agents searched for flights and stays, compared prices and total costs, then completed the bookings with my card and turned everything into one itinerary.\n\nI only had to ask, and my trip was booked.\n\nGrok Bot has become my main tool every single day, for work and for everything else. Content, research, travel, shopping, life admin: I hand it the task and it gets done. The range of what it can do is huge.\n\nEvery agent gets its own computer, browser and memory, it keeps working while I’m offline, and it can even learn a task by watching me do it once. It’s the first tool that actually gives me time back instead of adding more work.\n\nThat’s why I think everyone should try bringing it into their daily life. Start with my ready-made setups, or build your own around the way you live and work.\n\nBookmark this so you don’t lose these setups.\n\nAnd I broke down the latest major Grok Bot updates in my article below ↓",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.066,
+        "word_overlap": 0.533,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 78114,
         "label": "78.1K",
@@ -4599,8 +4717,24 @@
       "full_text": "This is f*cking insane.\n\nElon claims Grok can earn its keep, so I gave mine a single condition: “recover your cost or you’re out.”\n\nThree bots, one group chat—each with its own memory:\n\nthe scout scans every X post and Reddit thread in your niche and never lays a finger on drafts\nthe builder reshapes anything an idea touches, usually into three versions: a reply, a post, and a page\nthe closer runs nightly and goes looking for stuck work, stale concepts, and drafts no one signed off on\n\n→ you approve a draft: it goes live, so the company learns by doing, not just by consuming\n→ a draft has no number on it: the closer pings you instead of inventing a value\n→ an idea sits for 7 days: it’s declared dead\n\na solo company can look productive while marching in the wrong direction\n\nScout listens. Builder writes. Closer pushes back.\n\nevery task must display:\n> the idea\n> the source post it came from\n> the last time it moved\n\npaste this into Grok Bot:\n\nBuild me a one-person company with three bots in one group chat. Keep my ideas untouched in ideas/, manage drafts/ on your own, ship nothing without my approval, and run a nightly audit for stuck tasks. Show me the structure first. Create nothing until I confirm.\n\nbegin with one niche you truly operate in—not whatever’s trending today\n\nfull setup below",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "This is f*cking insane.",
-      "draft_en": "This is f*cking insane.\n\nElon claims Grok can earn its keep, so I gave mine a single condition: “recover your cost or you’re out.”\n\nThree bots, one group chat—each with its own memory:\n\nthe scout scans every X post and Reddit thread in your niche and never lays a finger on drafts\nthe builder reshapes anything an idea touches, usually into three versions: a reply, a post, and a page\nthe closer runs nightly and goes looking for stuck work, stale concepts, and drafts no one signed off on\n\n→ you approve a draft: it goes live, so the company learns by doing, not just by consuming\n→ a draft has no number on it: the closer pings you instead of inventing a value\n→ an idea sits for 7 days: it’s declared dead\n\na solo company can look productive while marching in the wrong direction\n\nScout listens. Builder writes. Closer pushes back.\n\nevery task must display:\n> the idea\n> the source post it came from\n> the last time it moved\n\npaste this into Grok Bot:\n\nBuild me a one-person company with three bots in one group chat. Keep my ideas untouched in ideas/, manage drafts/ on your own, ship nothing without my approval, and run a nightly audit for stuck tasks. Show me the structure first. Create nothing until I confirm.\n\nbegin with one niche you truly operate in—not whatever’s trending today\n\nfull setup below",
+      "draft_en": "Elon says Grok can pay for itself. So I gave mine exactly one rule: earn back what you cost or you're gone.\n\nThe setup is three bots sharing one group chat, each with separate memory:\n- the scout combs through X posts and Reddit threads in your niche, but drafts are off limits\n- the builder reworks whatever an idea touches, usually into three formats (reply, post, page)\n- every night the closer goes hunting for stuck work, stale ideas and drafts nobody approved\n\nHow it plays out:\n- approve a draft and it ships, so the company learns from doing instead of only reading\n- a draft with no number attached gets flagged to you, the closer won't make one up\n- any idea untouched for 7 days is marked dead\n\nA solo company can look busy while heading the wrong way.\n\nScout listens, builder drafts, closer pushes back.\n\nEvery task has to show:\n- the idea\n- the post it came from\n- when it last moved\n\nPrompt for Grok Bot:\nSet up a one-person company run by three bots in a single group chat. Leave my ideas alone in ideas/, handle drafts/ yourself, publish nothing until I approve, and audit stuck tasks every night. Show the structure first and don't create anything until I say yes.\n\nStart with a niche you actually work in, not today's trend.\n\nFull setup below",
       "video_tip": "Three bots in one chat (scout, builder, closer) with a 'recover your cost or you're out' banner, drafts going live on approve. 8s.",
+      "draft_keywords": [
+        "Elon",
+        "Grok Bot",
+        "Three bots",
+        "bots",
+        "memory",
+        "Reddit",
+        "solo"
+      ],
+      "original_en": "This is f*cking insane.\n\nElon claims Grok can earn its keep, so I gave mine a single condition: “recover your cost or you’re out.”\n\nThree bots, one group chat—each with its own memory:\n\nthe scout scans every X post and Reddit thread in your niche and never lays a finger on drafts\nthe builder reshapes anything an idea touches, usually into three versions: a reply, a post, and a page\nthe closer runs nightly and goes looking for stuck work, stale concepts, and drafts no one signed off on\n\n→ you approve a draft: it goes live, so the company learns by doing, not just by consuming\n→ a draft has no number on it: the closer pings you instead of inventing a value\n→ an idea sits for 7 days: it’s declared dead\n\na solo company can look productive while marching in the wrong direction\n\nScout listens. Builder writes. Closer pushes back.\n\nevery task must display:\n> the idea\n> the source post it came from\n> the last time it moved\n\npaste this into Grok Bot:\n\nBuild me a one-person company with three bots in one group chat. Keep my ideas untouched in ideas/, manage drafts/ on your own, ship nothing without my approval, and run a nightly audit for stuck tasks. Show me the structure first. Create nothing until I confirm.\n\nbegin with one niche you truly operate in—not whatever’s trending today\n\nfull setup below",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.063,
+        "word_overlap": 0.606,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 197276,
         "label": "197K",
@@ -4653,8 +4787,19 @@
       "full_text": "grok bot is f**king gold.\n\nadd this to Grok Bot tonight and see it build your complete money-making blueprint, including business ideas, offers, and automations tailored for you\n\nget it now and stay ahead:",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "grok bot is f**king gold.",
-      "draft_en": "grok bot is f**king gold.\n\nadd this to Grok Bot tonight and see it build your complete money-making blueprint, including business ideas, offers, and automations tailored for you\n\nget it now and stay ahead:",
+      "draft_en": "Tonight's homework: paste this into Grok Bot and let it draft a money plan made for you.\n\nBusiness ideas, offers to sell, automations to run them. Honestly one of the best things it does.\n\nGet in early:",
       "video_tip": "Prompt pasted into Grok Bot, blueprint document builds itself: ideas, offers, automations. 6s.",
+      "draft_keywords": [
+        "Grok Bot",
+        "automations"
+      ],
+      "original_en": "grok bot is f**king gold.\n\nadd this to Grok Bot tonight and see it build your complete money-making blueprint, including business ideas, offers, and automations tailored for you\n\nget it now and stay ahead:",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.0,
+        "word_overlap": 0.375,
+        "max_copied_run": 3
+      },
       "followers": {
         "count": 197276,
         "label": "197K",
@@ -4708,8 +4853,19 @@
       "text_note": "API-truncated mid-sentence (no note_tweet)",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "THIS IS ACTUAL F*CKING GOLD",
-      "draft_en": "THIS IS ACTUAL F*CKING GOLD\n\nAnthropic just shared one of the best tricks for Claude Code.\n\nThe idea: stop configuring Claude Code by hand. One prompt, 44 seconds, and your whole .claude/ folder writes itself.\n\n7 files, 162 lines, 2 cents. you typed one line and wrote zero of",
+      "draft_en": "Pure gold from Anthropic: a Claude Code trick worth stealing.\n\nQuit setting up Claude Code manually. Give it a single prompt and in 44 seconds it generates your entire .claude/ folder.\n\nResult: 7 files, 162 lines, roughly 2 cents of spend. One line of input from you, and not a single file written by hand.",
       "video_tip": "One prompt typed, .claude/ folder tree writes itself: 7 files, 162 lines, 44s timer, 2 cents badge. 7s.",
+      "draft_keywords": [
+        "Anthropic",
+        "Claude Code"
+      ],
+      "original_en": "THIS IS ACTUAL F*CKING GOLD\n\nAnthropic just shared one of the best tricks for Claude Code.\n\nThe idea: stop configuring Claude Code by hand. One prompt, 44 seconds, and your whole .claude/ folder writes itself.\n\n7 files, 162 lines, 2 cents. you typed one line and wrote zero of",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.019,
+        "word_overlap": 0.433,
+        "max_copied_run": 4
+      },
       "followers": {
         "count": 8897,
         "label": "8.9K",
@@ -4755,8 +4911,22 @@
       "text_note": "API-truncated mid-sentence (no note_tweet)",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "this is pure f*cking treasure",
-      "draft_en": "this is pure f*cking treasure\n\n20 build stacks for Opus 5.5, each built around a real deliverable\n\napps. interfaces. memory. data. agents. video\n\n01 Better-T-Stack → saas foundry\n\n02 21st MCP → component lab\n\n03 tweakcn → design",
+      "draft_en": "Opus 5.5 builders, this one's a goldmine.\n\n20 stacks, and every single one is designed to ship something real you can hand over.\n\nThe spread: apps, interfaces, memory, data, agents, video.\n\nFirst three on the list:\n1. Better-T-Stack for spinning up a SaaS\n2. 21st MCP as your component workshop\n3. tweakcn for design work",
       "video_tip": "Grid of 20 numbered build-stack cards (apps, interfaces, memory, data, agents, video) flipping open. 8s.",
+      "draft_keywords": [
+        "Opus 5.5",
+        "stack",
+        "memory",
+        "agents",
+        "MCP"
+      ],
+      "original_en": "this is pure f*cking treasure\n\n20 build stacks for Opus 5.5, each built around a real deliverable\n\napps. interfaces. memory. data. agents. video\n\n01 Better-T-Stack → saas foundry\n\n02 21st MCP → component lab\n\n03 tweakcn → design",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.058,
+        "word_overlap": 0.567,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 12751,
         "label": "12.8K",
@@ -4801,8 +4971,22 @@
       "full_text": "I’ve found Grok Bots that save you THOUSANDS OF DOLLARS\n\nEven Elon gave them a BOOST\n\nBots that save you money or run real-world errands:\n\n1/ Personal news bot by @Scobleizer\n\nBuilds your news feed from your X Lists\n\nThe sooner you find out about news, the more effectively you can trade on it: Polymarket, trading, memecoin\n\nhttps://t.co/QzEHoLNOKL\n\n2/ Credit repair bot by @BrianRoemmele\n\nFinds fraudulent entries on your credit report and gets them fixed\n\nhttps://t.co/pOVZMGX4SE\n\n3/ The bot that pays for itself by @mikepat711\n\nNegotiates your bills and writes letters to utility companies\n\nhttps://t.co/WspXdvWQjT\n\n4/ One-text shopping by @Teslaconomics\n\nOrdered a product without ever opening a website\n https://t.co/MFLfvx6QE7\n\n5/ Restaurant booking by @BrianRoemmele\n\nCalls the restaurant and books your table\n\nhttps://t.co/shT1Uw1MEX\n\n6/ X Money finance bot by @BrianRoemmele\n\nReads your finances and goals\n\nhttps://t.co/h1C3PuoxgM\n\n7/ Usage cost optimizer by @tejas3732\n\nReads your usage export and tells you where to cut\n\nhttps://t.co/ACpPgY3hPP\n\n8/ Bots that maintain your OTHER bots\n\n> Storage cleanup by XFreeze: \n> Optimizer by Roemmele:\n> Trimmy by TimDOES:\n\nThe next wave isn't chatbots, it's bots that do the boring stuff and save you money while you sleep",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "I’ve found Grok Bots that save you THOUSANDS OF DOLLARS",
-      "draft_en": "I’ve found Grok Bots that save you THOUSANDS OF DOLLARS\n\nEven Elon gave them a BOOST\n\nBots that save you money or run real-world errands:\n\n1/ Personal news bot by @Scobleizer\n\nBuilds your news feed from your X Lists\n\nThe sooner you find out about news, the more effectively you can trade on it: Polymarket, trading, memecoin\n\n2/ Credit repair bot by @BrianRoemmele\n\nFinds fraudulent entries on your credit report and gets them fixed\n\n3/ The bot that pays for itself by @mikepat711\n\nNegotiates your bills and writes letters to utility companies\n\n4/ One-text shopping by @Teslaconomics\n\nOrdered a product without ever opening a website\n\n5/ Restaurant booking by @BrianRoemmele\n\nCalls the restaurant and books your table\n\n6/ X Money finance bot by @BrianRoemmele\n\nReads your finances and goals\n\n7/ Usage cost optimizer by @tejas3732\n\nReads your usage export and tells you where to cut\n\n8/ Bots that maintain your OTHER bots\n\n> Storage cleanup by XFreeze: \n> Optimizer by Roemmele:\n> Trimmy by TimDOES:\n\nThe next wave isn't chatbots, it's bots that do the boring stuff and save you money while you sleep",
+      "draft_en": "Found a set of Grok Bots that can save you serious money, thousands of dollars. Elon even boosted them.\n\nThese bots cut costs or handle real errands:\n\n1. News bot (@Scobleizer) - turns your X Lists into a personal news feed. Hearing news earlier means better trades on Polymarket, markets or memecoins\n2. Credit repair (@BrianRoemmele) - spots fraudulent lines in your credit report and has them corrected\n3. Self-funding bot (@mikepat711) - negotiates your bills and drafts letters to utility companies\n4. Shopping by text (@Teslaconomics) - bought a product without visiting a single website\n5. Table booking (@BrianRoemmele) - phones the restaurant and reserves for you\n6. X Money finance bot (@BrianRoemmele) - looks at your finances alongside your goals\n7. Cost optimizer (@tejas3732) - goes through your usage export and shows what to cut\n8. Bots that look after your other bots: XFreeze's storage cleanup, the Roemmele optimizer and TimDOES' Trimmy\n\nChatbots aren't the next wave. Bots that quietly handle the boring chores and cut your costs on autopilot overnight are.",
       "video_tip": "Carousel of money-saving Grok Bot cards (news feed, credit repair, bill negotiation, one-text shopping) flipping in. 8s.",
+      "draft_keywords": [
+        "Grok Bot",
+        "Elon",
+        "bots",
+        "usage",
+        "autopilot"
+      ],
+      "original_en": "I’ve found Grok Bots that save you THOUSANDS OF DOLLARS\n\nEven Elon gave them a BOOST\n\nBots that save you money or run real-world errands:\n\n1/ Personal news bot by @Scobleizer\n\nBuilds your news feed from your X Lists\n\nThe sooner you find out about news, the more effectively you can trade on it: Polymarket, trading, memecoin\n\n2/ Credit repair bot by @BrianRoemmele\n\nFinds fraudulent entries on your credit report and gets them fixed\n\n3/ The bot that pays for itself by @mikepat711\n\nNegotiates your bills and writes letters to utility companies\n\n4/ One-text shopping by @Teslaconomics\n\nOrdered a product without ever opening a website\n\n5/ Restaurant booking by @BrianRoemmele\n\nCalls the restaurant and books your table\n\n6/ X Money finance bot by @BrianRoemmele\n\nReads your finances and goals\n\n7/ Usage cost optimizer by @tejas3732\n\nReads your usage export and tells you where to cut\n\n8/ Bots that maintain your OTHER bots\n\n> Storage cleanup by XFreeze: \n> Optimizer by Roemmele:\n> Trimmy by TimDOES:\n\nThe next wave isn't chatbots, it's bots that do the boring stuff and save you money while you sleep",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.061,
+        "word_overlap": 0.598,
+        "max_copied_run": 5
+      },
       "followers": {
         "count": 24238,
         "label": "24.2K",
@@ -4847,8 +5031,27 @@
       "full_text": "CLAUDE + OBSIDIAN + LOOP ENGINEERING = A VAULT THAT RUNS ITSELF\n\nthe core idea: the vault is the loop's state, not the chat window\n\neverything Claude Code remembers lives in a .md file - the Karpathy-style second brain, now wired to run itself\n\nthe loop:\n> capture - a thought drops into 00-inbox\n> context - Opus 5.5 pulls links, tags and nearby notes\n> draft - Sonnet 5.5 edits inside a git worktree, never the live vault\n> review - a Haiku 5.5 critic reads the diff before anything ships\n> commit - appended to the vault, nothing gets rewritten\n\nthe key insight: frontmatter fields like supports, contradicts and supersedes are graph edges, not metadata\n\nthe note format itself is the write API. the second brain compounds on top of it\n\nstart with a plain loop. it runs about 2-4x a direct call\n\n> switch to a full graph only when state has to outlive the session\n> or when several agents need to coordinate\n> or when you need to explain what changed\n> that jump can run 10-50x\n\none review assistant walked from 55% to 72% to 84% just by climbing through these shapes in order",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "CLAUDE + OBSIDIAN + LOOP ENGINEERING = A VAULT THAT RUNS ITSELF",
-      "draft_en": "CLAUDE + OBSIDIAN + LOOP ENGINEERING = A VAULT THAT RUNS ITSELF\n\nthe core idea: the vault is the loop's state, not the chat window\n\neverything Claude Code remembers lives in a .md file - the Karpathy-style second brain, now wired to run itself\n\nthe loop:\n> capture - a thought drops into 00-inbox\n> context - Opus 5.5 pulls links, tags and nearby notes\n> draft - Sonnet 5.5 edits inside a git worktree, never the live vault\n> review - a Haiku 5.5 critic reads the diff before anything ships\n> commit - appended to the vault, nothing gets rewritten\n\nthe key insight: frontmatter fields like supports, contradicts and supersedes are graph edges, not metadata\n\nthe note format itself is the write API. the second brain compounds on top of it\n\nstart with a plain loop. it runs about 2-4x a direct call\n\n> switch to a full graph only when state has to outlive the session\n> or when several agents need to coordinate\n> or when you need to explain what changed\n> that jump can run 10-50x\n\none review assistant walked from 55% to 72% to 84% just by climbing through these shapes in order",
+      "draft_en": "Claude, Obsidian and loop engineering together give you a vault that maintains itself.\n\nMain idea: the loop's state lives in the vault, not in the chat window.\n\nAnything Claude Code needs to remember sits in a .md file. It's the Karpathy-style second brain, now set up to run on its own.\n\nHow the loop goes:\n- capture: a new thought lands in 00-inbox\n- context: Opus 5.5 gathers links, tags and related notes\n- draft: Sonnet 5.5 does the editing in its own git worktree, the live vault stays untouched\n- review: Haiku 5.5 plays critic and reads the diff before anything goes out\n- commit: added to the vault, nothing overwritten\n\nWhat matters most: frontmatter fields such as supports, contradicts and supersedes work as graph edges, not just metadata.\n\nThe note format doubles as the write API, and the second brain keeps compounding on that base.\n\nBegin with a simple loop. It runs at roughly 2-4x a direct call.\nOnly upgrade to a full graph if:\n- state needs to survive past the session\n- multiple agents have to coordinate\n- you have to be able to explain what changed\nThat step up can run 10-50x.\n\nCase in point: a review assistant climbed 55% -> 72% -> 84% simply by stepping through these shapes one at a time.",
       "video_tip": "Obsidian vault as a loop: inbox -> context -> draft in worktree -> Haiku review -> commit, nodes lighting in order. 9s.",
+      "draft_keywords": [
+        "Claude Code",
+        "Obsidian",
+        "vault",
+        "Second brain",
+        "Opus 5.5",
+        "Sonnet 5.5",
+        "Haiku",
+        "notes",
+        "API",
+        "agents"
+      ],
+      "original_en": "CLAUDE + OBSIDIAN + LOOP ENGINEERING = A VAULT THAT RUNS ITSELF\n\nthe core idea: the vault is the loop's state, not the chat window\n\neverything Claude Code remembers lives in a .md file - the Karpathy-style second brain, now wired to run itself\n\nthe loop:\n> capture - a thought drops into 00-inbox\n> context - Opus 5.5 pulls links, tags and nearby notes\n> draft - Sonnet 5.5 edits inside a git worktree, never the live vault\n> review - a Haiku 5.5 critic reads the diff before anything ships\n> commit - appended to the vault, nothing gets rewritten\n\nthe key insight: frontmatter fields like supports, contradicts and supersedes are graph edges, not metadata\n\nthe note format itself is the write API. the second brain compounds on top of it\n\nstart with a plain loop. it runs about 2-4x a direct call\n\n> switch to a full graph only when state has to outlive the session\n> or when several agents need to coordinate\n> or when you need to explain what changed\n> that jump can run 10-50x\n\none review assistant walked from 55% to 72% to 84% just by climbing through these shapes in order",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.068,
+        "word_overlap": 0.624,
+        "max_copied_run": 5
+      },
       "followers": {
         "count": 27390,
         "label": "27.4K",
@@ -4901,8 +5104,21 @@
       "full_text": "this is absolutely unreal\n\njack dorsey (twitter co-founder) just shipped a completely free github repo with 26.2k stars that gives you an ai-agent operating system to help run a business\n\nhere’s the setup:\n\n1. clone the repo\n2. host the server yourself: channels, search, git, automations, everything runs in one place\n3. add your agent to a channel like another teammate, set clear permissions, and guide it with the team in real time\n\nsave this and bookmark it to come back anytime",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "this is absolutely unreal",
-      "draft_en": "this is absolutely unreal\n\njack dorsey (twitter co-founder) just shipped a completely free github repo with 26.2k stars that gives you an ai-agent operating system to help run a business\n\nhere’s the setup:\n\n1. clone the repo\n2. host the server yourself: channels, search, git, automations, everything runs in one place\n3. add your agent to a channel like another teammate, set clear permissions, and guide it with the team in real time\n\nsave this and bookmark it to come back anytime",
+      "draft_en": "Jack Dorsey, the Twitter co-founder, just put out a free GitHub repo (26.2k stars) that works as an operating system for AI agents running a business. Wild.\n\nHow to set it up:\n1. Clone it\n2. Self-host the server - channels, search, git and automations all live in one place\n3. Drop your agent into a channel like any other teammate, give it clear permissions and steer it alongside the team in real time\n\nBookmark this for later",
       "video_tip": "Repo card with 26.2K stars, self-hosted server boots, an agent joins a team channel like a teammate. 7s.",
+      "draft_keywords": [
+        "GitHub",
+        "AI agent",
+        "founder",
+        "automations"
+      ],
+      "original_en": "this is absolutely unreal\n\njack dorsey (twitter co-founder) just shipped a completely free github repo with 26.2k stars that gives you an ai-agent operating system to help run a business\n\nhere’s the setup:\n\n1. clone the repo\n2. host the server yourself: channels, search, git, automations, everything runs in one place\n3. add your agent to a channel like another teammate, set clear permissions, and guide it with the team in real time\n\nsave this and bookmark it to come back anytime",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.041,
+        "word_overlap": 0.7,
+        "max_copied_run": 5
+      },
       "followers": {
         "count": 197276,
         "label": "197K",
@@ -4956,8 +5172,22 @@
       "text_note": "API-truncated mid-sentence (no note_tweet)",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "🚨 this completely broke my brain",
-      "draft_en": "🚨 this completely broke my brain\n\ni just watched a solo founder close his laptop and leave his entire engineering stack on autopilot using claude code and opus 5.5\n\ntech giants spend $350,000+ per senior engineer to maintain these systems while 99% of devs are still manually",
+      "draft_en": "My brain still hasn't recovered from this.\n\nA solo founder shut his laptop and let Claude Code with Opus 5.5 run his whole engineering stack on autopilot.\n\nBig tech pays $350,000+ for each senior engineer to keep systems like that alive, and 99% of developers are still doing it by hand.",
       "video_tip": "Laptop closes, Claude Code + Opus 5.5 terminal keeps shipping fixes, $350K engineer cost crossed out. 7s.",
+      "draft_keywords": [
+        "solo founder",
+        "Claude Code",
+        "Opus 5.5",
+        "stack",
+        "autopilot"
+      ],
+      "original_en": "🚨 this completely broke my brain\n\ni just watched a solo founder close his laptop and leave his entire engineering stack on autopilot using claude code and opus 5.5\n\ntech giants spend $350,000+ per senior engineer to maintain these systems while 99% of devs are still manually",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.02,
+        "word_overlap": 0.63,
+        "max_copied_run": 4
+      },
       "followers": {
         "count": 12381,
         "label": "12.4K",
@@ -5002,8 +5232,19 @@
       "full_text": "F*ck YES... Claude Opus 5.5 just turned my TV into a solar power plant\n\none sentence and my roof, battery and whole house show up on screen - and it talks back\n\ntry with yours, here's step by step guide:\n\nstep 1 → open Claude Code on a computer connected to your home Wi-Fi\n\nstep 2 → it finds your inverter, battery and smart meter on the network and pulls their live data where your brand allows it\n\nstep 3 → it builds a full-screen dashboard: live solar flow, today's kWh, battery %, what went back to the grid\n\nstep 4 → add room sensors and a weather feed, it makes a climate screen and a 14 day forecast\n\nstep 5 → logins go into your keychain with one command, never into the chat\n\nstep 6 + the result → say hey Claude, show my solar power on my TV and every kilowatt your roof made today lights up the screen (84 kWh here, 98% off my own sun, battery still at 82% after dark)\n\nsave this to change your life today",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "F*ck YES... Claude Opus 5.5 just turned my TV into a solar power plant",
-      "draft_en": "F*ck YES... Claude Opus 5.5 just turned my TV into a solar power plant\n\none sentence and my roof, battery and whole house show up on screen - and it talks back\n\ntry with yours, here's step by step guide:\n\nstep 1 → open Claude Code on a computer connected to your home Wi-Fi\n\nstep 2 → it finds your inverter, battery and smart meter on the network and pulls their live data where your brand allows it\n\nstep 3 → it builds a full-screen dashboard: live solar flow, today's kWh, battery %, what went back to the grid\n\nstep 4 → add room sensors and a weather feed, it makes a climate screen and a 14 day forecast\n\nstep 5 → logins go into your keychain with one command, never into the chat\n\nstep 6 + the result → say hey Claude, show my solar power on my TV and every kilowatt your roof made today lights up the screen (84 kWh here, 98% off my own sun, battery still at 82% after dark)\n\nsave this to change your life today",
+      "draft_en": "Claude Opus 5.5 just made my TV a live view of my home solar setup. Huge.\n\nOne sentence and the roof, battery and the whole house appear on screen, and it answers back.\n\nWant to try it at home? Step by step:\n\n1. Launch Claude Code on a computer that's on your home Wi-Fi\n2. It locates the inverter, battery and smart meter on your network, then reads their live data where your brand permits\n3. It builds a full-screen dashboard: solar flow in real time, kWh so far today, battery %, and what you sent back to the grid\n4. Add room sensors plus a weather feed and you get a climate screen with a 14 day forecast\n5. Credentials go into your keychain with a single command, never into the chat\n6. The payoff: ask Claude to put your solar numbers on the TV, and every kilowatt your roof produced today lights up (mine: 84 kWh, 98% of it from my own panels, and the battery was still holding 82% once it got dark)\n\nBookmark it and build yours today",
       "video_tip": "TV switching to a live solar-flow dashboard: roof, battery %, today's kWh, grid export, 14-day forecast. 8s.",
+      "draft_keywords": [
+        "Opus 5.5",
+        "Claude Code"
+      ],
+      "original_en": "F*ck YES... Claude Opus 5.5 just turned my TV into a solar power plant\n\none sentence and my roof, battery and whole house show up on screen - and it talks back\n\ntry with yours, here's step by step guide:\n\nstep 1 → open Claude Code on a computer connected to your home Wi-Fi\n\nstep 2 → it finds your inverter, battery and smart meter on the network and pulls their live data where your brand allows it\n\nstep 3 → it builds a full-screen dashboard: live solar flow, today's kWh, battery %, what went back to the grid\n\nstep 4 → add room sensors and a weather feed, it makes a climate screen and a 14 day forecast\n\nstep 5 → logins go into your keychain with one command, never into the chat\n\nstep 6 + the result → say hey Claude, show my solar power on my TV and every kilowatt your roof made today lights up the screen (84 kWh here, 98% off my own sun, battery still at 82% after dark)\n\nsave this to change your life today",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.129,
+        "word_overlap": 0.623,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 12548,
         "label": "12.5K",
@@ -5048,8 +5289,22 @@
       "full_text": "Would you run a random script from a stranger on your computer?\n\nThat's what installing an unchecked AI skill is.\n\nOne study of 31,132 agent skills found:\n\n→ 26.1% had vulnerabilities\n→ 5.2% looked malicious\n\nNVIDIA open sourced the scanner it uses before publishing skills to its own catalog.\n\nSkillSpector checks for prompt injection, data theft, privilege escalation and poisoned MCP tools.\n\nGives every skill a 0 to 100 risk score.\n\nScan before you install.\n\nCommands below",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "Would you run a random script from a stranger on your computer?",
-      "draft_en": "Would you run a random script from a stranger on your computer?\n\nThat's what installing an unchecked AI skill is.\n\nOne study of 31,132 agent skills found:\n\n→ 26.1% had vulnerabilities\n→ 5.2% looked malicious\n\nNVIDIA open sourced the scanner it uses before publishing skills to its own catalog.\n\nSkillSpector checks for prompt injection, data theft, privilege escalation and poisoned MCP tools.\n\nGives every skill a 0 to 100 risk score.\n\nScan before you install.\n\nCommands below",
+      "draft_en": "Would you run a stranger's random script on your machine? Installing an AI skill nobody checked is the same thing.\n\nA study covering 31,132 agent skills found:\n- 26.1% with vulnerabilities\n- 5.2% that looked malicious\n\nNVIDIA released its in-house scanner as open source - the same one it uses before a skill ever lands in its own catalog. It's called SkillSpector. It flags poisoned MCP tools, attempts to escalate privileges, data theft and prompt injection, then rates every skill on a 0 to 100 risk scale.\n\nBasic security: scan first, install second.\n\nCommands below",
       "video_tip": "Skill files scanned one by one, 0-100 risk scores, malicious ones flagged red (26.1% / 5.2% stats). 7s.",
+      "draft_keywords": [
+        "skills",
+        "SkillSpector",
+        "prompt injection",
+        "MCP",
+        "security"
+      ],
+      "original_en": "Would you run a random script from a stranger on your computer?\n\nThat's what installing an unchecked AI skill is.\n\nOne study of 31,132 agent skills found:\n\n→ 26.1% had vulnerabilities\n→ 5.2% looked malicious\n\nNVIDIA open sourced the scanner it uses before publishing skills to its own catalog.\n\nSkillSpector checks for prompt injection, data theft, privilege escalation and poisoned MCP tools.\n\nGives every skill a 0 to 100 risk score.\n\nScan before you install.\n\nCommands below",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.067,
+        "word_overlap": 0.635,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 197276,
         "label": "197K",
@@ -5102,8 +5357,19 @@
       "full_text": "REA IS THE BEST WAY TO LEARN FROM SOFTWARE YOU ADMIRE.\n\nNot by guessing how it works.\n\nBy tracing it.\n\nPoint Claude Code at an app you own or have permission to analyze.\n\nAsk how one feature works.\n\nIt traces the logic down to the compiled code.\n\nCites the evidence for every claim.\n\nThen explains it in plain English.\n\nIt's like having a senior engineer walk you through someone else's codebase.\n\nPrompt below 👇",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "REA IS THE BEST WAY TO LEARN FROM SOFTWARE YOU ADMIRE.",
-      "draft_en": "REA IS THE BEST WAY TO LEARN FROM SOFTWARE YOU ADMIRE.\n\nNot by guessing how it works.\n\nBy tracing it.\n\nPoint Claude Code at an app you own or have permission to analyze.\n\nAsk how one feature works.\n\nIt traces the logic down to the compiled code.\n\nCites the evidence for every claim.\n\nThen explains it in plain English.\n\nIt's like having a senior engineer walk you through someone else's codebase.\n\nPrompt below 👇",
+      "draft_en": "Want to learn from software you admire? REA beats guessing every time.\n\nDon't speculate about how it works. Trace it.\n\nAim Claude Code at software that belongs to you, or that you're cleared to analyze, and pick a single feature to ask about.\n\nIt follows the logic all the way to the compiled code, backs every claim with evidence and then breaks it down in plain English.\n\nFeels like a senior engineer giving you a tour of someone else's codebase.\n\nPrompt below",
       "video_tip": "Claude Code tracing one feature from UI down to compiled code, evidence citations stacking beside each claim. 8s.",
+      "draft_keywords": [
+        "REA",
+        "Claude Code"
+      ],
+      "original_en": "REA IS THE BEST WAY TO LEARN FROM SOFTWARE YOU ADMIRE.\n\nNot by guessing how it works.\n\nBy tracing it.\n\nPoint Claude Code at an app you own or have permission to analyze.\n\nAsk how one feature works.\n\nIt traces the logic down to the compiled code.\n\nCites the evidence for every claim.\n\nThen explains it in plain English.\n\nIt's like having a senior engineer walk you through someone else's codebase.\n\nPrompt below 👇",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.076,
+        "word_overlap": 0.579,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 197276,
         "label": "197K",
@@ -5157,8 +5423,20 @@
       "text_note": "API-truncated mid-sentence (no note_tweet)",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "Opus 5.5 + Remotion = your own video factory that you can use to earn $$$",
-      "draft_en": "Opus 5.5 + Remotion = your own video factory that you can use to earn $$$\n\none reusable scene → six campaign videos\n\n01 | the setup:\n\n2 hooks × 3 formats\nsquare. vertical. widescreen.\n\n02 | give Claude Code the official Remotion skills:\n\nnpx skills add remotion-dev/skills\n\n03 |",
+      "draft_en": "Pair Opus 5.5 with Remotion and you've got a video factory that can make you money.\n\nThe math: a single reusable scene turns into six campaign videos.\n\nStep 1, the setup: 2 hooks across 3 formats (square, vertical, widescreen)\n\nStep 2, load the official Remotion skills into Claude Code:\nnpx skills add remotion-dev/skills\n\nStep 3",
       "video_tip": "One Remotion scene -> 2 hooks x 3 formats -> six campaign videos rendering side by side. 8s.",
+      "draft_keywords": [
+        "Opus 5.5",
+        "Claude Code",
+        "skills"
+      ],
+      "original_en": "Opus 5.5 + Remotion = your own video factory that you can use to earn $$$\n\none reusable scene → six campaign videos\n\n01 | the setup:\n\n2 hooks × 3 formats\nsquare. vertical. widescreen.\n\n02 | give Claude Code the official Remotion skills:\n\nnpx skills add remotion-dev/skills\n\n03 |",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.096,
+        "word_overlap": 0.719,
+        "max_copied_run": 5
+      },
       "followers": {
         "count": 12751,
         "label": "12.8K",
@@ -5203,8 +5481,22 @@
       "full_text": "honestly don't understand why everyone still doesn't use this\n\nElon Musk dropped an idea that blew up with 27 million views:\n\n\"Forget launching startups. Invest in unexciting online assets and let automated systems handle them\"\n\nThat is precisely how Grok Bot operates right now. The entire setup costs zero dollars beyond your base subscription:\n\n-> set up an agent and name it Mogul\n-> task it with identifying a mundane daily search niche (it scans live complaints on X and Reddit since it's powered by Grok)\n-> it generates a concise directory platform on its local system and deploys one valuable entry every single night\n-> it independently handles email outreach under your name to lock in affiliate and referral partnerships\n-> the content workflow runs completely on autopilot while financial updates are sent directly to your Telegram\n-> month one brings in steady visits; by month three you net your initial $315 and the momentum keeps building indefinitely\n\nYour laptop can stay completely shut while the web footprint expands on its own\n\nEvery single page functions as a permanent micro-worker. It generates compounding returns just like rental property\n\nSome creators manage 3 platforms simultaneously without ever opening them. They keep quiet about it, and now you know why\n\nFor every month you delay, a competitor's bot uploads another 30 pages into the exact niche you had your eye on\n\nCheck out the step-by-step breakdown below\n\nSave this post right now before someone else claims your target market",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "honestly don't understand why everyone still doesn't use this",
-      "draft_en": "honestly don't understand why everyone still doesn't use this\n\nElon Musk dropped an idea that blew up with 27 million views:\n\n\"Forget launching startups. Invest in unexciting online assets and let automated systems handle them\"\n\nThat is precisely how Grok Bot operates right now. The entire setup costs zero dollars beyond your base subscription:\n\n-> set up an agent and name it Mogul\n-> task it with identifying a mundane daily search niche (it scans live complaints on X and Reddit since it's powered by Grok)\n-> it generates a concise directory platform on its local system and deploys one valuable entry every single night\n-> it independently handles email outreach under your name to lock in affiliate and referral partnerships\n-> the content workflow runs completely on autopilot while financial updates are sent directly to your Telegram\n-> month one brings in steady visits; by month three you net your initial $315 and the momentum keeps building indefinitely\n\nYour laptop can stay completely shut while the web footprint expands on its own\n\nEvery single page functions as a permanent micro-worker. It generates compounding returns just like rental property\n\nSome creators manage 3 platforms simultaneously without ever opening them. They keep quiet about it, and now you know why\n\nFor every month you delay, a competitor's bot uploads another 30 pages into the exact niche you had your eye on\n\nCheck out the step-by-step breakdown below\n\nSave this post right now before someone else claims your target market",
+      "draft_en": "Still surprised more people aren't doing this.\n\nElon Musk floated an idea that hit 27 million views. Roughly: skip startups, buy boring online assets and let automation run them.\n\nGrok Bot can do exactly that today, and it costs nothing on top of your base subscription:\n- create an agent called Mogul\n- have it find a dull daily-search niche (it scans what people complain about on X and Reddit right now, because it runs on Grok)\n- it spins up a lean directory site on its own machine and publishes one useful entry each night\n- it does the email outreach in your name to secure affiliate and referral deals\n- content keeps flowing on autopilot and money updates land in your Telegram\n- month one gets steady traffic; by month three you net your first $315 and it keeps compounding\n\nYour laptop stays closed while the site keeps growing.\n\nEach page is a small worker that never quits, compounding like a rental property.\n\nSome creators run 3 of these sites and never open them. They don't talk about it, now you know why.\n\nEvery month you wait, a rival's bots add 30 more pages to the niche you wanted.\n\nFull breakdown below. Save this before someone takes your niche.",
       "video_tip": "Night timelapse: a bot named Mogul adds one directory entry each night, outreach emails queue up (illustrative). 8s.",
+      "draft_keywords": [
+        "Elon Musk",
+        "Grok Bot",
+        "Reddit",
+        "autopilot",
+        "bots"
+      ],
+      "original_en": "honestly don't understand why everyone still doesn't use this\n\nElon Musk dropped an idea that blew up with 27 million views:\n\n\"Forget launching startups. Invest in unexciting online assets and let automated systems handle them\"\n\nThat is precisely how Grok Bot operates right now. The entire setup costs zero dollars beyond your base subscription:\n\n-> set up an agent and name it Mogul\n-> task it with identifying a mundane daily search niche (it scans live complaints on X and Reddit since it's powered by Grok)\n-> it generates a concise directory platform on its local system and deploys one valuable entry every single night\n-> it independently handles email outreach under your name to lock in affiliate and referral partnerships\n-> the content workflow runs completely on autopilot while financial updates are sent directly to your Telegram\n-> month one brings in steady visits; by month three you net your initial $315 and the momentum keeps building indefinitely\n\nYour laptop can stay completely shut while the web footprint expands on its own\n\nEvery single page functions as a permanent micro-worker. It generates compounding returns just like rental property\n\nSome creators manage 3 platforms simultaneously without ever opening them. They keep quiet about it, and now you know why\n\nFor every month you delay, a competitor's bot uploads another 30 pages into the exact niche you had your eye on\n\nCheck out the step-by-step breakdown below\n\nSave this post right now before someone else claims your target market",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.045,
+        "word_overlap": 0.5,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 20456,
         "label": "20.5K",
@@ -5250,8 +5542,19 @@
       "text_note": "API-truncated mid-sentence (no note_tweet)",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "this grok system could become the intelligence layer inside the next tesla roadster",
-      "draft_en": "this grok system could become the intelligence layer inside the next tesla roadster\n\ngrok cortex routes every request through a central decision engine, sending simple tasks to fast local models while more complex problems go to specialized ai kernels\n\nit can compress a",
+      "draft_en": "Grok Cortex might end up as the brain of the next Tesla Roadster.\n\nEvery request hits one central decision engine first. Easy tasks get handed to quick local models, harder ones go to specialized AI kernels.",
       "video_tip": "Central 'cortex' node routing requests: small ones to local models, hard ones to specialist kernels, car HUD backdrop. 7s.",
+      "draft_keywords": [
+        "local models",
+        "model"
+      ],
+      "original_en": "this grok system could become the intelligence layer inside the next tesla roadster\n\ngrok cortex routes every request through a central decision engine, sending simple tasks to fast local models while more complex problems go to specialized ai kernels\n\nit can compress a",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.091,
+        "word_overlap": 0.619,
+        "max_copied_run": 5
+      },
       "followers": {
         "count": 4805,
         "label": "4.8K",
@@ -5296,8 +5599,23 @@
       "full_text": "somebody's NDA died so you could read this\n\nSpaceXAI sells Grok Bot as the coworker that remembers you, then wrote the catch into its own documentation and left the page up: a bot's memory keeps short summaries of your work, and the docs call it \"not a substitute for the source of truth\"\n\nAndrej Karpathy's second brain post had already pulled 22 million views, and the most saved build of it, 85,000 bookmarks, only works while Obsidian stays open on your laptop\n\ni ran one bot on chat memory alone for a week, counting what came back: 31 facts i had told it, 9 returned with the wrong date or amount, and every wrong one was a summary of a thread it never reopened\n\na second brain on Grok Bot is worth building, and you can make it stop guessing before the first routine runs:\n\n- keep the brain in files in /workspace, not in chat memory: a file stays exactly as written, and every bot you add later reads the same folder\n- split facts in two: who people are and how you work live in files, dates, amounts and status get reopened at the source on every run\n- never edit raw/: everything lands there as it came and every page links back to it, so a wrong claim traces to its line in one click\n- keep routines to a few runs a day, since an hourly one can burn a week of your plan's bot work in a single day\n- give it a rules file it rereads before every task: an engineer at SpaceXAI has his bots review their rule book at 5 a.m. \"so the same mistake doesn't happen twice\"\n\nthe cloud computer is also why this pays: the bot files your mail at 11 p.m. and hands you one page at 7:30 while the laptop is shut, exactly where the Obsidian builds stop\n\nmy take, and it is the uncomfortable one: most second brains are a chat that forgets politely, and the fix was always one folder and one rule about where a fact lives\n\nbookmark this, the seven prompts that build the folder, the night filing, the morning page and the Sunday \"what you decided and forgot\" are written out in the course ↓",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "somebody's NDA died so you could read this",
-      "draft_en": "somebody's NDA died so you could read this\n\nSpaceXAI sells Grok Bot as the coworker that remembers you, then wrote the catch into its own documentation and left the page up: a bot's memory keeps short summaries of your work, and the docs call it \"not a substitute for the source of truth\"\n\nAndrej Karpathy's second brain post had already pulled 22 million views, and the most saved build of it, 85,000 bookmarks, only works while Obsidian stays open on your laptop\n\ni ran one bot on chat memory alone for a week, counting what came back: 31 facts i had told it, 9 returned with the wrong date or amount, and every wrong one was a summary of a thread it never reopened\n\na second brain on Grok Bot is worth building, and you can make it stop guessing before the first routine runs:\n\n- keep the brain in files in /workspace, not in chat memory: a file stays exactly as written, and every bot you add later reads the same folder\n- split facts in two: who people are and how you work live in files, dates, amounts and status get reopened at the source on every run\n- never edit raw/: everything lands there as it came and every page links back to it, so a wrong claim traces to its line in one click\n- keep routines to a few runs a day, since an hourly one can burn a week of your plan's bot work in a single day\n- give it a rules file it rereads before every task: an engineer at SpaceXAI has his bots review their rule book at 5 a.m. \"so the same mistake doesn't happen twice\"\n\nthe cloud computer is also why this pays: the bot files your mail at 11 p.m. and hands you one page at 7:30 while the laptop is shut, exactly where the Obsidian builds stop\n\nmy take, and it is the uncomfortable one: most second brains are a chat that forgets politely, and the fix was always one folder and one rule about where a fact lives\n\nbookmark this, the seven prompts that build the folder, the night filing, the morning page and the Sunday \"what you decided and forgot\" are written out in the course ↓",
+      "draft_en": "Someone's NDA must have expired, because this is wild.\n\nSpaceXAI markets Grok Bot as a coworker that remembers you. Then it put the catch in its own docs and left the page live: what a bot remembers is a set of brief summaries of what you did, and by their own admission that can't replace the source of truth.\n\nFor context, the second brain post from Andrej Karpathy already passed 22 million views. Its most-saved build (85,000 bookmarks) only works as long as Obsidian is open on your laptop.\n\nMy own test: a week with one bot relying only on chat memory, tracking everything it recalled. Of 31 facts I'd told it, 9 came back with a wrong date or amount. Each miss came from a summary of some thread it hadn't looked at since.\n\nA Grok Bot second brain is still worth building. You just need to stop it guessing before the first routine runs:\n- store the brain as files in /workspace, not chat memory. Files don't drift, and every new bot you add shares that one folder\n- sort facts into two kinds: your contacts and your working style go in files; anything with a date, an amount or a status is re-read from the source on every run\n- never touch raw/. Everything lands there untouched and every page links back, so a bad claim traces to its exact line in one click\n- limit routines to a few runs per day. Run one every hour and a single day can burn through the bot work your plan gives you for a week\n- give it a rules file to reread before each task. A SpaceXAI engineer makes his bots reread their rules every day at 5 a.m. so no mistake happens twice\n\nThe cloud computer is the other reason it pays off: the bot sorts your mail at 11 p.m. and gives you a single page at 7:30 while you're offline and the laptop is closed. That's exactly where Obsidian builds fall short.\n\nMy honest take, and not a comfortable one: most second brains are just a chat that forgets politely. The fix was always one folder plus one rule about where each fact lives.\n\nBookmark this. All seven prompts are in the course: the folder setup, nightly filing, a morning one-pager and a Sunday recap of what you decided and forgot",
       "video_tip": "Docs page zoom on 'not a substitute for the source of truth', then a 31-facts tally with 9 marked wrong. 8s.",
+      "draft_keywords": [
+        "Grok Bot",
+        "Second brain",
+        "memory",
+        "Obsidian",
+        "bots",
+        "offline"
+      ],
+      "original_en": "somebody's NDA died so you could read this\n\nSpaceXAI sells Grok Bot as the coworker that remembers you, then wrote the catch into its own documentation and left the page up: a bot's memory keeps short summaries of your work, and the docs call it \"not a substitute for the source of truth\"\n\nAndrej Karpathy's second brain post had already pulled 22 million views, and the most saved build of it, 85,000 bookmarks, only works while Obsidian stays open on your laptop\n\ni ran one bot on chat memory alone for a week, counting what came back: 31 facts i had told it, 9 returned with the wrong date or amount, and every wrong one was a summary of a thread it never reopened\n\na second brain on Grok Bot is worth building, and you can make it stop guessing before the first routine runs:\n\n- keep the brain in files in /workspace, not in chat memory: a file stays exactly as written, and every bot you add later reads the same folder\n- split facts in two: who people are and how you work live in files, dates, amounts and status get reopened at the source on every run\n- never edit raw/: everything lands there as it came and every page links back to it, so a wrong claim traces to its line in one click\n- keep routines to a few runs a day, since an hourly one can burn a week of your plan's bot work in a single day\n- give it a rules file it rereads before every task: an engineer at SpaceXAI has his bots review their rule book at 5 a.m. \"so the same mistake doesn't happen twice\"\n\nthe cloud computer is also why this pays: the bot files your mail at 11 p.m. and hands you one page at 7:30 while the laptop is shut, exactly where the Obsidian builds stop\n\nmy take, and it is the uncomfortable one: most second brains are a chat that forgets politely, and the fix was always one folder and one rule about where a fact lives\n\nbookmark this, the seven prompts that build the folder, the night filing, the morning page and the Sunday \"what you decided and forgot\" are written out in the course ↓",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.11,
+        "word_overlap": 0.634,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 37290,
         "label": "37.3K",
@@ -5342,8 +5660,23 @@
       "full_text": "🚨this is SERIOUSLY dangerous.\n\ni just watched an 18-year-old calmly explain how he turned Grok Bot into a personal second brain (CEOs pay a chief of staff $224,000 a year for the same job), and i'm convinced 99% of people still aren't seeing this\n\nit's a wiki of your whole life that writes itself, and the people who run one never start a chat from zero again\n\nthe whole system fits in four lines:\n\n- open Grok Bot and create three bots in one group chat\n- drop in every link, PDF and voice note you ever saved\n- tell them to keep a wiki of your life\n- close the laptop\n\nfrom there, Grok Bot does all of it\n\nevery night the reader files what you dropped, the librarian rewrites every page it touches and the checker hunts its own contradictions, with a source and a date on every claim\n\n1 link ≈ 10-15 pages rewritten\n\nzero notes\nzero searching\nzero starting from scratch\n\none paste to set it up, then it runs on autopilot\n\nyou're done explaining yourself to AI\n\nyou're running your own second brain\n\nsave this. the full course is below",
       "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-10-24 ~11:00 MSK",
       "hook": "🚨this is SERIOUSLY dangerous.",
-      "draft_en": "🚨this is SERIOUSLY dangerous.\n\ni just watched an 18-year-old calmly explain how he turned Grok Bot into a personal second brain (CEOs pay a chief of staff $224,000 a year for the same job), and i'm convinced 99% of people still aren't seeing this\n\nit's a wiki of your whole life that writes itself, and the people who run one never start a chat from zero again\n\nthe whole system fits in four lines:\n\n- open Grok Bot and create three bots in one group chat\n- drop in every link, PDF and voice note you ever saved\n- tell them to keep a wiki of your life\n- close the laptop\n\nfrom there, Grok Bot does all of it\n\nevery night the reader files what you dropped, the librarian rewrites every page it touches and the checker hunts its own contradictions, with a source and a date on every claim\n\n1 link ≈ 10-15 pages rewritten\n\nzero notes\nzero searching\nzero starting from scratch\n\none paste to set it up, then it runs on autopilot\n\nyou're done explaining yourself to AI\n\nyou're running your own second brain\n\nsave this. the full course is below",
+      "draft_en": "Honestly, this one is a little dangerous.\n\nAn 18-year-old laid out, very calmly, how Grok Bot became his second brain. That's the job a CEO hands a chief of staff for $224,000 a year, and I'd bet 99% of people haven't clocked it yet.\n\nPicture a wiki of your entire life that keeps itself up to date. Once you have one, a chat never starts from zero again.\n\nThe full setup is four moves:\n- in Grok Bot, spin up three bots that share a group chat\n- throw in every link, PDF and voice memo you've collected\n- tell them to keep your life wiki current\n- close the laptop\n\nGrok Bot takes it from there.\n\nOvernight the reader sorts what you added, the librarian updates each page it touches, and the checker goes after its own contradictions, citing a source and date for each claim.\n\n1 link ≈ 10-15 pages updated\n\nNo notes to write. Nothing to search. No blank slate.\n\nOne paste and it's on autopilot.\n\nYou stop re-explaining yourself to AI. Your second brain does the remembering.\n\nBookmark it, the whole course is down below",
       "video_tip": "Group chat with three bots (reader, librarian, ...) filing dropped links into a self-writing life wiki overnight. 8s.",
+      "draft_keywords": [
+        "Grok Bot",
+        "Second brain",
+        "Three bots",
+        "notes",
+        "autopilot",
+        "PDF"
+      ],
+      "original_en": "🚨this is SERIOUSLY dangerous.\n\ni just watched an 18-year-old calmly explain how he turned Grok Bot into a personal second brain (CEOs pay a chief of staff $224,000 a year for the same job), and i'm convinced 99% of people still aren't seeing this\n\nit's a wiki of your whole life that writes itself, and the people who run one never start a chat from zero again\n\nthe whole system fits in four lines:\n\n- open Grok Bot and create three bots in one group chat\n- drop in every link, PDF and voice note you ever saved\n- tell them to keep a wiki of your life\n- close the laptop\n\nfrom there, Grok Bot does all of it\n\nevery night the reader files what you dropped, the librarian rewrites every page it touches and the checker hunts its own contradictions, with a source and a date on every claim\n\n1 link ≈ 10-15 pages rewritten\n\nzero notes\nzero searching\nzero starting from scratch\n\none paste to set it up, then it runs on autopilot\n\nyou're done explaining yourself to AI\n\nyou're running your own second brain\n\nsave this. the full course is below",
+      "draft_check": {
+        "rules": "v4",
+        "g4_overlap": 0.071,
+        "word_overlap": 0.535,
+        "max_copied_run": 6
+      },
       "followers": {
         "count": 37290,
         "label": "37.3K",
@@ -7671,5 +8004,317 @@
     "star_count": 4,
     "excluded": 12,
     "total_views": 176936
+  },
+  "trend_keywords": {
+    "date": "2026-10-23",
+    "window": "D hits + last-24h posts >=5k + outsiders + keyword brief",
+    "method": "sum(log10 views) over distinct posts x author spread x phrase length x entity/brief bonus; >=2 authors",
+    "keywords": [
+      {
+        "keyword": "Claude Code",
+        "rank": 1,
+        "score": 466.4,
+        "posts": 14,
+        "authors": 9
+      },
+      {
+        "keyword": "agents",
+        "rank": 2,
+        "score": 299.5,
+        "posts": 13,
+        "authors": 10
+      },
+      {
+        "keyword": "Opus 5.5",
+        "rank": 3,
+        "score": 275.7,
+        "posts": 9,
+        "authors": 8
+      },
+      {
+        "keyword": "Grok Bot",
+        "rank": 4,
+        "score": 264.9,
+        "posts": 10,
+        "authors": 6
+      },
+      {
+        "keyword": "model",
+        "rank": 5,
+        "score": 120.9,
+        "posts": 8,
+        "authors": 5
+      },
+      {
+        "keyword": "memory",
+        "rank": 6,
+        "score": 91.8,
+        "posts": 6,
+        "authors": 6
+      },
+      {
+        "keyword": "skills",
+        "rank": 7,
+        "score": 89.9,
+        "posts": 8,
+        "authors": 4
+      },
+      {
+        "keyword": "MCP",
+        "rank": 8,
+        "score": 76.5,
+        "posts": 6,
+        "authors": 5
+      },
+      {
+        "keyword": "usage",
+        "rank": 9,
+        "score": 69.7,
+        "posts": 6,
+        "authors": 6
+      },
+      {
+        "keyword": "Elon",
+        "rank": 10,
+        "score": 56.1,
+        "posts": 4,
+        "authors": 4
+      },
+      {
+        "keyword": "notes",
+        "rank": 11,
+        "score": 49.8,
+        "posts": 5,
+        "authors": 5
+      },
+      {
+        "keyword": "AI agent",
+        "rank": 12,
+        "score": 47.1,
+        "posts": 4,
+        "authors": 3
+      },
+      {
+        "keyword": "Anthropic",
+        "rank": 13,
+        "score": 37.7,
+        "posts": 4,
+        "authors": 3
+      },
+      {
+        "keyword": "Reddit",
+        "rank": 14,
+        "score": 36.7,
+        "posts": 4,
+        "authors": 3
+      },
+      {
+        "keyword": "founder",
+        "rank": 15,
+        "score": 34.1,
+        "posts": 4,
+        "authors": 4
+      },
+      {
+        "keyword": "Second brain",
+        "rank": 16,
+        "score": 32.8,
+        "posts": 3,
+        "authors": 2
+      },
+      {
+        "keyword": "stack",
+        "rank": 17,
+        "score": 28.1,
+        "posts": 3,
+        "authors": 3
+      },
+      {
+        "keyword": "bots",
+        "rank": 18,
+        "score": 27.0,
+        "posts": 4,
+        "authors": 3
+      },
+      {
+        "keyword": "Obsidian",
+        "rank": 19,
+        "score": 26.4,
+        "posts": 3,
+        "authors": 3
+      },
+      {
+        "keyword": "offline",
+        "rank": 20,
+        "score": 25.7,
+        "posts": 3,
+        "authors": 3
+      },
+      {
+        "keyword": "API",
+        "rank": 21,
+        "score": 25.5,
+        "posts": 3,
+        "authors": 3
+      },
+      {
+        "keyword": "solo",
+        "rank": 22,
+        "score": 22.0,
+        "posts": 3,
+        "authors": 3
+      },
+      {
+        "keyword": "autopilot",
+        "rank": 23,
+        "score": 19.3,
+        "posts": 3,
+        "authors": 3
+      },
+      {
+        "keyword": "Elon Musk",
+        "rank": 24,
+        "score": 18.4,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "security",
+        "rank": 25,
+        "score": 18.3,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "Sonnet 5.5",
+        "rank": 26,
+        "score": 18.1,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "Three bots",
+        "rank": 27,
+        "score": 17.7,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "vault",
+        "rank": 28,
+        "score": 17.6,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "automations",
+        "rank": 29,
+        "score": 17.0,
+        "posts": 3,
+        "authors": 2
+      },
+      {
+        "keyword": "REA",
+        "rank": 30,
+        "score": 17.0,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "Blender",
+        "rank": 31,
+        "score": 16.3,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "local models",
+        "rank": 32,
+        "score": 15.4,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "Fable",
+        "rank": 33,
+        "score": 15.4,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "Haiku",
+        "rank": 34,
+        "score": 14.7,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "Gemini",
+        "rank": 35,
+        "score": 14.7,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "GitHub",
+        "rank": 36,
+        "score": 14.4,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "PDF",
+        "rank": 37,
+        "score": 14.0,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "Kimi K3.1 Pro",
+        "rank": 38,
+        "score": 13.8,
+        "posts": 1,
+        "authors": 1
+      },
+      {
+        "keyword": "Codex",
+        "rank": 39,
+        "score": 13.4,
+        "posts": 2,
+        "authors": 2
+      },
+      {
+        "keyword": "SkillSpector",
+        "rank": 40,
+        "score": 12.3,
+        "posts": 2,
+        "authors": 1
+      },
+      {
+        "keyword": "PHP2Shell",
+        "rank": 41,
+        "curated": true
+      },
+      {
+        "keyword": "prompt injection",
+        "rank": 42,
+        "curated": true
+      },
+      {
+        "keyword": "open source",
+        "rank": 43,
+        "curated": true
+      },
+      {
+        "keyword": "solo founder",
+        "rank": 44,
+        "curated": true
+      },
+      {
+        "keyword": "rotate your keys",
+        "rank": 45,
+        "curated": true
+      }
+    ]
   }
 }
