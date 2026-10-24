@@ -5,6 +5,19 @@
  "days": {
   "2026-09-13": {
    "accounts": {
+    "shmidtqq": {
+     "handle": "@shmidtqq",
+     "name": "shmidt",
+     "hits": 1,
+     "best": 168283,
+     "total": 168283,
+     "best_url": "https://x.com/shmidtqq/status/2099104230913053156",
+     "post_ids": [
+      "2099104230913053156"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
     "sprytixl": {
      "handle": "@Sprytixl",
      "name": "Sprytix",
@@ -14,6 +27,19 @@
      "best_url": "https://x.com/Sprytixl/status/2099055139206099422",
      "post_ids": [
       "2099055139206099422"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "slash1sol": {
+     "handle": "@slash1sol",
+     "name": "slash1s",
+     "hits": 1,
+     "best": 16205,
+     "total": 16205,
+     "best_url": "https://x.com/slash1sol/status/2099224604032057689",
+     "post_ids": [
+      "2099224604032057689"
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
@@ -31,15 +57,68 @@
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
     },
+    "insomnia_vip": {
+     "handle": "@insomnia_vip",
+     "name": "Insomnia",
+     "hits": 1,
+     "best": 8321,
+     "total": 8321,
+     "best_url": "https://x.com/insomnia_vip/status/2099114856808948126",
+     "post_ids": [
+      "2099114856808948126"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
     "gippp69": {
      "handle": "@gippp69",
      "name": "Gipp",
-     "hits": 1,
-     "best": 7014,
-     "total": 7014,
-     "best_url": "https://x.com/gippp69/status/2099155309834981621",
+     "hits": 2,
+     "best": 8328,
+     "total": 15342,
+     "best_url": "https://x.com/gippp69/status/2099200661783015666",
      "post_ids": [
+      "2099200661783015666",
       "2099155309834981621"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 1,
+     "best": 6378,
+     "total": 6378,
+     "best_url": "https://x.com/0xWast3/status/2099092995073032259",
+     "post_ids": [
+      "2099092995073032259"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
+     "hits": 1,
+     "best": 8343,
+     "total": 8343,
+     "best_url": "https://x.com/ridark_eth/status/2099181137331408926",
+     "post_ids": [
+      "2099181137331408926"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "antpalkin": {
+     "handle": "@antpalkin",
+     "name": "cvxv666",
+     "hits": 1,
+     "best": 9326,
+     "total": 9326,
+     "best_url": "https://x.com/antpalkin/status/2099167471202918566",
+     "post_ids": [
+      "2099167471202918566"
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
@@ -60,6 +139,19 @@
      ],
      "best_as_of": "2026-10-06T16:07:45+03:00",
      "best_stale": true
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 72221,
+     "total": 72221,
+     "best_url": "https://x.com/ScottyBeamIO/status/2099568297301709038",
+     "post_ids": [
+      "2099568297301709038"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
     },
     "mr_buzzoni": {
      "handle": "@Mr_Buzzoni",
@@ -89,6 +181,72 @@
      ],
      "best_as_of": "2026-10-06T16:07:45+03:00",
      "best_stale": true
+    },
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
+     "hits": 1,
+     "best": 8406,
+     "total": 8406,
+     "best_url": "https://x.com/ridark_eth/status/2099497335189389437",
+     "post_ids": [
+      "2099497335189389437"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 49725,
+     "total": 49725,
+     "best_url": "https://x.com/Argona0x/status/2099545460339851492",
+     "post_ids": [
+      "2099545460339851492"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "retrochainer": {
+     "handle": "@RetroChainer",
+     "name": "RetroChainer",
+     "hits": 1,
+     "best": 9253,
+     "total": 9253,
+     "best_url": "https://x.com/RetroChainer/status/2099533123478253677",
+     "post_ids": [
+      "2099533123478253677"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 72145,
+     "total": 72145,
+     "best_url": "https://x.com/N01ennn/status/2099530235154739389",
+     "post_ids": [
+      "2099530235154739389"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "slash1sol": {
+     "handle": "@slash1sol",
+     "name": "slash1s",
+     "hits": 2,
+     "best": 95031,
+     "total": 108681,
+     "best_url": "https://x.com/slash1sol/status/2099472862226559480",
+     "post_ids": [
+      "2099472862226559480",
+      "2099546400534983101"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
     }
    }
   },
@@ -107,6 +265,89 @@
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
     },
+    "shmidtqq": {
+     "handle": "@shmidtqq",
+     "name": "shmidt",
+     "hits": 1,
+     "best": 35034,
+     "total": 35034,
+     "best_url": "https://x.com/shmidtqq/status/2099867294704763343",
+     "post_ids": [
+      "2099867294704763343"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 12771,
+     "total": 12771,
+     "best_url": "https://x.com/N01ennn/status/2099817536313266325",
+     "post_ids": [
+      "2099817536313266325"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp 🦅",
+     "hits": 2,
+     "best": 13186,
+     "total": 22593,
+     "best_url": "https://x.com/gippp69/status/2099921509485580396",
+     "post_ids": [
+      "2099921509485580396",
+      "2099826683817640340"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 4,
+     "best": 15003,
+     "total": 37878,
+     "best_url": "https://x.com/0x_kaize/status/2099925532083359834",
+     "post_ids": [
+      "2099925532083359834",
+      "2099958271234769115",
+      "2099929960211198069",
+      "2099947476044108196"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 2,
+     "best": 11569,
+     "total": 22431,
+     "best_url": "https://x.com/0xWast3/status/2099802401616052549",
+     "post_ids": [
+      "2099802401616052549",
+      "2099851294684922336"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 21736,
+     "total": 21736,
+     "best_url": "https://x.com/Argona0x/status/2099928690155217373",
+     "post_ids": [
+      "2099928690155217373"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
     "sprytixl": {
      "handle": "@Sprytixl",
      "name": "Sprytix",
@@ -116,6 +357,19 @@
      "best_url": "https://x.com/Sprytixl/status/2099777134566801682",
      "post_ids": [
       "2099777134566801682"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "retrochainer": {
+     "handle": "@RetroChainer",
+     "name": "RetroChainer",
+     "hits": 1,
+     "best": 7651,
+     "total": 7651,
+     "best_url": "https://x.com/RetroChainer/status/2099847782613827707",
+     "post_ids": [
+      "2099847782613827707"
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
@@ -140,12 +394,67 @@
     "n01ennn": {
      "handle": "@N01ennn",
      "name": "NO1ennn",
-     "hits": 1,
+     "hits": 2,
      "best": 264825,
-     "total": 264825,
+     "total": 289793,
      "best_url": "https://x.com/N01ennn/status/2100321670401605931",
      "post_ids": [
-      "2100321670401605931"
+      "2100321670401605931",
+      "2100273360320028797"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 2,
+     "best": 112275,
+     "total": 183302,
+     "best_url": "https://x.com/Argona0x/status/2100317660072337748",
+     "post_ids": [
+      "2100317660072337748",
+      "2100270972192338204"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 1,
+     "best": 45504,
+     "total": 45504,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2100136858185289824",
+     "post_ids": [
+      "2100136858185289824"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 10815,
+     "total": 21453,
+     "best_url": "https://x.com/beamnxw/status/2100300360011096204",
+     "post_ids": [
+      "2100300360011096204",
+      "2100243404558839815"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "shmidtqq": {
+     "handle": "@shmidtqq",
+     "name": "shmidt",
+     "hits": 1,
+     "best": 13545,
+     "total": 13545,
+     "best_url": "https://x.com/shmidtqq/status/2100321427308294224",
+     "post_ids": [
+      "2100321427308294224"
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
@@ -162,6 +471,19 @@
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
+    },
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
+     "hits": 1,
+     "best": 5969,
+     "total": 5969,
+     "best_url": "https://x.com/ridark_eth/status/2100201761898172713",
+     "post_ids": [
+      "2100201761898172713"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
     }
    }
   },
@@ -170,12 +492,40 @@
     "sprytixl": {
      "handle": "@Sprytixl",
      "name": "Sprytix",
-     "hits": 1,
+     "hits": 2,
      "best": 338876,
-     "total": 338876,
+     "total": 352888,
      "best_url": "https://x.com/Sprytixl/status/2100489442674798669",
      "post_ids": [
-      "2100489442674798669"
+      "2100489442674798669",
+      "2100504641125429322"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "insomnia_vip": {
+     "handle": "@insomnia_vip",
+     "name": "Insomnia",
+     "hits": 2,
+     "best": 115064,
+     "total": 126477,
+     "best_url": "https://x.com/insomnia_vip/status/2100597102715789479",
+     "post_ids": [
+      "2100597102715789479",
+      "2100524568213352484"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw",
+     "hits": 1,
+     "best": 158729,
+     "total": 158729,
+     "best_url": "https://x.com/beamnxw/status/2100625120691720385",
+     "post_ids": [
+      "2100625120691720385"
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
@@ -183,12 +533,13 @@
     "everestchris6": {
      "handle": "@everestchris6",
      "name": "everestchris6",
-     "hits": 1,
+     "hits": 2,
      "best": 88100,
-     "total": 88100,
+     "total": 166876,
      "best_url": "https://x.com/everestchris6/status/2100668987956937158",
      "post_ids": [
-      "2100668987956937158"
+      "2100668987956937158",
+      "2100672929533137107"
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
@@ -223,12 +574,13 @@
     "n01ennn": {
      "handle": "@N01ennn",
      "name": "NO1ennn",
-     "hits": 1,
+     "hits": 2,
      "best": 150274,
-     "total": 150274,
+     "total": 160046,
      "best_url": "https://x.com/N01ennn/status/2100530944960557494",
      "post_ids": [
-      "2100530944960557494"
+      "2100530944960557494",
+      "2100561409666920900"
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
@@ -236,12 +588,39 @@
     "0x_kaize": {
      "handle": "@0x_kaize",
      "name": "kaize",
-     "hits": 1,
+     "hits": 2,
      "best": 27257,
-     "total": 27257,
+     "total": 35667,
      "best_url": "https://x.com/0x_kaize/status/2100577574690689085",
      "post_ids": [
-      "2100577574690689085"
+      "2100577574690689085",
+      "2100624370913698207"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 1,
+     "best": 13067,
+     "total": 13067,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2100642691210006603",
+     "post_ids": [
+      "2100642691210006603"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "antpalkin": {
+     "handle": "@antpalkin",
+     "name": "cvxv666",
+     "hits": 1,
+     "best": 29749,
+     "total": 29749,
+     "best_url": "https://x.com/antpalkin/status/2100662340350066829",
+     "post_ids": [
+      "2100662340350066829"
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
@@ -266,12 +645,28 @@
     "everestchris6": {
      "handle": "@everestchris6",
      "name": "everestchris6",
-     "hits": 1,
+     "hits": 2,
      "best": 39360,
-     "total": 39360,
+     "total": 57054,
      "best_url": "https://x.com/everestchris6/status/2100729853171667160",
      "post_ids": [
-      "2100729853171667160"
+      "2100729853171667160",
+      "2101036815750996411"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw",
+     "hits": 3,
+     "best": 883738,
+     "total": 914618,
+     "best_url": "https://x.com/beamnxw/status/2100967660703908072",
+     "post_ids": [
+      "2100967660703908072",
+      "2101018409802580300",
+      "2100892950838313107"
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
@@ -285,6 +680,19 @@
      "best_url": "https://x.com/ridark_eth/status/2100972106586439809",
      "post_ids": [
       "2100972106586439809"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 33136,
+     "total": 33136,
+     "best_url": "https://x.com/N01ennn/status/2100693085428564151",
+     "post_ids": [
+      "2100693085428564151"
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
@@ -303,6 +711,19 @@
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
     },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 1,
+     "best": 23050,
+     "total": 23050,
+     "best_url": "https://x.com/0xWast3/status/2100889702509297821",
+     "post_ids": [
+      "2100889702509297821"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
     "slash1sol": {
      "handle": "@slash1sol",
      "name": "slash1sol",
@@ -315,11 +736,89 @@
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 1,
+     "best": 9477,
+     "total": 9477,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2100823129966944576",
+     "post_ids": [
+      "2100823129966944576"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "antpalkin": {
+     "handle": "@antpalkin",
+     "name": "cvxv666",
+     "hits": 1,
+     "best": 31859,
+     "total": 31859,
+     "best_url": "https://x.com/antpalkin/status/2101031552138563887",
+     "post_ids": [
+      "2101031552138563887"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "insomnia_vip": {
+     "handle": "@insomnia_vip",
+     "name": "Insomnia",
+     "hits": 1,
+     "best": 10368,
+     "total": 10368,
+     "best_url": "https://x.com/insomnia_vip/status/2100986432701489559",
+     "post_ids": [
+      "2100986432701489559"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "gippp69",
+     "hits": 1,
+     "best": 7152,
+     "total": 7152,
+     "best_url": "https://x.com/gippp69/status/2100961582595396026",
+     "post_ids": [
+      "2100961582595396026"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
     }
    }
   },
   "2026-09-19": {
    "accounts": {
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 1,
+     "best": 163915,
+     "total": 163915,
+     "best_url": "https://x.com/0xWast3/status/2101254505249505402",
+     "post_ids": [
+      "2101254505249505402"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 125525,
+     "total": 125525,
+     "best_url": "https://x.com/ScottyBeamIO/status/2101280444914258251",
+     "post_ids": [
+      "2101280444914258251"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
     "carverfomo": {
      "handle": "@carverfomo",
      "name": "Carver",
@@ -333,16 +832,47 @@
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
     },
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
+     "hits": 3,
+     "best": 30215,
+     "total": 72212,
+     "best_url": "https://x.com/ridark_eth/status/2101295325625352282",
+     "post_ids": [
+      "2101295325625352282",
+      "2101073416505979029",
+      "2101396874477347317"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
     "argona0x": {
      "handle": "@Argona0x",
      "name": "Argona",
-     "hits": 2,
+     "hits": 3,
      "best": 75265,
-     "total": 108172,
+     "total": 124288,
      "best_url": "https://x.com/Argona0x/status/2101400788731846664",
      "post_ids": [
       "2101400788731846664",
-      "2101354254174663098"
+      "2101354254174663098",
+      "2101055500599054437"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 3,
+     "best": 33961,
+     "total": 74254,
+     "best_url": "https://x.com/beamnxw/status/2101399836587331901",
+     "post_ids": [
+      "2101399836587331901",
+      "2101278282700226824",
+      "2101332148674351209"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -356,6 +886,20 @@
      "best_url": "https://x.com/Sprytixl/status/2101253623623676000",
      "post_ids": [
       "2101253623623676000"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 2,
+     "best": 23119,
+     "total": 44796,
+     "best_url": "https://x.com/N01ennn/status/2101354068425793652",
+     "post_ids": [
+      "2101354068425793652",
+      "2101284467285401660"
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
@@ -389,12 +933,26 @@
     "mr_buzzoni": {
      "handle": "@Mr_Buzzoni",
      "name": "Mr. Buzzoni",
-     "hits": 1,
+     "hits": 2,
      "best": 9324,
-     "total": 9324,
+     "total": 15566,
      "best_url": "https://x.com/Mr_Buzzoni/status/2101316605300838608",
      "post_ids": [
-      "2101316605300838608"
+      "2101316605300838608",
+      "2101254472391352792"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
+    },
+    "everestchris6": {
+     "handle": "@everestchris6",
+     "name": "Chris",
+     "hits": 1,
+     "best": 12727,
+     "total": 12727,
+     "best_url": "https://x.com/everestchris6/status/2101339268685902265",
+     "post_ids": [
+      "2101339268685902265"
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
@@ -425,6 +983,19 @@
      ],
      "best_as_of": "2026-10-23T11:42:33+03:00",
      "best_stale": false
+    },
+    "insomnia_vip": {
+     "handle": "@insomnia_vip",
+     "name": "Insomnia",
+     "hits": 1,
+     "best": 9046,
+     "total": 9046,
+     "best_url": "https://x.com/insomnia_vip/status/2101298723670130959",
+     "post_ids": [
+      "2101298723670130959"
+     ],
+     "best_as_of": "2026-10-23T11:42:33+03:00",
+     "best_stale": false
     }
    }
   },
@@ -439,6 +1010,32 @@
      "best_url": "https://x.com/carverfomo/status/2101644857345192111",
      "post_ids": [
       "2101644857345192111"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "everestchris6": {
+     "handle": "@everestchris6",
+     "name": "Chris",
+     "hits": 1,
+     "best": 92067,
+     "total": 92067,
+     "best_url": "https://x.com/everestchris6/status/2101706320261128398",
+     "post_ids": [
+      "2101706320261128398"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 1,
+     "best": 78906,
+     "total": 78906,
+     "best_url": "https://x.com/0xWast3/status/2101615930518262245",
+     "post_ids": [
+      "2101615930518262245"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -459,12 +1056,13 @@
     "slash1sol": {
      "handle": "@slash1sol",
      "name": "slash1s",
-     "hits": 1,
+     "hits": 2,
      "best": 50846,
-     "total": 50846,
+     "total": 76026,
      "best_url": "https://x.com/slash1sol/status/2101715300441817395",
      "post_ids": [
-      "2101715300441817395"
+      "2101715300441817395",
+      "2101758692483858843"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -478,6 +1076,33 @@
      "best_url": "https://x.com/AnnatarXBT/status/2101680189067411500",
      "post_ids": [
       "2101680189067411500"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "leopardracer": {
+     "handle": "@leopardracer",
+     "name": "leopardracer",
+     "hits": 1,
+     "best": 22908,
+     "total": 22908,
+     "best_url": "https://x.com/leopardracer/status/2101613618710122551",
+     "post_ids": [
+      "2101613618710122551"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 2,
+     "best": 20710,
+     "total": 35586,
+     "best_url": "https://x.com/ScottyBeamIO/status/2101419129643380772",
+     "post_ids": [
+      "2101419129643380772",
+      "2101714120399618506"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -496,6 +1121,20 @@
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
     },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 13910,
+     "total": 21717,
+     "best_url": "https://x.com/beamnxw/status/2101686594159669672",
+     "post_ids": [
+      "2101686594159669672",
+      "2101639219185586355"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
     "argona0x": {
      "handle": "@Argona0x",
      "name": "Argona",
@@ -505,6 +1144,45 @@
      "best_url": "https://x.com/Argona0x/status/2101742794993783261",
      "post_ids": [
       "2101742794993783261"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 13302,
+     "total": 13302,
+     "best_url": "https://x.com/N01ennn/status/2101639021143244848",
+     "post_ids": [
+      "2101639021143244848"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "insomnia_vip": {
+     "handle": "@insomnia_vip",
+     "name": "Insomnia",
+     "hits": 1,
+     "best": 9749,
+     "total": 9749,
+     "best_url": "https://x.com/insomnia_vip/status/2101614011993223288",
+     "post_ids": [
+      "2101614011993223288"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "zostaff": {
+     "handle": "@zostaff",
+     "name": "zostaff",
+     "hits": 1,
+     "best": 8310,
+     "total": 8310,
+     "best_url": "https://x.com/zostaff/status/2101693557664862537",
+     "post_ids": [
+      "2101693557664862537"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -535,6 +1213,20 @@
   },
   "2026-09-21": {
    "accounts": {
+    "antpalkin": {
+     "handle": "@antpalkin",
+     "name": "cvxv666",
+     "hits": 2,
+     "best": 1678215,
+     "total": 2677545,
+     "best_url": "https://x.com/antpalkin/status/2102103070112936071",
+     "post_ids": [
+      "2102103070112936071",
+      "2102080476630683832"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
     "carverfomo": {
      "handle": "@carverfomo",
      "name": "Carver",
@@ -574,6 +1266,32 @@
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
+    },
+    "everestchris6": {
+     "handle": "@everestchris6",
+     "name": "Chris",
+     "hits": 1,
+     "best": 15598,
+     "total": 15598,
+     "best_url": "https://x.com/everestchris6/status/2102096824270233799",
+     "post_ids": [
+      "2102096824270233799"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "zostaff": {
+     "handle": "@zostaff",
+     "name": "zostaff",
+     "hits": 1,
+     "best": 10709,
+     "total": 10709,
+     "best_url": "https://x.com/zostaff/status/2102054058852786382",
+     "post_ids": [
+      "2102054058852786382"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
     }
    }
   },
@@ -589,6 +1307,48 @@
      "post_ids": [
       "2102204438085612020",
       "2102176377503907872"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "bl888m_eth": {
+     "handle": "@bl888m_eth",
+     "name": "bl888m",
+     "hits": 1,
+     "best": 69192,
+     "total": 69192,
+     "best_url": "https://x.com/bl888m_eth/status/2102417420300468735",
+     "post_ids": [
+      "2102417420300468735"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 3,
+     "best": 77535,
+     "total": 93516,
+     "best_url": "https://x.com/Argona0x/status/2102420702762602991",
+     "post_ids": [
+      "2102420702762602991",
+      "2102461844132712807",
+      "2102171019045953677"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 37742,
+     "total": 46124,
+     "best_url": "https://x.com/beamnxw/status/2102377851450220968",
+     "post_ids": [
+      "2102377851450220968",
+      "2102432464689865005"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -619,6 +1379,32 @@
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
     },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp ",
+     "hits": 1,
+     "best": 16944,
+     "total": 16944,
+     "best_url": "https://x.com/gippp69/status/2102361073206587588",
+     "post_ids": [
+      "2102361073206587588"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "antpalkin": {
+     "handle": "@antpalkin",
+     "name": "cvxv666",
+     "hits": 1,
+     "best": 15568,
+     "total": 15568,
+     "best_url": "https://x.com/antpalkin/status/2102395813666418723",
+     "post_ids": [
+      "2102395813666418723"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
     "sprytixl": {
      "handle": "@Sprytixl",
      "name": "Sprytix",
@@ -632,15 +1418,41 @@
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
     },
-    "argona0x": {
-     "handle": "@Argona0x",
-     "name": "Argona",
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
      "hits": 1,
-     "best": 9088,
-     "total": 9088,
-     "best_url": "https://x.com/Argona0x/status/2102461844132712807",
+     "best": 9606,
+     "total": 9606,
+     "best_url": "https://x.com/ridark_eth/status/2102417476885660084",
      "post_ids": [
-      "2102461844132712807"
+      "2102417476885660084"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "insomnia_vip": {
+     "handle": "@insomnia_vip",
+     "name": "Insomnia",
+     "hits": 1,
+     "best": 12203,
+     "total": 12203,
+     "best_url": "https://x.com/insomnia_vip/status/2102378218606989339",
+     "post_ids": [
+      "2102378218606989339"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 7494,
+     "total": 7494,
+     "best_url": "https://x.com/N01ennn/status/2102459665686634935",
+     "post_ids": [
+      "2102459665686634935"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -652,13 +1464,14 @@
     "slash1sol": {
      "handle": "@slash1sol",
      "name": "slash1s",
-     "hits": 2,
+     "hits": 3,
      "best": 100064,
-     "total": 127691,
+     "total": 140036,
      "best_url": "https://x.com/slash1sol/status/2102725949095551006",
      "post_ids": [
       "2102725949095551006",
-      "2102752990583013816"
+      "2102752990583013816",
+      "2102820760007897186"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -676,6 +1489,72 @@
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
     },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 29266,
+     "total": 29266,
+     "best_url": "https://x.com/Argona0x/status/2102503207364641094",
+     "post_ids": [
+      "2102503207364641094"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 1,
+     "best": 20662,
+     "total": 20662,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2102649414208876922",
+     "post_ids": [
+      "2102649414208876922"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "everestchris6": {
+     "handle": "@everestchris6",
+     "name": "Chris",
+     "hits": 1,
+     "best": 33337,
+     "total": 33337,
+     "best_url": "https://x.com/everestchris6/status/2102794633227198805",
+     "post_ids": [
+      "2102794633227198805"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 1,
+     "best": 16336,
+     "total": 16336,
+     "best_url": "https://x.com/0xWast3/status/2102713012771512358",
+     "post_ids": [
+      "2102713012771512358"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 37773,
+     "total": 53089,
+     "best_url": "https://x.com/beamnxw/status/2102780819320234395",
+     "post_ids": [
+      "2102780819320234395",
+      "2102736046744105074"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
     "sprytixl": {
      "handle": "@Sprytixl",
      "name": "Sprytix",
@@ -685,6 +1564,33 @@
      "best_url": "https://x.com/Sprytixl/status/2102704420517490958",
      "post_ids": [
       "2102704420517490958"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
+     "hits": 2,
+     "best": 822464,
+     "total": 831655,
+     "best_url": "https://x.com/ridark_eth/status/2102846450392760434",
+     "post_ids": [
+      "2102846450392760434",
+      "2102532710552010791"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp ",
+     "hits": 1,
+     "best": 7158,
+     "total": 7158,
+     "best_url": "https://x.com/gippp69/status/2102726296291680275",
+     "post_ids": [
+      "2102726296291680275"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -709,6 +1615,45 @@
   },
   "2026-09-24": {
    "accounts": {
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 129730,
+     "total": 129730,
+     "best_url": "https://x.com/Argona0x/status/2103195240924598623",
+     "post_ids": [
+      "2103195240924598623"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "bl888m_eth": {
+     "handle": "@bl888m_eth",
+     "name": "bl888m",
+     "hits": 1,
+     "best": 77183,
+     "total": 77183,
+     "best_url": "https://x.com/bl888m_eth/status/2103161923881873574",
+     "post_ids": [
+      "2103161923881873574"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 1,
+     "best": 54714,
+     "total": 54714,
+     "best_url": "https://x.com/0xWast3/status/2103063497760202789",
+     "post_ids": [
+      "2103063497760202789"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
     "mr_buzzoni": {
      "handle": "@Mr_Buzzoni",
      "name": "Mr. Buzzoni",
@@ -722,6 +1667,21 @@
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
     },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 3,
+     "best": 54955,
+     "total": 86235,
+     "best_url": "https://x.com/beamnxw/status/2103198736075599908",
+     "post_ids": [
+      "2103198736075599908",
+      "2103029426963324942",
+      "2103133673172169059"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
     "sprytixl": {
      "handle": "@Sprytixl",
      "name": "Sprytix",
@@ -731,6 +1691,19 @@
      "best_url": "https://x.com/Sprytixl/status/2103060689745027163",
      "post_ids": [
       "2103060689745027163"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 38848,
+     "total": 38848,
+     "best_url": "https://x.com/N01ennn/status/2103213792104734856",
+     "post_ids": [
+      "2103213792104734856"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -780,6 +1753,36 @@
   },
   "2026-09-25": {
    "accounts": {
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 34648,
+     "total": 49997,
+     "best_url": "https://x.com/beamnxw/status/2103424901709287540",
+     "post_ids": [
+      "2103424901709287540",
+      "2103500364985032951"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 4,
+     "best": 18837,
+     "total": 57684,
+     "best_url": "https://x.com/cyrilXBT/status/2103532793406149036",
+     "post_ids": [
+      "2103532793406149036",
+      "2103431843999797358",
+      "2103390315520618944",
+      "2103409243454099796"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
     "annatarxbt": {
      "handle": "@AnnatarXBT",
      "name": "Annatar.md",
@@ -790,6 +1793,32 @@
      "post_ids": [
       "2103399104093049176",
       "2103391050932842713"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
+    "antpalkin": {
+     "handle": "@antpalkin",
+     "name": "cvxv666",
+     "hits": 1,
+     "best": 31079,
+     "total": 31079,
+     "best_url": "https://x.com/antpalkin/status/2103541125361598880",
+     "post_ids": [
+      "2103541125361598880"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 1,
+     "best": 7926,
+     "total": 7926,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2103418985182081141",
+     "post_ids": [
+      "2103418985182081141"
      ],
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
@@ -808,15 +1837,29 @@
      "best_as_of": "2026-10-23T11:42:39+03:00",
      "best_stale": false
     },
+    "insomnia_vip": {
+     "handle": "@insomnia_vip",
+     "name": "Insomnia",
+     "hits": 1,
+     "best": 10418,
+     "total": 10418,
+     "best_url": "https://x.com/insomnia_vip/status/2103497570047635577",
+     "post_ids": [
+      "2103497570047635577"
+     ],
+     "best_as_of": "2026-10-23T11:42:39+03:00",
+     "best_stale": false
+    },
     "n01ennn": {
      "handle": "@N01ennn",
      "name": "NO1ennn",
-     "hits": 1,
+     "hits": 2,
      "best": 607062,
-     "total": 607062,
+     "total": 622018,
      "best_url": "https://x.com/N01ennn/status/2103542021071978601",
      "post_ids": [
-      "2103542021071978601"
+      "2103542021071978601",
+      "2103581166473462027"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
@@ -830,6 +1873,19 @@
      "best_url": "https://x.com/Sprytixl/status/2103548138501853521",
      "post_ids": [
       "2103548138501853521"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 1,
+     "best": 8251,
+     "total": 8251,
+     "best_url": "https://x.com/0xWast3/status/2103513328077222104",
+     "post_ids": [
+      "2103513328077222104"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
@@ -853,15 +1909,116 @@
   },
   "2026-09-26": {
    "accounts": {
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 1,
+     "best": 172370,
+     "total": 172370,
+     "best_url": "https://x.com/0xWast3/status/2103793322934370742",
+     "post_ids": [
+      "2103793322934370742"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 1,
+     "best": 128578,
+     "total": 128578,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2103722987832717407",
+     "post_ids": [
+      "2103722987832717407"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 4,
+     "best": 141645,
+     "total": 194353,
+     "best_url": "https://x.com/beamnxw/status/2103757085393490284",
+     "post_ids": [
+      "2103757085393490284",
+      "2103594988550652353",
+      "2103847891735371861",
+      "2103890773972308479"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 2,
+     "best": 82966,
+     "total": 126524,
+     "best_url": "https://x.com/N01ennn/status/2103818303642689696",
+     "post_ids": [
+      "2103818303642689696",
+      "2103888367037325352"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
     "gippp69": {
      "handle": "@gippp69",
      "name": "Gipp ",
-     "hits": 1,
+     "hits": 2,
      "best": 51626,
-     "total": 51626,
+     "total": 63677,
      "best_url": "https://x.com/gippp69/status/2103864511157457291",
      "post_ids": [
-      "2103864511157457291"
+      "2103864511157457291",
+      "2103814633647685732"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "leopardracer": {
+     "handle": "@leopardracer",
+     "name": "leopardracer",
+     "hits": 1,
+     "best": 35300,
+     "total": 35300,
+     "best_url": "https://x.com/leopardracer/status/2103783920248528997",
+     "post_ids": [
+      "2103783920248528997"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 20157,
+     "total": 20157,
+     "best_url": "https://x.com/ScottyBeamIO/status/2103856238014378000",
+     "post_ids": [
+      "2103856238014378000"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 6,
+     "best": 14684,
+     "total": 65940,
+     "best_url": "https://x.com/cyrilXBT/status/2103704028798750769",
+     "post_ids": [
+      "2103704028798750769",
+      "2103801828744061307",
+      "2103775334042931654",
+      "2103737605510836371",
+      "2103752714941538621",
+      "2103727944480809202"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
@@ -877,20 +2034,6 @@
       "2103875157534101613",
       "2103810777849192630",
       "2103614440008561150"
-     ],
-     "best_as_of": "2026-10-23T11:42:47+03:00",
-     "best_stale": false
-    },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 2,
-     "best": 14011,
-     "total": 20809,
-     "best_url": "https://x.com/cyrilXBT/status/2103801828744061307",
-     "post_ids": [
-      "2103801828744061307",
-      "2103727944480809202"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
@@ -917,6 +2060,45 @@
      "best_url": "https://x.com/AnnatarXBT/status/2103820379706015856",
      "post_ids": [
       "2103820379706015856"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "insomnia_vip": {
+     "handle": "@insomnia_vip",
+     "name": "Insomnia",
+     "hits": 1,
+     "best": 9802,
+     "total": 9802,
+     "best_url": "https://x.com/insomnia_vip/status/2103786718977482805",
+     "post_ids": [
+      "2103786718977482805"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 1,
+     "best": 14005,
+     "total": 14005,
+     "best_url": "https://x.com/Bober_smart/status/2103898386269167934",
+     "post_ids": [
+      "2103898386269167934"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "retrochainer": {
+     "handle": "@RetroChainer",
+     "name": "RetroChainer",
+     "hits": 1,
+     "best": 7371,
+     "total": 7371,
+     "best_url": "https://x.com/RetroChainer/status/2103863937234030708",
+     "post_ids": [
+      "2103863937234030708"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
@@ -953,6 +2135,76 @@
   },
   "2026-09-27": {
    "accounts": {
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 2,
+     "best": 212634,
+     "total": 221592,
+     "best_url": "https://x.com/Argona0x/status/2104303755537834287",
+     "post_ids": [
+      "2104303755537834287",
+      "2104226949849555188"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 1,
+     "best": 80405,
+     "total": 80405,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2104090661041369397",
+     "post_ids": [
+      "2104090661041369397"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 3,
+     "best": 101340,
+     "total": 127283,
+     "best_url": "https://x.com/beamnxw/status/2104148916149092664",
+     "post_ids": [
+      "2104148916149092664",
+      "2104205976781865298",
+      "2104266663751291135"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 3,
+     "best": 36296,
+     "total": 76909,
+     "best_url": "https://x.com/N01ennn/status/2104176492896715072",
+     "post_ids": [
+      "2104176492896715072",
+      "2104303749627822580",
+      "2103959565268025722"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "everestchris6": {
+     "handle": "@everestchris6",
+     "name": "Chris",
+     "hits": 1,
+     "best": 70256,
+     "total": 70256,
+     "best_url": "https://x.com/everestchris6/status/2104234619025682463",
+     "post_ids": [
+      "2104234619025682463"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
     "slash1sol": {
      "handle": "@slash1sol",
      "name": "slash1s",
@@ -962,6 +2214,23 @@
      "best_url": "https://x.com/slash1sol/status/2104119904810959177",
      "post_ids": [
       "2104119904810959177"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 5,
+     "best": 19878,
+     "total": 57104,
+     "best_url": "https://x.com/cyrilXBT/status/2104171710568403174",
+     "post_ids": [
+      "2104171710568403174",
+      "2104115076869550354",
+      "2104246015759089924",
+      "2104149136702681309",
+      "2104130177467076761"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
@@ -979,29 +2248,57 @@
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
     },
-    "n01ennn": {
-     "handle": "@N01ennn",
-     "name": "NO1ennn",
-     "hits": 1,
-     "best": 13678,
-     "total": 13678,
-     "best_url": "https://x.com/N01ennn/status/2103959565268025722",
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp ",
+     "hits": 3,
+     "best": 25564,
+     "total": 53168,
+     "best_url": "https://x.com/gippp69/status/2104287246786683258",
      "post_ids": [
-      "2103959565268025722"
+      "2104287246786683258",
+      "2104237895385071670",
+      "2104177462020112389"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
     },
-    "gippp69": {
-     "handle": "@gippp69",
-     "name": "Gipp ",
-     "hits": 2,
-     "best": 25564,
-     "total": 41296,
-     "best_url": "https://x.com/gippp69/status/2104287246786683258",
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 23842,
+     "total": 23842,
+     "best_url": "https://x.com/ScottyBeamIO/status/2104299623246365138",
      "post_ids": [
-      "2104287246786683258",
-      "2104237895385071670"
+      "2104299623246365138"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 1,
+     "best": 12513,
+     "total": 12513,
+     "best_url": "https://x.com/0x_kaize/status/2104178462034374915",
+     "post_ids": [
+      "2104178462034374915"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 2,
+     "best": 17613,
+     "total": 29303,
+     "best_url": "https://x.com/Bober_smart/status/2104269257689162060",
+     "post_ids": [
+      "2104269257689162060",
+      "2104192042884530587"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
@@ -1015,6 +2312,19 @@
      "best_url": "https://x.com/AnnatarXBT/status/2104228111604731911",
      "post_ids": [
       "2104228111604731911"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 1,
+     "best": 8830,
+     "total": 8830,
+     "best_url": "https://x.com/0xWast3/status/2104240316400238801",
+     "post_ids": [
+      "2104240316400238801"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
@@ -1038,6 +2348,60 @@
   },
   "2026-09-28": {
    "accounts": {
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 2,
+     "best": 202434,
+     "total": 222906,
+     "best_url": "https://x.com/N01ennn/status/2104514351147155889",
+     "post_ids": [
+      "2104514351147155889",
+      "2104581041360925159"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 2,
+     "best": 103978,
+     "total": 119941,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2104448518966432240",
+     "post_ids": [
+      "2104448518966432240",
+      "2104587408964522483"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 1,
+     "best": 33355,
+     "total": 33355,
+     "best_url": "https://x.com/beamnxw/status/2104475279208907004",
+     "post_ids": [
+      "2104475279208907004"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "everestchris6": {
+     "handle": "@everestchris6",
+     "name": "Chris",
+     "hits": 1,
+     "best": 29067,
+     "total": 29067,
+     "best_url": "https://x.com/everestchris6/status/2104374320575427014",
+     "post_ids": [
+      "2104374320575427014"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
     "slash1sol": {
      "handle": "@slash1sol",
      "name": "slash1s",
@@ -1048,6 +2412,35 @@
      "post_ids": [
       "2104325976721346716",
       "2104609424631271856"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 1,
+     "best": 23465,
+     "total": 23465,
+     "best_url": "https://x.com/0xWast3/status/2104513763302842829",
+     "post_ids": [
+      "2104513763302842829"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 4,
+     "best": 21357,
+     "total": 57126,
+     "best_url": "https://x.com/cyrilXBT/status/2104522797229965516",
+     "post_ids": [
+      "2104522797229965516",
+      "2104649435028525098",
+      "2104622687494537335",
+      "2104503927643488630"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
@@ -1066,30 +2459,29 @@
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 3,
-     "best": 15224,
-     "total": 35769,
-     "best_url": "https://x.com/cyrilXBT/status/2104649435028525098",
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 2,
+     "best": 32405,
+     "total": 50669,
+     "best_url": "https://x.com/Bober_smart/status/2104639925702520862",
      "post_ids": [
-      "2104649435028525098",
-      "2104622687494537335",
-      "2104503927643488630"
+      "2104639925702520862",
+      "2104551823793123424"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
     },
-    "mr_buzzoni": {
-     "handle": "@Mr_Buzzoni",
-     "name": "Mr. Buzzoni",
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
      "hits": 1,
-     "best": 15963,
-     "total": 15963,
-     "best_url": "https://x.com/Mr_Buzzoni/status/2104587408964522483",
+     "best": 11150,
+     "total": 11150,
+     "best_url": "https://x.com/ScottyBeamIO/status/2104550420831949061",
      "post_ids": [
-      "2104587408964522483"
+      "2104550420831949061"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
@@ -1107,6 +2499,32 @@
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
     },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 9999,
+     "total": 9999,
+     "best_url": "https://x.com/Argona0x/status/2104584375010529762",
+     "post_ids": [
+      "2104584375010529762"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 1,
+     "best": 14976,
+     "total": 14976,
+     "best_url": "https://x.com/0x_kaize/status/2104625151400681746",
+     "post_ids": [
+      "2104625151400681746"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
     "leopardracer": {
      "handle": "@leopardracer",
      "name": "leopardracer",
@@ -1116,6 +2534,19 @@
      "best_url": "https://x.com/leopardracer/status/2104638726886293904",
      "post_ids": [
       "2104638726886293904"
+     ],
+     "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp ",
+     "hits": 1,
+     "best": 6283,
+     "total": 6283,
+     "best_url": "https://x.com/gippp69/status/2104540710812692914",
+     "post_ids": [
+      "2104540710812692914"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
      "best_stale": false
@@ -1141,14 +2572,42 @@
     "mr_buzzoni": {
      "handle": "@Mr_Buzzoni",
      "name": "Mr. Buzzoni",
-     "hits": 1,
+     "hits": 2,
      "best": 1052038,
-     "total": 1052038,
+     "total": 1080957,
      "best_url": "https://x.com/Mr_Buzzoni/status/2104783226833186920",
      "post_ids": [
-      "2104783226833186920"
+      "2104783226833186920",
+      "2104812668263539156"
      ],
      "best_as_of": "2026-10-23T11:42:47+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 2,
+     "best": 125335,
+     "total": 135275,
+     "best_url": "https://x.com/Argona0x/status/2104954932994494485",
+     "post_ids": [
+      "2104954932994494485",
+      "2105004986304225607"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "everestchris6": {
+     "handle": "@everestchris6",
+     "name": "Chris",
+     "hits": 1,
+     "best": 127526,
+     "total": 127526,
+     "best_url": "https://x.com/everestchris6/status/2104965415164399895",
+     "post_ids": [
+      "2104965415164399895"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
      "best_stale": false
     },
     "annatarxbt": {
@@ -1178,28 +2637,73 @@
      "best_as_of": "2026-10-23T11:43:01+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 1,
-     "best": 9257,
-     "total": 9257,
-     "best_url": "https://x.com/cyrilXBT/status/2104891420087550316",
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 2,
+     "best": 111394,
+     "total": 126161,
+     "best_url": "https://x.com/Bober_smart/status/2104998107750535196",
      "post_ids": [
-      "2104891420087550316"
+      "2104998107750535196",
+      "2104913114491687411"
      ],
      "best_as_of": "2026-10-23T11:43:01+03:00",
      "best_stale": false
     },
-    "argona0x": {
-     "handle": "@Argona0x",
-     "name": "Argona",
-     "hits": 1,
-     "best": 9940,
-     "total": 9940,
-     "best_url": "https://x.com/Argona0x/status/2105004986304225607",
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 2,
+     "best": 32244,
+     "total": 42298,
+     "best_url": "https://x.com/N01ennn/status/2104876056893104461",
      "post_ids": [
-      "2105004986304225607"
+      "2104876056893104461",
+      "2104935031865024781"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 15501,
+     "total": 23923,
+     "best_url": "https://x.com/beamnxw/status/2104916939759853955",
+     "post_ids": [
+      "2104916939759853955",
+      "2104833067076456953"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 4,
+     "best": 9257,
+     "total": 33220,
+     "best_url": "https://x.com/cyrilXBT/status/2104891420087550316",
+     "post_ids": [
+      "2104891420087550316",
+      "2104839880962642423",
+      "2104851217235292562",
+      "2104866282583785665"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "insomnia_vip": {
+     "handle": "@insomnia_vip",
+     "name": "Insomnia",
+     "hits": 1,
+     "best": 15299,
+     "total": 15299,
+     "best_url": "https://x.com/insomnia_vip/status/2104942451735572595",
+     "post_ids": [
+      "2104942451735572595"
      ],
      "best_as_of": "2026-10-23T11:43:01+03:00",
      "best_stale": false
@@ -1223,6 +2727,24 @@
   },
   "2026-09-30": {
    "accounts": {
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 6,
+     "best": 114690,
+     "total": 179433,
+     "best_url": "https://x.com/cyrilXBT/status/2105202255393890790",
+     "post_ids": [
+      "2105202255393890790",
+      "2105221203938156625",
+      "2105239994545946849",
+      "2105258874043560121",
+      "2105187182520697304",
+      "2105299734378492204"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
     "annatarxbt": {
      "handle": "@AnnatarXBT",
      "name": "Annatar.md",
@@ -1233,6 +2755,101 @@
      "post_ids": [
       "2105263136638996553",
       "2105194685610467537"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 51695,
+     "total": 51695,
+     "best_url": "https://x.com/Argona0x/status/2105379600444366919",
+     "post_ids": [
+      "2105379600444366919"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 2,
+     "best": 32756,
+     "total": 45015,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2105177069730615556",
+     "post_ids": [
+      "2105177069730615556",
+      "2105229163401756842"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "bl888m_eth": {
+     "handle": "@bl888m_eth",
+     "name": "bl888m",
+     "hits": 1,
+     "best": 38120,
+     "total": 38120,
+     "best_url": "https://x.com/bl888m_eth/status/2105300799337398341",
+     "post_ids": [
+      "2105300799337398341"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 2,
+     "best": 38287,
+     "total": 47962,
+     "best_url": "https://x.com/0x_kaize/status/2105302059138380194",
+     "post_ids": [
+      "2105302059138380194",
+      "2105355376434741262"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 25128,
+     "total": 25128,
+     "best_url": "https://x.com/N01ennn/status/2105241246054711764",
+     "post_ids": [
+      "2105241246054711764"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 3,
+     "best": 46493,
+     "total": 85463,
+     "best_url": "https://x.com/Bober_smart/status/2105394315857965234",
+     "post_ids": [
+      "2105394315857965234",
+      "2105357660711252351",
+      "2105277208780521521"
+     ],
+     "best_as_of": "2026-10-23T11:43:01+03:00",
+     "best_stale": false
+    },
+    "everestchris6": {
+     "handle": "@everestchris6",
+     "name": "Chris",
+     "hits": 1,
+     "best": 26800,
+     "total": 26800,
+     "best_url": "https://x.com/everestchris6/status/2105346533223010558",
+     "post_ids": [
+      "2105346533223010558"
      ],
      "best_as_of": "2026-10-23T11:43:01+03:00",
      "best_stale": false
@@ -1264,29 +2881,15 @@
      "best_as_of": "2026-10-23T11:43:01+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 2,
-     "best": 8620,
-     "total": 15090,
-     "best_url": "https://x.com/cyrilXBT/status/2105258874043560121",
-     "post_ids": [
-      "2105258874043560121",
-      "2105299734378492204"
-     ],
-     "best_as_of": "2026-10-23T11:43:01+03:00",
-     "best_stale": false
-    },
-    "0x_kaize": {
-     "handle": "@0x_kaize",
-     "name": "kaize",
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
      "hits": 1,
-     "best": 9675,
-     "total": 9675,
-     "best_url": "https://x.com/0x_kaize/status/2105355376434741262",
+     "best": 6714,
+     "total": 6714,
+     "best_url": "https://x.com/beamnxw/status/2105202083834081743",
      "post_ids": [
-      "2105355376434741262"
+      "2105202083834081743"
      ],
      "best_as_of": "2026-10-23T11:43:01+03:00",
      "best_stale": false
@@ -1310,6 +2913,33 @@
   },
   "2026-10-01": {
    "accounts": {
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 2,
+     "best": 144793,
+     "total": 169870,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2105535430645207333",
+     "post_ids": [
+      "2105535430645207333",
+      "2105707633705382090"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 143596,
+     "total": 143596,
+     "best_url": "https://x.com/Argona0x/status/2105417415257383264",
+     "post_ids": [
+      "2105417415257383264"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
     "annatarxbt": {
      "handle": "@AnnatarXBT",
      "name": "Annatar.md",
@@ -1319,6 +2949,35 @@
      "best_url": "https://x.com/AnnatarXBT/status/2105550278359662756",
      "post_ids": [
       "2105550278359662756"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 3,
+     "best": 97119,
+     "total": 150964,
+     "best_url": "https://x.com/Bober_smart/status/2105720546914697275",
+     "post_ids": [
+      "2105720546914697275",
+      "2105637981344215281",
+      "2105753964847259829"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 2,
+     "best": 44290,
+     "total": 52827,
+     "best_url": "https://x.com/N01ennn/status/2105606036639932433",
+     "post_ids": [
+      "2105606036639932433",
+      "2105423127391932832"
      ],
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
@@ -1352,28 +3011,32 @@
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
     },
-    "mr_buzzoni": {
-     "handle": "@Mr_Buzzoni",
-     "name": "Mr. Buzzoni",
-     "hits": 1,
-     "best": 25077,
-     "total": 25077,
-     "best_url": "https://x.com/Mr_Buzzoni/status/2105707633705382090",
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 5,
+     "best": 16327,
+     "total": 61345,
+     "best_url": "https://x.com/cyrilXBT/status/2105564629170839596",
      "post_ids": [
-      "2105707633705382090"
+      "2105564629170839596",
+      "2105632577940046302",
+      "2105545801133064273",
+      "2105587369445601718",
+      "2105606197533610437"
      ],
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
+    "shmidtqq": {
+     "handle": "@shmidtqq",
+     "name": "shmidt",
      "hits": 1,
-     "best": 15649,
-     "total": 15649,
-     "best_url": "https://x.com/cyrilXBT/status/2105632577940046302",
+     "best": 14481,
+     "total": 14481,
+     "best_url": "https://x.com/shmidtqq/status/2105658381197336874",
      "post_ids": [
-      "2105632577940046302"
+      "2105658381197336874"
      ],
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
@@ -1381,12 +3044,66 @@
     "gippp69": {
      "handle": "@gippp69",
      "name": "Gipp ",
-     "hits": 1,
-     "best": 13027,
-     "total": 13027,
-     "best_url": "https://x.com/gippp69/status/2105745580064452671",
+     "hits": 2,
+     "best": 14127,
+     "total": 27154,
+     "best_url": "https://x.com/gippp69/status/2105629068330709120",
      "post_ids": [
+      "2105629068330709120",
       "2105745580064452671"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 11482,
+     "total": 21710,
+     "best_url": "https://x.com/beamnxw/status/2105592304392151109",
+     "post_ids": [
+      "2105592304392151109",
+      "2105740190140817460"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "bl888m_eth": {
+     "handle": "@bl888m_eth",
+     "name": "bl888m",
+     "hits": 1,
+     "best": 10385,
+     "total": 10385,
+     "best_url": "https://x.com/bl888m_eth/status/2105633734095683588",
+     "post_ids": [
+      "2105633734095683588"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "sprytixl": {
+     "handle": "@Sprytixl",
+     "name": "Sprytix",
+     "hits": 1,
+     "best": 9248,
+     "total": 9248,
+     "best_url": "https://x.com/Sprytixl/status/2105589137273200725",
+     "post_ids": [
+      "2105589137273200725"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "leopardracer": {
+     "handle": "@leopardracer",
+     "name": "leopardracer",
+     "hits": 1,
+     "best": 7894,
+     "total": 7894,
+     "best_url": "https://x.com/leopardracer/status/2105587277875327455",
+     "post_ids": [
+      "2105587277875327455"
      ],
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
@@ -1419,6 +3136,53 @@
      "best_url": "https://x.com/carverfomo/status/2105991207847387186",
      "post_ids": [
       "2105991207847387186"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 98853,
+     "total": 137029,
+     "best_url": "https://x.com/beamnxw/status/2106009853797814755",
+     "post_ids": [
+      "2106009853797814755",
+      "2106057399278645595"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 2,
+     "best": 76614,
+     "total": 100701,
+     "best_url": "https://x.com/Argona0x/status/2106054021479842293",
+     "post_ids": [
+      "2106054021479842293",
+      "2106113912689336537"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 7,
+     "best": 60515,
+     "total": 137870,
+     "best_url": "https://x.com/cyrilXBT/status/2105972331189551509",
+     "post_ids": [
+      "2105972331189551509",
+      "2105896836024377368",
+      "2105911947548053841",
+      "2105927045473857582",
+      "2106021554391781827",
+      "2105945923650257273",
+      "2106050229099536492"
      ],
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
@@ -1466,12 +3230,13 @@
     "ridark_eth": {
      "handle": "@ridark_eth",
      "name": "Ridark",
-     "hits": 1,
+     "hits": 2,
      "best": 71402,
-     "total": 71402,
+     "total": 83201,
      "best_url": "https://x.com/ridark_eth/status/2106005237190275109",
      "post_ids": [
-      "2106005237190275109"
+      "2106005237190275109",
+      "2106030408609501277"
      ],
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
@@ -1489,6 +3254,47 @@
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
     },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 1,
+     "best": 87216,
+     "total": 87216,
+     "best_url": "https://x.com/0xWast3/status/2106089143746920449",
+     "post_ids": [
+      "2106089143746920449"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 1,
+     "best": 377375,
+     "total": 377375,
+     "best_url": "https://x.com/0x_kaize/status/2106011717033504933",
+     "post_ids": [
+      "2106011717033504933"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 3,
+     "best": 52133,
+     "total": 84959,
+     "best_url": "https://x.com/Bober_smart/status/2106072747944120378",
+     "post_ids": [
+      "2106072747944120378",
+      "2106010480149942512",
+      "2106112932010455177"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
     "sprytixl": {
      "handle": "@Sprytixl",
      "name": "Sprytix",
@@ -1502,17 +3308,41 @@
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 3,
-     "best": 8348,
-     "total": 22789,
-     "best_url": "https://x.com/cyrilXBT/status/2106021554391781827",
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp ",
+     "hits": 1,
+     "best": 11251,
+     "total": 11251,
+     "best_url": "https://x.com/gippp69/status/2106005109247226221",
      "post_ids": [
-      "2106021554391781827",
-      "2105945923650257273",
-      "2106050229099536492"
+      "2106005109247226221"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "retrochainer": {
+     "handle": "@RetroChainer",
+     "name": "RetroChainer",
+     "hits": 1,
+     "best": 11142,
+     "total": 11142,
+     "best_url": "https://x.com/RetroChainer/status/2106070287582216494",
+     "post_ids": [
+      "2106070287582216494"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 1,
+     "best": 9618,
+     "total": 9618,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2105977846095040587",
+     "post_ids": [
+      "2105977846095040587"
      ],
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
@@ -1575,6 +3405,19 @@
      "best_as_of": "2026-10-04T12:51:00+03:00",
      "best_stale": true
     },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 1,
+     "best": 40701,
+     "total": 40701,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2106320604634702070",
+     "post_ids": [
+      "2106320604634702070"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
     "gippp69": {
      "handle": "@gippp69",
      "name": "Gipp",
@@ -1584,6 +3427,59 @@
      "best_url": "https://x.com/gippp69/status/2106409052133548441",
      "post_ids": [
       "2106409052133548441"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 1,
+     "best": 321754,
+     "total": 321754,
+     "best_url": "https://x.com/0x_kaize/status/2106321758655750290",
+     "post_ids": [
+      "2106321758655750290"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
+     "hits": 1,
+     "best": 14348,
+     "total": 14348,
+     "best_url": "https://x.com/ridark_eth/status/2106479297989136561",
+     "post_ids": [
+      "2106479297989136561"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "bl888m_eth": {
+     "handle": "@bl888m_eth",
+     "name": "bl888m",
+     "hits": 1,
+     "best": 14450,
+     "total": 14450,
+     "best_url": "https://x.com/bl888m_eth/status/2106423611552850144",
+     "post_ids": [
+      "2106423611552850144"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 2,
+     "best": 134364,
+     "total": 188243,
+     "best_url": "https://x.com/N01ennn/status/2106365993035472979",
+     "post_ids": [
+      "2106365993035472979",
+      "2106128257385205771"
      ],
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
@@ -1628,6 +3524,19 @@
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
     },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 1,
+     "best": 22369,
+     "total": 22369,
+     "best_url": "https://x.com/cyrilXBT/status/2106644272162435262",
+     "post_ids": [
+      "2106644272162435262"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
     "thegreatest_sv": {
      "handle": "@thegreatest_sv",
      "name": "The Greatest",
@@ -1668,12 +3577,13 @@
     "cyrilxbt": {
      "handle": "@cyrilXBT",
      "name": "CyrilXBT",
-     "hits": 1,
+     "hits": 2,
      "best": 132281,
-     "total": 132281,
+     "total": 166004,
      "best_url": "https://x.com/cyrilXBT/status/2106576295094288608",
      "post_ids": [
-      "2106576295094288608"
+      "2106576295094288608",
+      "2106591423927812107"
      ],
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
@@ -1705,6 +3615,32 @@
      "best_as_of": "2026-10-24T10:58:17+03:00",
      "best_stale": false
     },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 1,
+     "best": 22250,
+     "total": 22250,
+     "best_url": "https://x.com/Bober_smart/status/2106724268583030974",
+     "post_ids": [
+      "2106724268583030974"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 20031,
+     "total": 20031,
+     "best_url": "https://x.com/N01ennn/status/2106701497857703955",
+     "post_ids": [
+      "2106701497857703955"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
     "everestchris6": {
      "handle": "@everestchris6",
      "name": "Chris",
@@ -1716,6 +3652,45 @@
       "2106765163047309559"
      ],
      "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 1,
+     "best": 9171,
+     "total": 9171,
+     "best_url": "https://x.com/beamnxw/status/2106777772894941642",
+     "post_ids": [
+      "2106777772894941642"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 1,
+     "best": 10058,
+     "total": 10058,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2106798822659608607",
+     "post_ids": [
+      "2106798822659608607"
+     ],
+     "best_as_of": "2026-10-24T10:58:17+03:00",
+     "best_stale": false
+    },
+    "shmidtqq": {
+     "handle": "@shmidtqq",
+     "name": "shmidt",
+     "hits": 1,
+     "best": 7719,
+     "total": 7719,
+     "best_url": "https://x.com/shmidtqq/status/2106812652114886984",
+     "post_ids": [
+      "2106812652114886984"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
     },
     "thegreatest_sv": {
@@ -1754,12 +3729,27 @@
     "everestchris6": {
      "handle": "@everestchris6",
      "name": "Chris",
-     "hits": 1,
+     "hits": 2,
      "best": 121636,
-     "total": 121636,
+     "total": 193033,
      "best_url": "https://x.com/everestchris6/status/2107135574469746896",
      "post_ids": [
-      "2107135574469746896"
+      "2107135574469746896",
+      "2107149272483582282"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 2,
+     "best": 57159,
+     "total": 69521,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2106996306946498606",
+     "post_ids": [
+      "2106996306946498606",
+      "2107045379913220176"
      ],
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
@@ -1774,6 +3764,28 @@
      "post_ids": [
       "2107028518983131548",
       "2107080360853209169"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 10,
+     "best": 37649,
+     "total": 158334,
+     "best_url": "https://x.com/cyrilXBT/status/2106948473044210132",
+     "post_ids": [
+      "2106948473044210132",
+      "2106934949131804740",
+      "2106984014406103079",
+      "2106995354684301387",
+      "2107014211855630808",
+      "2107093754389913968",
+      "2107055714162422202",
+      "2107033143777939752",
+      "2107078454718144851",
+      "2107140313420820553"
      ],
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
@@ -1794,40 +3806,28 @@
     "0xwast3": {
      "handle": "@0xWast3",
      "name": "wast3",
-     "hits": 1,
+     "hits": 2,
      "best": 27281,
-     "total": 27281,
+     "total": 43694,
      "best_url": "https://x.com/0xWast3/status/2107054996663521770",
      "post_ids": [
-      "2107054996663521770"
+      "2107054996663521770",
+      "2107157725360615932"
      ],
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
      "hits": 3,
-     "best": 13687,
-     "total": 27449,
-     "best_url": "https://x.com/cyrilXBT/status/2107055714162422202",
+     "best": 17168,
+     "total": 44514,
+     "best_url": "https://x.com/Bober_smart/status/2107090677062406646",
      "post_ids": [
-      "2107055714162422202",
-      "2107078454718144851",
-      "2107140313420820553"
-     ],
-     "best_as_of": "2026-10-24T10:58:24+03:00",
-     "best_stale": false
-    },
-    "mr_buzzoni": {
-     "handle": "@Mr_Buzzoni",
-     "name": "Mr. Buzzoni",
-     "hits": 1,
-     "best": 12362,
-     "total": 12362,
-     "best_url": "https://x.com/Mr_Buzzoni/status/2107045379913220176",
-     "post_ids": [
-      "2107045379913220176"
+      "2107090677062406646",
+      "2107207254734770430",
+      "2107173745576079754"
      ],
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
@@ -1841,6 +3841,19 @@
      "best_url": "https://x.com/Sprytixl/status/2107049820892344646",
      "post_ids": [
       "2107049820892344646"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp",
+     "hits": 1,
+     "best": 25255,
+     "total": 25255,
+     "best_url": "https://x.com/gippp69/status/2107153066134790406",
+     "post_ids": [
+      "2107153066134790406"
      ],
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
@@ -1861,12 +3874,13 @@
     "beamnxw": {
      "handle": "@beamnxw",
      "name": "beamnxw ./",
-     "hits": 1,
+     "hits": 2,
      "best": 596964,
-     "total": 596964,
+     "total": 605371,
      "best_url": "https://x.com/beamnxw/status/2107143806546002398",
      "post_ids": [
-      "2107143806546002398"
+      "2107143806546002398",
+      "2107085405958943173"
      ],
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
@@ -1883,6 +3897,45 @@
      ],
      "best_as_of": "2026-10-06T11:16:00+03:00",
      "best_stale": true
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 9391,
+     "total": 9391,
+     "best_url": "https://x.com/N01ennn/status/2107174675071598676",
+     "post_ids": [
+      "2107174675071598676"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "bl888m_eth": {
+     "handle": "@bl888m_eth",
+     "name": "bl888m",
+     "hits": 1,
+     "best": 6948,
+     "total": 6948,
+     "best_url": "https://x.com/bl888m_eth/status/2107079430577574345",
+     "post_ids": [
+      "2107079430577574345"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "retrochainer": {
+     "handle": "@RetroChainer",
+     "name": "RetroChainer",
+     "hits": 1,
+     "best": 6076,
+     "total": 6076,
+     "best_url": "https://x.com/RetroChainer/status/2107099238245011702",
+     "post_ids": [
+      "2107099238245011702"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
     },
     "thegreatest_sv": {
      "handle": "@thegreatest_sv",
@@ -1903,15 +3956,79 @@
   },
   "2026-10-06": {
    "accounts": {
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 2,
+     "best": 266124,
+     "total": 284009,
+     "best_url": "https://x.com/0xWast3/status/2107514047578955935",
+     "post_ids": [
+      "2107514047578955935",
+      "2107412258259136869"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
     "beamnxw": {
      "handle": "@beamnxw",
      "name": "beamnxw ./",
-     "hits": 1,
+     "hits": 2,
      "best": 1440480,
-     "total": 1440480,
+     "total": 1459723,
      "best_url": "https://x.com/beamnxw/status/2107522996046905797",
      "post_ids": [
-      "2107522996046905797"
+      "2107522996046905797",
+      "2107494674894070242"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 9,
+     "best": 67067,
+     "total": 195347,
+     "best_url": "https://x.com/cyrilXBT/status/2107318803013226811",
+     "post_ids": [
+      "2107318803013226811",
+      "2107414335400407258",
+      "2107433225484472813",
+      "2107376595958976969",
+      "2107342617814118429",
+      "2107361503947186409",
+      "2107395517403836625",
+      "2107452067518541938",
+      "2107519072435077222"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 2,
+     "best": 83873,
+     "total": 114679,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2107347369763156099",
+     "post_ids": [
+      "2107347369763156099",
+      "2107404748169400635"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp",
+     "hits": 2,
+     "best": 34008,
+     "total": 48396,
+     "best_url": "https://x.com/gippp69/status/2107548226081444016",
+     "post_ids": [
+      "2107548226081444016",
+      "2107481859701555484"
      ],
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
@@ -1929,15 +4046,16 @@
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
     },
-    "0xwast3": {
-     "handle": "@0xWast3",
-     "name": "wast3",
-     "hits": 1,
-     "best": 17885,
-     "total": 17885,
-     "best_url": "https://x.com/0xWast3/status/2107412258259136869",
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 2,
+     "best": 20429,
+     "total": 35033,
+     "best_url": "https://x.com/Bober_smart/status/2107455618122444832",
      "post_ids": [
-      "2107412258259136869"
+      "2107455618122444832",
+      "2107561306534355362"
      ],
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
@@ -1968,16 +4086,41 @@
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 2,
-     "best": 8055,
-     "total": 15940,
-     "best_url": "https://x.com/cyrilXBT/status/2107452067518541938",
+    "bl888m_eth": {
+     "handle": "@bl888m_eth",
+     "name": "bl888m",
+     "hits": 1,
+     "best": 15205,
+     "total": 15205,
+     "best_url": "https://x.com/bl888m_eth/status/2107499822626603454",
      "post_ids": [
-      "2107452067518541938",
-      "2107519072435077222"
+      "2107499822626603454"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 9777,
+     "total": 9777,
+     "best_url": "https://x.com/N01ennn/status/2107460256162807968",
+     "post_ids": [
+      "2107460256162807968"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "insomnia_vip": {
+     "handle": "@insomnia_vip",
+     "name": "Insomnia",
+     "hits": 1,
+     "best": 8550,
+     "total": 8550,
+     "best_url": "https://x.com/insomnia_vip/status/2107400176637817171",
+     "post_ids": [
+      "2107400176637817171"
      ],
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
@@ -2027,6 +4170,19 @@
   },
   "2026-10-07": {
    "accounts": {
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 1,
+     "best": 656864,
+     "total": 656864,
+     "best_url": "https://x.com/beamnxw/status/2107836535995568551",
+     "post_ids": [
+      "2107836535995568551"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
     "shelpid_wi3m": {
      "handle": "@Shelpid_WI3M",
      "name": "Shelpid.WI3M",
@@ -2040,16 +4196,81 @@
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
     },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 2,
+     "best": 102226,
+     "total": 113536,
+     "best_url": "https://x.com/0xWast3/status/2107898724286361928",
+     "post_ids": [
+      "2107898724286361928",
+      "2107774373398479289"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 11,
+     "best": 37872,
+     "total": 150732,
+     "best_url": "https://x.com/cyrilXBT/status/2107664148524130655",
+     "post_ids": [
+      "2107664148524130655",
+      "2107727677394452839",
+      "2107738978573267407",
+      "2107873822926086373",
+      "2107708786077221033",
+      "2107678588149588333",
+      "2107754085156008348",
+      "2107924767068356722",
+      "2107784256391180640",
+      "2107818478598320248",
+      "2107868495665156190"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 2,
+     "best": 34810,
+     "total": 43264,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2107711770802753785",
+     "post_ids": [
+      "2107711770802753785",
+      "2107769652776501700"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 1,
+     "best": 28255,
+     "total": 28255,
+     "best_url": "https://x.com/Bober_smart/status/2107814329361793261",
+     "post_ids": [
+      "2107814329361793261"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
     "n01ennn": {
      "handle": "@N01ennn",
      "name": "NO1ennn",
-     "hits": 2,
+     "hits": 3,
      "best": 838340,
-     "total": 851168,
+     "total": 863421,
      "best_url": "https://x.com/N01ennn/status/2107826459804840072",
      "post_ids": [
       "2107826459804840072",
-      "2107887039513268301"
+      "2107887039513268301",
+      "2107857289617039497"
      ],
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
@@ -2067,32 +4288,15 @@
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 5,
-     "best": 13132,
-     "total": 39673,
-     "best_url": "https://x.com/cyrilXBT/status/2107873822926086373",
-     "post_ids": [
-      "2107873822926086373",
-      "2107924767068356722",
-      "2107784256391180640",
-      "2107818478598320248",
-      "2107868495665156190"
-     ],
-     "best_as_of": "2026-10-24T10:58:24+03:00",
-     "best_stale": false
-    },
-    "0xwast3": {
-     "handle": "@0xWast3",
-     "name": "wast3",
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp 🦅",
      "hits": 1,
-     "best": 11310,
-     "total": 11310,
-     "best_url": "https://x.com/0xWast3/status/2107774373398479289",
+     "best": 19330,
+     "total": 19330,
+     "best_url": "https://x.com/gippp69/status/2107914347326673016",
      "post_ids": [
-      "2107774373398479289"
+      "2107914347326673016"
      ],
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
@@ -2106,6 +4310,19 @@
      "best_url": "https://x.com/Sprytixl/status/2107763347097534680",
      "post_ids": [
       "2107763347097534680"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
+     "hits": 1,
+     "best": 7887,
+     "total": 7887,
+     "best_url": "https://x.com/ridark_eth/status/2107583521820729500",
+     "post_ids": [
+      "2107583521820729500"
      ],
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
@@ -2136,6 +4353,19 @@
      "best_as_of": "2026-10-24T10:58:24+03:00",
      "best_stale": false
     },
+    "bl888m_eth": {
+     "handle": "@bl888m_eth",
+     "name": "bl888m",
+     "hits": 1,
+     "best": 8869,
+     "total": 8869,
+     "best_url": "https://x.com/bl888m_eth/status/2107819855546331573",
+     "post_ids": [
+      "2107819855546331573"
+     ],
+     "best_as_of": "2026-10-24T10:58:24+03:00",
+     "best_stale": false
+    },
     "thegreatest_sv": {
      "handle": "@thegreatest_sv",
      "name": "The Greatest",
@@ -2155,6 +4385,20 @@
   },
   "2026-10-08": {
    "accounts": {
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 2,
+     "best": 494067,
+     "total": 502309,
+     "best_url": "https://x.com/N01ennn/status/2108182955671580771",
+     "post_ids": [
+      "2108182955671580771",
+      "2108139401217732611"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
     "0x_kaize": {
      "handle": "@0x_kaize",
      "name": "kaize",
@@ -2171,12 +4415,14 @@
     "beamnxw": {
      "handle": "@beamnxw",
      "name": "beamnxw ./",
-     "hits": 1,
+     "hits": 3,
      "best": 890270,
-     "total": 890270,
+     "total": 906127,
      "best_url": "https://x.com/beamnxw/status/2108101310515925217",
      "post_ids": [
-      "2108101310515925217"
+      "2108101310515925217",
+      "2108165055028105484",
+      "2108215195940028840"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
@@ -2194,14 +4440,50 @@
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
     },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 9,
+     "best": 23021,
+     "total": 104647,
+     "best_url": "https://x.com/cyrilXBT/status/2108101372411592866",
+     "post_ids": [
+      "2108101372411592866",
+      "2108071162819559561",
+      "2108142918112608663",
+      "2108120352140489117",
+      "2108161777381069015",
+      "2108086263538713059",
+      "2108040279290749117",
+      "2108176849138594100",
+      "2108203288290308206"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 2,
+     "best": 20783,
+     "total": 36814,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2108079443650441568",
+     "post_ids": [
+      "2108079443650441568",
+      "2108153934812438539"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
     "0xwast3": {
      "handle": "@0xWast3",
      "name": "wast3",
-     "hits": 1,
-     "best": 18895,
-     "total": 18895,
-     "best_url": "https://x.com/0xWast3/status/2108142921547440248",
+     "hits": 2,
+     "best": 21805,
+     "total": 40700,
+     "best_url": "https://x.com/0xWast3/status/2108244247312749044",
      "post_ids": [
+      "2108244247312749044",
       "2108142921547440248"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
@@ -2233,18 +4515,30 @@
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 4,
-     "best": 7694,
-     "total": 27245,
-     "best_url": "https://x.com/cyrilXBT/status/2108086263538713059",
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
+     "hits": 2,
+     "best": 33576,
+     "total": 53208,
+     "best_url": "https://x.com/ridark_eth/status/2108240712831754314",
      "post_ids": [
-      "2108086263538713059",
-      "2108040279290749117",
-      "2108176849138594100",
-      "2108203288290308206"
+      "2108240712831754314",
+      "2108195353690247270"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 2,
+     "best": 22797,
+     "total": 36221,
+     "best_url": "https://x.com/Bober_smart/status/2108293657552117850",
+     "post_ids": [
+      "2108293657552117850",
+      "2108181423270101238"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
@@ -2268,6 +4562,19 @@
   },
   "2026-10-09": {
    "accounts": {
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 119805,
+     "total": 119805,
+     "best_url": "https://x.com/N01ennn/status/2108520767092597182",
+     "post_ids": [
+      "2108520767092597182"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
     "carverfomo": {
      "handle": "@carverfomo",
      "name": "Carver",
@@ -2277,6 +4584,27 @@
      "best_url": "https://x.com/carverfomo/status/2108349436049125751",
      "post_ids": [
       "2108349436049125751"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 9,
+     "best": 54204,
+     "total": 124823,
+     "best_url": "https://x.com/cyrilXBT/status/2108475067902701928",
+     "post_ids": [
+      "2108475067902701928",
+      "2108535477326499850",
+      "2108497867694633226",
+      "2108448665568498153",
+      "2108392107555848653",
+      "2108433562135564725",
+      "2108460007515955250",
+      "2108403373158642110",
+      "2108516581223637288"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
@@ -2297,25 +4625,52 @@
     "0xwast3": {
      "handle": "@0xWast3",
      "name": "wast3",
-     "hits": 1,
+     "hits": 2,
      "best": 14801,
-     "total": 14801,
+     "total": 28344,
      "best_url": "https://x.com/0xWast3/status/2108500270464303133",
      "post_ids": [
-      "2108500270464303133"
+      "2108500270464303133",
+      "2108589138752557236"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
      "hits": 1,
-     "best": 11042,
-     "total": 11042,
-     "best_url": "https://x.com/cyrilXBT/status/2108535477326499850",
+     "best": 23269,
+     "total": 23269,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2108444096532488445",
      "post_ids": [
-      "2108535477326499850"
+      "2108444096532488445"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp 🦅",
+     "hits": 1,
+     "best": 11992,
+     "total": 11992,
+     "best_url": "https://x.com/gippp69/status/2108523944219119864",
+     "post_ids": [
+      "2108523944219119864"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 11757,
+     "total": 11757,
+     "best_url": "https://x.com/Argona0x/status/2108308957844684807",
+     "post_ids": [
+      "2108308957844684807"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
@@ -2341,12 +4696,20 @@
     "cyrilxbt": {
      "handle": "@cyrilXBT",
      "name": "CyrilXBT",
-     "hits": 1,
+     "hits": 9,
      "best": 515000,
-     "total": 515000,
+     "total": 806093,
      "best_url": "https://x.com/cyrilXBT/status/2108693524900110515",
      "post_ids": [
-      "2108693524900110515"
+      "2108693524900110515",
+      "2108867649086300218",
+      "2108765751746380128",
+      "2108795939423154191",
+      "2108826149006811403",
+      "2108841246718664904",
+      "2108886547236008372",
+      "2108811054834909231",
+      "2108746853957427454"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
@@ -2354,12 +4717,13 @@
     "bober_smart": {
      "handle": "@Bober_smart",
      "name": "Bober_smart",
-     "hits": 1,
+     "hits": 2,
      "best": 1277654,
-     "total": 1277654,
+     "total": 1295390,
      "best_url": "https://x.com/Bober_smart/status/2108974132058603803",
      "post_ids": [
-      "2108974132058603803"
+      "2108974132058603803",
+      "2108902506507928040"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
@@ -2380,13 +4744,80 @@
     "0xwast3": {
      "handle": "@0xWast3",
      "name": "wast3",
-     "hits": 2,
+     "hits": 3,
      "best": 114749,
-     "total": 132827,
+     "total": 149204,
      "best_url": "https://x.com/0xWast3/status/2108986760311066656",
      "post_ids": [
       "2108986760311066656",
-      "2108865706313826721"
+      "2108865706313826721",
+      "2108929451811557694"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 1,
+     "best": 39474,
+     "total": 39474,
+     "best_url": "https://x.com/0x_kaize/status/2108910368613437460",
+     "post_ids": [
+      "2108910368613437460"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 26432,
+     "total": 26432,
+     "best_url": "https://x.com/N01ennn/status/2108898093580116305",
+     "post_ids": [
+      "2108898093580116305"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 87530,
+     "total": 104337,
+     "best_url": "https://x.com/beamnxw/status/2108953385189732416",
+     "post_ids": [
+      "2108953385189732416",
+      "2108821248817971519"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 20332,
+     "total": 20332,
+     "best_url": "https://x.com/ScottyBeamIO/status/2108880513301610556",
+     "post_ids": [
+      "2108880513301610556"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "leopardracer": {
+     "handle": "@leopardracer",
+     "name": "leopardracer",
+     "hits": 1,
+     "best": 16639,
+     "total": 16639,
+     "best_url": "https://x.com/leopardracer/status/2108885874037469658",
+     "post_ids": [
+      "2108885874037469658"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
@@ -2400,6 +4831,34 @@
      "best_url": "https://x.com/Mr_Buzzoni/status/2108878115510632782",
      "post_ids": [
       "2108878115510632782"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
+     "hits": 3,
+     "best": 13970,
+     "total": 34753,
+     "best_url": "https://x.com/ridark_eth/status/2108934822236160392",
+     "post_ids": [
+      "2108934822236160392",
+      "2108684166086713783",
+      "2108901972359131624"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp 🦅",
+     "hits": 1,
+     "best": 8801,
+     "total": 8801,
+     "best_url": "https://x.com/gippp69/status/2108937823327772918",
+     "post_ids": [
+      "2108937823327772918"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
@@ -2426,12 +4885,13 @@
     "gippp69": {
      "handle": "@gippp69",
      "name": "Gipp 🦅",
-     "hits": 1,
+     "hits": 2,
      "best": 1325884,
-     "total": 1325884,
+     "total": 1439163,
      "best_url": "https://x.com/gippp69/status/2109235458383216811",
      "post_ids": [
-      "2109235458383216811"
+      "2109235458383216811",
+      "2109282929880846737"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
@@ -2450,16 +4910,49 @@
      "best_as_of": "2026-10-12T10:59:54+03:00",
      "best_stale": true
     },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 7,
+     "best": 27445,
+     "total": 89988,
+     "best_url": "https://x.com/cyrilXBT/status/2109113009272680668",
+     "post_ids": [
+      "2109113009272680668",
+      "2109237678462083134",
+      "2109173426028228981",
+      "2109154535348556070",
+      "2109192348177682528",
+      "2109211212735230102",
+      "2109260255628849261"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "leopardracer": {
+     "handle": "@leopardracer",
+     "name": "leopardracer",
+     "hits": 1,
+     "best": 23076,
+     "total": 23076,
+     "best_url": "https://x.com/leopardracer/status/2109273561865105416",
+     "post_ids": [
+      "2109273561865105416"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
     "0xwast3": {
      "handle": "@0xWast3",
      "name": "wast3",
-     "hits": 2,
+     "hits": 3,
      "best": 18550,
-     "total": 33368,
+     "total": 47375,
      "best_url": "https://x.com/0xWast3/status/2109226576814518612",
      "post_ids": [
       "2109226576814518612",
-      "2109343932681171125"
+      "2109343932681171125",
+      "2109292295983968706"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
@@ -2467,12 +4960,41 @@
     "mr_buzzoni": {
      "handle": "@Mr_Buzzoni",
      "name": "Mr. Buzzoni",
-     "hits": 1,
+     "hits": 3,
      "best": 29014,
-     "total": 29014,
+     "total": 47949,
      "best_url": "https://x.com/Mr_Buzzoni/status/2109299386752872666",
      "post_ids": [
-      "2109299386752872666"
+      "2109299386752872666",
+      "2109171892062204247",
+      "2109232290475962484"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 25027,
+     "total": 25027,
+     "best_url": "https://x.com/ScottyBeamIO/status/2109255139223580988",
+     "post_ids": [
+      "2109255139223580988"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 34531,
+     "total": 60403,
+     "best_url": "https://x.com/beamnxw/status/2109304262597443724",
+     "post_ids": [
+      "2109304262597443724",
+      "2109255985994830148"
      ],
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
@@ -2506,12 +5028,13 @@
     "bl888m_eth": {
      "handle": "@bl888m_eth",
      "name": "bl888m",
-     "hits": 1,
+     "hits": 2,
      "best": 22265,
-     "total": 22265,
+     "total": 38082,
      "best_url": "https://x.com/bl888m_eth/status/2109272690502905880",
      "post_ids": [
-      "2109272690502905880"
+      "2109272690502905880",
+      "2109318830220824795"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
@@ -2529,15 +5052,28 @@
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
+    "sprytixl": {
+     "handle": "@Sprytixl",
+     "name": "Sprytix",
      "hits": 1,
-     "best": 6487,
-     "total": 6487,
-     "best_url": "https://x.com/cyrilXBT/status/2109260255628849261",
+     "best": 12716,
+     "total": 12716,
+     "best_url": "https://x.com/Sprytixl/status/2109227182396494000",
      "post_ids": [
-      "2109260255628849261"
+      "2109227182396494000"
+     ],
+     "best_as_of": "2026-10-24T10:58:30+03:00",
+     "best_stale": false
+    },
+    "slash1sol": {
+     "handle": "@slash1sol",
+     "name": "slash1s",
+     "hits": 1,
+     "best": 9020,
+     "total": 9020,
+     "best_url": "https://x.com/slash1sol/status/2109269883888246926",
+     "post_ids": [
+      "2109269883888246926"
      ],
      "best_as_of": "2026-10-24T10:58:30+03:00",
      "best_stale": false
@@ -2573,6 +5109,32 @@
   },
   "2026-10-12": {
    "accounts": {
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 1222067,
+     "total": 1222067,
+     "best_url": "https://x.com/ScottyBeamIO/status/2109660484144169136",
+     "post_ids": [
+      "2109660484144169136"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 1270631,
+     "total": 1270631,
+     "best_url": "https://x.com/Argona0x/status/2109705574371774667",
+     "post_ids": [
+      "2109705574371774667"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
     "shelpid_wi3m": {
      "handle": "@Shelpid_WI3M",
      "name": "Shelpid.WI3M",
@@ -2589,26 +5151,13 @@
     "mr_buzzoni": {
      "handle": "@Mr_Buzzoni",
      "name": "Mr. Buzzoni",
-     "hits": 1,
+     "hits": 2,
      "best": 37144,
-     "total": 37144,
+     "total": 55313,
      "best_url": "https://x.com/Mr_Buzzoni/status/2109521445663510570",
      "post_ids": [
-      "2109521445663510570"
-     ],
-     "best_as_of": "2026-10-24T10:58:36+03:00",
-     "best_stale": false
-    },
-    "0xwast3": {
-     "handle": "@0xWast3",
-     "name": "wast3",
-     "hits": 2,
-     "best": 40769,
-     "total": 48224,
-     "best_url": "https://x.com/0xWast3/status/2109700831432098205",
-     "post_ids": [
-      "2109700831432098205",
-      "2109589141818126733"
+      "2109521445663510570",
+      "2109595936389300576"
      ],
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
@@ -2616,14 +5165,77 @@
     "cyrilxbt": {
      "handle": "@cyrilXBT",
      "name": "CyrilXBT",
-     "hits": 3,
-     "best": 9328,
-     "total": 22728,
-     "best_url": "https://x.com/cyrilXBT/status/2109665055784771842",
+     "hits": 10,
+     "best": 32206,
+     "total": 154300,
+     "best_url": "https://x.com/cyrilXBT/status/2109516942403092750",
      "post_ids": [
+      "2109516942403092750",
+      "2109562247613911134",
+      "2109475398845419551",
+      "2109550926638030994",
+      "2109615362040049836",
+      "2109581128197919038",
       "2109665055784771842",
+      "2109490499321299364",
       "2109600219663155549",
       "2109718465535672636"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp 🦅",
+     "hits": 1,
+     "best": 35247,
+     "total": 35247,
+     "best_url": "https://x.com/gippp69/status/2109624801719435265",
+     "post_ids": [
+      "2109624801719435265"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 3,
+     "best": 40769,
+     "total": 57919,
+     "best_url": "https://x.com/0xWast3/status/2109700831432098205",
+     "post_ids": [
+      "2109700831432098205",
+      "2109650128453706059",
+      "2109589141818126733"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 50994,
+     "total": 63968,
+     "best_url": "https://x.com/beamnxw/status/2109722135291744578",
+     "post_ids": [
+      "2109722135291744578",
+      "2109642757635486071"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 2,
+     "best": 35682,
+     "total": 47130,
+     "best_url": "https://x.com/Bober_smart/status/2109715874089431223",
+     "post_ids": [
+      "2109715874089431223",
+      "2109634030035501079"
      ],
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
@@ -2637,6 +5249,32 @@
      "best_url": "https://x.com/slash1sol/status/2109693627362398533",
      "post_ids": [
       "2109693627362398533"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "leopardracer": {
+     "handle": "@leopardracer",
+     "name": "leopardracer",
+     "hits": 1,
+     "best": 7573,
+     "total": 7573,
+     "best_url": "https://x.com/leopardracer/status/2109576248598970690",
+     "post_ids": [
+      "2109576248598970690"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 11563,
+     "total": 11563,
+     "best_url": "https://x.com/N01ennn/status/2109703283614916812",
+     "post_ids": [
+      "2109703283614916812"
      ],
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
@@ -2663,13 +5301,28 @@
     "0x_kaize": {
      "handle": "@0x_kaize",
      "name": "kaize",
-     "hits": 2,
+     "hits": 4,
      "best": 233092,
-     "total": 342525,
+     "total": 429314,
      "best_url": "https://x.com/0x_kaize/status/2110055685048209702",
      "post_ids": [
       "2110055685048209702",
-      "2109752619837411643"
+      "2109752619837411643",
+      "2109780613993570498",
+      "2110098208072282564"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 1,
+     "best": 795757,
+     "total": 795757,
+     "best_url": "https://x.com/Bober_smart/status/2110080979742192101",
+     "post_ids": [
+      "2110080979742192101"
      ],
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
@@ -2690,13 +5343,20 @@
     "cyrilxbt": {
      "handle": "@cyrilXBT",
      "name": "CyrilXBT",
-     "hits": 3,
+     "hits": 10,
      "best": 358660,
-     "total": 372408,
+     "total": 445447,
      "best_url": "https://x.com/cyrilXBT/status/2110112722423816211",
      "post_ids": [
       "2110112722423816211",
+      "2109954846900290010",
+      "2109932319293481015",
+      "2109913311903183156",
+      "2109898184432709938",
+      "2109973711524930024",
+      "2109879313650843719",
       "2109988812608643409",
+      "2109992877673828583",
       "2109845122431262776"
      ],
      "best_as_of": "2026-10-24T10:58:36+03:00",
@@ -2711,6 +5371,33 @@
      "best_url": "https://x.com/leopardracer/status/2109932153383363044",
      "post_ids": [
       "2109932153383363044"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "0xwast3": {
+     "handle": "@0xWast3",
+     "name": "wast3",
+     "hits": 2,
+     "best": 21943,
+     "total": 36840,
+     "best_url": "https://x.com/0xWast3/status/2110020466328900087",
+     "post_ids": [
+      "2110020466328900087",
+      "2110073987585769826"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 1,
+     "best": 31848,
+     "total": 31848,
+     "best_url": "https://x.com/beamnxw/status/2110039251681218763",
+     "post_ids": [
+      "2110039251681218763"
      ],
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
@@ -2732,25 +5419,13 @@
     "argona0x": {
      "handle": "@Argona0x",
      "name": "Argona",
-     "hits": 1,
+     "hits": 2,
      "best": 994662,
-     "total": 994662,
+     "total": 1058508,
      "best_url": "https://x.com/Argona0x/status/2110045296902164532",
      "post_ids": [
-      "2110045296902164532"
-     ],
-     "best_as_of": "2026-10-24T10:58:36+03:00",
-     "best_stale": false
-    },
-    "0xwast3": {
-     "handle": "@0xWast3",
-     "name": "wast3",
-     "hits": 1,
-     "best": 14897,
-     "total": 14897,
-     "best_url": "https://x.com/0xWast3/status/2110073987585769826",
-     "post_ids": [
-      "2110073987585769826"
+      "2110045296902164532",
+      "2110090085089632303"
      ],
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
@@ -2765,6 +5440,20 @@
      "post_ids": [
       "2110036616991375653",
       "2109957124184797619"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 2,
+     "best": 8323,
+     "total": 15803,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2109961343977619462",
+     "post_ids": [
+      "2109961343977619462",
+      "2109885846862127390"
      ],
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
@@ -2841,15 +5530,107 @@
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
     },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 1,
+     "best": 363828,
+     "total": 363828,
+     "best_url": "https://x.com/Bober_smart/status/2110437719562416233",
+     "post_ids": [
+      "2110437719562416233"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 2,
+     "best": 136615,
+     "total": 210053,
+     "best_url": "https://x.com/Argona0x/status/2110459933854417086",
+     "post_ids": [
+      "2110459933854417086",
+      "2110382009843331163"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
     "mr_buzzoni": {
      "handle": "@Mr_Buzzoni",
      "name": "Mr. Buzzoni",
-     "hits": 1,
-     "best": 20013,
-     "total": 20013,
-     "best_url": "https://x.com/Mr_Buzzoni/status/2110306367550771268",
+     "hits": 2,
+     "best": 47889,
+     "total": 67902,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2110261068853596182",
      "post_ids": [
+      "2110261068853596182",
       "2110306367550771268"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 1,
+     "best": 41713,
+     "total": 41713,
+     "best_url": "https://x.com/0x_kaize/status/2110304216212271318",
+     "post_ids": [
+      "2110304216212271318"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 12,
+     "best": 34818,
+     "total": 171362,
+     "best_url": "https://x.com/cyrilXBT/status/2110215292064567718",
+     "post_ids": [
+      "2110215292064567718",
+      "2110200215634575463",
+      "2110328549878255724",
+      "2110241733124743354",
+      "2110275706743873785",
+      "2110290809304289587",
+      "2110309755688456305",
+      "2110351172729241750",
+      "2110407117081649530",
+      "2110256840441487434",
+      "2110364879664373945",
+      "2110379573267292443"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 38721,
+     "total": 73206,
+     "best_url": "https://x.com/beamnxw/status/2110408774737432738",
+     "post_ids": [
+      "2110408774737432738",
+      "2110277421471519183"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp 🦅",
+     "hits": 1,
+     "best": 35234,
+     "total": 35234,
+     "best_url": "https://x.com/gippp69/status/2110321307359322494",
+     "post_ids": [
+      "2110321307359322494"
      ],
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
@@ -2857,12 +5638,26 @@
     "shmidtqq": {
      "handle": "@shmidtqq",
      "name": "shmidt",
-     "hits": 1,
+     "hits": 2,
      "best": 64959,
-     "total": 64959,
+     "total": 79825,
      "best_url": "https://x.com/shmidtqq/status/2110407546246746564",
      "post_ids": [
-      "2110407546246746564"
+      "2110407546246746564",
+      "2110461328175374761"
+     ],
+     "best_as_of": "2026-10-24T10:58:36+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 14158,
+     "total": 14158,
+     "best_url": "https://x.com/ScottyBeamIO/status/2110344983890833869",
+     "post_ids": [
+      "2110344983890833869"
      ],
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
@@ -2876,22 +5671,6 @@
      "best_url": "https://x.com/N01ennn/status/2110319993128706208",
      "post_ids": [
       "2110319993128706208"
-     ],
-     "best_as_of": "2026-10-24T10:58:36+03:00",
-     "best_stale": false
-    },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 4,
-     "best": 7696,
-     "total": 29151,
-     "best_url": "https://x.com/cyrilXBT/status/2110407117081649530",
-     "post_ids": [
-      "2110407117081649530",
-      "2110256840441487434",
-      "2110364879664373945",
-      "2110379573267292443"
      ],
      "best_as_of": "2026-10-24T10:58:36+03:00",
      "best_stale": false
@@ -2944,12 +5723,13 @@
     "gippp69": {
      "handle": "@gippp69",
      "name": "Gipp 🦅",
-     "hits": 1,
+     "hits": 2,
      "best": 140364,
-     "total": 140364,
+     "total": 153309,
      "best_url": "https://x.com/gippp69/status/2110693283265437727",
      "post_ids": [
-      "2110693283265437727"
+      "2110693283265437727",
+      "2110744784092721454"
      ],
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
@@ -2967,15 +5747,53 @@
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
     },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 2,
+     "best": 82209,
+     "total": 108805,
+     "best_url": "https://x.com/Bober_smart/status/2110803247405408595",
+     "post_ids": [
+      "2110803247405408595",
+      "2110711776799011262"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 11,
+     "best": 27195,
+     "total": 137988,
+     "best_url": "https://x.com/cyrilXBT/status/2110649428721967544",
+     "post_ids": [
+      "2110649428721967544",
+      "2110600408377053185",
+      "2110634329747710057",
+      "2110732613132706030",
+      "2110675838341632479",
+      "2110619201706873211",
+      "2110694741423841368",
+      "2110576096827867464",
+      "2110760453806960766",
+      "2110709837336355193",
+      "2110755259144601936"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
     "mr_buzzoni": {
      "handle": "@Mr_Buzzoni",
      "name": "Mr. Buzzoni",
-     "hits": 1,
+     "hits": 2,
      "best": 34342,
-     "total": 34342,
+     "total": 46176,
      "best_url": "https://x.com/Mr_Buzzoni/status/2110669007078735996",
      "post_ids": [
-      "2110669007078735996"
+      "2110669007078735996",
+      "2110609615566106871"
      ],
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
@@ -2989,6 +5807,19 @@
      "best_url": "https://x.com/mika_systems/status/2110780665121685872",
      "post_ids": [
       "2110780665121685872"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 31516,
+     "total": 31516,
+     "best_url": "https://x.com/Argona0x/status/2110815466373673155",
+     "post_ids": [
+      "2110815466373673155"
      ],
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
@@ -3019,17 +5850,41 @@
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 3,
-     "best": 7161,
-     "total": 20214,
-     "best_url": "https://x.com/cyrilXBT/status/2110576096827867464",
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 10611,
+     "total": 10611,
+     "best_url": "https://x.com/N01ennn/status/2110716122911707162",
      "post_ids": [
-      "2110576096827867464",
-      "2110760453806960766",
-      "2110755259144601936"
+      "2110716122911707162"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 10221,
+     "total": 10221,
+     "best_url": "https://x.com/ScottyBeamIO/status/2110778230688923721",
+     "post_ids": [
+      "2110778230688923721"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 1,
+     "best": 9556,
+     "total": 9556,
+     "best_url": "https://x.com/beamnxw/status/2110751241005305873",
+     "post_ids": [
+      "2110751241005305873"
      ],
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
@@ -3056,12 +5911,13 @@
     "0x_kaize": {
      "handle": "@0x_kaize",
      "name": "kaize",
-     "hits": 1,
+     "hits": 2,
      "best": 138119,
-     "total": 138119,
+     "total": 145334,
      "best_url": "https://x.com/0x_kaize/status/2111149704146727045",
      "post_ids": [
-      "2111149704146727045"
+      "2111149704146727045",
+      "2111018981737795999"
      ],
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
@@ -3080,15 +5936,58 @@
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
     },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 2,
+     "best": 117204,
+     "total": 124039,
+     "best_url": "https://x.com/Bober_smart/status/2111162023044133232",
+     "post_ids": [
+      "2111162023044133232",
+      "2111077537908428998"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
     "beamnxw": {
      "handle": "@beamnxw",
      "name": "beamnxw ./",
-     "hits": 1,
+     "hits": 3,
      "best": 243944,
-     "total": 243944,
+     "total": 310594,
      "best_url": "https://x.com/beamnxw/status/2111079523089322438",
      "post_ids": [
-      "2111079523089322438"
+      "2111079523089322438",
+      "2111125001482936542",
+      "2111029691326898489"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 2,
+     "best": 51847,
+     "total": 95003,
+     "best_url": "https://x.com/Argona0x/status/2111118663260557725",
+     "post_ids": [
+      "2111118663260557725",
+      "2111192962008760368"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp 🦅",
+     "hits": 1,
+     "best": 29887,
+     "total": 29887,
+     "best_url": "https://x.com/gippp69/status/2111049554971779329",
+     "post_ids": [
+      "2111049554971779329"
      ],
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
@@ -3096,14 +5995,34 @@
     "cyrilxbt": {
      "handle": "@cyrilXBT",
      "name": "CyrilXBT",
-     "hits": 3,
-     "best": 15120,
-     "total": 28877,
-     "best_url": "https://x.com/cyrilXBT/status/2110996673736642882",
+     "hits": 10,
+     "best": 24226,
+     "total": 122448,
+     "best_url": "https://x.com/cyrilXBT/status/2110981608518164738",
      "post_ids": [
+      "2110981608518164738",
+      "2110924952736325899",
       "2110996673736642882",
+      "2110970266876858523",
+      "2111030646244315444",
+      "2110940051777679735",
+      "2111091077348499928",
+      "2111060846323654969",
       "2111011777110765881",
       "2111134444232786279"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 32914,
+     "total": 32914,
+     "best_url": "https://x.com/N01ennn/status/2111094780297957654",
+     "post_ids": [
+      "2111094780297957654"
      ],
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
@@ -3149,6 +6068,32 @@
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
     },
+    "flxrnc": {
+     "handle": "@flxrnc",
+     "name": "Florence",
+     "hits": 1,
+     "best": 8736,
+     "total": 8736,
+     "best_url": "https://x.com/flxrnc/status/2111097859160392146",
+     "post_ids": [
+      "2111097859160392146"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 9615,
+     "total": 9615,
+     "best_url": "https://x.com/ScottyBeamIO/status/2111159666059227204",
+     "post_ids": [
+      "2111159666059227204"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
     "thegreatest_sv": {
      "handle": "@thegreatest_sv",
      "name": "The Greatest",
@@ -3167,6 +6112,35 @@
   },
   "2026-10-17": {
    "accounts": {
+    "slash1sol": {
+     "handle": "@slash1sol",
+     "name": "slash1s",
+     "hits": 1,
+     "best": 108353,
+     "total": 108353,
+     "best_url": "https://x.com/slash1sol/status/2111452863649944061",
+     "post_ids": [
+      "2111452863649944061"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 4,
+     "best": 23747,
+     "total": 58744,
+     "best_url": "https://x.com/cyrilXBT/status/2111328880921567332",
+     "post_ids": [
+      "2111328880921567332",
+      "2111302433838391658",
+      "2111283567221522506",
+      "2111362831190999249"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
     "0xwast3": {
      "handle": "@0xWast3",
      "name": "wast3",
@@ -3177,6 +6151,20 @@
      "post_ids": [
       "2111400252137689460",
       "2111518766592930177"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "sprytixl": {
+     "handle": "@Sprytixl",
+     "name": "Sprytix",
+     "hits": 2,
+     "best": 19624,
+     "total": 29524,
+     "best_url": "https://x.com/Sprytixl/status/2111379227278758394",
+     "post_ids": [
+      "2111379227278758394",
+      "2111545985835127102"
      ],
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
@@ -3194,6 +6182,45 @@
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
     },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 1,
+     "best": 21966,
+     "total": 21966,
+     "best_url": "https://x.com/beamnxw/status/2111425771193434363",
+     "post_ids": [
+      "2111425771193434363"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 1,
+     "best": 16589,
+     "total": 16589,
+     "best_url": "https://x.com/0x_kaize/status/2111388696301764819",
+     "post_ids": [
+      "2111388696301764819"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 67252,
+     "total": 67252,
+     "best_url": "https://x.com/Argona0x/status/2111561270856212874",
+     "post_ids": [
+      "2111561270856212874"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
     "everestchris6": {
      "handle": "@everestchris6",
      "name": "Chris",
@@ -3207,16 +6234,16 @@
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
      "hits": 2,
-     "best": 13829,
-     "total": 21192,
-     "best_url": "https://x.com/cyrilXBT/status/2111302433838391658",
+     "best": 30844,
+     "total": 45924,
+     "best_url": "https://x.com/Bober_smart/status/2111521740387971500",
      "post_ids": [
-      "2111302433838391658",
-      "2111362831190999249"
+      "2111521740387971500",
+      "2111440752081285178"
      ],
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
@@ -3234,6 +6261,19 @@
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
     },
+    "flxrnc": {
+     "handle": "@flxrnc",
+     "name": "Florence",
+     "hits": 1,
+     "best": 11894,
+     "total": 11894,
+     "best_url": "https://x.com/flxrnc/status/2111453206068818121",
+     "post_ids": [
+      "2111453206068818121"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
     "gippp69": {
      "handle": "@gippp69",
      "name": "Gipp 🦅",
@@ -3244,6 +6284,19 @@
      "post_ids": [
       "2111462313773482485",
       "2111403434926628876"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 7828,
+     "total": 7828,
+     "best_url": "https://x.com/N01ennn/status/2111427421958185262",
+     "post_ids": [
+      "2111427421958185262"
      ],
      "best_as_of": "2026-10-24T10:58:44+03:00",
      "best_stale": false
@@ -3266,6 +6319,49 @@
   },
   "2026-10-18": {
    "accounts": {
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 3,
+     "best": 497139,
+     "total": 569320,
+     "best_url": "https://x.com/Argona0x/status/2111837226006921640",
+     "post_ids": [
+      "2111837226006921640",
+      "2111898681922236690",
+      "2111593102138048668"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 2,
+     "best": 77411,
+     "total": 89525,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2111705083826110787",
+     "post_ids": [
+      "2111705083826110787",
+      "2111756422279274947"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 2,
+     "best": 97598,
+     "total": 134122,
+     "best_url": "https://x.com/Bober_smart/status/2111884884793036856",
+     "post_ids": [
+      "2111884884793036856",
+      "2111803993009578042"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
     "carverfomo": {
      "handle": "@carverfomo",
      "name": "Carver",
@@ -3279,15 +6375,117 @@
      "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
     },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 6,
+     "best": 23786,
+     "total": 92894,
+     "best_url": "https://x.com/cyrilXBT/status/2111649762412020063",
+     "post_ids": [
+      "2111649762412020063",
+      "2111744158830621167",
+      "2111695065370554411",
+      "2111725224119205922",
+      "2111710129863467268",
+      "2111664821020266641"
+     ],
+     "best_as_of": "2026-10-24T10:58:44+03:00",
+     "best_stale": false
+    },
     "0xwast3": {
      "handle": "@0xWast3",
      "name": "wast3",
-     "hits": 1,
+     "hits": 2,
      "best": 21074,
-     "total": 21074,
+     "total": 29918,
      "best_url": "https://x.com/0xWast3/status/2111760431849132426",
      "post_ids": [
-      "2111760431849132426"
+      "2111760431849132426",
+      "2111814751843983552"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "gippp69": {
+     "handle": "@gippp69",
+     "name": "Gipp 🦅",
+     "hits": 1,
+     "best": 20692,
+     "total": 20692,
+     "best_url": "https://x.com/gippp69/status/2111776276025315594",
+     "post_ids": [
+      "2111776276025315594"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 2,
+     "best": 25182,
+     "total": 42864,
+     "best_url": "https://x.com/0x_kaize/status/2111865731897843823",
+     "post_ids": [
+      "2111865731897843823",
+      "2111896867793449400"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 18607,
+     "total": 28592,
+     "best_url": "https://x.com/beamnxw/status/2111778402264822052",
+     "post_ids": [
+      "2111778402264822052",
+      "2111892677289513458"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "slash1sol": {
+     "handle": "@slash1sol",
+     "name": "slash1s",
+     "hits": 3,
+     "best": 28335,
+     "total": 50686,
+     "best_url": "https://x.com/slash1sol/status/2111886796824932532",
+     "post_ids": [
+      "2111886796824932532",
+      "2111800756273553808",
+      "2111578222345191789"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 21457,
+     "total": 21457,
+     "best_url": "https://x.com/N01ennn/status/2111888466829303973",
+     "post_ids": [
+      "2111888466829303973"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "sprytixl": {
+     "handle": "@Sprytixl",
+     "name": "Sprytix",
+     "hits": 2,
+     "best": 131444,
+     "total": 139160,
+     "best_url": "https://x.com/Sprytixl/status/2111913758050124096",
+     "post_ids": [
+      "2111913758050124096",
+      "2111780611794808925"
      ],
      "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
@@ -3301,6 +6499,32 @@
      "best_url": "https://x.com/leopardracer/status/2111820087652909203",
      "post_ids": [
       "2111820087652909203"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "flxrnc": {
+     "handle": "@flxrnc",
+     "name": "Florence",
+     "hits": 1,
+     "best": 7287,
+     "total": 7287,
+     "best_url": "https://x.com/flxrnc/status/2111809056671174900",
+     "post_ids": [
+      "2111809056671174900"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "shmidtqq": {
+     "handle": "@shmidtqq",
+     "name": "shmidt",
+     "hits": 1,
+     "best": 7049,
+     "total": 7049,
+     "best_url": "https://x.com/shmidtqq/status/2111891429140135945",
+     "post_ids": [
+      "2111891429140135945"
      ],
      "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
@@ -3323,16 +6547,62 @@
   },
   "2026-10-19": {
    "accounts": {
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 1007856,
+     "total": 1007856,
+     "best_url": "https://x.com/Argona0x/status/2112260472246612365",
+     "post_ids": [
+      "2112260472246612365"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 2,
+     "best": 240999,
+     "total": 248407,
+     "best_url": "https://x.com/Bober_smart/status/2112248400406253644",
+     "post_ids": [
+      "2112248400406253644",
+      "2112164276223828223"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
     "cyrilxbt": {
      "handle": "@cyrilXBT",
      "name": "CyrilXBT",
-     "hits": 2,
+     "hits": 8,
      "best": 236195,
-     "total": 242726,
+     "total": 313933,
      "best_url": "https://x.com/cyrilXBT/status/2112006867022958931",
      "post_ids": [
       "2112006867022958931",
+      "2112072548989161677",
+      "2112159535226065364",
+      "2112027214107869255",
+      "2112053673027358777",
+      "2112087630162886768",
+      "2112129173628297347",
       "2112106527817613659"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 1,
+     "best": 35001,
+     "total": 35001,
+     "best_url": "https://x.com/beamnxw/status/2112180280110776797",
+     "post_ids": [
+      "2112180280110776797"
      ],
      "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
@@ -3363,15 +6633,94 @@
      "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
     },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 22886,
+     "total": 22886,
+     "best_url": "https://x.com/N01ennn/status/2112181867902357778",
+     "post_ids": [
+      "2112181867902357778"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "bl888m_eth": {
+     "handle": "@bl888m_eth",
+     "name": "bl888m",
+     "hits": 1,
+     "best": 25019,
+     "total": 25019,
+     "best_url": "https://x.com/bl888m_eth/status/2112202123614245120",
+     "post_ids": [
+      "2112202123614245120"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "slash1sol": {
+     "handle": "@slash1sol",
+     "name": "slash1s",
+     "hits": 1,
+     "best": 13356,
+     "total": 13356,
+     "best_url": "https://x.com/slash1sol/status/2112164626456543246",
+     "post_ids": [
+      "2112164626456543246"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
     "mr_buzzoni": {
      "handle": "@Mr_Buzzoni",
      "name": "Mr. Buzzoni",
-     "hits": 1,
-     "best": 6331,
-     "total": 6331,
-     "best_url": "https://x.com/Mr_Buzzoni/status/2111926454917243205",
+     "hits": 2,
+     "best": 11659,
+     "total": 17990,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2112125605034475906",
      "post_ids": [
+      "2112125605034475906",
       "2111926454917243205"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "shmidtqq": {
+     "handle": "@shmidtqq",
+     "name": "shmidt",
+     "hits": 1,
+     "best": 12577,
+     "total": 12577,
+     "best_url": "https://x.com/shmidtqq/status/2112159857361011126",
+     "post_ids": [
+      "2112159857361011126"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "flxrnc": {
+     "handle": "@flxrnc",
+     "name": "Florence",
+     "hits": 1,
+     "best": 13456,
+     "total": 13456,
+     "best_url": "https://x.com/flxrnc/status/2112160843781509277",
+     "post_ids": [
+      "2112160843781509277"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "sprytixl": {
+     "handle": "@Sprytixl",
+     "name": "Sprytix",
+     "hits": 1,
+     "best": 7517,
+     "total": 7517,
+     "best_url": "https://x.com/Sprytixl/status/2112102613999083861",
+     "post_ids": [
+      "2112102613999083861"
      ],
      "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
@@ -3410,13 +6759,46 @@
     "cyrilxbt": {
      "handle": "@cyrilXBT",
      "name": "CyrilXBT",
-     "hits": 2,
-     "best": 23993,
-     "total": 30563,
-     "best_url": "https://x.com/cyrilXBT/status/2112597456487862735",
+     "hits": 8,
+     "best": 24624,
+     "total": 118893,
+     "best_url": "https://x.com/cyrilXBT/status/2112378348949406018",
      "post_ids": [
+      "2112378348949406018",
       "2112597456487862735",
+      "2112416058745463202",
+      "2112450012072513538",
+      "2112465125722751457",
+      "2112484034156847455",
+      "2112434899127054678",
       "2112389596009115929"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "flxrnc": {
+     "handle": "@flxrnc",
+     "name": "Florence",
+     "hits": 1,
+     "best": 26224,
+     "total": 26224,
+     "best_url": "https://x.com/flxrnc/status/2112598741416899063",
+     "post_ids": [
+      "2112598741416899063"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 11530,
+     "total": 19664,
+     "best_url": "https://x.com/beamnxw/status/2112511786326823330",
+     "post_ids": [
+      "2112511786326823330",
+      "2112613259987603526"
      ],
      "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
@@ -3430,6 +6812,19 @@
      "best_url": "https://x.com/AnnatarXBT/status/2112500827432624298",
      "post_ids": [
       "2112500827432624298"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 10389,
+     "total": 10389,
+     "best_url": "https://x.com/ScottyBeamIO/status/2112474799788167647",
+     "post_ids": [
+      "2112474799788167647"
      ],
      "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
@@ -3448,6 +6843,19 @@
      "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
     },
+    "bl888m_eth": {
+     "handle": "@bl888m_eth",
+     "name": "bl888m",
+     "hits": 1,
+     "best": 9322,
+     "total": 9322,
+     "best_url": "https://x.com/bl888m_eth/status/2112519717483397481",
+     "post_ids": [
+      "2112519717483397481"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
     "ridark_eth": {
      "handle": "@ridark_eth",
      "name": "Ridark",
@@ -3457,6 +6865,33 @@
      "best_url": "https://x.com/ridark_eth/status/2112592469728604345",
      "post_ids": [
       "2112592469728604345"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 7913,
+     "total": 7913,
+     "best_url": "https://x.com/Argona0x/status/2112560129111412827",
+     "post_ids": [
+      "2112560129111412827"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "sprytixl": {
+     "handle": "@Sprytixl",
+     "name": "Sprytix",
+     "hits": 2,
+     "best": 13682,
+     "total": 20282,
+     "best_url": "https://x.com/Sprytixl/status/2112630290661437794",
+     "post_ids": [
+      "2112630290661437794",
+      "2112306574106489033"
      ],
      "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
@@ -3481,6 +6916,81 @@
   },
   "2026-10-21": {
    "accounts": {
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
+     "hits": 2,
+     "best": 78098,
+     "total": 135837,
+     "best_url": "https://x.com/ridark_eth/status/2112990562349404225",
+     "post_ids": [
+      "2112990562349404225",
+      "2112901819546358238"
+     ],
+     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_stale": false
+    },
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 1,
+     "best": 36255,
+     "total": 36255,
+     "best_url": "https://x.com/0x_kaize/status/2112955754411942256",
+     "post_ids": [
+      "2112955754411942256"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 10,
+     "best": 21614,
+     "total": 98895,
+     "best_url": "https://x.com/cyrilXBT/status/2112857708114358490",
+     "post_ids": [
+      "2112857708114358490",
+      "2112774678418960588",
+      "2112831288168292847",
+      "2112793561720889569",
+      "2112880371960602823",
+      "2112956913394884705",
+      "2112812386180854269",
+      "2112740779378782405",
+      "2112751983379743186",
+      "2112911416525025429"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "bl888m_eth": {
+     "handle": "@bl888m_eth",
+     "name": "bl888m",
+     "hits": 1,
+     "best": 22470,
+     "total": 22470,
+     "best_url": "https://x.com/bl888m_eth/status/2112894460459909378",
+     "post_ids": [
+      "2112894460459909378"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 27946,
+     "total": 27946,
+     "best_url": "https://x.com/ScottyBeamIO/status/2112885588462276789",
+     "post_ids": [
+      "2112885588462276789"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
     "everestchris6": {
      "handle": "@everestchris6",
      "name": "Chris",
@@ -3508,6 +7018,19 @@
      "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
     },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 13511,
+     "total": 13511,
+     "best_url": "https://x.com/Argona0x/status/2112933192906715460",
+     "post_ids": [
+      "2112933192906715460"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
     "annatarxbt": {
      "handle": "@AnnatarXBT",
      "name": "Annatar.md",
@@ -3521,20 +7044,43 @@
      "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 4,
-     "best": 7950,
-     "total": 26904,
-     "best_url": "https://x.com/cyrilXBT/status/2112956913394884705",
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 1,
+     "best": 9978,
+     "total": 9978,
+     "best_url": "https://x.com/Bober_smart/status/2112889540612432250",
      "post_ids": [
-      "2112956913394884705",
-      "2112740779378782405",
-      "2112751983379743186",
-      "2112911416525025429"
+      "2112889540612432250"
      ],
-     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 8478,
+     "total": 8478,
+     "best_url": "https://x.com/N01ennn/status/2112882581809025189",
+     "post_ids": [
+      "2112882581809025189"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 1,
+     "best": 7838,
+     "total": 7838,
+     "best_url": "https://x.com/beamnxw/status/2112891711605076183",
+     "post_ids": [
+      "2112891711605076183"
+     ],
+     "best_as_of": "2026-10-24T10:58:49+03:00",
      "best_stale": false
     },
     "thegreatest_sv": {
@@ -3569,16 +7115,130 @@
      "best_as_of": "2026-10-24T10:58:57+03:00",
      "best_stale": false
     },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 59558,
+     "total": 72362,
+     "best_url": "https://x.com/beamnxw/status/2113275303808160226",
+     "post_ids": [
+      "2113275303808160226",
+      "2113014738611290139"
+     ],
+     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 2,
+     "best": 45722,
+     "total": 54662,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2113228623293387119",
+     "post_ids": [
+      "2113228623293387119",
+      "2113156397114482792"
+     ],
+     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 31609,
+     "total": 31609,
+     "best_url": "https://x.com/ScottyBeamIO/status/2113230686245044680",
+     "post_ids": [
+      "2113230686245044680"
+     ],
+     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_stale": false
+    },
     "gippp69": {
      "handle": "@gippp69",
      "name": "Gipp 🦅",
-     "hits": 2,
-     "best": 17923,
-     "total": 25981,
-     "best_url": "https://x.com/gippp69/status/2113313539280736256",
+     "hits": 3,
+     "best": 21649,
+     "total": 47630,
+     "best_url": "https://x.com/gippp69/status/2113243601371337180",
      "post_ids": [
+      "2113243601371337180",
       "2113313539280736256",
       "2113013683031044251"
+     ],
+     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_stale": false
+    },
+    "sprytixl": {
+     "handle": "@Sprytixl",
+     "name": "Sprytix",
+     "hits": 2,
+     "best": 17340,
+     "total": 30496,
+     "best_url": "https://x.com/Sprytixl/status/2113207736146043268",
+     "post_ids": [
+      "2113207736146043268",
+      "2113321574858150261"
+     ],
+     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 7,
+     "best": 10421,
+     "total": 56282,
+     "best_url": "https://x.com/cyrilXBT/status/2113140828155850947",
+     "post_ids": [
+      "2113140828155850947",
+      "2113099280110272876",
+      "2113114394918011199",
+      "2113159702515433546",
+      "2113224096645587296",
+      "2113189876241965437",
+      "2113170996542984534"
+     ],
+     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 1,
+     "best": 13105,
+     "total": 13105,
+     "best_url": "https://x.com/N01ennn/status/2113269204296048805",
+     "post_ids": [
+      "2113269204296048805"
+     ],
+     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_stale": false
+    },
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 1,
+     "best": 14331,
+     "total": 14331,
+     "best_url": "https://x.com/0x_kaize/status/2113294500185444743",
+     "post_ids": [
+      "2113294500185444743"
+     ],
+     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 1,
+     "best": 9596,
+     "total": 9596,
+     "best_url": "https://x.com/Bober_smart/status/2113248494232170760",
+     "post_ids": [
+      "2113248494232170760"
      ],
      "best_as_of": "2026-10-24T10:58:57+03:00",
      "best_stale": false
@@ -3596,16 +7256,28 @@
      "best_as_of": "2026-10-24T10:58:57+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 2,
-     "best": 7169,
-     "total": 14318,
-     "best_url": "https://x.com/cyrilXBT/status/2113224096645587296",
+    "flxrnc": {
+     "handle": "@flxrnc",
+     "name": "Florence",
+     "hits": 1,
+     "best": 6686,
+     "total": 6686,
+     "best_url": "https://x.com/flxrnc/status/2113263621463572991",
      "post_ids": [
-      "2113224096645587296",
-      "2113189876241965437"
+      "2113263621463572991"
+     ],
+     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_stale": false
+    },
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
+     "hits": 1,
+     "best": 9224,
+     "total": 9224,
+     "best_url": "https://x.com/ridark_eth/status/2113337764607639621",
+     "post_ids": [
+      "2113337764607639621"
      ],
      "best_as_of": "2026-10-24T10:58:57+03:00",
      "best_stale": false
@@ -3641,6 +7313,40 @@
   },
   "2026-10-23": {
    "accounts": {
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 9,
+     "best": 23093,
+     "total": 87211,
+     "best_url": "https://x.com/cyrilXBT/status/2113537185446297760",
+     "post_ids": [
+      "2113537185446297760",
+      "2113454117138104680",
+      "2113518298235375689",
+      "2113571185678290973",
+      "2113473071348863322",
+      "2113503191195398426",
+      "2113608900822085711",
+      "2113590005981700233",
+      "2113552257069490451"
+     ],
+     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 1,
+     "best": 11599,
+     "total": 11599,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2113522308262281710",
+     "post_ids": [
+      "2113522308262281710"
+     ],
+     "best_as_of": "2026-10-24T10:58:57+03:00",
+     "best_stale": false
+    },
     "gippp69": {
      "handle": "@gippp69",
      "name": "Gipp 🦅",
@@ -3652,6 +7358,19 @@
       "2113568138017038566"
      ],
      "best_as_of": "2026-10-24T10:59:33+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 44537,
+     "total": 44537,
+     "best_url": "https://x.com/ScottyBeamIO/status/2113598932311830814",
+     "post_ids": [
+      "2113598932311830814"
+     ],
+     "best_as_of": "2026-10-24T10:59:23+03:00",
      "best_stale": false
     },
     "zostaff": {
@@ -3667,6 +7386,19 @@
      "best_as_of": "2026-10-24T10:59:32+03:00",
      "best_stale": false
     },
+    "sprytixl": {
+     "handle": "@Sprytixl",
+     "name": "Sprytix",
+     "hits": 1,
+     "best": 16145,
+     "total": 16145,
+     "best_url": "https://x.com/Sprytixl/status/2113609423763468306",
+     "post_ids": [
+      "2113609423763468306"
+     ],
+     "best_as_of": "2026-10-24T11:00:03+03:00",
+     "best_stale": false
+    },
     "annatarxbt": {
      "handle": "@AnnatarXBT",
      "name": "Annatar.md",
@@ -3678,6 +7410,20 @@
       "2113634548378374458"
      ],
      "best_as_of": "2026-10-24T11:00:11+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 2,
+     "best": 14651,
+     "total": 20762,
+     "best_url": "https://x.com/beamnxw/status/2113652841613082946",
+     "post_ids": [
+      "2113652841613082946",
+      "2113565877765353983"
+     ],
+     "best_as_of": "2026-10-24T11:00:09+03:00",
      "best_stale": false
     },
     "slash1sol": {
@@ -3693,20 +7439,83 @@
      "best_as_of": "2026-10-24T11:00:06+03:00",
      "best_stale": false
     },
-    "cyrilxbt": {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 4,
-     "best": 7593,
-     "total": 24000,
-     "best_url": "https://x.com/cyrilXBT/status/2113571185678290973",
+    "0x_kaize": {
+     "handle": "@0x_kaize",
+     "name": "kaize",
+     "hits": 1,
+     "best": 12205,
+     "total": 12205,
+     "best_url": "https://x.com/0x_kaize/status/2113586974489530574",
      "post_ids": [
-      "2113571185678290973",
-      "2113608900822085711",
-      "2113590005981700233",
-      "2113552257069490451"
+      "2113586974489530574"
      ],
-     "best_as_of": "2026-10-24T11:00:19+03:00",
+     "best_as_of": "2026-10-24T10:59:37+03:00",
+     "best_stale": false
+    },
+    "shmidtqq": {
+     "handle": "@shmidtqq",
+     "name": "shmidt",
+     "hits": 1,
+     "best": 8025,
+     "total": 8025,
+     "best_url": "https://x.com/shmidtqq/status/2113640993266274592",
+     "post_ids": [
+      "2113640993266274592"
+     ],
+     "best_as_of": "2026-10-24T10:59:35+03:00",
+     "best_stale": false
+    },
+    "leopardracer": {
+     "handle": "@leopardracer",
+     "name": "leopardracer",
+     "hits": 1,
+     "best": 6804,
+     "total": 6804,
+     "best_url": "https://x.com/leopardracer/status/2113571629422772304",
+     "post_ids": [
+      "2113571629422772304"
+     ],
+     "best_as_of": "2026-10-24T11:00:07+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 1,
+     "best": 5649,
+     "total": 5649,
+     "best_url": "https://x.com/Bober_smart/status/2113623439906841022",
+     "post_ids": [
+      "2113623439906841022"
+     ],
+     "best_as_of": "2026-10-24T10:59:25+03:00",
+     "best_stale": false
+    },
+    "insomnia_vip": {
+     "handle": "@insomnia_vip",
+     "name": "Insomnia",
+     "hits": 1,
+     "best": 5265,
+     "total": 5265,
+     "best_url": "https://x.com/insomnia_vip/status/2113571124164366367",
+     "post_ids": [
+      "2113571124164366367"
+     ],
+     "best_as_of": "2026-10-24T10:59:45+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 2,
+     "best": 5177,
+     "total": 10323,
+     "best_url": "https://x.com/Argona0x/status/2113709216888222007",
+     "post_ids": [
+      "2113709216888222007",
+      "2113654415613694041"
+     ],
+     "best_as_of": "2026-10-24T10:59:42+03:00",
      "best_stale": false
     },
     "thegreatest_sv": {
