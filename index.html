@@ -311,6 +311,34 @@ html[data-theme="day"] .kw-chip{border-color:#9ad3e0;background:#e8f7fb}
 .orig-block summary{cursor:pointer;font:600 9px "IBM Plex Mono",monospace;color:var(--muted);text-transform:uppercase;letter-spacing:.15em}
 .orig-block pre{white-space:pre-wrap;word-break:break-word;max-height:200px;overflow:auto;color:var(--muted);font:400 11px/1.58 "IBM Plex Mono",monospace;margin:8px 0 0;opacity:.85}
 .tag.kw-trend b{color:var(--cyan-2);font-weight:600;margin-right:6px}
+.radar{display:flex;flex-direction:column;gap:14px}
+.radar-sum{border:1px solid rgba(42,212,245,.35);background:var(--panel-2);border-radius:12px;padding:14px 16px;font-size:13px;line-height:1.55;color:var(--text)}
+.radar-sum b{color:var(--cyan-2)}
+.radar-take{margin-top:8px;color:var(--muted);font-size:12.5px}
+.radar-sub{font:600 10px "IBM Plex Mono",monospace;color:var(--muted);text-transform:uppercase;letter-spacing:.15em;margin:6px 0 -4px}
+.rgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:11px}
+.rcard{border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:13px 14px;min-width:0}
+.rcard h4{margin:0 0 6px;font-size:14px;line-height:1.35;color:var(--text)}
+.rmeta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font:500 10px "IBM Plex Mono",monospace;color:var(--muted)}
+.heat{display:inline-block;height:6px;border-radius:3px;background:linear-gradient(90deg,var(--cyan),#ff7a45);vertical-align:middle}
+.rev{margin:8px 0 0;padding:0;list-style:none;font-size:11.5px;line-height:1.45;color:var(--muted)}
+.rev li{margin-top:5px;overflow-wrap:anywhere}
+.rev a{color:var(--text);text-decoration:none;border-bottom:1px solid var(--cyan)}
+.idea-hook{margin-top:8px;padding:9px 10px;background:var(--panel-2);border-radius:8px;font:400 11.5px/1.5 "IBM Plex Mono",monospace;color:var(--text);white-space:pre-wrap}
+.idea-row{margin-top:6px;font-size:12px;line-height:1.5;color:var(--muted)}
+.idea-row b{color:var(--text);font-weight:600}
+.why-list{display:flex;flex-direction:column;gap:6px}
+.why-row{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;border:1px solid var(--line);border-radius:10px;padding:8px 11px;background:var(--panel);font-size:12px}
+.why-row .wh{font-weight:600;color:var(--text);min-width:110px}
+.why-row .wv{font:500 11px "IBM Plex Mono",monospace;color:var(--muted)}
+.vbadge{padding:2px 8px;border-radius:999px;font:600 10px "IBM Plex Mono",monospace;border:1px solid var(--line)}
+.vb-trend{border-color:#2ad4f5;color:var(--cyan-2)}.vb-vis{border-color:#ff7a45;color:#ff9a6b}.vb-auth{border-color:#b48cff;color:#c7a8ff}.vb-other{color:var(--muted)}
+.mbar{display:inline-block;width:54px;height:6px;border-radius:3px;background:var(--line);overflow:hidden;vertical-align:middle}
+.mbar i{display:block;height:100%;background:var(--cyan)}
+.why-hit-line{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;font:500 10px "IBM Plex Mono",monospace;color:var(--muted)}
+.radar details summary{cursor:pointer;font:600 10px "IBM Plex Mono",monospace;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}
+.radar-legend{font-size:11px;line-height:1.5;color:var(--muted);margin-top:8px}
+@media(max-width:430px){.rgrid{grid-template-columns:1fr}.rcard{padding:12px}.why-row .wh{min-width:0;width:100%}.radar-sum{font-size:12.5px}}
 .post-link{display:inline-block;margin-top:14px;color:var(--text);font:600 10px "IBM Plex Mono",monospace;text-decoration:none;border-bottom:1px solid var(--cyan);padding-bottom:3px}
 .post-link.disabled{color:var(--muted);border-color:var(--muted);pointer-events:none}
 .tags{display:flex;flex-wrap:wrap;gap:8px}
@@ -697,6 +725,9 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
     <section class="grid" id="virals"></section>
     <div class="narrative" id="virals-narrative" hidden></div>
 
+    <div class="section-head reveal" id="radar-head" hidden><div><div class="section-index">08b / trend radar</div><h2>Trend radar · Идеи для постов</h2></div><div class="section-note" id="radar-note">темы 24/48 ч · идеи · почему залетело</div></div>
+    <section class="radar" id="radar" hidden></section>
+
     <div class="section-head reveal"><div><div class="section-index">09 / below floor</div><h2>No hits ≥5k</h2></div><div class="section-note">handles + likely reasons</div></div>
     <section class="nohits-block" id="nohits" aria-label="Accounts without 5k hits"></section>
   </main>
@@ -725,6 +756,19 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
 const DASHBOARD_TARGETS = Object.freeze({ hits: 12, views: 100000, minHitViews: 5000, starViews: 10000 });
 const THEME_KEY = 'xvs-theme';
 let CONFIG_DEFAULT_THEME = null;
+function vbClass(v){return v==='тренд'?'vb-trend':v==='визуал'?'vb-vis':v==='автор/аудитория'?'vb-auth':'vb-other'}
+function whyLine(w){if(!w)return'';return`<div class="why-hit-line"><span>trend match</span><span class="mbar"><i style="width:${num(w.trend_match)}%"></i></span><b>${num(w.trend_match)}%</b><span class="vbadge ${vbClass(w.verdict)}">${esc(w.verdict)}</span>${(w.matched_keywords||[]).slice(0,5).map(k=>`<span class="kw-chip">${esc(k)}</span>`).join('')}</div>`}
+function kfmt(n){n=num(n);return n>=1e6?(n/1e6).toFixed(2)+'M':n>=1e3?(n/1e3).toFixed(1)+'K':String(n)}
+function renderRadar(r,narrText){const el=document.getElementById('radar'),hd=document.getElementById('radar-head');if(!r){return}
+ const S=r.summary||{};const st=(S.stats||{}).all||{};const vd=st.verdicts||{};
+ let h=`<div class="radar-sum"><div>${esc(S.headline||'')}</div><div class="radar-take">→ ${esc(S.takeaway||'')}</div><div class="rmeta" style="margin-top:8px">${Object.entries(vd).map(([k,v])=>`<span class="vbadge ${vbClass(k)}">${esc(k)} ${v}</span>`).join('')}<span>корпус: ${num((r.corpus||{}).posts)} постов ≥5K · окно 48 ч ${esc((r.window||{}).label48||'')}</span></div></div>`;
+ h+=`<div class="radar-sub">A / Тренды 24-48 ч</div><div class="rgrid">${(r.topics||[]).map((t,i)=>`<article class="rcard"><h4>${i+1}. ${esc(t.name)}</h4><div class="rmeta"><span>heat ${num(t.heat)}</span><span class="heat" style="width:${Math.max(6,num(t.heat)*0.9)}px"></span><span>${esc(t.momentum)}</span></div><div class="rmeta" style="margin-top:4px"><span>24 ч: ${num(t.posts_24h)} постов · ${kfmt(t.views_24h)}</span><span>48 ч: ${num(t.posts_48h)} · ${kfmt(t.views_48h)}</span></div><div class="kw-row">${(t.keywords||[]).map(k=>`<span class="kw-chip">${esc(k)}</span>`).join('')}</div><ul class="rev">${(t.evidence||[]).map(e=>`<li><a href="${esc(e.url||'#')}" target="_blank" rel="noopener">${esc(e.handle)} · ${kfmt(e.views)}</a> ${esc(e.hook||'')}</li>`).join('')}</ul></article>`).join('')}</div>`;
+ h+=`<div class="radar-sub">B / Идеи для постов @thegreatest_sv (свои посты, не реплаи)</div><div class="rgrid">${(r.ideas||[]).map((x,i)=>`<article class="rcard"><h4>${i+1}. ${esc(x.title)}</h4><div class="rmeta"><span class="vbadge">${esc(x.format)}</span><span>${esc(x.topic)}</span></div><div class="idea-hook" id="idea-${i}">${esc(x.hook_en)}</div><div class="idea-row"><b>Угол:</b> ${esc(x.angle)}</div><div class="idea-row"><b>Почему сработает:</b> ${esc(x.why)}</div><div class="kw-row"><span class="kw-label">keywords:</span>${(x.keywords||[]).map(k=>`<span class="kw-chip">${esc(k)}</span>`).join('')}</div><button type="button" class="copy-btn" style="margin-top:8px" data-draft-id="idea-${i}">COPY HOOK</button></article>`).join('')}</div>`;
+ h+=`<div class="radar-sub">C / Почему залетело</div><div class="why-list">${(r.why_hit||[]).slice().sort((a,b)=>num(b.views)-num(a.views)).map(w=>`<div class="why-row"><span class="wh">${esc(w.handle)} <span class="wv">${w.lane==='outsider'?'outsider':'watchlist'}</span></span><span class="wv">${kfmt(w.views)}</span><span class="mbar"><i style="width:${num(w.trend_match)}%"></i></span><b class="wv">${num(w.trend_match)}%</b><span class="vbadge ${vbClass(w.verdict)}">${esc(w.verdict)}</span><span class="wv">медиа: ${esc(w.media)}</span>${(w.matched_keywords||[]).slice(0,4).map(k=>`<span class="kw-chip">${esc(k)}</span>`).join('')}${w.note?`<span class="wv">${esc(w.note)}</span>`:''}</div>`).join('')}</div>`;
+ h+=`<details><summary>Методика / legend</summary><div class="radar-legend">${esc(r.legend||'')}</div></details>`;
+ if(narrText)h+=`<details><summary>raw summary (outsiders)</summary><div class="radar-legend">${esc(narrText)}</div></details>`;
+ el.innerHTML=h;el.hidden=false;hd.hidden=false;
+ el.querySelectorAll('.copy-btn').forEach(btn=>btn.addEventListener('click',()=>{const t=document.getElementById(btn.dataset.draftId);copyDraft(btn,t?t.textContent:'')}));}
 function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;')}
 function num(n){n=Number(n);return Number.isFinite(n)?n:0}
 function fmt(n){n=num(n);if(n===0)return'0';if(n>=1e6)return(n/1e6).toFixed(n>=1e7?0:2).replace(/\.0+$/,'').replace(/(\.\d)0$/,'$1')+'M';if(n>=1e3)return(n/1e3).toFixed(n>=1e5?0:1).replace(/\.0$/,'')+'K';return String(Math.round(n))}
@@ -1069,13 +1113,13 @@ async function boot(){
   document.getElementById('theme-toggle')?.addEventListener('click',()=>{
     setTimeout(()=>{renderSparkline(hits);renderDayCompare(d.day_roster||[], op)}, 50);
   });
-  const sorted=[...hits].sort((a,b)=>num(b.views)-num(a.views));document.getElementById('hits').innerHTML=sorted.map((h,i)=>{const threshold=h.highlight===true?DASHBOARD_TARGETS.starViews:DASHBOARD_TARGETS.minHitViews;const done=num(h.views)>=threshold;const draftId='draft-'+i;const draft=h.draft_en||'';return`<article class="card"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(h.name||h.display_name||'Unknown')}</div><div class="handle">${handleHtml(h.handle,h.followers)}${sqHtml(h)}</div></div></div><div class="views-big"><span class="vnum">${esc(nfull(h.views))}</span><small>views всего${h.posted_at?` · опубл. ${esc(String(h.posted_at).includes('T')?shortTs(h.posted_at):h.posted_at)}`:''}</small>${deltaHtml(h)}</div></div><div class="hit-target ${done?'done':'not-done'}"><span class="mark">${done?'✓':'×'}</span><span>${done?'DONE':'NOT DONE'} · day target ≥${fmt(threshold)}${threshold===DASHBOARD_TARGETS.starViews?' ★':''}</span></div><div class="hook">${esc(h.hook||h.text||'')}</div>${h.video_tip?`<div class="chip">${esc(h.video_tip)}</div>`:''}<div class="draft-block"><div class="draft-head"><span class="draft-label">Draft · EN</span><button type="button" class="copy-btn" data-draft-id="${draftId}">COPY DRAFT</button></div><pre class="draft-text" id="${draftId}">${esc(draft)}</pre>${(h.draft_keywords||[]).length?`<div class="kw-row"><span class="kw-label">keywords:</span>${h.draft_keywords.map(k=>`<span class="kw-chip">${esc(k)}</span>`).join('')}${h.draft_check?`<span class="kw-meta">overlap 4-gram ${Math.round(num(h.draft_check.g4_overlap)*100)}%</span>`:''}</div>`:''}${h.original_en?`<details class="orig-block"><summary>Original · EN</summary><pre>${esc(h.original_en)}</pre></details>`:''}</div><a class="post-link" href="${esc(h.url||h.status_url||'#')}" target="_blank" rel="noopener">OPEN POST ↗</a></article>`}).join('')||'<p class="muted">No watchlist hits (≥5k, без самоцитат) for this day.</p>';
+  const sorted=[...hits].sort((a,b)=>num(b.views)-num(a.views));document.getElementById('hits').innerHTML=sorted.map((h,i)=>{const threshold=h.highlight===true?DASHBOARD_TARGETS.starViews:DASHBOARD_TARGETS.minHitViews;const done=num(h.views)>=threshold;const draftId='draft-'+i;const draft=h.draft_en||'';return`<article class="card"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(h.name||h.display_name||'Unknown')}</div><div class="handle">${handleHtml(h.handle,h.followers)}${sqHtml(h)}</div></div></div><div class="views-big"><span class="vnum">${esc(nfull(h.views))}</span><small>views всего${h.posted_at?` · опубл. ${esc(String(h.posted_at).includes('T')?shortTs(h.posted_at):h.posted_at)}`:''}</small>${deltaHtml(h)}</div></div><div class="hit-target ${done?'done':'not-done'}"><span class="mark">${done?'✓':'×'}</span><span>${done?'DONE':'NOT DONE'} · day target ≥${fmt(threshold)}${threshold===DASHBOARD_TARGETS.starViews?' ★':''}</span></div><div class="hook">${esc(h.hook||h.text||'')}</div>${whyLine(h.why_hit)}${h.video_tip?`<div class="chip">${esc(h.video_tip)}</div>`:''}<div class="draft-block"><div class="draft-head"><span class="draft-label">Draft · EN</span><button type="button" class="copy-btn" data-draft-id="${draftId}">COPY DRAFT</button></div><pre class="draft-text" id="${draftId}">${esc(draft)}</pre>${(h.draft_keywords||[]).length?`<div class="kw-row"><span class="kw-label">keywords:</span>${h.draft_keywords.map(k=>`<span class="kw-chip">${esc(k)}</span>`).join('')}${h.draft_check?`<span class="kw-meta">overlap 4-gram ${Math.round(num(h.draft_check.g4_overlap)*100)}%</span>`:''}</div>`:''}${h.original_en?`<details class="orig-block"><summary>Original · EN</summary><pre>${esc(h.original_en)}</pre></details>`:''}</div><a class="post-link" href="${esc(h.url||h.status_url||'#')}" target="_blank" rel="noopener">OPEN POST ↗</a></article>`}).join('')||'<p class="muted">No watchlist hits (≥5k, без самоцитат) for this day.</p>';
   document.querySelectorAll('.copy-btn').forEach(btn=>btn.addEventListener('click',()=>{const el=document.getElementById(btn.dataset.draftId);copyDraft(btn,el?el.textContent:'')}));
   staggerCards('#hits .card');
   document.getElementById('patterns').innerHTML=(d.patterns||[]).map(p=>`<span class="tag">${esc(p)}</span>`).join('');{const tk=((d.trend_keywords||{}).keywords)||[];const el=document.getElementById('trend-kw'),hd=document.getElementById('trend-kw-head');if(tk.length){el.innerHTML=tk.map(k=>`<span class="tag kw-trend"><b>${esc(String(k.rank||''))}</b>${esc(k.keyword)}</span>`).join('');el.hidden=false;hd.hidden=false}}document.getElementById('viral-count').textContent=`${virals.length} outsider signals`;
-  document.getElementById('virals').innerHTML=virals.map((v,i)=>{const pending=!v.url||v.url==='#';return`<article class="card${pending?' pending':''}"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(v.name||v.display_name||'Unknown')}</div><div class="handle">${handleHtml(v.handle,v.followers)}</div></div></div><div class="views-big"><span class="vnum">${esc(nfull(v.views))}</span><small>views</small>${deltaHtml(v)}</div></div><div class="hook">${esc(v.hook||v.text||'')}</div><a class="post-link${pending?' disabled':''}" href="${esc(v.url||'#')}" target="_blank" rel="noopener">${pending?'PENDING SCRAPE':'OPEN POST ↗'}</a></article>`}).join('');
+  document.getElementById('virals').innerHTML=virals.map((v,i)=>{const pending=!v.url||v.url==='#';return`<article class="card${pending?' pending':''}"><div class="card-top"><div class="identity"><div class="rank">${String(i+1).padStart(2,'0')}</div><div><div class="name">${esc(v.name||v.display_name||'Unknown')}</div><div class="handle">${handleHtml(v.handle,v.followers)}</div></div></div><div class="views-big"><span class="vnum">${esc(nfull(v.views))}</span><small>views</small>${deltaHtml(v)}</div></div><div class="hook">${esc(v.hook||v.text||'')}</div>${whyLine(v.why_hit)}<a class="post-link${pending?' disabled':''}" href="${esc(v.url||'#')}" target="_blank" rel="noopener">${pending?'PENDING SCRAPE':'OPEN POST ↗'}</a></article>`}).join('');
   staggerCards('#virals .card');
-  const narr=document.getElementById('virals-narrative');if(d.virals_narrative||d.narrative_synthesis){narr.hidden=false;narr.textContent=d.virals_narrative||d.narrative_synthesis}
+  const narr=document.getElementById('virals-narrative');const narrText=d.virals_narrative||d.narrative_synthesis;if(d.trend_radar){renderRadar(d.trend_radar,narrText)}else if(narrText){narr.hidden=false;narr.textContent=narrText}
   renderNoHits(normalizeNoHits(d.no_hits));
   setView(location.hash==='#24h'?'24h':'day');
 }

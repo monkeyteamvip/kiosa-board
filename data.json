@@ -2,7 +2,7 @@
   "title": "X Digest Board",
   "date": "2026-10-23",
   "timezone": "Europe/Moscow",
-  "updated": "2026-10-24T14:35:42+03:00",
+  "updated": "2026-10-24T14:48:16+03:00",
   "hits": [
     {
       "display_name": "Gipp 🦅",
@@ -54,7 +54,15 @@
       "stale": false,
       "views_first": 64061,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 852
+      "growth_since_first": 852,
+      "why_hit": {
+        "trend_match": 0,
+        "verdict": "совпадение/другое",
+        "matched_keywords": [],
+        "media": "text",
+        "note": "",
+        "topic": null
+      }
     },
     {
       "display_name": "zostaff",
@@ -108,7 +116,15 @@
       "growth_since_first": 903,
       "is_quote": true,
       "quote_of_id": "2113620662241624463",
-      "quote_of_date": "23.10"
+      "quote_of_date": "23.10",
+      "why_hit": {
+        "trend_match": 0,
+        "verdict": "визуал",
+        "matched_keywords": [],
+        "media": "video",
+        "note": "",
+        "topic": null
+      }
     },
     {
       "display_name": "Annatar.md",
@@ -169,7 +185,23 @@
       "growth_since_first": 71,
       "is_quote": true,
       "quote_of_id": "2096570562625655088",
-      "quote_of_date": "06.09"
+      "quote_of_date": "06.09",
+      "why_hit": {
+        "trend_match": 92,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "agents",
+          "model",
+          "memory",
+          "MCP",
+          "notes",
+          "Codex"
+        ],
+        "media": "video",
+        "note": "",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки"
+      }
     },
     {
       "display_name": "slash1s",
@@ -223,7 +255,17 @@
       "growth_since_first": 150,
       "is_quote": true,
       "quote_of_id": "2113673460862050400",
-      "quote_of_date": "23.10"
+      "quote_of_date": "23.10",
+      "why_hit": {
+        "trend_match": 22,
+        "verdict": "визуал",
+        "matched_keywords": [
+          "notes"
+        ],
+        "media": "video",
+        "note": "",
+        "topic": "Second brain / память агентов"
+      }
     },
     {
       "display_name": "CyrilXBT",
@@ -279,7 +321,18 @@
       "growth_since_first": 6,
       "is_quote": true,
       "quote_of_id": "2112921648252719420",
-      "quote_of_date": "21.10"
+      "quote_of_date": "21.10",
+      "why_hit": {
+        "trend_match": 49,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [
+          "Claude Code",
+          "offline"
+        ],
+        "media": "text",
+        "note": "",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки"
+      }
     },
     {
       "display_name": "CyrilXBT",
@@ -338,7 +391,22 @@
       "stale": false,
       "views_first": 5536,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 4
+      "growth_since_first": 4,
+      "why_hit": {
+        "trend_match": 83,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "skills",
+          "MCP",
+          "Gemini",
+          "Codex",
+          "prompt injection"
+        ],
+        "media": "image",
+        "note": "",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки"
+      }
     },
     {
       "display_name": "CyrilXBT",
@@ -392,7 +460,17 @@
       "growth_since_first": 4,
       "is_quote": true,
       "quote_of_id": "2107236581442720203",
-      "quote_of_date": "06.10"
+      "quote_of_date": "06.10",
+      "why_hit": {
+        "trend_match": 22,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [
+          "founder"
+        ],
+        "media": "text",
+        "note": "",
+        "topic": "Solo founder на автопилоте, бюджетные агенты"
+      }
     },
     {
       "display_name": "CyrilXBT",
@@ -444,7 +522,17 @@
       "stale": false,
       "views_first": 5389,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 5
+      "growth_since_first": 5,
+      "why_hit": {
+        "trend_match": 22,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [
+          "API"
+        ],
+        "media": "text",
+        "note": "",
+        "topic": "AI security: SkillSpector, PHP2Shell, Railway"
+      }
     }
   ],
   "virals": [
@@ -477,7 +565,17 @@
       "growth_since_first": 437,
       "is_quote": true,
       "quote_of_id": "2113302771747418201",
-      "quote_of_date": "22.10"
+      "quote_of_date": "22.10",
+      "why_hit": {
+        "trend_match": 35,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [
+          "Grok Bot"
+        ],
+        "media": "text",
+        "note": "подписчики: нет данных (оценка по охвату ≥500K)",
+        "topic": "Grok Bot: сетапы, память, буст Маска"
+      }
     },
     {
       "display_name": "OpenAI",
@@ -506,7 +604,19 @@
       "stale": false,
       "views_first": 3669104,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 13883
+      "growth_since_first": 13883,
+      "why_hit": {
+        "trend_match": 60,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "model",
+          "offline",
+          "security"
+        ],
+        "media": "text",
+        "note": "подписчики: нет данных",
+        "topic": "Модели и лаборатории: Kimi, Anthropic, local"
+      }
     },
     {
       "display_name": "Anthropic",
@@ -534,7 +644,17 @@
       "stale": false,
       "views_first": 1681345,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 1965
+      "growth_since_first": 1965,
+      "why_hit": {
+        "trend_match": 35,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [
+          "model"
+        ],
+        "media": "text",
+        "note": "подписчики: нет данных (оценка по охвату ≥500K)",
+        "topic": null
+      }
     },
     {
       "display_name": "Elon Musk",
@@ -565,7 +685,18 @@
       "growth_since_first": 1206,
       "is_quote": true,
       "quote_of_id": "2113717946019397910",
-      "quote_of_date": "23.10"
+      "quote_of_date": "23.10",
+      "why_hit": {
+        "trend_match": 43,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [
+          "Grok Bot",
+          "vault"
+        ],
+        "media": "text",
+        "note": "подписчики: нет данных (оценка по охвату ≥500K)",
+        "topic": "Grok Bot: сетапы, память, буст Маска"
+      }
     },
     {
       "display_name": "Elon Musk",
@@ -596,7 +727,15 @@
       "growth_since_first": 5425,
       "is_quote": true,
       "quote_of_id": "2113712964419063911",
-      "quote_of_date": "23.10"
+      "quote_of_date": "23.10",
+      "why_hit": {
+        "trend_match": 0,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [],
+        "media": "text",
+        "note": "подписчики: нет данных (оценка по охвату ≥500K)",
+        "topic": null
+      }
     },
     {
       "display_name": "Chubby♨️",
@@ -628,7 +767,18 @@
       "growth_since_first": 93,
       "is_quote": true,
       "quote_of_id": "2113680701770068067",
-      "quote_of_date": "23.10"
+      "quote_of_date": "23.10",
+      "why_hit": {
+        "trend_match": 58,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Opus 5.5",
+          "model"
+        ],
+        "media": "image",
+        "note": "подписчики: нет данных",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки"
+      }
     },
     {
       "display_name": "Chubby♨️",
@@ -656,7 +806,17 @@
       "stale": false,
       "views_first": 133008,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 64
+      "growth_since_first": 64,
+      "why_hit": {
+        "trend_match": 22,
+        "verdict": "визуал",
+        "matched_keywords": [
+          "Anthropic"
+        ],
+        "media": "video",
+        "note": "подписчики: нет данных",
+        "topic": "Модели и лаборатории: Kimi, Anthropic, local"
+      }
     },
     {
       "display_name": "Chubby♨️",
@@ -685,7 +845,19 @@
       "stale": false,
       "views_first": 112658,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 175
+      "growth_since_first": 175,
+      "why_hit": {
+        "trend_match": 55,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "model",
+          "founder",
+          "Fable"
+        ],
+        "media": "image",
+        "note": "подписчики: нет данных",
+        "topic": "Модели и лаборатории: Kimi, Anthropic, local"
+      }
     },
     {
       "display_name": "Google DeepMind",
@@ -713,7 +885,19 @@
       "stale": false,
       "views_first": 98871,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 97
+      "growth_since_first": 97,
+      "why_hit": {
+        "trend_match": 50,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "MCP",
+          "Blender",
+          "Gemini"
+        ],
+        "media": "video",
+        "note": "подписчики: нет данных",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки"
+      }
     },
     {
       "display_name": "Chubby♨️",
@@ -744,7 +928,17 @@
       "growth_since_first": 158,
       "is_quote": true,
       "quote_of_id": "2113697902916751661",
-      "quote_of_date": "23.10"
+      "quote_of_date": "23.10",
+      "why_hit": {
+        "trend_match": 35,
+        "verdict": "визуал",
+        "matched_keywords": [
+          "model"
+        ],
+        "media": "image",
+        "note": "подписчики: нет данных",
+        "topic": null
+      }
     },
     {
       "display_name": "Chubby♨️",
@@ -776,7 +970,18 @@
       "growth_since_first": 18,
       "is_quote": true,
       "quote_of_id": "2113383965784502444",
-      "quote_of_date": "23.10"
+      "quote_of_date": "23.10",
+      "why_hit": {
+        "trend_match": 49,
+        "verdict": "совпадение/другое",
+        "matched_keywords": [
+          "usage",
+          "Anthropic"
+        ],
+        "media": "text",
+        "note": "подписчики: нет данных",
+        "topic": "Модели и лаборатории: Kimi, Anthropic, local"
+      }
     },
     {
       "display_name": "0xMarioNawfal - The Roundtable Show",
@@ -804,7 +1009,25 @@
       "stale": false,
       "views_first": 46311,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 15
+      "growth_since_first": 15,
+      "why_hit": {
+        "trend_match": 91,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "skills",
+          "notes",
+          "Reddit",
+          "stack",
+          "Obsidian",
+          "solo",
+          "Blender",
+          "Haiku"
+        ],
+        "media": "video",
+        "note": "подписчики: нет данных",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки"
+      }
     },
     {
       "display_name": "0xMarioNawfal - The Roundtable Show",
@@ -832,7 +1055,21 @@
       "stale": false,
       "views_first": 41626,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 36
+      "growth_since_first": 36,
+      "why_hit": {
+        "trend_match": 88,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "agents",
+          "memory",
+          "skills",
+          "MCP"
+        ],
+        "media": "text",
+        "note": "подписчики: нет данных",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки"
+      }
     },
     {
       "display_name": "0xMarioNawfal - The Roundtable Show",
@@ -860,7 +1097,18 @@
       "stale": false,
       "views_first": 39973,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 1461
+      "growth_since_first": 1461,
+      "why_hit": {
+        "trend_match": 43,
+        "verdict": "совпадение/другое",
+        "matched_keywords": [
+          "model",
+          "PDF"
+        ],
+        "media": "text",
+        "note": "подписчики: нет данных",
+        "topic": "Open-source и GitHub-дропы"
+      }
     },
     {
       "display_name": "0xMarioNawfal - The Roundtable Show",
@@ -888,7 +1136,20 @@
       "stale": false,
       "views_first": 37297,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 28
+      "growth_since_first": 28,
+      "why_hit": {
+        "trend_match": 79,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "agents",
+          "skills",
+          "AI agent"
+        ],
+        "media": "text",
+        "note": "подписчики: нет данных",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки"
+      }
     },
     {
       "display_name": "0xMarioNawfal - The Roundtable Show",
@@ -916,7 +1177,19 @@
       "stale": false,
       "views_first": 32107,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 11
+      "growth_since_first": 11,
+      "why_hit": {
+        "trend_match": 67,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "model",
+          "Reddit"
+        ],
+        "media": "video",
+        "note": "подписчики: нет данных",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки"
+      }
     },
     {
       "display_name": "siddharth",
@@ -944,7 +1217,22 @@
       "stale": false,
       "views_first": 31252,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 1
+      "growth_since_first": 1,
+      "why_hit": {
+        "trend_match": 88,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "Opus 5.5",
+          "Grok Bot",
+          "usage",
+          "API",
+          "Codex"
+        ],
+        "media": "video",
+        "note": "подписчики: нет данных",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки"
+      }
     },
     {
       "display_name": "0xMarioNawfal - The Roundtable Show",
@@ -972,7 +1260,18 @@
       "stale": false,
       "views_first": 22895,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 1421
+      "growth_since_first": 1421,
+      "why_hit": {
+        "trend_match": 31,
+        "verdict": "совпадение/другое",
+        "matched_keywords": [
+          "AI agent",
+          "GitHub"
+        ],
+        "media": "text",
+        "note": "подписчики: нет данных",
+        "topic": "Solo founder на автопилоте, бюджетные агенты"
+      }
     },
     {
       "display_name": "ludoonchart",
@@ -1000,7 +1299,24 @@
       "stale": false,
       "views_first": 15513,
       "first_at": "2026-10-24T10:55:53+03:00",
-      "growth_since_first": 0
+      "growth_since_first": 0,
+      "why_hit": {
+        "trend_match": 92,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "agents",
+          "Opus 5.5",
+          "usage",
+          "AI agent",
+          "API",
+          "Sonnet 5.5",
+          "GitHub"
+        ],
+        "media": "video",
+        "note": "подписчики: нет данных",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки"
+      }
     },
     {
       "display_name": "Kaleb Campbell",
@@ -1031,7 +1347,20 @@
       "growth_since_first": 16,
       "is_quote": true,
       "quote_of_id": "2113415102762488006",
-      "quote_of_date": "23.10"
+      "quote_of_date": "23.10",
+      "why_hit": {
+        "trend_match": 76,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "Opus 5.5",
+          "usage",
+          "Fable"
+        ],
+        "media": "text",
+        "note": "подписчики: нет данных",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки"
+      }
     }
   ],
   "patterns": [
@@ -8316,5 +8645,951 @@
         "curated": true
       }
     ]
+  },
+  "trend_radar": {
+    "date": "2026-10-23",
+    "title": "TREND RADAR / Идеи для постов",
+    "window": {
+      "end": "2026-10-24T10:58:00+03:00",
+      "label24": "23.10 10:58 – 24.10 10:58 MSK",
+      "label48": "22.10 10:58 – 24.10 10:58 MSK"
+    },
+    "corpus": {
+      "posts": 81,
+      "min_views": 5000,
+      "lanes": {
+        "watchlist": 44,
+        "outsider": 33,
+        "24h": 4
+      }
+    },
+    "summary": {
+      "headline": "Из 28 хитов на борде 13 (46%) совпали с трендами 24-48 ч. Медиана просмотров: трендовые 37.3K vs остальные 51.9K (среднее 333.6K vs 747.8K). Watchlist: 2/8 в тренде, медиана 10.3K vs 11.0K. С видео 9 хитов, медиана 31.3K vs без видео 51.9K.",
+      "takeaway": "Вывод: у аккаунтов уровня watchlist тренд-матч дал медиану 10.3K vs 11.0K, а видео - 15.0K vs 5.5K без видео - бери тему из топа радара и упаковывай в видео/скринкаст (Claude Code + Opus 5.5: skills, harness, стеки).",
+      "stats": {
+        "all": {
+          "n": 28,
+          "trend_n": 13,
+          "trend_pct": 46,
+          "avg_trend": 333554,
+          "avg_other": 747786,
+          "median_trend": 37325,
+          "median_other": 51909,
+          "verdicts": {
+            "тренд": 13,
+            "визуал": 4,
+            "автор/аудитория": 7,
+            "совпадение/другое": 4
+          }
+        },
+        "watchlist": {
+          "n": 8,
+          "trend_n": 2,
+          "trend_pct": 25,
+          "avg_trend": 10286,
+          "avg_other": 19552,
+          "median_trend": 10286,
+          "median_other": 10967,
+          "verdicts": {
+            "тренд": 2,
+            "визуал": 2,
+            "автор/аудитория": 3,
+            "совпадение/другое": 1
+          }
+        },
+        "outsiders": {
+          "n": 20,
+          "trend_n": 11,
+          "trend_pct": 55,
+          "avg_trend": 392330,
+          "avg_other": 1233275,
+          "median_trend": 41662,
+          "median_other": 133072,
+          "verdicts": {
+            "тренд": 11,
+            "визуал": 2,
+            "автор/аудитория": 4,
+            "совпадение/другое": 3
+          }
+        },
+        "media": {
+          "video_n": 9,
+          "median_video": 31253,
+          "other_n": 19,
+          "median_other": 51909
+        },
+        "media_watchlist": {
+          "video_n": 3,
+          "median_video": 15031,
+          "other_n": 5,
+          "median_other": 5540
+        }
+      }
+    },
+    "topics": [
+      {
+        "name": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "keywords": [
+          "Claude Code",
+          "Opus 5.5",
+          "skills",
+          "MCP",
+          "stack",
+          "Codex",
+          "Haiku",
+          "Sonnet 5.5"
+        ],
+        "posts_24h": 15,
+        "posts_48h": 38,
+        "views_24h": 552939,
+        "views_prev24h": 608934,
+        "views_48h": 1161873,
+        "momentum": "↓ остывает ×0.65",
+        "heat_raw": 113.89,
+        "evidence": [
+          {
+            "handle": "@kimmonismus",
+            "views": 204521,
+            "url": "https://x.com/kimmonismus/status/2113681534792183863",
+            "hook": "@kimmonismus: Kimi K3.1 Pro on par with or beating Opus 5.5 and GPT-6 Astra on key benchmarks (2.8T params, 1M context)",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@GoogleDeepMind",
+            "views": 98968,
+            "url": "https://x.com/GoogleDeepMind/status/2113645959762575623",
+            "hook": "@GoogleDeepMind: Gemini 4 Argon builds a 3D Gothic cathedral from one Nano Banana image via Blender MCP in Antigravity",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@beamnxw",
+            "views": 59558,
+            "url": "https://x.com/beamnxw/status/2113275303808160226",
+            "hook": "Opus 5.5 + Blender + Remotion = your own character animation studio that you can use to earn $$$",
+            "lane": "watchlist"
+          }
+        ],
+        "heat": 100
+      },
+      {
+        "name": "Модели и лаборатории: Kimi, Anthropic, local",
+        "keywords": [
+          "Anthropic",
+          "Blender",
+          "Gemini",
+          "offline",
+          "Fable",
+          "Kimi K3.1 Pro",
+          "local models"
+        ],
+        "posts_24h": 14,
+        "posts_48h": 23,
+        "views_24h": 4427062,
+        "views_prev24h": 265457,
+        "views_48h": 4692519,
+        "momentum": "↑ растёт ×1.65",
+        "heat_raw": 83.93,
+        "evidence": [
+          {
+            "handle": "@OpenAI",
+            "views": 3682987,
+            "url": "https://x.com/OpenAI/status/2113718797505036665",
+            "hook": "@OpenAI: frontier models now train with no live internet - an offline cached web instead",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@kimmonismus",
+            "views": 204521,
+            "url": "https://x.com/kimmonismus/status/2113681534792183863",
+            "hook": "@kimmonismus: Kimi K3.1 Pro on par with or beating Opus 5.5 and GPT-6 Astra on key benchmarks (2.8T params, 1M context)",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@kimmonismus",
+            "views": 133072,
+            "url": "https://x.com/kimmonismus/status/2113601832513855823",
+            "hook": "@kimmonismus: Anthropic's Claude app adapted for the iPhone Duo",
+            "lane": "outsider"
+          }
+        ],
+        "heat": 74
+      },
+      {
+        "name": "Grok Bot: сетапы, память, буст Маска",
+        "keywords": [
+          "Grok Bot",
+          "memory",
+          "bots",
+          "Elon",
+          "vault",
+          "Elon Musk",
+          "Three bots"
+        ],
+        "posts_24h": 10,
+        "posts_48h": 24,
+        "views_24h": 1090003,
+        "views_prev24h": 36322261,
+        "views_48h": 37412264,
+        "momentum": "↓ остывает ×0.62",
+        "heat_raw": 77.25,
+        "evidence": [
+          {
+            "handle": "@elonmusk",
+            "views": 24868770,
+            "url": "https://x.com/elonmusk/status/2113506269260595431",
+            "hook": "@elonmusk: 'Grok @Bot is an incredible life & business manager... Like having a genius employee.'",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@elonmusk",
+            "views": 7435448,
+            "url": "https://x.com/elonmusk/status/2113329537509449744",
+            "hook": "@elonmusk: 'Try Grok @Bot' (clip)",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@minchoi",
+            "views": 2021251,
+            "url": "https://x.com/minchoi/status/2113473131914445206",
+            "hook": "@minchoi: 'Grok Bot is becoming the personal AI assistant everyone needs' - 10 real-world examples",
+            "lane": "outsider"
+          }
+        ],
+        "heat": 68
+      },
+      {
+        "name": "Solo founder на автопилоте, бюджетные агенты",
+        "keywords": [
+          "AI agent",
+          "usage",
+          "founder",
+          "autopilot",
+          "automations",
+          "solo founder"
+        ],
+        "posts_24h": 12,
+        "posts_48h": 18,
+        "views_24h": 289948,
+        "views_prev24h": 111891,
+        "views_48h": 401839,
+        "momentum": "↑ растёт ×1.96",
+        "heat_raw": 62.43,
+        "evidence": [
+          {
+            "handle": "@kimmonismus",
+            "views": 112833,
+            "url": "https://x.com/kimmonismus/status/2113710339132940572",
+            "hook": "@kimmonismus: 'Today we got Fable 5.1 intelligence as a local model'",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@kimmonismus",
+            "views": 51909,
+            "url": "https://x.com/kimmonismus/status/2113585977742532647",
+            "hook": "@kimmonismus: Anthropic A/B testing Claude Max limits - ~20% more per 5h window, ~20% less per week",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@RoundtableSpace",
+            "views": 37325,
+            "url": "https://x.com/RoundtableSpace/status/2113861795278708984",
+            "hook": "@RoundtableSpace: 'SAVE THIS: 5 free skills that fix the most annoying things AI agents do'",
+            "lane": "outsider"
+          }
+        ],
+        "heat": 55
+      },
+      {
+        "name": "Second brain / память агентов",
+        "keywords": [
+          "memory",
+          "notes",
+          "Second brain",
+          "Obsidian",
+          "vault"
+        ],
+        "posts_24h": 9,
+        "posts_48h": 16,
+        "views_24h": 1126591,
+        "views_prev24h": 155592,
+        "views_48h": 1282183,
+        "momentum": "↑ растёт ×1.35",
+        "heat_raw": 54.61,
+        "evidence": [
+          {
+            "handle": "@elonmusk",
+            "views": 939720,
+            "url": "https://x.com/elonmusk/status/2113796183688982771",
+            "hook": "@elonmusk: 'Grok @Bot saves sensitive info in a vault'",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@RoundtableSpace",
+            "views": 49150,
+            "url": "https://x.com/RoundtableSpace/status/2113469208558198966",
+            "hook": "@RoundtableSpace: Open Notebook turns your PDFs and notes into AI podcasts (open-source)",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@RoundtableSpace",
+            "views": 46326,
+            "url": "https://x.com/RoundtableSpace/status/2113839146028658971",
+            "hook": "@RoundtableSpace: solo dev builds a Ragnarok x Monster Hunter-style game with Claude Code (route / handoff / re-searcher skills)",
+            "lane": "outsider"
+          }
+        ],
+        "heat": 48
+      },
+      {
+        "name": "Open-source и GitHub-дропы",
+        "keywords": [
+          "PDF",
+          "GitHub",
+          "REA",
+          "open source"
+        ],
+        "posts_24h": 5,
+        "posts_48h": 12,
+        "views_24h": 85159,
+        "views_prev24h": 104981,
+        "views_48h": 190140,
+        "momentum": "→ стабильно ×0.72",
+        "heat_raw": 34.57,
+        "evidence": [
+          {
+            "handle": "@RoundtableSpace",
+            "views": 49150,
+            "url": "https://x.com/RoundtableSpace/status/2113469208558198966",
+            "hook": "@RoundtableSpace: Open Notebook turns your PDFs and notes into AI podcasts (open-source)",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@RoundtableSpace",
+            "views": 41434,
+            "url": "https://x.com/RoundtableSpace/status/2113884444457304243",
+            "hook": "@RoundtableSpace: Baidu open-sourced Unlimited-OCR - whole multi-page PDF in one pass (28.3K stars)",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@RoundtableSpace",
+            "views": 24316,
+            "url": "https://x.com/RoundtableSpace/status/2113891994128822631",
+            "hook": "@RoundtableSpace: Microsoft open-sourced Skill Recorder - record a task once, your agent learns it (4.3K stars)",
+            "lane": "outsider"
+          }
+        ],
+        "heat": 30
+      },
+      {
+        "name": "AI security: SkillSpector, PHP2Shell, Railway",
+        "keywords": [
+          "security",
+          "prompt injection",
+          "SkillSpector",
+          "rotate your keys",
+          "PHP2Shell"
+        ],
+        "posts_24h": 5,
+        "posts_48h": 9,
+        "views_24h": 3708868,
+        "views_prev24h": 1904270,
+        "views_48h": 5613138,
+        "momentum": "→ стабильно ×1.12",
+        "heat_raw": 31.49,
+        "evidence": [
+          {
+            "handle": "@OpenAI",
+            "views": 3682987,
+            "url": "https://x.com/OpenAI/status/2113718797505036665",
+            "hook": "@OpenAI: frontier models now train with no live internet - an offline cached web instead",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@AnthropicAI",
+            "views": 1802857,
+            "url": "https://x.com/AnthropicAI/status/2113390212911083894",
+            "hook": "@AnthropicAI: Frontier Red Team - using Claude to formally verify software at large scale",
+            "lane": "outsider"
+          },
+          {
+            "handle": "@RoundtableSpace",
+            "views": 51967,
+            "url": "https://x.com/RoundtableSpace/status/2113484307624821117",
+            "hook": "@RoundtableSpace: scan the AI skills you've already installed - MEDUSA, Snyk Agent Scan, Cisco MCP Scanner",
+            "lane": "outsider"
+          }
+        ],
+        "heat": 28
+      }
+    ],
+    "ideas": [
+      {
+        "title": "Grok Bot сетап, который реально запустить",
+        "topic": "Grok Bot: сетапы, память, буст Маска",
+        "keywords": [
+          "Grok Bot",
+          "Elon",
+          "Three bots",
+          "memory"
+        ],
+        "format": "thread + screencast",
+        "angle": "Покажи свой рабочий Grok Bot сетап (three bots в одном чате, общая memory) - экран, а не пересказ. Только то, что у тебя реально работает.",
+        "hook_en": "Elon keeps boosting Grok Bot setups. Here's mine, running live: three bots, one group chat, shared memory.",
+        "why": "Grok Bot сетапы с соцдоказательством Маска - главная watchlist-тема дня (ScottyBeamIO 44.5K, cyrilXBT 23.1K), у Маска 'Try Grok @Bot' 7.44M; скринкаст даёт визуал, который везёт охват."
+      },
+      {
+        "title": "Security-чеклист недели",
+        "topic": "AI security: SkillSpector, PHP2Shell, Railway",
+        "keywords": [
+          "security",
+          "SkillSpector",
+          "PHP2Shell",
+          "skills"
+        ],
+        "format": "thread + image",
+        "angle": "Сведи три алерта (SkillSpector-исследование skills, PHP2Shell, утечка Railway) в один чеклист 'сделай сейчас' на одной картинке. Цифры только из первоисточников.",
+        "hook_en": "3 security alerts in 48 hours: PHP2Shell, the Railway breach and malicious AI skills flagged by SkillSpector. One checklist before you install anything else.",
+        "why": "Security-PSA с нумерованным 'do this now' дали 4 хита cyrilXBT (5.4-7.6K) за день; сводка трёх новостей в одной карточке сохраняемее, чем каждая по отдельности."
+      },
+      {
+        "title": "Честно про память агента",
+        "topic": "Second brain / память агентов",
+        "keywords": [
+          "Second brain",
+          "memory",
+          "Obsidian",
+          "notes"
+        ],
+        "format": "text + image",
+        "angle": "Контр-тейк: chat memory - это сводки, а не источник правды. Схема 'факты в файлах, notes в Obsidian, агент перечитывает источник'.",
+        "hook_en": "Your second brain isn't chat memory. Facts live in files and notes, the agent rereads the source. Obsidian or not.",
+        "why": "Second brain тема держится два дня (Mr_Buzzoni 11.6K, Argona0x x2, ссылки на пост Карпати 22M); контр-тейк с практичной схемой собирает закладки."
+      },
+      {
+        "title": "Kimi K3.1 Pro vs мой Claude Code стек",
+        "topic": "Модели и лаборатории: Kimi, Anthropic, local",
+        "keywords": [
+          "Kimi K3.1 Pro",
+          "Opus 5.5",
+          "Claude Code",
+          "stack"
+        ],
+        "format": "thread + image",
+        "angle": "Не пересказывай бенчмарки - сформулируй, что именно ты проверишь перед сменой модели в своём Claude Code стеке, и опубликуй результаты, когда прогонишь.",
+        "hook_en": "Kimi K3.1 Pro is being benchmarked against Opus 5.5. Before I touch my Claude Code stack, here's what I'm testing.",
+        "why": "Релиз Kimi K3.1 Pro - главный модельный разговор у outsiders (kimmonismus 204.5K, 'Fable 5.1 as a local model' 112.8K); личный тест-план = оригинальный угол, без выдуманных цифр."
+      },
+      {
+        "title": "Сколько стоит агент на автопилоте",
+        "topic": "Solo founder на автопилоте, бюджетные агенты",
+        "keywords": [
+          "AI agent",
+          "usage",
+          "autopilot"
+        ],
+        "format": "image / screencast",
+        "angle": "Покажи свой реальный usage за месяц у always-on AI agent: на что уходят кредиты. Только твои настоящие цифры.",
+        "hook_en": "What an AI agent on autopilot actually costs me in a month. Real usage, screenshot included.",
+        "why": "'How to Run Viktor for a Month on $100' - топ дня watchlist (64.9K); бюджет + скрин usage = доверие и закладки."
+      },
+      {
+        "title": "agent = model + harness на одной карточке",
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "keywords": [
+          "Claude Code",
+          "Codex",
+          "skills",
+          "MCP"
+        ],
+        "format": "carousel / image",
+        "angle": "Визуальная шпаргалка 7 частей harness (loop, LLM, tools, memory, safety, orchestration, extensions) со ссылкой на статью Wavestone как источник.",
+        "hook_en": "Claude Code and Codex share the same 7-part harness. One card: loop, tools, memory, skills, MCP and the rest.",
+        "why": "Гайды по Claude Code заходят (AnnatarXBT 15K, RoundtableSpace 'Most people use 10% of Claude Code' 41.7K); карусель-шпаргалка сохраняется."
+      },
+      {
+        "title": "Мем: лимиты Claude Max",
+        "topic": "Модели и лаборатории: Kimi, Anthropic, local",
+        "keywords": [
+          "Anthropic",
+          "usage"
+        ],
+        "format": "meme",
+        "angle": "Два счётчика: лимит за 5 ч растёт (~+20%), недельный падает (~-20%) - по сообщению о A/B-тесте Anthropic. Без своих догадок сверху.",
+        "hook_en": "Anthropic A/B testing Claude Max: about 20% more usage per 5 hours, about 20% less per week. Pick your pain.",
+        "why": "Тема лимитов и usage-фрикции Claude набрала 51.9K + 12.1K у outsiders; мем на больную тему легко репостят."
+      }
+    ],
+    "why_hit": [
+      {
+        "id": "2113568138017038566",
+        "handle": "@gippp69",
+        "lane": "watchlist",
+        "views": 64913,
+        "trend_match": 0,
+        "verdict": "совпадение/другое",
+        "matched_keywords": [],
+        "media": "text",
+        "followers": 12218,
+        "topic": null,
+        "note": ""
+      },
+      {
+        "id": "2113707768909611140",
+        "handle": "@zostaff",
+        "lane": "watchlist",
+        "views": 19600,
+        "trend_match": 0,
+        "verdict": "визуал",
+        "matched_keywords": [],
+        "media": "video",
+        "followers": 16443,
+        "topic": null,
+        "note": ""
+      },
+      {
+        "id": "2113634548378374458",
+        "handle": "@AnnatarXBT",
+        "lane": "watchlist",
+        "views": 15031,
+        "trend_match": 92,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "agents",
+          "model",
+          "memory",
+          "MCP",
+          "notes",
+          "Codex"
+        ],
+        "media": "video",
+        "followers": 3136,
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "note": ""
+      },
+      {
+        "id": "2113681484053668262",
+        "handle": "@slash1sol",
+        "lane": "watchlist",
+        "views": 14341,
+        "trend_match": 22,
+        "verdict": "визуал",
+        "matched_keywords": [
+          "notes"
+        ],
+        "media": "video",
+        "followers": 14374,
+        "topic": "Second brain / память агентов",
+        "note": ""
+      },
+      {
+        "id": "2113571185678290973",
+        "handle": "@cyrilXBT",
+        "lane": "watchlist",
+        "views": 7593,
+        "trend_match": 49,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [
+          "Claude Code",
+          "offline"
+        ],
+        "media": "text",
+        "followers": 197276,
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "note": ""
+      },
+      {
+        "id": "2113608900822085711",
+        "handle": "@cyrilXBT",
+        "lane": "watchlist",
+        "views": 5540,
+        "trend_match": 83,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "skills",
+          "MCP",
+          "Gemini",
+          "Codex",
+          "prompt injection"
+        ],
+        "media": "image",
+        "followers": 197276,
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "note": ""
+      },
+      {
+        "id": "2113590005981700233",
+        "handle": "@cyrilXBT",
+        "lane": "watchlist",
+        "views": 5473,
+        "trend_match": 22,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [
+          "founder"
+        ],
+        "media": "text",
+        "followers": 197276,
+        "topic": "Solo founder на автопилоте, бюджетные агенты",
+        "note": ""
+      },
+      {
+        "id": "2113552257069490451",
+        "handle": "@cyrilXBT",
+        "lane": "watchlist",
+        "views": 5394,
+        "trend_match": 22,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [
+          "API"
+        ],
+        "media": "text",
+        "followers": 197276,
+        "topic": "AI security: SkillSpector, PHP2Shell, Railway",
+        "note": ""
+      },
+      {
+        "id": "2113329537509449744",
+        "handle": "@elonmusk",
+        "lane": "outsider",
+        "views": 7435448,
+        "trend_match": 35,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [
+          "Grok Bot"
+        ],
+        "media": "text",
+        "followers": null,
+        "topic": "Grok Bot: сетапы, память, буст Маска",
+        "note": "подписчики: нет данных (оценка по охвату ≥500K)"
+      },
+      {
+        "id": "2113718797505036665",
+        "handle": "@OpenAI",
+        "lane": "outsider",
+        "views": 3682987,
+        "trend_match": 60,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "model",
+          "offline",
+          "security"
+        ],
+        "media": "text",
+        "followers": null,
+        "topic": "Модели и лаборатории: Kimi, Anthropic, local",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113626655902126442",
+        "handle": "@AnthropicAI",
+        "lane": "outsider",
+        "views": 1683310,
+        "trend_match": 35,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [
+          "model"
+        ],
+        "media": "text",
+        "followers": null,
+        "topic": null,
+        "note": "подписчики: нет данных (оценка по охвату ≥500K)"
+      },
+      {
+        "id": "2113796183688982771",
+        "handle": "@elonmusk",
+        "lane": "outsider",
+        "views": 939720,
+        "trend_match": 43,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [
+          "Grok Bot",
+          "vault"
+        ],
+        "media": "text",
+        "followers": null,
+        "topic": "Grok Bot: сетапы, память, буст Маска",
+        "note": "подписчики: нет данных (оценка по охвату ≥500K)"
+      },
+      {
+        "id": "2113869401930039702",
+        "handle": "@elonmusk",
+        "lane": "outsider",
+        "views": 724879,
+        "trend_match": 0,
+        "verdict": "автор/аудитория",
+        "matched_keywords": [],
+        "media": "text",
+        "followers": null,
+        "topic": null,
+        "note": "подписчики: нет данных (оценка по охвату ≥500K)"
+      },
+      {
+        "id": "2113681534792183863",
+        "handle": "@kimmonismus",
+        "lane": "outsider",
+        "views": 204521,
+        "trend_match": 58,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Opus 5.5",
+          "model"
+        ],
+        "media": "image",
+        "followers": null,
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113601832513855823",
+        "handle": "@kimmonismus",
+        "lane": "outsider",
+        "views": 133072,
+        "trend_match": 22,
+        "verdict": "визуал",
+        "matched_keywords": [
+          "Anthropic"
+        ],
+        "media": "video",
+        "followers": null,
+        "topic": "Модели и лаборатории: Kimi, Anthropic, local",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113710339132940572",
+        "handle": "@kimmonismus",
+        "lane": "outsider",
+        "views": 112833,
+        "trend_match": 55,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "model",
+          "founder",
+          "Fable"
+        ],
+        "media": "image",
+        "followers": null,
+        "topic": "Модели и лаборатории: Kimi, Anthropic, local",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113645959762575623",
+        "handle": "@GoogleDeepMind",
+        "lane": "outsider",
+        "views": 98968,
+        "trend_match": 50,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "MCP",
+          "Blender",
+          "Gemini"
+        ],
+        "media": "video",
+        "followers": null,
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113760286641639623",
+        "handle": "@kimmonismus",
+        "lane": "outsider",
+        "views": 65387,
+        "trend_match": 35,
+        "verdict": "визуал",
+        "matched_keywords": [
+          "model"
+        ],
+        "media": "image",
+        "followers": null,
+        "topic": null,
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113585977742532647",
+        "handle": "@kimmonismus",
+        "lane": "outsider",
+        "views": 51909,
+        "trend_match": 49,
+        "verdict": "совпадение/другое",
+        "matched_keywords": [
+          "usage",
+          "Anthropic"
+        ],
+        "media": "text",
+        "followers": null,
+        "topic": "Модели и лаборатории: Kimi, Anthropic, local",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113839146028658971",
+        "handle": "@RoundtableSpace",
+        "lane": "outsider",
+        "views": 46326,
+        "trend_match": 91,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "skills",
+          "notes",
+          "Reddit",
+          "stack",
+          "Obsidian",
+          "solo",
+          "Blender",
+          "Haiku"
+        ],
+        "media": "video",
+        "followers": null,
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113876894781165947",
+        "handle": "@RoundtableSpace",
+        "lane": "outsider",
+        "views": 41662,
+        "trend_match": 88,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "agents",
+          "memory",
+          "skills",
+          "MCP"
+        ],
+        "media": "text",
+        "followers": null,
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113884444457304243",
+        "handle": "@RoundtableSpace",
+        "lane": "outsider",
+        "views": 41434,
+        "trend_match": 43,
+        "verdict": "совпадение/другое",
+        "matched_keywords": [
+          "model",
+          "PDF"
+        ],
+        "media": "text",
+        "followers": null,
+        "topic": "Open-source и GitHub-дропы",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113861795278708984",
+        "handle": "@RoundtableSpace",
+        "lane": "outsider",
+        "views": 37325,
+        "trend_match": 79,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "agents",
+          "skills",
+          "AI agent"
+        ],
+        "media": "text",
+        "followers": null,
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113846696148910383",
+        "handle": "@RoundtableSpace",
+        "lane": "outsider",
+        "views": 32118,
+        "trend_match": 67,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "model",
+          "Reddit"
+        ],
+        "media": "video",
+        "followers": null,
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113254080030384195",
+        "handle": "@buildwithsid",
+        "lane": "outsider",
+        "views": 31253,
+        "trend_match": 88,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "Opus 5.5",
+          "Grok Bot",
+          "usage",
+          "API",
+          "Codex"
+        ],
+        "media": "video",
+        "followers": null,
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113891994128822631",
+        "handle": "@RoundtableSpace",
+        "lane": "outsider",
+        "views": 24316,
+        "trend_match": 31,
+        "verdict": "совпадение/другое",
+        "matched_keywords": [
+          "AI agent",
+          "GitHub"
+        ],
+        "media": "text",
+        "followers": null,
+        "topic": "Solo founder на автопилоте, бюджетные агенты",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113341512599638139",
+        "handle": "@ludoonchart",
+        "lane": "outsider",
+        "views": 15513,
+        "trend_match": 92,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "agents",
+          "Opus 5.5",
+          "usage",
+          "AI agent",
+          "API",
+          "Sonnet 5.5",
+          "GitHub"
+        ],
+        "media": "video",
+        "followers": null,
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "note": "подписчики: нет данных"
+      },
+      {
+        "id": "2113664122000642398",
+        "handle": "@CampbellKaleb23",
+        "lane": "outsider",
+        "views": 12119,
+        "trend_match": 76,
+        "verdict": "тренд",
+        "matched_keywords": [
+          "Claude Code",
+          "Opus 5.5",
+          "usage",
+          "Fable"
+        ],
+        "media": "text",
+        "followers": null,
+        "topic": "Claude Code + Opus 5.5: skills, harness, стеки",
+        "note": "подписчики: нет данных"
+      }
+    ],
+    "legend": "trend match 0-100% = 1-∏(1-w) по совпавшим 24h-ключам (топ-10 w=0.35, 11-25 w=0.22, 26-40 w=0.12, ручные 0.20); ключ засчитывается, только если он есть и у другого автора в окне 48 ч. Вердикт: ≥50% → тренд; иначе есть видео/картинка в данных поста (media_note; у самоцитат медиа может быть в цитируемом посте) → визуал; иначе ≥100K подписчиков → автор/аудитория (у outsiders подписчиков в данных нет - тогда оценка: ≥500K просмотров); иначе совпадение/другое. Heat = Σlog10(views) постов темы (24 ч ×1, 24-48 ч ×0.5), нормировано к 100. Momentum = Σlog10(views) постов темы за последние 24 ч / за предыдущие 24 ч (лог, чтобы один мега-пост не решал всё); корпус = все посты ≥5K из леджера (watchlist, 24h, outsiders D-1 и D) в окне 48 ч."
   }
 }
