@@ -411,8 +411,10 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
 .you-chip{display:inline-flex;align-items:center;margin-left:8px;padding:2px 7px;border:1px solid var(--lime);color:var(--lime);font:800 9px "IBM Plex Mono",monospace;letter-spacing:.1em;vertical-align:middle;border-radius:999px}
 .your-day{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}
 .your-day .yd-label{font:600 10px "IBM Plex Mono",monospace;text-transform:uppercase;letter-spacing:.14em;color:var(--lime);margin-bottom:10px}
-.your-day .yd-meta{font:500 11px "IBM Plex Mono",monospace;color:var(--muted);margin-bottom:12px}
+.your-day .yd-meta{font:500 11px "IBM Plex Mono",monospace;color:var(--muted);margin-bottom:8px}
 .your-day .yd-meta a{color:var(--cyan);text-decoration:none;border-bottom:1px solid rgba(42,212,245,.35)}
+.your-day .yd-gained{font:500 11px "IBM Plex Mono",monospace;color:var(--muted);margin:0 0 12px;line-height:1.55}
+.your-day .yd-gained b{color:var(--text);font-weight:800}
 .roster-panel{padding:20px 22px;margin-bottom:8px}
 .roster-list{display:grid;gap:0}
 .roster-row{display:grid;grid-template-columns:36px 1fr auto auto;gap:12px;align-items:center;padding:9px 8px;border-top:1px solid var(--line);border-radius:6px;transition:background .2s}
@@ -683,6 +685,7 @@ footer{margin-top:52px;padding-top:22px;border-top:1px solid var(--line);color:v
         <div class="your-day" id="your-day">
           <div class="yd-label" id="your-day-label">Your day · @thegreatest_sv</div>
           <div class="yd-meta" id="your-day-meta">loading…</div>
+          <div class="yd-gained" id="your-day-gained"></div>
           <div class="target-list" style="padding-top:0;margin-top:0;gap:16px">
             <div><div class="target-row-head"><span>Best post vs 5k</span><b id="you-5k-copy">—</b></div><div class="target-track"><div class="target-fill" id="you-5k-progress"></div></div></div>
             <div><div class="target-row-head"><span>Best post vs 10k ★</span><b id="you-10k-copy">—</b></div><div class="target-track"><div class="target-fill" id="you-10k-progress"></div></div></div>
@@ -975,6 +978,8 @@ function renderYourDay(youRank, handle){
   const meta=document.getElementById('your-day-meta');
   if(!youRank){
     if(meta) meta.textContent=`No personal day data yet — scrape needed for ${handle||'@operator'}.`;
+    const ge=document.getElementById('your-day-gained');
+    if(ge) ge.textContent='';
     return;
   }
   const bv=youRank.best_views;
@@ -990,7 +995,22 @@ function renderYourDay(youRank, handle){
       const rk=youRank.rank_among_watchlist!=null?` · rank #${youRank.rank_among_watchlist}/${youRank.total_accounts||'?'} `:'';
       const dl=youRank.best_delta_label?` · best ${esc(youRank.best_delta_label)}`:'';
       const asof=youRank.views_as_of?` · views as of ${esc(shortTs(youRank.views_as_of))}`:'';
-      meta.innerHTML=`Day <b style="color:var(--text)">${esc(fmtBestTotal(bv,tv))}</b> best / total${rk}${dl}${asof}${link}`;
+      meta.innerHTML=`Day <b style="color:var(--text)">${esc(fmtBestTotal(bv,tv))}</b> best / total on day's posts${rk}${dl}${asof}${link}`;
+    }
+  }
+  const gainedEl=document.getElementById('your-day-gained');
+  if(gainedEl){
+    const g=youRank&&youRank.gained;
+    if(g&&g.total!=null){
+      const win=g.label||((g.window_start&&g.window_end)?`${shortTs(g.window_start)} – ${shortTs(g.window_end)} MSK`:'');
+      gainedEl.innerHTML=`All views gained for the day (incl. older posts): <b>${esc(nfull(g.total))}</b>`
+        +` · day's posts ${esc(nfull(g.day_posts))}`
+        +` · older posts ${esc(sgn(g.older_posts))}`
+        +(g.older_prev_day?` (D-1 posts ${esc(sgn(g.older_prev_day))})`:'')
+        +(win?` · window ${esc(win)}`:'')
+        +`<div style="margin-top:4px">Rank still uses day's-posts totals (other accounts lack a complete older-post series).</div>`;
+    }else{
+      gainedEl.textContent='';
     }
   }
   const v=num(bv);
