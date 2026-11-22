@@ -2,7 +2,7 @@
  "title": "X Digest Board",
  "date": "2026-11-21",
  "timezone": "Europe/Moscow",
- "updated": "2026-11-22T11:07:56+03:00",
+ "updated": "2026-11-22T11:17:31+03:00",
  "hits": [
   {
    "display_name": "Sprytix",
@@ -54,7 +54,6 @@
    "handle_label": "@Sprytixl (9.2K, +179)",
    "views_as_of": "2026-11-22T11:02:09+03:00",
    "snapshots": 1,
-   "stale": false,
    "why_hit": {
     "trend_match": 98,
     "verdict": "тренд",
@@ -73,7 +72,8 @@
     "media": "image",
     "note": "",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "stale": false
   },
   {
    "display_name": "Argona",
@@ -125,12 +125,6 @@
    "handle_label": "@Argona0x (41.1K, +56)",
    "views_as_of": "2026-11-22T11:01:52+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2122308036484022324",
-   "quote_of_date": "16.11",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 16.11",
    "why_hit": {
     "trend_match": 73,
     "verdict": "тренд",
@@ -142,7 +136,13 @@
     "media": "video",
     "note": "",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2122308036484022324",
+   "quote_of_date": "16.11",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 16.11"
   },
   {
    "display_name": "NO1ennn",
@@ -193,6 +193,17 @@
    "handle_label": "@N01ennn (10.2K, +40)",
    "views_as_of": "2026-11-22T10:59:35+03:00",
    "snapshots": 2,
+   "why_hit": {
+    "trend_match": 39,
+    "verdict": "совпадение/другое",
+    "matched_keywords": [
+     "Harness",
+     "loops"
+    ],
+    "media": "text",
+    "note": "",
+    "topic": "Harness / loops / second brain"
+   },
    "stale": false,
    "views_prev": 19051,
    "views_delta": 65935,
@@ -204,18 +215,7 @@
    "g24": 65935,
    "g24_since": "2026-11-21T10:57:54+03:00",
    "g24_hours": 24,
-   "g24_label": "+65,935 за 24 ч",
-   "why_hit": {
-    "trend_match": 39,
-    "verdict": "совпадение/другое",
-    "matched_keywords": [
-     "Harness",
-     "loops"
-    ],
-    "media": "text",
-    "note": "",
-    "topic": "Harness / loops / second brain"
-   }
+   "g24_label": "+65,935 за 24 ч"
   },
   {
    "display_name": "Mika",
@@ -265,6 +265,16 @@
    "handle_label": "@mika_systems (3.5K, +50)",
    "views_as_of": "2026-11-22T10:59:35+03:00",
    "snapshots": 2,
+   "why_hit": {
+    "trend_match": 12,
+    "verdict": "визуал",
+    "matched_keywords": [
+     "Anthropic"
+    ],
+    "media": "video",
+    "note": "",
+    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
+   },
    "stale": false,
    "views_prev": 30542,
    "views_delta": 44835,
@@ -281,17 +291,7 @@
    "quote_of_id": "2113284235268087850",
    "quote_of_date": "22.10",
    "self_quote": true,
-   "self_quote_label": "самоцитата 22.10",
-   "why_hit": {
-    "trend_match": 12,
-    "verdict": "визуал",
-    "matched_keywords": [
-     "Anthropic"
-    ],
-    "media": "video",
-    "note": "",
-    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   "self_quote_label": "самоцитата 22.10"
   },
   {
    "display_name": "RetroChainer",
@@ -341,12 +341,6 @@
    "handle_label": "@RetroChainer (7.3K, +73)",
    "views_as_of": "2026-11-22T11:01:55+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2122757992311369934",
-   "quote_of_date": "17.11",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 17.11",
    "why_hit": {
     "trend_match": 35,
     "verdict": "визуал",
@@ -356,7 +350,13 @@
     "media": "video",
     "note": "",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2122757992311369934",
+   "quote_of_date": "17.11",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 17.11"
   },
   {
    "display_name": "Florence",
@@ -395,12 +395,6 @@
    "handle_label": "@flxrnc (4.3K, +157)",
    "views_as_of": "2026-11-22T11:02:41+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2120207374250049675",
-   "quote_of_date": "10.11",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 10.11",
    "why_hit": {
     "trend_match": 73,
     "verdict": "тренд",
@@ -412,7 +406,13 @@
     "media": "video",
     "note": "",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2120207374250049675",
+   "quote_of_date": "10.11",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 10.11"
   },
   {
    "display_name": "NO1ennn",
@@ -451,12 +451,6 @@
    "handle_label": "@N01ennn (10.2K, +40)",
    "views_as_of": "2026-11-22T11:02:04+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2123757709811925206",
-   "quote_of_date": "20.11",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 20.11",
    "why_hit": {
     "trend_match": 35,
     "verdict": "визуал",
@@ -466,7 +460,13 @@
     "media": "video",
     "note": "",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2123757709811925206",
+   "quote_of_date": "20.11",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 20.11"
   },
   {
    "display_name": "Sprytix",
@@ -504,7 +504,6 @@
    "handle_label": "@Sprytixl (9.2K, +179)",
    "views_as_of": "2026-11-22T11:02:09+03:00",
    "snapshots": 1,
-   "stale": false,
    "why_hit": {
     "trend_match": 60,
     "verdict": "тренд",
@@ -516,7 +515,8 @@
     "media": "text",
     "note": "",
     "topic": "GTA 6 запуск: инсайдеры Rockstar, деньги на хайпе, клипы агентами"
-   }
+   },
+   "stale": false
   },
   {
    "display_name": "slash1s",
@@ -554,12 +554,6 @@
    "handle_label": "@slash1sol (15K, +14)",
    "views_as_of": "2026-11-22T11:02:13+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2122313821318480063",
-   "quote_of_date": "16.11",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 16.11",
    "why_hit": {
     "trend_match": 74,
     "verdict": "тренд",
@@ -572,7 +566,13 @@
     "media": "image",
     "note": "",
     "topic": "Fable 5.2 моушн-дизайн и видео из репо"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2122313821318480063",
+   "quote_of_date": "16.11",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 16.11"
   },
   {
    "display_name": "Sprytix",
@@ -610,7 +610,6 @@
    "handle_label": "@Sprytixl (9.2K, +179)",
    "views_as_of": "2026-11-22T11:02:09+03:00",
    "snapshots": 1,
-   "stale": false,
    "why_hit": {
     "trend_match": 35,
     "verdict": "совпадение/другое",
@@ -620,7 +619,8 @@
     "media": "text",
     "note": "",
     "topic": "GTA 6 запуск: инсайдеры Rockstar, деньги на хайпе, клипы агентами"
-   }
+   },
+   "stale": false
   },
   {
    "display_name": "bl888m",
@@ -658,12 +658,6 @@
    "handle_label": "@bl888m_eth (13.8K, +35)",
    "views_as_of": "2026-11-22T11:02:01+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2119067938896716197",
-   "quote_of_date": "07.11",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 07.11",
    "why_hit": {
     "trend_match": 43,
     "verdict": "визуал",
@@ -674,7 +668,13 @@
     "media": "image",
     "note": "",
     "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2119067938896716197",
+   "quote_of_date": "07.11",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 07.11"
   },
   {
    "display_name": "leopardracer",
@@ -712,10 +712,6 @@
    "handle_label": "@leopardracer (17.6K, +81)",
    "views_as_of": "2026-11-22T11:02:16+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2124099252318244870",
-   "quote_of_date": "21.11",
    "why_hit": {
     "trend_match": 85,
     "verdict": "тренд",
@@ -732,7 +728,11 @@
     "media": "image",
     "note": "",
     "topic": "Fable 5.2 моушн-дизайн и видео из репо"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2124099252318244870",
+   "quote_of_date": "21.11"
   },
   {
    "display_name": "Bober_smart",
@@ -770,12 +770,6 @@
    "handle_label": "@Bober_smart (26.5K, +128)",
    "views_as_of": "2026-11-22T11:01:28+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2091901718061531571",
-   "quote_of_date": "24.08",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 24.08",
    "why_hit": {
     "trend_match": 49,
     "verdict": "визуал",
@@ -786,7 +780,13 @@
     "media": "video",
     "note": "",
     "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2091901718061531571",
+   "quote_of_date": "24.08",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 24.08"
   },
   {
    "display_name": "beamnxw ./",
@@ -824,23 +824,6 @@
    "handle_label": "@beamnxw (17.4K, +104)",
    "views_as_of": "2026-11-22T10:59:35+03:00",
    "snapshots": 2,
-   "stale": false,
-   "views_prev": 3242,
-   "views_delta": 17337,
-   "delta_since": "2026-11-21T10:58:06+03:00",
-   "delta_label": "+17,337 since 21.11 10:58",
-   "views_first": 3242,
-   "first_at": "2026-11-21T10:58:06+03:00",
-   "growth_since_first": 17337,
-   "g24": 17337,
-   "g24_since": "2026-11-21T10:58:06+03:00",
-   "g24_hours": 24,
-   "g24_label": "+17,337 за 24 ч",
-   "is_quote": true,
-   "quote_of_id": "2122302670421491953",
-   "quote_of_date": "16.11",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 16.11",
    "why_hit": {
     "trend_match": 86,
     "verdict": "тренд",
@@ -857,7 +840,24 @@
     "media": "video",
     "note": "",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "stale": false,
+   "views_prev": 3242,
+   "views_delta": 17337,
+   "delta_since": "2026-11-21T10:58:06+03:00",
+   "delta_label": "+17,337 since 21.11 10:58",
+   "views_first": 3242,
+   "first_at": "2026-11-21T10:58:06+03:00",
+   "growth_since_first": 17337,
+   "g24": 17337,
+   "g24_since": "2026-11-21T10:58:06+03:00",
+   "g24_hours": 24,
+   "g24_label": "+17,337 за 24 ч",
+   "is_quote": true,
+   "quote_of_id": "2122302670421491953",
+   "quote_of_date": "16.11",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 16.11"
   },
   {
    "display_name": "Carver",
@@ -895,6 +895,14 @@
    "handle_label": "@carverfomo (41.5K, +1,260)",
    "views_as_of": "2026-11-22T10:59:35+03:00",
    "snapshots": 2,
+   "why_hit": {
+    "trend_match": 0,
+    "verdict": "визуал",
+    "matched_keywords": [],
+    "media": "video",
+    "note": "",
+    "topic": null
+   },
    "stale": false,
    "views_prev": 4366,
    "views_delta": 13133,
@@ -906,15 +914,7 @@
    "g24": 13133,
    "g24_since": "2026-11-21T10:58:14+03:00",
    "g24_hours": 24,
-   "g24_label": "+13,133 за 24 ч",
-   "why_hit": {
-    "trend_match": 0,
-    "verdict": "визуал",
-    "matched_keywords": [],
-    "media": "video",
-    "note": "",
-    "topic": null
-   }
+   "g24_label": "+13,133 за 24 ч"
   },
   {
    "display_name": "Bober_smart",
@@ -952,12 +952,6 @@
    "handle_label": "@Bober_smart (26.5K, +128)",
    "views_as_of": "2026-11-22T11:01:28+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2091901718061531571",
-   "quote_of_date": "24.08",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 24.08",
    "why_hit": {
     "trend_match": 67,
     "verdict": "тренд",
@@ -970,7 +964,13 @@
     "media": "video",
     "note": "",
     "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2091901718061531571",
+   "quote_of_date": "24.08",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 24.08"
   },
   {
    "display_name": "zostaff",
@@ -1009,12 +1009,6 @@
    "handle_label": "@zostaff (18.3K, +15)",
    "views_as_of": "2026-11-22T11:01:38+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2123540755075436677",
-   "quote_of_date": "20.11",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 20.11",
    "why_hit": {
     "trend_match": 60,
     "verdict": "тренд",
@@ -1026,7 +1020,13 @@
     "media": "image",
     "note": "",
     "topic": "GTA 6 запуск: инсайдеры Rockstar, деньги на хайпе, клипы агентами"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2123540755075436677",
+   "quote_of_date": "20.11",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 20.11"
   },
   {
    "display_name": "codila",
@@ -1065,12 +1065,6 @@
    "handle_label": "@0xCodila (37.1K, +104)",
    "views_as_of": "2026-11-22T11:02:44+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2090130749768786050",
-   "quote_of_date": "19.08",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 19.08",
    "why_hit": {
     "trend_match": 35,
     "verdict": "визуал",
@@ -1080,7 +1074,13 @@
     "media": "image",
     "note": "",
     "topic": "Gemini 4 и GPT-6: гонка моделей и бенчмарки"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2090130749768786050",
+   "quote_of_date": "19.08",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 19.08"
   },
   {
    "display_name": "SCOTTY BEAM",
@@ -1119,12 +1119,6 @@
    "handle_label": "@ScottyBeamIO (78.7K, −22)",
    "views_as_of": "2026-11-22T11:01:25+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2119442033769136299",
-   "quote_of_date": "08.11",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 08.11",
    "why_hit": {
     "trend_match": 67,
     "verdict": "тренд",
@@ -1136,7 +1130,13 @@
     "media": "image",
     "note": "",
     "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2119442033769136299",
+   "quote_of_date": "08.11",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 08.11"
   },
   {
    "display_name": "CyrilXBT",
@@ -1175,12 +1175,6 @@
    "handle_label": "@cyrilXBT (197K, +214)",
    "views_as_of": "2026-11-22T11:02:35+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2123100663513034796",
-   "quote_of_date": "18.11",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 18.11",
    "why_hit": {
     "trend_match": 58,
     "verdict": "тренд",
@@ -1191,7 +1185,13 @@
     "media": "video",
     "note": "",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2123100663513034796",
+   "quote_of_date": "18.11",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 18.11"
   },
   {
    "display_name": "Chris",
@@ -1229,7 +1229,6 @@
    "handle_label": "@everestchris6 (28.3K, +17)",
    "views_as_of": "2026-11-22T11:02:26+03:00",
    "snapshots": 1,
-   "stale": false,
    "why_hit": {
     "trend_match": 73,
     "verdict": "тренд",
@@ -1241,7 +1240,8 @@
     "media": "video",
     "note": "",
     "topic": "Fable 5.2 моушн-дизайн и видео из репо"
-   }
+   },
+   "stale": false
   },
   {
    "display_name": "CyrilXBT",
@@ -1279,6 +1279,22 @@
    "handle_label": "@cyrilXBT (197K, +214)",
    "views_as_of": "2026-11-22T10:59:35+03:00",
    "snapshots": 2,
+   "why_hit": {
+    "trend_match": 93,
+    "verdict": "тренд",
+    "matched_keywords": [
+     "Fable 5.2",
+     "GitHub repos",
+     "video",
+     "skills",
+     "Opus 5.5",
+     "Claude Fable 5.2",
+     "stack"
+    ],
+    "media": "video",
+    "note": "",
+    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
+   },
    "stale": false,
    "views_prev": 3236,
    "views_delta": 4340,
@@ -1295,23 +1311,7 @@
    "quote_of_id": "2123100663513034796",
    "quote_of_date": "18.11",
    "self_quote": true,
-   "self_quote_label": "самоцитата 18.11",
-   "why_hit": {
-    "trend_match": 93,
-    "verdict": "тренд",
-    "matched_keywords": [
-     "Fable 5.2",
-     "GitHub repos",
-     "video",
-     "skills",
-     "Opus 5.5",
-     "Claude Fable 5.2",
-     "stack"
-    ],
-    "media": "video",
-    "note": "",
-    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   "self_quote_label": "самоцитата 18.11"
   },
   {
    "display_name": "Carver",
@@ -1349,7 +1349,6 @@
    "handle_label": "@carverfomo (41.5K, +1,260)",
    "views_as_of": "2026-11-22T11:02:29+03:00",
    "snapshots": 1,
-   "stale": false,
    "why_hit": {
     "trend_match": 0,
     "verdict": "визуал",
@@ -1357,7 +1356,8 @@
     "media": "video",
     "note": "",
     "topic": null
-   }
+   },
+   "stale": false
   },
   {
    "display_name": "beamnxw ./",
@@ -1395,12 +1395,6 @@
    "handle_label": "@beamnxw (17.4K, +104)",
    "views_as_of": "2026-11-22T11:02:19+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2119806541821776215",
-   "quote_of_date": "09.11",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 09.11",
    "why_hit": {
     "trend_match": 87,
     "verdict": "тренд",
@@ -1415,7 +1409,13 @@
     "media": "image",
     "note": "",
     "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2119806541821776215",
+   "quote_of_date": "09.11",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 09.11"
   },
   {
    "display_name": "Ridark",
@@ -1453,23 +1453,6 @@
    "handle_label": "@ridark_eth (15.8K, +6)",
    "views_as_of": "2026-11-22T10:59:35+03:00",
    "snapshots": 2,
-   "stale": false,
-   "views_prev": 5251,
-   "views_delta": 2226,
-   "delta_since": "2026-11-21T10:57:39+03:00",
-   "delta_label": "+2,226 since 21.11 10:57",
-   "views_first": 5251,
-   "first_at": "2026-11-21T10:57:39+03:00",
-   "growth_since_first": 2226,
-   "g24": 2226,
-   "g24_since": "2026-11-21T10:57:39+03:00",
-   "g24_hours": 24,
-   "g24_label": "+2,226 за 24 ч",
-   "is_quote": true,
-   "quote_of_id": "2091924787341766859",
-   "quote_of_date": "24.08",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 24.08",
    "why_hit": {
     "trend_match": 89,
     "verdict": "тренд",
@@ -1486,7 +1469,24 @@
     "media": "video",
     "note": "",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "stale": false,
+   "views_prev": 5251,
+   "views_delta": 2226,
+   "delta_since": "2026-11-21T10:57:39+03:00",
+   "delta_label": "+2,226 since 21.11 10:57",
+   "views_first": 5251,
+   "first_at": "2026-11-21T10:57:39+03:00",
+   "growth_since_first": 2226,
+   "g24": 2226,
+   "g24_since": "2026-11-21T10:57:39+03:00",
+   "g24_hours": 24,
+   "g24_label": "+2,226 за 24 ч",
+   "is_quote": true,
+   "quote_of_id": "2091924787341766859",
+   "quote_of_date": "24.08",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 24.08"
   },
   {
    "display_name": "Mr. Buzzoni",
@@ -1524,6 +1524,17 @@
    "handle_label": "@Mr_Buzzoni (29.4K, +8)",
    "views_as_of": "2026-11-22T10:59:35+03:00",
    "snapshots": 2,
+   "why_hit": {
+    "trend_match": 49,
+    "verdict": "визуал",
+    "matched_keywords": [
+     "Opus 5.5",
+     "Andrej Karpathy's"
+    ],
+    "media": "video",
+    "note": "",
+    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
+   },
    "stale": false,
    "views_prev": 783,
    "views_delta": 6559,
@@ -1538,18 +1549,7 @@
    "g24_label": "+6,559 за 24 ч",
    "is_quote": true,
    "quote_of_id": "2123722199198581068",
-   "quote_of_date": "20.11",
-   "why_hit": {
-    "trend_match": 49,
-    "verdict": "визуал",
-    "matched_keywords": [
-     "Opus 5.5",
-     "Andrej Karpathy's"
-    ],
-    "media": "video",
-    "note": "",
-    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   "quote_of_date": "20.11"
   },
   {
    "display_name": "CyrilXBT",
@@ -1588,7 +1588,6 @@
    "handle_label": "@cyrilXBT (197K, +214)",
    "views_as_of": "2026-11-22T11:02:35+03:00",
    "snapshots": 1,
-   "stale": false,
    "why_hit": {
     "trend_match": 58,
     "verdict": "тренд",
@@ -1599,7 +1598,8 @@
     "media": "image",
     "note": "",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "stale": false
   },
   {
    "display_name": "CyrilXBT",
@@ -1638,6 +1638,19 @@
    "handle_label": "@cyrilXBT (197K, +214)",
    "views_as_of": "2026-11-22T10:59:35+03:00",
    "snapshots": 2,
+   "why_hit": {
+    "trend_match": 76,
+    "verdict": "тренд",
+    "matched_keywords": [
+     "Claude Code",
+     "model",
+     "Opus 5.5",
+     "API"
+    ],
+    "media": "image",
+    "note": "",
+    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
+   },
    "stale": false,
    "views_prev": 3625,
    "views_delta": 3343,
@@ -1654,20 +1667,7 @@
    "quote_of_id": "2123100663513034796",
    "quote_of_date": "18.11",
    "self_quote": true,
-   "self_quote_label": "самоцитата 18.11",
-   "why_hit": {
-    "trend_match": 76,
-    "verdict": "тренд",
-    "matched_keywords": [
-     "Claude Code",
-     "model",
-     "Opus 5.5",
-     "API"
-    ],
-    "media": "image",
-    "note": "",
-    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   "self_quote_label": "самоцитата 18.11"
   },
   {
    "display_name": "Mika",
@@ -1706,12 +1706,6 @@
    "handle_label": "@mika_systems (3.5K, +50)",
    "views_as_of": "2026-11-22T11:02:38+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2113284235268087850",
-   "quote_of_date": "22.10",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 22.10",
    "why_hit": {
     "trend_match": 43,
     "verdict": "визуал",
@@ -1722,7 +1716,13 @@
     "media": "video",
     "note": "",
     "topic": null
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2113284235268087850",
+   "quote_of_date": "22.10",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 22.10"
   },
   {
    "display_name": "beamnxw ./",
@@ -1760,12 +1760,6 @@
    "handle_label": "@beamnxw (17.4K, +104)",
    "views_as_of": "2026-11-22T11:02:19+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2107522996046905797",
-   "quote_of_date": "06.10",
-   "self_quote": true,
-   "self_quote_label": "самоцитата 06.10",
    "why_hit": {
     "trend_match": 74,
     "verdict": "тренд",
@@ -1778,7 +1772,13 @@
     "media": "image",
     "note": "",
     "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2107522996046905797",
+   "quote_of_date": "06.10",
+   "self_quote": true,
+   "self_quote_label": "самоцитата 06.10"
   },
   {
    "display_name": "rody",
@@ -1816,6 +1816,20 @@
    "handle_label": "@0x_rody (5.3K, +11)",
    "views_as_of": "2026-11-22T10:59:35+03:00",
    "snapshots": 2,
+   "why_hit": {
+    "trend_match": 81,
+    "verdict": "тренд",
+    "matched_keywords": [
+     "Grok Bot",
+     "video",
+     "model",
+     "Engine",
+     "Canvas"
+    ],
+    "media": "video",
+    "note": "",
+    "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
+   },
    "stale": false,
    "views_prev": 2194,
    "views_delta": 3516,
@@ -1832,21 +1846,7 @@
    "quote_of_id": "2112558839589417355",
    "quote_of_date": "20.10",
    "self_quote": true,
-   "self_quote_label": "самоцитата 20.10",
-   "why_hit": {
-    "trend_match": 81,
-    "verdict": "тренд",
-    "matched_keywords": [
-     "Grok Bot",
-     "video",
-     "model",
-     "Engine",
-     "Canvas"
-    ],
-    "media": "video",
-    "note": "",
-    "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
-   }
+   "self_quote_label": "самоцитата 20.10"
   },
   {
    "display_name": "Carver",
@@ -1884,6 +1884,14 @@
    "handle_label": "@carverfomo (41.5K, +1,260)",
    "views_as_of": "2026-11-22T10:59:35+03:00",
    "snapshots": 2,
+   "why_hit": {
+    "trend_match": 0,
+    "verdict": "совпадение/другое",
+    "matched_keywords": [],
+    "media": "text",
+    "note": "",
+    "topic": null
+   },
    "stale": false,
    "views_prev": 1214,
    "views_delta": 4493,
@@ -1898,15 +1906,7 @@
    "g24_label": "+4,493 за 24 ч",
    "is_quote": true,
    "quote_of_id": "2123895150695088346",
-   "quote_of_date": "21.11",
-   "why_hit": {
-    "trend_match": 0,
-    "verdict": "совпадение/другое",
-    "matched_keywords": [],
-    "media": "text",
-    "note": "",
-    "topic": null
-   }
+   "quote_of_date": "21.11"
   },
   {
    "display_name": "shmidt",
@@ -1944,10 +1944,6 @@
    "handle_label": "@shmidtqq (13.6K, +14)",
    "views_as_of": "2026-11-22T11:01:43+03:00",
    "snapshots": 1,
-   "stale": false,
-   "is_quote": true,
-   "quote_of_id": "2123722199198581068",
-   "quote_of_date": "20.11",
    "why_hit": {
     "trend_match": 98,
     "verdict": "тренд",
@@ -1966,7 +1962,11 @@
     "media": "video",
     "note": "",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "stale": false,
+   "is_quote": true,
+   "quote_of_id": "2123722199198581068",
+   "quote_of_date": "20.11"
   },
   {
    "display_name": "CyrilXBT",
@@ -2005,7 +2005,6 @@
    "handle_label": "@cyrilXBT (197K, +214)",
    "views_as_of": "2026-11-22T11:02:35+03:00",
    "snapshots": 1,
-   "stale": false,
    "why_hit": {
     "trend_match": 43,
     "verdict": "визуал",
@@ -2016,7 +2015,8 @@
     "media": "video",
     "note": "",
     "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
-   }
+   },
+   "stale": false
   },
   {
    "display_name": "CyrilXBT",
@@ -2055,7 +2055,6 @@
    "handle_label": "@cyrilXBT (197K, +214)",
    "views_as_of": "2026-11-22T11:02:35+03:00",
    "snapshots": 1,
-   "stale": false,
    "why_hit": {
     "trend_match": 0,
     "verdict": "визуал",
@@ -2063,7 +2062,8 @@
     "media": "image",
     "note": "",
     "topic": null
-   }
+   },
+   "stale": false
   }
  ],
  "virals": [
@@ -2109,7 +2109,11 @@
     "media": "video",
     "note": "подписчики: нет данных",
     "topic": "Fable 5.2 моушн-дизайн и видео из репо"
-   }
+   },
+   "id": "2124238164512714925",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Elon Musk",
@@ -2154,7 +2158,11 @@
     "media": "text",
     "note": "подписчики: нет данных (оценка по охвату ≥500K)",
     "topic": "Fable 5.2 моушн-дизайн и видео из репо"
-   }
+   },
+   "id": "2124270426402836626",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Elon Musk",
@@ -2196,7 +2204,11 @@
     "media": "text",
     "note": "подписчики: нет данных (оценка по охвату ≥500K)",
     "topic": null
-   }
+   },
+   "id": "2124219378489311656",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Elon Musk",
@@ -2240,7 +2252,11 @@
     "media": "text",
     "note": "подписчики: нет данных (оценка по охвату ≥500K)",
     "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
-   }
+   },
+   "id": "2124280710747840889",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Superman",
@@ -2286,7 +2302,11 @@
     "media": "image",
     "note": "подписчики: нет данных",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "id": "2124138507367281023",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Daniel San",
@@ -2322,7 +2342,11 @@
     "media": "text",
     "note": "подписчики: нет данных",
     "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
-   }
+   },
+   "id": "2124014299483873352",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "xsmryze",
@@ -2358,7 +2382,11 @@
     "media": "video",
     "note": "подписчики: нет данных",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "id": "2124270289131602109",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Ishika Rawat",
@@ -2393,7 +2421,11 @@
     "media": "video",
     "note": "подписчики: нет данных",
     "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
-   }
+   },
+   "id": "2124148329114468476",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Dipanshu Kushwaha",
@@ -2429,7 +2461,11 @@
     "media": "video",
     "note": "подписчики: нет данных",
     "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
-   }
+   },
+   "id": "2123983900959740140",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Kagi",
@@ -2463,7 +2499,11 @@
     "media": "text",
     "note": "подписчики: нет данных",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "id": "2123812141199143385",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Neue Academy",
@@ -2496,7 +2536,11 @@
     "media": "video",
     "note": "подписчики: нет данных",
     "topic": "Fable 5.2 моушн-дизайн и видео из репо"
-   }
+   },
+   "id": "2123767154054959406",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "0xCloudvex",
@@ -2535,7 +2579,11 @@
     "media": "video",
     "note": "подписчики: нет данных",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "id": "2124211755140129171",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "le0xet",
@@ -2572,7 +2620,11 @@
     "media": "video",
     "note": "подписчики: нет данных",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "id": "2123894848834904367",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "rvaniaaa",
@@ -2611,7 +2663,11 @@
     "media": "video",
     "note": "подписчики: нет данных",
     "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
-   }
+   },
+   "id": "2123775484185973166",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "anstap",
@@ -2642,7 +2698,11 @@
     "media": "video",
     "note": "подписчики: нет данных",
     "topic": null
-   }
+   },
+   "id": "2124135969884454975",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "David Pawlan",
@@ -2673,7 +2733,11 @@
     "media": "image",
     "note": "подписчики: нет данных",
     "topic": null
-   }
+   },
+   "id": "2123793068503843093",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "alucardio",
@@ -2704,7 +2768,11 @@
     "media": "video",
     "note": "подписчики: нет данных",
     "topic": null
-   }
+   },
+   "id": "2124146521595650385",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "andrey",
@@ -2736,7 +2804,11 @@
     "media": "image",
     "note": "подписчики: нет данных",
     "topic": null
-   }
+   },
+   "id": "2124164409178386716",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "bebu",
@@ -2768,7 +2840,11 @@
     "media": "text",
     "note": "подписчики: нет данных",
     "topic": null
-   }
+   },
+   "id": "2124031568989847643",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Aakash Gupta",
@@ -2799,7 +2875,11 @@
     "media": "text",
     "note": "подписчики: нет данных",
     "topic": null
-   }
+   },
+   "id": "2124383124432068751",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   }
  ],
  "patterns": [
@@ -2990,7 +3070,21 @@
     "word_overlap": 0.579,
     "max_copied_run": 4
    },
-   "top10_rank": 1
+   "top10_rank": 1,
+   "why_hit": {
+    "trend_match": 35,
+    "verdict": "визуал",
+    "matched_keywords": [
+     "video"
+    ],
+    "media": "video",
+    "note": "подписчики: нет данных",
+    "topic": "Fable 5.2 моушн-дизайн и видео из репо"
+   },
+   "id": "2124238164512714925",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Elon Musk",
@@ -3024,7 +3118,22 @@
     "word_overlap": 0.5,
     "max_copied_run": 6
    },
-   "top10_rank": 2
+   "top10_rank": 2,
+   "why_hit": {
+    "trend_match": 49,
+    "verdict": "автор/аудитория",
+    "matched_keywords": [
+     "video",
+     "Engine"
+    ],
+    "media": "text",
+    "note": "подписчики: нет данных (оценка по охвату ≥500K)",
+    "topic": "Fable 5.2 моушн-дизайн и видео из репо"
+   },
+   "id": "2124270426402836626",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Elon Musk",
@@ -3058,7 +3167,19 @@
     "word_overlap": 0.333,
     "max_copied_run": 1
    },
-   "top10_rank": 3
+   "top10_rank": 3,
+   "why_hit": {
+    "trend_match": 0,
+    "verdict": "автор/аудитория",
+    "matched_keywords": [],
+    "media": "text",
+    "note": "подписчики: нет данных (оценка по охвату ≥500K)",
+    "topic": null
+   },
+   "id": "2124219378489311656",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Elon Musk",
@@ -3092,7 +3213,21 @@
     "word_overlap": 0.8,
     "max_copied_run": 3
    },
-   "top10_rank": 4
+   "top10_rank": 4,
+   "why_hit": {
+    "trend_match": 35,
+    "verdict": "автор/аудитория",
+    "matched_keywords": [
+     "Grok Bot"
+    ],
+    "media": "text",
+    "note": "подписчики: нет данных (оценка по охвату ≥500K)",
+    "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
+   },
+   "id": "2124280710747840889",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Superman",
@@ -3127,7 +3262,22 @@
     "word_overlap": 0.636,
     "max_copied_run": 5
    },
-   "top10_rank": 7
+   "top10_rank": 7,
+   "why_hit": {
+    "trend_match": 58,
+    "verdict": "тренд",
+    "matched_keywords": [
+     "Claude Code",
+     "agent"
+    ],
+    "media": "image",
+    "note": "подписчики: нет данных",
+    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
+   },
+   "id": "2124138507367281023",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Daniel San",
@@ -3151,7 +3301,23 @@
    "video_tip": "Terminal running the scan, list of findings for agents and MCP servers. 5s.",
    "text_note": "API-truncated mid-sentence (no note_tweet) — text shown as returned",
    "original_en": "I highly recommend running this skill on your projects\n\nvulnerability-scanner reviews your code for security vulnerabilities, including AI agents and MCP servers\n\nWhat it does:\n\n- Maps the attack surface and trust boundaries.\n\n- Detects prompt injection and insecure agent tools",
-   "board_rank": 11
+   "board_rank": 11,
+   "why_hit": {
+    "trend_match": 60,
+    "verdict": "тренд",
+    "matched_keywords": [
+     "agent",
+     "AI agents",
+     "security"
+    ],
+    "media": "text",
+    "note": "подписчики: нет данных",
+    "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
+   },
+   "id": "2124014299483873352",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "xsmryze",
@@ -3174,7 +3340,24 @@
    "hook": "@xsmryze: Anthropic's Claude Code trick - Sonnet, Haiku and Opus at once",
    "video_tip": "Split screen of three models each taking one job, token counter. 5s.",
    "original_en": "THIS IS AN ACTUAL F*CKING GOLDMINE\n\nAnthropic just shared one of the best tricks for Claude Code.\n\nThe idea: run Sonnet, Haiku 5.5 and Opus 5.5 at once, each one doing only the job it's best at.\n\nBetter results and way fewer tokens, because every task lands on the right model.",
-   "board_rank": 21
+   "board_rank": 21,
+   "why_hit": {
+    "trend_match": 76,
+    "verdict": "тренд",
+    "matched_keywords": [
+     "Claude Code",
+     "model",
+     "Opus 5.5",
+     "Anthropic"
+    ],
+    "media": "video",
+    "note": "подписчики: нет данных",
+    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
+   },
+   "id": "2124270289131602109",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Ishika Rawat",
@@ -3198,7 +3381,22 @@
    "video_tip": "Course timestamps as an animated chapter list. 4s.",
    "text_note": "API-truncated mid-sentence (no note_tweet) — text shown as returned",
    "original_en": "Don't waste 2 years learning to become an AI agentic engineer in 2026.  \n\nAndrew Ng, the godfather of AI, gave the complete playbook to become one from scratch.  \n\n1 hour course. Free:  \n\n• 00:00 - AI agent basics \n• 12:12 - AI Agentic workflows & design patterns \n• 53:27 -",
-   "board_rank": 22
+   "board_rank": 22,
+   "why_hit": {
+    "trend_match": 49,
+    "verdict": "визуал",
+    "matched_keywords": [
+     "agent",
+     "workflow"
+    ],
+    "media": "video",
+    "note": "подписчики: нет данных",
+    "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
+   },
+   "id": "2124148329114468476",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Dipanshu Kushwaha",
@@ -3222,7 +3420,23 @@
    "video_tip": "Chapter list with lecture clips. 4s.",
    "text_note": "API-truncated mid-sentence (no note_tweet) — text shown as returned",
    "original_en": "agentic engineer in 2026.\n\nAndrew Ng, the godfather of AI, gave the complete playbook to become one from scratch.\n\n1 hour course. Free:\n\n• 00:00 - AI agent basics\n• 12:12 - AI Agentic workflows & design patterns\n• 53:27 - Practical tips for building AI agents\n• 1:20:30 -",
-   "board_rank": 28
+   "board_rank": 28,
+   "why_hit": {
+    "trend_match": 60,
+    "verdict": "тренд",
+    "matched_keywords": [
+     "agent",
+     "AI agents",
+     "workflow"
+    ],
+    "media": "video",
+    "note": "подписчики: нет данных",
+    "topic": "Grok Bot как оператор: почта, TikTok, команда, Coinbase"
+   },
+   "id": "2123983900959740140",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Kagi",
@@ -3245,7 +3459,22 @@
    "hook": "@Kaggii_: Claude Code can run up to 20 agents, 5 text files make a dev team",
    "video_tip": "Five agent files opening as a team: scout, planner, builder, tester, reviewer. 5s.",
    "original_en": "Claude Code can run up to 20 agents at once. Most people use 1\n\n5 text files turn it into a dev team: scout, planner, builder, tester, reviewer\n\nyour part: one prompt and one yes. every file is inside, ready to copy",
-   "board_rank": 29
+   "board_rank": 29,
+   "why_hit": {
+    "trend_match": 58,
+    "verdict": "тренд",
+    "matched_keywords": [
+     "Claude Code",
+     "agent"
+    ],
+    "media": "text",
+    "note": "подписчики: нет данных",
+    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
+   },
+   "id": "2123812141199143385",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Neue Academy",
@@ -3268,7 +3497,21 @@
    "hook": "@neue_academy: first look at Neue Studio AI video editor",
    "video_tip": "Product demo: template -> motion graphics render. 5s.",
    "original_en": "🚀 Introducing a first look at Neue Studio.\n\nOur next-generation AI-powered video editor for video editing, creative coding, WebGL effects, procedural art, and generative motion graphics. All in one place.\n\nWith 150+ smart templates, you can create website showreels, product launches, commercial videos, and motion graphics, all adapting to your brand and creative context.\n\nOne editor. Endless creative possibilities.\n\nNeue Studio is currently available to existing Neue Academy members, with wider access coming soon.\n\nAnd we're just getting started.\n\n#AI #Editing #MotionDesign #Studio #GenerativeArt #MotionGraphics",
-   "board_rank": 44
+   "board_rank": 44,
+   "why_hit": {
+    "trend_match": 35,
+    "verdict": "визуал",
+    "matched_keywords": [
+     "video"
+    ],
+    "media": "video",
+    "note": "подписчики: нет данных",
+    "topic": "Fable 5.2 моушн-дизайн и видео из репо"
+   },
+   "id": "2123767154054959406",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "0xCloudvex",
@@ -3291,7 +3534,27 @@
    "hook": "@0xcloudvex: 19 free GitHub repos to max out a stock Grok Bot",
    "video_tip": "Repo list scroll with BRAIN / SKILLS / TEAM labels. 5s.",
    "original_en": "This is f*cking insane...\n\n19 free GitHub repos turn a stock Grok Bot into a maxed-out one\n\nBrain. Skills. Team. Jobs. Safety.\n\nBRAIN\n01 / grok-build → the open agent harness behind Grok's coding CLI\n02 / grok-prompts → the real system prompts Grok runs on\n03 / xai-cookbook → 30 runnable Grok apps to copy\n04 / xai-sdk-python → the official SDK, one pip install\n\nSKILLS\n05 / grok-skills → 195 SKILL.md playbooks for Grok Bot\n06 / grokbot-skills → one folder per skill, loaded only when needed\n07 / grok-bot-starter-pack → free one-job bot templates, clone and run\n\nTEAM\n08 / awesome-grok-bot → 8,000+ public bot shares in one index\n09 / awesome-grokbot-templates → curated bots you add from one link\n10 / noodle → Lauren Tan's skill-based agent orchestration\n11 / grok-build-plugin-cc → plug Grok Build into another agent for review\n\nJOBS\n12 / money-watchdog → reads your inbox read-only, catches sneaky charges\n13 / scam-shield → paste a sketchy message, get scam / legit / unsure\n14 / cosvoice-mcp → gives your bot a real phone number to call from\n15 / grok-bot-home-assistant-mcp → your bot runs your smart home\n16 / star-watch → a sky briefing twice a day, read aloud\n\nSAFETY\n17 / grok-bot-usage → weekly usage across every account, one command\n18 / resetradar → see your usage reset coming\n19 / agent-security → safety gates for anything your agent touches\n\nBrain → skills → team → jobs → safety → level max.\n\nBookmark this. Then read the article below↓",
-   "board_rank": 46
+   "board_rank": 46,
+   "why_hit": {
+    "trend_match": 92,
+    "verdict": "тренд",
+    "matched_keywords": [
+     "GitHub repos",
+     "Grok Bot",
+     "agent",
+     "skills",
+     "000+",
+     "security",
+     "Harness"
+    ],
+    "media": "video",
+    "note": "подписчики: нет данных",
+    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
+   },
+   "id": "2124211755140129171",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "le0xet",
@@ -3315,7 +3578,24 @@
    "video_tip": "Three-pane terminal with model labels. 5s.",
    "text_note": "API-truncated mid-sentence (no note_tweet) — text shown as returned",
    "original_en": "THIS IS A F*CKING GOLDMINE AND MOST PEOPLE WILL SCROLL PAST IT\n\nAnthropic just shared one of the best Claude Code tricks out there.\n\nThe idea: Sonnet 5.5, Haiku 5.5 and Opus 5.5 all run at once, and each one takes only the job it is best at.\n\nThe right model gets every task, so",
-   "board_rank": 47
+   "board_rank": 47,
+   "why_hit": {
+    "trend_match": 76,
+    "verdict": "тренд",
+    "matched_keywords": [
+     "Claude Code",
+     "model",
+     "Opus 5.5",
+     "Anthropic"
+    ],
+    "media": "video",
+    "note": "подписчики: нет данных",
+    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
+   },
+   "id": "2123894848834904367",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "rvaniaaa",
@@ -3338,7 +3618,27 @@
    "hook": "@rvaniaaaa: Anthropic's free courses on GitHub + 11 repos to AI engineer",
    "video_tip": "12-week roadmap graphic, repo per week. 5s.",
    "original_en": "THIS IS F*CKING INSANE, ANTHROPIC PUBLISHED ITS OWN COURSES ON GITHUB FOR FREE, AND 11 MORE REPOS TAKE YOU FROM ZERO TO AI ENGINEER\n\n12 repos, 12 weeks, one plan: Python → prompting → LLMs → fine-tuning → RAG → agents → evals → production\n\nEach week gives you something to build, test, and explain\n\n01 Python foundations: Learn Python\nSyntax, data structures, and the coding skills everything else depends on.\n\n02 Prompting: Anthropic\nAn interactive tutorial that teaches you to write prompts that work on the first try.\n\n03 Claude API: Anthropic\nCourses on the API, prompt engineering, tool use, and evaluations.\n\n04 LLMs from scratch: Sebastian Raschka\nCode a GPT style model step by step and understand how it really works.\n\n05 The full LLM roadmap: Maxime Labonne\nFundamentals, the science, and the engineering of large language models in one place.\n\n06 Train your own GPT: Andrej Karpathy\nA small, fast codebase for training and fine-tuning GPT models.\n\n07 Fine-tuning: Hugging Face\nAdapt a pretrained model to your own task.\n\n08 RAG: Nir Diamant\nTechniques for building assistants that answer from your own documents.\n\n09 AI agents: Hugging Face\nBuild systems that use tools and carry out tasks through agent workflows.\n\n10 Claude recipes: Anthropic\nWorking examples for tool use, retrieval, and agent patterns you can copy.\n\n11 Evaluation: Confident AI\nTest and score your LLM apps before your users find the bugs.\n\n12 AI engineering: Chip Huyen\nThe code and notes behind the book on building AI applications in production.\n\nFollow one step per week. Finish a small project before moving on\n\nYour target portfolio: a model-training project, a RAG assistant with citations, and a tool-using agent with evaluations\n\nPlan for 10 to 15 hours a week with basic Python knowledge. The repos are free; APIs and compute may cost extra\n\nPick the first repo you need. Build something worth putting your name on\n\nSave this ↓",
-   "board_rank": 49
+   "board_rank": 49,
+   "why_hit": {
+    "trend_match": 87,
+    "verdict": "тренд",
+    "matched_keywords": [
+     "agent",
+     "model",
+     "skills",
+     "AI agents",
+     "workflow",
+     "Anthropic",
+     "API"
+    ],
+    "media": "video",
+    "note": "подписчики: нет данных",
+    "topic": "Claude Code: реальные сборки, мульти-модельный трюк, репо"
+   },
+   "id": "2123775484185973166",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "anstap",
@@ -3361,7 +3661,19 @@
    "hook": "@anstapnever: 20 free GitHub repos turn Fable 5.2 into a motion design studio",
    "video_tip": "Motion reel with repo names as captions. 5s.",
    "original_en": "this is a f*cking GEM for Motion Designers and Fable 5.2 & Opus 5.5 users\n\nI deleted my After Effects\n\nthese 20 free GitHub repos turn Fable 5.2 into a full Motion Design studio.\n\nanimate. code. 3D. AI. render.\n\n01 HyperFrames → Fable 5.2 makes the whole Motion Design video from one prompt.\n\n02 MCP for Blender → Fable 5.2 builds 3D scenes in Blender by itself.\n\n03 Wan 2.2 → Open-source AI video from text or image.\n\n04 Hunyuan3D-2 → One image into a full 3D model.\n\n05 LivePortrait → Make any portrait move and talk.\n\n06 Blender → A full 3D + motion studio for $0.\n\n07 Remotion → Videos as React code. Render 1,000 at once.\n\n08 Motion Canvas → Animations as TypeScript code.\n\n09 Manim → The engine behind 3Blue1Brown-style animations.\n\n10 Theatre.js → Keyframe 3D scenes like in After Effects.\n\n11 GSAP → Pro timelines and easing. Now 100% free.\n\n12 anime.js → Animate anything in the browser.\n\n13 Revideo → 1,000 personal videos from one template.\n\n14 Friction → Free After Effects-style motion graphics.\n\n15 Natron → Node compositing like Nuke, free.\n\n16 Glaxnimate → Vector animation that exports to Lottie.\n\n17 OpenToonz → Based on the Toonz used at Studio Ghibli.\n\n18 Synfig → 2D animation with bones. No frame-by-frame.\n\n19 mo.js → Bursts, shapes and swirls in a few lines.\n\n20 gl-transitions → 100+ free transitions in GLSL.\n\nprompt → animate → 3D → AI → render.\n\nBookmark this before your next After Effects renewal.",
-   "board_rank": 50
+   "board_rank": 50,
+   "why_hit": {
+    "trend_match": 0,
+    "verdict": "визуал",
+    "matched_keywords": [],
+    "media": "video",
+    "note": "подписчики: нет данных",
+    "topic": null
+   },
+   "id": "2124135969884454975",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "David Pawlan",
@@ -3384,7 +3696,19 @@
    "hook": "@DavidPawlan: X group chats for people obsessed with personal AI agents",
    "video_tip": "Group chat list screenshot. 3s.",
    "original_en": "I am running X group chats for thousands of people obsessed with personal AI agents:\n\n- NYC AI agent community\n- SF AI agent community\n- general text AI agent lovers\n- Instinct power users\n\ndm me if you want to join any of them!",
-   "board_rank": 51
+   "board_rank": 51,
+   "why_hit": {
+    "trend_match": 0,
+    "verdict": "визуал",
+    "matched_keywords": [],
+    "media": "image",
+    "note": "подписчики: нет данных",
+    "topic": null
+   },
+   "id": "2123793068503843093",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "alucardio",
@@ -3407,7 +3731,19 @@
    "hook": "@alucardiox: Grok Bot set itself up from official docs with Obsidian memory",
    "video_tip": "Flow: prompt -> Grok Bot -> Obsidian notes -> routines, screen capture. 5s.",
    "original_en": "Wtf. I told Grok Bot to set itself up from free official docs only, with its memory in Obsidian. Now it reads its own notes, not the whole base\n\nPrompts → Grok Bot → Obsidian memory → Skills → Routines → a setup that remembers\n\ngrab this before it gets lost in the feed\n\neverything below is free:\n\nObsidian for Grok Bot\nthe official plugin, your vault becomes its memory\n\nObsidian Skills\nteaches the agent Markdown, Bases, Canvas and the CLI\n\nObsidian CLI\nhow the agent reads and writes your vault\n\nGrok Bot: Get started\ninstall, first task, first routine\n\nHow Grok Bot Works\nmemory, apps and approvals explained\n\nSkills and routines\ndo a task once, save it, run it on a schedule\n\nGrok Bot 101\nchain specialist bots instead of one big chat\n\nBases\nyour notes as a database the agent can query\n\nTemplates\nsame note shape every run\n\nWeb Clipper\nsave pages once, the agent reads the clean copy\n\nPrompt Caching\nwhy a stable prompt start costs less\n\nxAI Cookbook\nreal working examples from xAI\n\nthe one line that changed my setup: \"install Obsidian, keep everything you learn in my vault, read your notes before you start\"\n\nevery run it used to re-read everything from zero. now it opens 4 notes and gets to work\n\nall of these resources cost $0",
-   "board_rank": 52
+   "board_rank": 52,
+   "why_hit": {
+    "trend_match": 0,
+    "verdict": "визуал",
+    "matched_keywords": [],
+    "media": "video",
+    "note": "подписчики: нет данных",
+    "topic": null
+   },
+   "id": "2124146521595650385",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "andrey",
@@ -3431,7 +3767,19 @@
    "video_tip": "Side-by-side runtimes and outputs, selected vs actual model. 4s.",
    "text_note": "API-truncated mid-sentence (no note_tweet) — text shown as returned",
    "original_en": "ChatGPT Pro ($200) is silently downgrading models in Codex & \"Work\" mode on web. you select 6.2 Astra (or GPT 6.2 Sol), and it's clearly routing to GPT 6 Luna\n\nReal 6.2 Astra: 5+ min runtime, high quality\nWork / Codex rn: 1m 36s, obvious Luna output",
-   "board_rank": 53
+   "board_rank": 53,
+   "why_hit": {
+    "trend_match": 0,
+    "verdict": "визуал",
+    "matched_keywords": [],
+    "media": "image",
+    "note": "подписчики: нет данных",
+    "topic": null
+   },
+   "id": "2124164409178386716",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "bebu",
@@ -3455,7 +3803,19 @@
    "video_tip": "Binary diff / feature list screenshot, highlighted /ship command. 4s.",
    "text_note": "API-truncated mid-sentence (no note_tweet) — text shown as returned",
    "original_en": "Claude Code v2.1.330 has some interesting things hidden inside that Anthropic hasn't officially announced yet.\n\nThe new 381 MB binary reveals a bunch of additions:\n\nBuilt-in iOS Simulator and Android Emulator MCP servers.\nAn unreleased /ship command for handling local shipping",
-   "board_rank": 54
+   "board_rank": 54,
+   "why_hit": {
+    "trend_match": 0,
+    "verdict": "совпадение/другое",
+    "matched_keywords": [],
+    "media": "text",
+    "note": "подписчики: нет данных",
+    "topic": null
+   },
+   "id": "2124031568989847643",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   },
   {
    "display_name": "Aakash Gupta",
@@ -3478,7 +3838,19 @@
    "hook": "@aakashgupta: famous math problem solved with AI help, proof nobody has read",
    "video_tip": "Scrolling 17M lines of proof code, checker verdict. 4s.",
    "original_en": "The most famous math problem in the world just got solved with help from an AI, and no human being has actually read the proof.\n\nIt's 17 million lines of code, and the people who run the program that checked it say they have full confidence it's correct.\n\nThe problem is the Riemann Hypothesis, open since 1859. It's basically a bet about prime numbers. There's a function whose zero points control how the primes are spread out, and Riemann guessed that every single one of those infinitely many points sits on one straight line. Mathematicians have spent a century proving results that only hold if he was right, so a huge chunk of number theory was quietly sitting on top of this one guess.\n\nNobody could prove it for all of the points, so they settled for chipping away at a percentage. Atle Selberg showed in 1942 that some fixed fraction sits on the line. Norman Levinson got past a third in 1974, Brian Conrey hit 40% in 1989, and a team of four nudged it to 41.7% in 2020.\n\nThat's 78 years of the best people in the field to get to 41.7%.\n\nThen this August, Jarred Sumner, who built the JavaScript tool Bun and is not a mathematician, told Claude to \"take a real stab\" at it. Claude tried 650 ideas and every one of them flopped. Jarred's follow-up messages were mostly things like \"keep going\" and \"believe in yourself.\" On the second try it ran about 60 copies of itself for a day and a half and came back with 67.25%. Brian Conrey, the same guy who set the 1989 record, was one of the experts who checked the paper.\n\nAnthropic's own blog post that day said they didn't expect those techniques to lead to a proof of the whole thing.\n\n102 days later, Levent Alpöge, a mathematician at Anthropic, posted the full proof he worked out with Claude. He wrote it in Lean, a language where a computer verifies every single step. Dozens of people rebuilt it on their own machines, and several checking programs written by different people in different programming languages all passed it. By the next day the groups behind Lean and its math library had signed off.\n\nFor comparison, Perelman posted his proof of the Poincaré conjecture in 2002 and it took three separate teams until 2006 to confirm it. When Wiles announced Fermat's Last Theorem in 1993, a referee found a hole in it a few months later.\n\nAlpöge says writing this argument out as regular math on paper would run more than 250,000 pages. Read 50 pages a day, every day, and you'd finish in about 14 years. He's promised lectures and readable papers, but as of tonight the only thing that has followed the whole argument start to finish is a computer.\n\nHonestly, that's the detail that got me. The $1 million Clay Prize for this can't even be handed out yet. The rules require a journal publication and then two years of mathematicians accepting the result, and whoever wrote them was picturing a proof people could read.\n\nRiemann wrote his guess down in an eight-page paper back in 1859, and 167 years later the answer came back 17 million lines long, so the rest of us get to spend the next few years figuring out what it actually says.",
-   "board_rank": 55
+   "board_rank": 55,
+   "why_hit": {
+    "trend_match": 0,
+    "verdict": "совпадение/другое",
+    "matched_keywords": [],
+    "media": "text",
+    "note": "подписчики: нет данных",
+    "topic": null
+   },
+   "id": "2124383124432068751",
+   "views_as_of": "2026-11-22T10:57:15+03:00",
+   "snapshots": 1,
+   "stale": false
   }
  ],
  "outsiders_count": 20,
@@ -3499,6 +3871,265 @@
  },
  "day_roster": [
   {
+   "handle": "@Sprytixl",
+   "name": "Sprytix",
+   "views": 671600,
+   "total_views": 728762,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/Sprytixl/status/2124078042653831620",
+   "stale": false,
+   "followers": {
+    "count": 9236,
+    "label": "9.2K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 179,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@Sprytixl (9.2K, +179)"
+  },
+  {
+   "handle": "@Argona0x",
+   "name": "Argona",
+   "views": 161140,
+   "total_views": 161140,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/Argona0x/status/2124213283607749013",
+   "stale": false,
+   "followers": {
+    "count": 41063,
+    "label": "41.1K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 56,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@Argona0x (41.1K, +56)"
+  },
+  {
+   "handle": "@N01ennn",
+   "name": "NO1ennn",
+   "views": 84986,
+   "total_views": 122351,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/N01ennn/status/2123899443200065645",
+   "views_delta": 65935,
+   "delta_since": "2026-11-21T10:57:54+03:00",
+   "delta_label": "+65,935 since 21.11 10:57",
+   "stale": false,
+   "followers": {
+    "count": 10153,
+    "label": "10.2K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 40,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@N01ennn (10.2K, +40)"
+  },
+  {
+   "handle": "@mika_systems",
+   "name": "Mika",
+   "views": 75377,
+   "total_views": 82295,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/mika_systems/status/2123887895840747960",
+   "views_delta": 44835,
+   "delta_since": "2026-11-21T10:58:22+03:00",
+   "delta_label": "+44,835 since 21.11 10:58",
+   "stale": false,
+   "followers": {
+    "count": 3498,
+    "label": "3.5K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 50,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@mika_systems (3.5K, +50)"
+  },
+  {
+   "handle": "@RetroChainer",
+   "name": "RetroChainer",
+   "views": 68386,
+   "total_views": 68386,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/RetroChainer/status/2124205345606103149",
+   "stale": false,
+   "followers": {
+    "count": 7263,
+    "label": "7.3K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 73,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@RetroChainer (7.3K, +73)"
+  },
+  {
+   "handle": "@flxrnc",
+   "name": "Florence",
+   "views": 53781,
+   "total_views": 53781,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/flxrnc/status/2124231511499026436",
+   "stale": false,
+   "followers": {
+    "count": 4271,
+    "label": "4.3K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 157,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@flxrnc (4.3K, +157)"
+  },
+  {
+   "handle": "@slash1sol",
+   "name": "slash1s",
+   "views": 28154,
+   "total_views": 28154,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/slash1sol/status/2124118317405241466",
+   "stale": false,
+   "followers": {
+    "count": 14998,
+    "label": "15K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 14,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@slash1sol (15K, +14)"
+  },
+  {
+   "handle": "@bl888m_eth",
+   "name": "bl888m",
+   "views": 26912,
+   "total_views": 26912,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/bl888m_eth/status/2124146501949775973",
+   "stale": false,
+   "followers": {
+    "count": 13843,
+    "label": "13.8K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 35,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@bl888m_eth (13.8K, +35)"
+  },
+  {
+   "handle": "@leopardracer",
+   "name": "leopardracer",
+   "views": 26662,
+   "total_views": 26662,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/leopardracer/status/2124143193251860823",
+   "stale": false,
+   "followers": {
+    "count": 17550,
+    "label": "17.6K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 81,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@leopardracer (17.6K, +81)"
+  },
+  {
+   "handle": "@Bober_smart",
+   "name": "Bober_smart",
+   "views": 25650,
+   "total_views": 41620,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/Bober_smart/status/2124133809469772088",
+   "stale": false,
+   "followers": {
+    "count": 26497,
+    "label": "26.5K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 128,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@Bober_smart (26.5K, +128)"
+  },
+  {
+   "handle": "@beamnxw",
+   "name": "beamnxw ./",
+   "views": 20579,
+   "total_views": 33933,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/beamnxw/status/2123896959878717909",
+   "views_delta": 17337,
+   "delta_since": "2026-11-21T10:58:06+03:00",
+   "delta_label": "+17,337 since 21.11 10:58",
+   "stale": false,
+   "followers": {
+    "count": 17376,
+    "label": "17.4K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 104,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@beamnxw (17.4K, +104)"
+  },
+  {
+   "handle": "@carverfomo",
+   "name": "Carver",
+   "views": 17499,
+   "total_views": 30743,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/carverfomo/status/2123917529441509486",
+   "views_delta": 13133,
+   "delta_since": "2026-11-21T10:58:14+03:00",
+   "delta_label": "+13,133 since 21.11 10:58",
+   "stale": false,
+   "followers": {
+    "count": 41536,
+    "label": "41.5K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 1260,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@carverfomo (41.5K, +1,260)"
+  },
+  {
+   "handle": "@zostaff",
+   "name": "zostaff",
+   "views": 15422,
+   "total_views": 15422,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/zostaff/status/2124244980789125160",
+   "stale": false,
+   "followers": {
+    "count": 18337,
+    "label": "18.3K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 15,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@zostaff (18.3K, +15)"
+  },
+  {
    "handle": "@thegreatest_sv",
    "name": "The Greatest",
    "views": 13430,
@@ -3518,6 +4149,168 @@
    "handle_label": "@thegreatest_sv (12.5K, +104)"
   },
   {
+   "handle": "@0xCodila",
+   "name": "codila",
+   "views": 12721,
+   "total_views": 12721,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/0xCodila/status/2124188976118485326",
+   "stale": false,
+   "followers": {
+    "count": 37053,
+    "label": "37.1K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 104,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@0xCodila (37.1K, +104)"
+  },
+  {
+   "handle": "@ScottyBeamIO",
+   "name": "SCOTTY BEAM",
+   "views": 10260,
+   "total_views": 10260,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/ScottyBeamIO/status/2124181222863917418",
+   "stale": false,
+   "followers": {
+    "count": 78715,
+    "label": "78.7K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": -22,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@ScottyBeamIO (78.7K, −22)"
+  },
+  {
+   "handle": "@cyrilXBT",
+   "name": "CyrilXBT",
+   "views": 8001,
+   "total_views": 40484,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/cyrilXBT/status/2124052695820702100",
+   "stale": false,
+   "followers": {
+    "count": 197074,
+    "label": "197K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 214,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@cyrilXBT (197K, +214)"
+  },
+  {
+   "handle": "@everestchris6",
+   "name": "Chris",
+   "views": 7904,
+   "total_views": 7904,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/everestchris6/status/2124163017093021957",
+   "stale": false,
+   "followers": {
+    "count": 28327,
+    "label": "28.3K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 17,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@everestchris6 (28.3K, +17)"
+  },
+  {
+   "handle": "@ridark_eth",
+   "name": "Ridark",
+   "views": 7477,
+   "total_views": 7477,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/ridark_eth/status/2123889367047610529",
+   "views_delta": 2226,
+   "delta_since": "2026-11-21T10:57:39+03:00",
+   "delta_label": "+2,226 since 21.11 10:57",
+   "stale": false,
+   "followers": {
+    "count": 15838,
+    "label": "15.8K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 6,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@ridark_eth (15.8K, +6)"
+  },
+  {
+   "handle": "@Mr_Buzzoni",
+   "name": "Mr. Buzzoni",
+   "views": 7342,
+   "total_views": 7342,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/Mr_Buzzoni/status/2124022412853608824",
+   "views_delta": 6559,
+   "delta_since": "2026-11-21T10:57:25+03:00",
+   "delta_label": "+6,559 since 21.11 10:57",
+   "stale": false,
+   "excluded": 1,
+   "followers": {
+    "count": 29441,
+    "label": "29.4K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 8,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@Mr_Buzzoni (29.4K, +8)"
+  },
+  {
+   "handle": "@0x_rody",
+   "name": "rody",
+   "views": 5710,
+   "total_views": 5710,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/0x_rody/status/2123916378528780479",
+   "views_delta": 3516,
+   "delta_since": "2026-11-21T10:58:31+03:00",
+   "delta_label": "+3,516 since 21.11 10:58",
+   "stale": false,
+   "followers": {
+    "count": 5291,
+    "label": "5.3K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 11,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@0x_rody (5.3K, +11)"
+  },
+  {
+   "handle": "@shmidtqq",
+   "name": "shmidt",
+   "views": 5672,
+   "total_views": 5672,
+   "hit": true,
+   "is_you": false,
+   "best_url": "https://x.com/shmidtqq/status/2124147727730667560",
+   "stale": false,
+   "followers": {
+    "count": 13590,
+    "label": "13.6K",
+    "as_of": "2026-11-22T11:01:22+03:00",
+    "stale": false,
+    "delta": 14,
+    "delta_since": "2026-11-21T10:56:44+03:00"
+   },
+   "handle_label": "@shmidtqq (13.6K, +14)"
+  },
+  {
    "handle": "@0x_kaize",
    "name": "kaize",
    "views": 0,
@@ -3534,42 +4327,6 @@
     "delta_since": "2026-11-21T10:56:44+03:00"
    },
    "handle_label": "@0x_kaize (24.8K, −7)"
-  },
-  {
-   "handle": "@0x_rody",
-   "name": "rody",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 5291,
-    "label": "5.3K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 11,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@0x_rody (5.3K, +11)"
-  },
-  {
-   "handle": "@0xCodila",
-   "name": "codila",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 37053,
-    "label": "37.1K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 104,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@0xCodila (37.1K, +104)"
   },
   {
    "handle": "@0xWast3",
@@ -3626,150 +4383,6 @@
    "handle_label": "@antpalkin (19K, −8)"
   },
   {
-   "handle": "@Argona0x",
-   "name": "Argona",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 41063,
-    "label": "41.1K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 56,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@Argona0x (41.1K, +56)"
-  },
-  {
-   "handle": "@beamnxw",
-   "name": "beamnxw ./",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 17376,
-    "label": "17.4K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 104,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@beamnxw (17.4K, +104)"
-  },
-  {
-   "handle": "@bl888m_eth",
-   "name": "bl888m",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 13843,
-    "label": "13.8K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 35,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@bl888m_eth (13.8K, +35)"
-  },
-  {
-   "handle": "@Bober_smart",
-   "name": "Bober_smart",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 26497,
-    "label": "26.5K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 128,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@Bober_smart (26.5K, +128)"
-  },
-  {
-   "handle": "@carverfomo",
-   "name": "Carver",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 41536,
-    "label": "41.5K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 1260,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@carverfomo (41.5K, +1,260)"
-  },
-  {
-   "handle": "@cyrilXBT",
-   "name": "CyrilXBT",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 197074,
-    "label": "197K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 214,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@cyrilXBT (197K, +214)"
-  },
-  {
-   "handle": "@everestchris6",
-   "name": "Chris",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 28327,
-    "label": "28.3K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 17,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@everestchris6 (28.3K, +17)"
-  },
-  {
-   "handle": "@flxrnc",
-   "name": "Florence",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 4271,
-    "label": "4.3K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 157,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@flxrnc (4.3K, +157)"
-  },
-  {
    "handle": "@gippp69",
    "name": "Gipp 🦅",
    "views": 0,
@@ -3806,133 +4419,6 @@
    "handle_label": "@insomnia_vip (5.2K, +7)"
   },
   {
-   "handle": "@leopardracer",
-   "name": "leopardracer",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 17550,
-    "label": "17.6K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 81,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@leopardracer (17.6K, +81)"
-  },
-  {
-   "handle": "@mika_systems",
-   "name": "Mika",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 3498,
-    "label": "3.5K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 50,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@mika_systems (3.5K, +50)"
-  },
-  {
-   "handle": "@Mr_Buzzoni",
-   "name": "Mr. Buzzoni",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "excluded": 1,
-   "followers": {
-    "count": 29441,
-    "label": "29.4K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 8,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@Mr_Buzzoni (29.4K, +8)"
-  },
-  {
-   "handle": "@N01ennn",
-   "name": "NO1ennn",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 10153,
-    "label": "10.2K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 40,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@N01ennn (10.2K, +40)"
-  },
-  {
-   "handle": "@RetroChainer",
-   "name": "RetroChainer",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 7263,
-    "label": "7.3K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 73,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@RetroChainer (7.3K, +73)"
-  },
-  {
-   "handle": "@ridark_eth",
-   "name": "Ridark",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 15838,
-    "label": "15.8K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 6,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@ridark_eth (15.8K, +6)"
-  },
-  {
-   "handle": "@ScottyBeamIO",
-   "name": "SCOTTY BEAM",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 78715,
-    "label": "78.7K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": -22,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@ScottyBeamIO (78.7K, −22)"
-  },
-  {
    "handle": "@Shelpid_WI3M",
    "name": "Shelpid.WI3M",
    "views": 0,
@@ -3949,78 +4435,6 @@
     "delta_since": "2026-11-21T10:56:44+03:00"
    },
    "handle_label": "@Shelpid_WI3M (53.6K, −19)"
-  },
-  {
-   "handle": "@shmidtqq",
-   "name": "shmidt",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 13590,
-    "label": "13.6K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 14,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@shmidtqq (13.6K, +14)"
-  },
-  {
-   "handle": "@slash1sol",
-   "name": "slash1s",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 14998,
-    "label": "15K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 14,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@slash1sol (15K, +14)"
-  },
-  {
-   "handle": "@Sprytixl",
-   "name": "Sprytix",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 9236,
-    "label": "9.2K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 179,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@Sprytixl (9.2K, +179)"
-  },
-  {
-   "handle": "@zostaff",
-   "name": "zostaff",
-   "views": 0,
-   "total_views": 0,
-   "hit": false,
-   "is_you": false,
-   "best_url": "",
-   "followers": {
-    "count": 18337,
-    "label": "18.3K",
-    "as_of": "2026-11-22T11:01:22+03:00",
-    "stale": false,
-    "delta": 15,
-    "delta_since": "2026-11-21T10:56:44+03:00"
-   },
-   "handle_label": "@zostaff (18.3K, +15)"
   }
  ],
  "you_rank": {
@@ -4028,7 +4442,7 @@
   "best_views": 13430,
   "total_views": 15852,
   "best_url": "https://x.com/thegreatest_sv/status/2124137504907337791",
-  "rank_among_watchlist": 1,
+  "rank_among_watchlist": 14,
   "total_accounts": 29,
   "vs_5k": "done",
   "vs_10k": "done",
@@ -4105,10 +4519,10 @@
    "label": "21.11 10:57 – 22.11 10:57 MSK",
    "note": "All views gained in the digest ~24h window, including older posts. Day's posts: current views when no start snapshot exists (all earned since publish). Older posts: snapshot near window end minus snapshot near window start, only when both exist in a ±1.5h band. Posts without that pair are omitted, not estimated. Does not affect day/week/month rank: other accounts lack a complete older-post series."
   },
-  "week_rank": 14,
-  "week_total": 25,
+  "week_rank": 16,
+  "week_total": 26,
   "month_rank": 15,
-  "month_total": 27,
+  "month_total": 28,
   "all_time_rank": 10,
   "all_time_total": 29
  },
@@ -4159,9 +4573,9 @@
     {
      "handle": "@carverfomo",
      "name": "Carver",
-     "hits": 13,
-     "days": 6,
-     "views": 3928804,
+     "hits": 16,
+     "days": 7,
+     "views": 3959547,
      "best": 3330829,
      "best_url": "https://x.com/carverfomo/status/2122152684140822966",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4180,9 +4594,9 @@
     {
      "handle": "@leopardracer",
      "name": "leopardracer",
-     "hits": 4,
-     "days": 3,
-     "views": 1902506,
+     "hits": 5,
+     "days": 4,
+     "views": 1929168,
      "best": 931565,
      "best_url": "https://x.com/leopardracer/status/2122828204922593436",
      "best_as_of": "2026-11-22T10:59:28+03:00",
@@ -4201,9 +4615,9 @@
     {
      "handle": "@slash1sol",
      "name": "slash1s",
-     "hits": 2,
-     "days": 2,
-     "views": 1624345,
+     "hits": 3,
+     "days": 3,
+     "views": 1652499,
      "best": 1616813,
      "best_url": "https://x.com/slash1sol/status/2122313821318480063",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4243,9 +4657,9 @@
     {
      "handle": "@Bober_smart",
      "name": "Bober_smart",
-     "hits": 10,
-     "days": 6,
-     "views": 1091454,
+     "hits": 12,
+     "days": 7,
+     "views": 1133074,
      "best": 328894,
      "best_url": "https://x.com/Bober_smart/status/2123137680175485396",
      "best_as_of": "2026-11-22T10:59:28+03:00",
@@ -4262,32 +4676,11 @@
      "handle_label": "@Bober_smart (26.5K, +128)"
     },
     {
-     "handle": "@cyrilXBT",
-     "name": "CyrilXBT",
-     "hits": 40,
-     "days": 6,
-     "views": 1060171,
-     "best": 660726,
-     "best_url": "https://x.com/cyrilXBT/status/2123811363466162395",
-     "best_as_of": "2026-11-22T10:59:35+03:00",
-     "best_stale": false,
-     "is_you": false,
-     "followers": {
-      "count": 197074,
-      "label": "197K",
-      "as_of": "2026-11-22T11:01:22+03:00",
-      "stale": false,
-      "delta": 214,
-      "delta_since": "2026-11-21T10:56:44+03:00"
-     },
-     "handle_label": "@cyrilXBT (197K, +214)"
-    },
-    {
      "handle": "@mika_systems",
      "name": "Mika",
-     "hits": 6,
-     "days": 5,
-     "views": 1023693,
+     "hits": 8,
+     "days": 6,
+     "views": 1105988,
      "best": 880099,
      "best_url": "https://x.com/mika_systems/status/2123133007208812915",
      "best_as_of": "2026-11-22T10:59:28+03:00",
@@ -4304,11 +4697,53 @@
      "handle_label": "@mika_systems (3.5K, +50)"
     },
     {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 46,
+     "days": 7,
+     "views": 1100655,
+     "best": 660726,
+     "best_url": "https://x.com/cyrilXBT/status/2123811363466162395",
+     "best_as_of": "2026-11-22T10:59:35+03:00",
+     "best_stale": false,
+     "is_you": false,
+     "followers": {
+      "count": 197074,
+      "label": "197K",
+      "as_of": "2026-11-22T11:01:22+03:00",
+      "stale": false,
+      "delta": 214,
+      "delta_since": "2026-11-21T10:56:44+03:00"
+     },
+     "handle_label": "@cyrilXBT (197K, +214)"
+    },
+    {
+     "handle": "@Sprytixl",
+     "name": "Sprytix",
+     "hits": 3,
+     "days": 1,
+     "views": 728762,
+     "best": 671600,
+     "best_url": "https://x.com/Sprytixl/status/2124078042653831620",
+     "best_as_of": "2026-11-22T11:02:09+03:00",
+     "best_stale": false,
+     "is_you": false,
+     "followers": {
+      "count": 9236,
+      "label": "9.2K",
+      "as_of": "2026-11-22T11:01:22+03:00",
+      "stale": false,
+      "delta": 179,
+      "delta_since": "2026-11-21T10:56:44+03:00"
+     },
+     "handle_label": "@Sprytixl (9.2K, +179)"
+    },
+    {
      "handle": "@beamnxw",
      "name": "beamnxw ./",
-     "hits": 4,
-     "days": 3,
-     "views": 556245,
+     "hits": 7,
+     "days": 4,
+     "views": 590178,
      "best": 493886,
      "best_url": "https://x.com/beamnxw/status/2122302670421491953",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4325,53 +4760,11 @@
      "handle_label": "@beamnxw (17.4K, +104)"
     },
     {
-     "handle": "@everestchris6",
-     "name": "Chris",
-     "hits": 4,
-     "days": 4,
-     "views": 418581,
-     "best": 318556,
-     "best_url": "https://x.com/everestchris6/status/2122741990018494669",
-     "best_as_of": "2026-11-22T10:59:47+03:00",
-     "best_stale": false,
-     "is_you": false,
-     "followers": {
-      "count": 28327,
-      "label": "28.3K",
-      "as_of": "2026-11-22T11:01:22+03:00",
-      "stale": false,
-      "delta": 17,
-      "delta_since": "2026-11-21T10:56:44+03:00"
-     },
-     "handle_label": "@everestchris6 (28.3K, +17)"
-    },
-    {
-     "handle": "@N01ennn",
-     "name": "NO1ennn",
-     "hits": 5,
-     "days": 5,
-     "views": 394637,
-     "best": 169777,
-     "best_url": "https://x.com/N01ennn/status/2123757709811925206",
-     "best_as_of": "2026-11-22T10:59:47+03:00",
-     "best_stale": false,
-     "is_you": false,
-     "followers": {
-      "count": 10153,
-      "label": "10.2K",
-      "as_of": "2026-11-22T11:01:22+03:00",
-      "stale": false,
-      "delta": 40,
-      "delta_since": "2026-11-21T10:56:44+03:00"
-     },
-     "handle_label": "@N01ennn (10.2K, +40)"
-    },
-    {
      "handle": "@Argona0x",
      "name": "Argona",
-     "hits": 5,
-     "days": 3,
-     "views": 371801,
+     "hits": 6,
+     "days": 4,
+     "views": 532941,
      "best": 186443,
      "best_url": "https://x.com/Argona0x/status/2122308036484022324",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4388,11 +4781,53 @@
      "handle_label": "@Argona0x (41.1K, +56)"
     },
     {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 7,
+     "days": 6,
+     "views": 516988,
+     "best": 169777,
+     "best_url": "https://x.com/N01ennn/status/2123757709811925206",
+     "best_as_of": "2026-11-22T10:59:47+03:00",
+     "best_stale": false,
+     "is_you": false,
+     "followers": {
+      "count": 10153,
+      "label": "10.2K",
+      "as_of": "2026-11-22T11:01:22+03:00",
+      "stale": false,
+      "delta": 40,
+      "delta_since": "2026-11-21T10:56:44+03:00"
+     },
+     "handle_label": "@N01ennn (10.2K, +40)"
+    },
+    {
+     "handle": "@everestchris6",
+     "name": "Chris",
+     "hits": 5,
+     "days": 5,
+     "views": 426485,
+     "best": 318556,
+     "best_url": "https://x.com/everestchris6/status/2122741990018494669",
+     "best_as_of": "2026-11-22T10:59:47+03:00",
+     "best_stale": false,
+     "is_you": false,
+     "followers": {
+      "count": 28327,
+      "label": "28.3K",
+      "as_of": "2026-11-22T11:01:22+03:00",
+      "stale": false,
+      "delta": 17,
+      "delta_since": "2026-11-21T10:56:44+03:00"
+     },
+     "handle_label": "@everestchris6 (28.3K, +17)"
+    },
+    {
      "handle": "@flxrnc",
      "name": "Florence",
-     "hits": 3,
-     "days": 3,
-     "views": 313200,
+     "hits": 4,
+     "days": 4,
+     "views": 366981,
      "best": 195411,
      "best_url": "https://x.com/flxrnc/status/2123392905934999811",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4411,9 +4846,9 @@
     {
      "handle": "@shmidtqq",
      "name": "shmidt",
-     "hits": 6,
-     "days": 5,
-     "views": 311156,
+     "hits": 7,
+     "days": 6,
+     "views": 316828,
      "best": 159063,
      "best_url": "https://x.com/shmidtqq/status/2122726493935612251",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4428,6 +4863,27 @@
       "delta_since": "2026-11-21T10:56:44+03:00"
      },
      "handle_label": "@shmidtqq (13.6K, +14)"
+    },
+    {
+     "handle": "@zostaff",
+     "name": "zostaff",
+     "hits": 2,
+     "days": 2,
+     "views": 296716,
+     "best": 281294,
+     "best_url": "https://x.com/zostaff/status/2122420289107542066",
+     "best_as_of": "2026-11-22T10:59:47+03:00",
+     "best_stale": false,
+     "is_you": false,
+     "followers": {
+      "count": 18337,
+      "label": "18.3K",
+      "as_of": "2026-11-22T11:01:22+03:00",
+      "stale": false,
+      "delta": 15,
+      "delta_since": "2026-11-21T10:56:44+03:00"
+     },
+     "handle_label": "@zostaff (18.3K, +15)"
     },
     {
      "handle": "@thegreatest_sv",
@@ -4451,32 +4907,11 @@
      "handle_label": "@thegreatest_sv (12.5K, +104)"
     },
     {
-     "handle": "@zostaff",
-     "name": "zostaff",
-     "hits": 1,
-     "days": 1,
-     "views": 281294,
-     "best": 281294,
-     "best_url": "https://x.com/zostaff/status/2122420289107542066",
-     "best_as_of": "2026-11-22T10:59:47+03:00",
-     "best_stale": false,
-     "is_you": false,
-     "followers": {
-      "count": 18337,
-      "label": "18.3K",
-      "as_of": "2026-11-22T11:01:22+03:00",
-      "stale": false,
-      "delta": 15,
-      "delta_since": "2026-11-21T10:56:44+03:00"
-     },
-     "handle_label": "@zostaff (18.3K, +15)"
-    },
-    {
      "handle": "@0xCodila",
      "name": "codila",
-     "hits": 4,
-     "days": 3,
-     "views": 215766,
+     "hits": 5,
+     "days": 4,
+     "views": 228487,
      "best": 123525,
      "best_url": "https://x.com/0xCodila/status/2123505648990113958",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4495,9 +4930,9 @@
     {
      "handle": "@bl888m_eth",
      "name": "bl888m",
-     "hits": 6,
-     "days": 6,
-     "views": 157146,
+     "hits": 7,
+     "days": 7,
+     "views": 184058,
      "best": 49353,
      "best_url": "https://x.com/bl888m_eth/status/2122679851568202022",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4537,9 +4972,9 @@
     {
      "handle": "@ridark_eth",
      "name": "Ridark",
-     "hits": 8,
-     "days": 5,
-     "views": 119597,
+     "hits": 9,
+     "days": 6,
+     "views": 127074,
      "best": 58809,
      "best_url": "https://x.com/ridark_eth/status/2122487961254039872",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4558,9 +4993,9 @@
     {
      "handle": "@ScottyBeamIO",
      "name": "SCOTTY BEAM",
-     "hits": 4,
-     "days": 3,
-     "views": 101602,
+     "hits": 5,
+     "days": 4,
+     "views": 111862,
      "best": 40124,
      "best_url": "https://x.com/ScottyBeamIO/status/2122289325400355147",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4600,9 +5035,9 @@
     {
      "handle": "@Mr_Buzzoni",
      "name": "Mr. Buzzoni",
-     "hits": 6,
-     "days": 5,
-     "views": 78698,
+     "hits": 7,
+     "days": 6,
+     "views": 86040,
      "best": 22413,
      "best_url": "https://x.com/Mr_Buzzoni/status/2123297384817905971",
      "best_as_of": "2026-11-22T10:59:28+03:00",
@@ -4617,6 +5052,48 @@
       "delta_since": "2026-11-21T10:56:44+03:00"
      },
      "handle_label": "@Mr_Buzzoni (29.4K, +8)"
+    },
+    {
+     "handle": "@RetroChainer",
+     "name": "RetroChainer",
+     "hits": 2,
+     "days": 2,
+     "views": 75041,
+     "best": 68386,
+     "best_url": "https://x.com/RetroChainer/status/2124205345606103149",
+     "best_as_of": "2026-11-22T11:01:55+03:00",
+     "best_stale": false,
+     "is_you": false,
+     "followers": {
+      "count": 7263,
+      "label": "7.3K",
+      "as_of": "2026-11-22T11:01:22+03:00",
+      "stale": false,
+      "delta": 73,
+      "delta_since": "2026-11-21T10:56:44+03:00"
+     },
+     "handle_label": "@RetroChainer (7.3K, +73)"
+    },
+    {
+     "handle": "@0x_rody",
+     "name": "rody",
+     "hits": 3,
+     "days": 3,
+     "views": 59538,
+     "best": 27787,
+     "best_url": "https://x.com/0x_rody/status/2122769182098104525",
+     "best_as_of": "2026-11-22T10:59:47+03:00",
+     "best_stale": false,
+     "is_you": false,
+     "followers": {
+      "count": 5291,
+      "label": "5.3K",
+      "as_of": "2026-11-22T11:01:22+03:00",
+      "stale": false,
+      "delta": 11,
+      "delta_since": "2026-11-21T10:56:44+03:00"
+     },
+     "handle_label": "@0x_rody (5.3K, +11)"
     },
     {
      "handle": "@0xWast3",
@@ -4638,48 +5115,6 @@
       "delta_since": "2026-11-21T10:56:44+03:00"
      },
      "handle_label": "@0xWast3 (7.9K, −11)"
-    },
-    {
-     "handle": "@0x_rody",
-     "name": "rody",
-     "hits": 2,
-     "days": 2,
-     "views": 53828,
-     "best": 27787,
-     "best_url": "https://x.com/0x_rody/status/2122769182098104525",
-     "best_as_of": "2026-11-22T10:59:47+03:00",
-     "best_stale": false,
-     "is_you": false,
-     "followers": {
-      "count": 5291,
-      "label": "5.3K",
-      "as_of": "2026-11-22T11:01:22+03:00",
-      "stale": false,
-      "delta": 11,
-      "delta_since": "2026-11-21T10:56:44+03:00"
-     },
-     "handle_label": "@0x_rody (5.3K, +11)"
-    },
-    {
-     "handle": "@RetroChainer",
-     "name": "RetroChainer",
-     "hits": 1,
-     "days": 1,
-     "views": 6655,
-     "best": 6655,
-     "best_url": "https://x.com/RetroChainer/status/2123368405692461327",
-     "best_as_of": "2026-11-22T10:59:28+03:00",
-     "best_stale": false,
-     "is_you": false,
-     "followers": {
-      "count": 7263,
-      "label": "7.3K",
-      "as_of": "2026-11-22T11:01:22+03:00",
-      "stale": false,
-      "delta": 73,
-      "delta_since": "2026-11-21T10:56:44+03:00"
-     },
-     "handle_label": "@RetroChainer (7.3K, +73)"
     }
    ]
   },
@@ -4693,9 +5128,9 @@
     {
      "handle": "@carverfomo",
      "name": "Carver",
-     "hits": 25,
-     "days": 12,
-     "views": 12973844,
+     "hits": 28,
+     "days": 13,
+     "views": 13004587,
      "best": 4142155,
      "best_url": "https://x.com/carverfomo/status/2119448267830202369",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4714,9 +5149,9 @@
     {
      "handle": "@Mr_Buzzoni",
      "name": "Mr. Buzzoni",
-     "hits": 26,
-     "days": 18,
-     "views": 11143195,
+     "hits": 27,
+     "days": 19,
+     "views": 11150537,
      "best": 10589100,
      "best_url": "https://x.com/Mr_Buzzoni/status/2118672625471811827",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4735,9 +5170,9 @@
     {
      "handle": "@leopardracer",
      "name": "leopardracer",
-     "hits": 13,
-     "days": 10,
-     "views": 6074449,
+     "hits": 14,
+     "days": 11,
+     "views": 6101111,
      "best": 2480111,
      "best_url": "https://x.com/leopardracer/status/2120547223624712254",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4756,9 +5191,9 @@
     {
      "handle": "@0xCodila",
      "name": "codila",
-     "hits": 17,
-     "days": 15,
-     "views": 5952471,
+     "hits": 18,
+     "days": 16,
+     "views": 5965192,
      "best": 3512241,
      "best_url": "https://x.com/0xCodila/status/2120187587209896001",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4777,9 +5212,9 @@
     {
      "handle": "@slash1sol",
      "name": "slash1s",
-     "hits": 14,
-     "days": 10,
-     "views": 3159053,
+     "hits": 15,
+     "days": 11,
+     "views": 3187207,
      "best": 1616813,
      "best_url": "https://x.com/slash1sol/status/2122313821318480063",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4798,9 +5233,9 @@
     {
      "handle": "@cyrilXBT",
      "name": "CyrilXBT",
-     "hits": 133,
-     "days": 20,
-     "views": 2504691,
+     "hits": 139,
+     "days": 21,
+     "views": 2545175,
      "best": 660726,
      "best_url": "https://x.com/cyrilXBT/status/2123811363466162395",
      "best_as_of": "2026-11-22T10:59:35+03:00",
@@ -4819,9 +5254,9 @@
     {
      "handle": "@beamnxw",
      "name": "beamnxw ./",
-     "hits": 23,
-     "days": 17,
-     "views": 2229750,
+     "hits": 26,
+     "days": 18,
+     "views": 2263683,
      "best": 1068737,
      "best_url": "https://x.com/beamnxw/status/2119806541821776215",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4840,9 +5275,9 @@
     {
      "handle": "@Bober_smart",
      "name": "Bober_smart",
-     "hits": 20,
-     "days": 12,
-     "views": 1855331,
+     "hits": 22,
+     "days": 13,
+     "views": 1896951,
      "best": 385643,
      "best_url": "https://x.com/Bober_smart/status/2121686230467285097",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4861,9 +5296,9 @@
     {
      "handle": "@mika_systems",
      "name": "Mika",
-     "hits": 13,
-     "days": 11,
-     "views": 1642524,
+     "hits": 15,
+     "days": 12,
+     "views": 1724819,
      "best": 880099,
      "best_url": "https://x.com/mika_systems/status/2123133007208812915",
      "best_as_of": "2026-11-22T10:59:28+03:00",
@@ -4882,9 +5317,9 @@
     {
      "handle": "@N01ennn",
      "name": "NO1ennn",
-     "hits": 17,
-     "days": 14,
-     "views": 1483922,
+     "hits": 19,
+     "days": 15,
+     "views": 1606273,
      "best": 536001,
      "best_url": "https://x.com/N01ennn/status/2120538916906299643",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4924,9 +5359,9 @@
     {
      "handle": "@shmidtqq",
      "name": "shmidt",
-     "hits": 21,
-     "days": 13,
-     "views": 1432545,
+     "hits": 22,
+     "days": 14,
+     "views": 1438217,
      "best": 498268,
      "best_url": "https://x.com/shmidtqq/status/2119410279788286146",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4945,9 +5380,9 @@
     {
      "handle": "@everestchris6",
      "name": "Chris",
-     "hits": 8,
-     "days": 8,
-     "views": 1336599,
+     "hits": 9,
+     "days": 9,
+     "views": 1344503,
      "best": 777397,
      "best_url": "https://x.com/everestchris6/status/2120175941616128277",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -4966,9 +5401,9 @@
     {
      "handle": "@flxrnc",
      "name": "Florence",
-     "hits": 10,
-     "days": 10,
-     "views": 1221675,
+     "hits": 11,
+     "days": 11,
+     "views": 1275456,
      "best": 557940,
      "best_url": "https://x.com/flxrnc/status/2120207374250049675",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -5029,9 +5464,9 @@
     {
      "handle": "@zostaff",
      "name": "zostaff",
-     "hits": 9,
-     "days": 6,
-     "views": 890051,
+     "hits": 10,
+     "days": 7,
+     "views": 905473,
      "best": 403377,
      "best_url": "https://x.com/zostaff/status/2118753789935051124",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -5050,9 +5485,9 @@
     {
      "handle": "@bl888m_eth",
      "name": "bl888m",
-     "hits": 18,
-     "days": 15,
-     "views": 788596,
+     "hits": 19,
+     "days": 16,
+     "views": 815508,
      "best": 285500,
      "best_url": "https://x.com/bl888m_eth/status/2119067938896716197",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -5067,6 +5502,48 @@
       "delta_since": "2026-11-21T10:56:44+03:00"
      },
      "handle_label": "@bl888m_eth (13.8K, +35)"
+    },
+    {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 14,
+     "days": 10,
+     "views": 766944,
+     "best": 186443,
+     "best_url": "https://x.com/Argona0x/status/2122308036484022324",
+     "best_as_of": "2026-11-22T10:59:47+03:00",
+     "best_stale": false,
+     "is_you": false,
+     "followers": {
+      "count": 41063,
+      "label": "41.1K",
+      "as_of": "2026-11-22T11:01:22+03:00",
+      "stale": false,
+      "delta": 56,
+      "delta_since": "2026-11-21T10:56:44+03:00"
+     },
+     "handle_label": "@Argona0x (41.1K, +56)"
+    },
+    {
+     "handle": "@Sprytixl",
+     "name": "Sprytix",
+     "hits": 3,
+     "days": 1,
+     "views": 728762,
+     "best": 671600,
+     "best_url": "https://x.com/Sprytixl/status/2124078042653831620",
+     "best_as_of": "2026-11-22T11:02:09+03:00",
+     "best_stale": false,
+     "is_you": false,
+     "followers": {
+      "count": 9236,
+      "label": "9.2K",
+      "as_of": "2026-11-22T11:01:22+03:00",
+      "stale": false,
+      "delta": 179,
+      "delta_since": "2026-11-21T10:56:44+03:00"
+     },
+     "handle_label": "@Sprytixl (9.2K, +179)"
     },
     {
      "handle": "@0x_kaize",
@@ -5090,32 +5567,11 @@
      "handle_label": "@0x_kaize (24.8K, −7)"
     },
     {
-     "handle": "@Argona0x",
-     "name": "Argona",
-     "hits": 13,
-     "days": 9,
-     "views": 605804,
-     "best": 186443,
-     "best_url": "https://x.com/Argona0x/status/2122308036484022324",
-     "best_as_of": "2026-11-22T10:59:47+03:00",
-     "best_stale": false,
-     "is_you": false,
-     "followers": {
-      "count": 41063,
-      "label": "41.1K",
-      "as_of": "2026-11-22T11:01:22+03:00",
-      "stale": false,
-      "delta": 56,
-      "delta_since": "2026-11-21T10:56:44+03:00"
-     },
-     "handle_label": "@Argona0x (41.1K, +56)"
-    },
-    {
      "handle": "@ScottyBeamIO",
      "name": "SCOTTY BEAM",
-     "hits": 10,
-     "days": 9,
-     "views": 497098,
+     "hits": 11,
+     "days": 10,
+     "views": 507358,
      "best": 260634,
      "best_url": "https://x.com/ScottyBeamIO/status/2119442033769136299",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -5134,9 +5590,9 @@
     {
      "handle": "@ridark_eth",
      "name": "Ridark",
-     "hits": 20,
-     "days": 15,
-     "views": 407240,
+     "hits": 21,
+     "days": 16,
+     "views": 414717,
      "best": 136687,
      "best_url": "https://x.com/ridark_eth/status/2119805063484883063",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -5195,6 +5651,27 @@
      "handle_label": "@AnnatarXBT (4.1K, +14)"
     },
     {
+     "handle": "@RetroChainer",
+     "name": "RetroChainer",
+     "hits": 14,
+     "days": 11,
+     "views": 208812,
+     "best": 68386,
+     "best_url": "https://x.com/RetroChainer/status/2124205345606103149",
+     "best_as_of": "2026-11-22T11:01:55+03:00",
+     "best_stale": false,
+     "is_you": false,
+     "followers": {
+      "count": 7263,
+      "label": "7.3K",
+      "as_of": "2026-11-22T11:01:22+03:00",
+      "stale": false,
+      "delta": 73,
+      "delta_since": "2026-11-21T10:56:44+03:00"
+     },
+     "handle_label": "@RetroChainer (7.3K, +73)"
+    },
+    {
      "handle": "@Shelpid_WI3M",
      "name": "Shelpid.WI3M",
      "hits": 8,
@@ -5216,32 +5693,11 @@
      "handle_label": "@Shelpid_WI3M (53.6K, −19)"
     },
     {
-     "handle": "@RetroChainer",
-     "name": "RetroChainer",
-     "hits": 13,
-     "days": 10,
-     "views": 140426,
-     "best": 23635,
-     "best_url": "https://x.com/RetroChainer/status/2121553740574400698",
-     "best_as_of": "2026-11-22T10:59:47+03:00",
-     "best_stale": false,
-     "is_you": false,
-     "followers": {
-      "count": 7263,
-      "label": "7.3K",
-      "as_of": "2026-11-22T11:01:22+03:00",
-      "stale": false,
-      "delta": 73,
-      "delta_since": "2026-11-21T10:56:44+03:00"
-     },
-     "handle_label": "@RetroChainer (7.3K, +73)"
-    },
-    {
      "handle": "@0x_rody",
      "name": "rody",
-     "hits": 4,
-     "days": 4,
-     "views": 95790,
+     "hits": 5,
+     "days": 5,
+     "views": 101500,
      "best": 27787,
      "best_url": "https://x.com/0x_rody/status/2122769182098104525",
      "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -6160,9 +6616,9 @@
    {
     "handle": "@carverfomo",
     "name": "Carver",
-    "hits": 41,
-    "days": 24,
-    "views": 24096099,
+    "hits": 44,
+    "days": 25,
+    "views": 24126842,
     "best": 4142155,
     "best_url": "https://x.com/carverfomo/status/2119448267830202369",
     "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -6181,9 +6637,9 @@
    {
     "handle": "@Mr_Buzzoni",
     "name": "Mr. Buzzoni",
-    "hits": 92,
-    "days": 62,
-    "views": 14866376,
+    "hits": 93,
+    "days": 63,
+    "views": 14873718,
     "best": 10589100,
     "best_url": "https://x.com/Mr_Buzzoni/status/2118672625471811827",
     "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -6202,9 +6658,9 @@
    {
     "handle": "@beamnxw",
     "name": "beamnxw ./",
-    "hits": 100,
-    "days": 57,
-    "views": 13077669,
+    "hits": 103,
+    "days": 58,
+    "views": 13111602,
     "best": 3680346,
     "best_url": "https://x.com/beamnxw/status/2107522996046905797",
     "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -6223,9 +6679,9 @@
    {
     "handle": "@Argona0x",
     "name": "Argona",
-    "hits": 65,
-    "days": 44,
-    "views": 9497187,
+    "hits": 66,
+    "days": 45,
+    "views": 9658327,
     "best": 1279579,
     "best_url": "https://x.com/Argona0x/status/2109705574371774667",
     "best_as_of": "2026-11-22T10:58:15+03:00",
@@ -6244,9 +6700,9 @@
    {
     "handle": "@N01ennn",
     "name": "NO1ennn",
-    "hits": 74,
-    "days": 54,
-    "views": 9325636,
+    "hits": 76,
+    "days": 55,
+    "views": 9447987,
     "best": 1743645,
     "best_url": "https://x.com/N01ennn/status/2110319993128706208",
     "best_as_of": "2026-11-22T10:58:19+03:00",
@@ -6265,9 +6721,9 @@
    {
     "handle": "@cyrilXBT",
     "name": "CyrilXBT",
-    "hits": 406,
-    "days": 57,
-    "views": 7781959,
+    "hits": 412,
+    "days": 58,
+    "views": 7822443,
     "best": 660726,
     "best_url": "https://x.com/cyrilXBT/status/2123811363466162395",
     "best_as_of": "2026-11-22T10:59:35+03:00",
@@ -6286,9 +6742,9 @@
    {
     "handle": "@leopardracer",
     "name": "leopardracer",
-    "hits": 38,
-    "days": 34,
-    "views": 7253232,
+    "hits": 39,
+    "days": 35,
+    "views": 7279894,
     "best": 2480111,
     "best_url": "https://x.com/leopardracer/status/2120547223624712254",
     "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -6307,9 +6763,9 @@
    {
     "handle": "@Bober_smart",
     "name": "Bober_smart",
-    "hits": 80,
-    "days": 45,
-    "views": 6459389,
+    "hits": 82,
+    "days": 46,
+    "views": 6501009,
     "best": 1283995,
     "best_url": "https://x.com/Bober_smart/status/2108974132058603803",
     "best_as_of": "2026-11-22T10:58:15+03:00",
@@ -6328,9 +6784,9 @@
    {
     "handle": "@0xCodila",
     "name": "codila",
-    "hits": 22,
-    "days": 18,
-    "views": 6132738,
+    "hits": 23,
+    "days": 19,
+    "views": 6145459,
     "best": 3512241,
     "best_url": "https://x.com/0xCodila/status/2120187587209896001",
     "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -6391,9 +6847,9 @@
    {
     "handle": "@everestchris6",
     "name": "everestchris6",
-    "hits": 29,
-    "days": 26,
-    "views": 4734698,
+    "hits": 30,
+    "days": 27,
+    "views": 4742602,
     "best": 1966987,
     "best_url": "https://x.com/everestchris6/status/2116183923747422477",
     "best_as_of": "2026-11-22T10:58:34+03:00",
@@ -6412,9 +6868,9 @@
    {
     "handle": "@slash1sol",
     "name": "slash1s",
-    "hits": 57,
-    "days": 37,
-    "views": 4220314,
+    "hits": 58,
+    "days": 38,
+    "views": 4248468,
     "best": 1616813,
     "best_url": "https://x.com/slash1sol/status/2122313821318480063",
     "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -6433,9 +6889,9 @@
    {
     "handle": "@mika_systems",
     "name": "Mika",
-    "hits": 20,
-    "days": 17,
-    "views": 3547730,
+    "hits": 22,
+    "days": 18,
+    "views": 3630025,
     "best": 1586320,
     "best_url": "https://x.com/mika_systems/status/2113284235268087850",
     "best_as_of": "2026-11-22T10:58:26+03:00",
@@ -6475,9 +6931,9 @@
    {
     "handle": "@ridark_eth",
     "name": "Ridark",
-    "hits": 53,
-    "days": 37,
-    "views": 3061235,
+    "hits": 54,
+    "days": 38,
+    "views": 3068712,
     "best": 855644,
     "best_url": "https://x.com/ridark_eth/status/2100972106586439809",
     "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -6538,9 +6994,9 @@
    {
     "handle": "@ScottyBeamIO",
     "name": "SCOTTY BEAM",
-    "hits": 31,
-    "days": 29,
-    "views": 2468967,
+    "hits": 32,
+    "days": 30,
+    "views": 2479227,
     "best": 1235063,
     "best_url": "https://x.com/ScottyBeamIO/status/2109660484144169136",
     "best_as_of": "2026-11-22T10:58:15+03:00",
@@ -6557,11 +7013,32 @@
     "handle_label": "@ScottyBeamIO (78.7K, −22)"
    },
    {
+    "handle": "@Sprytixl",
+    "name": "Sprytix",
+    "hits": 37,
+    "days": 29,
+    "views": 2164659,
+    "best": 671600,
+    "best_url": "https://x.com/Sprytixl/status/2124078042653831620",
+    "best_as_of": "2026-11-22T11:02:09+03:00",
+    "best_stale": false,
+    "is_you": false,
+    "followers": {
+     "count": 9236,
+     "label": "9.2K",
+     "as_of": "2026-11-22T11:01:22+03:00",
+     "stale": false,
+     "delta": 179,
+     "delta_since": "2026-11-21T10:56:44+03:00"
+    },
+    "handle_label": "@Sprytixl (9.2K, +179)"
+   },
+   {
     "handle": "@shmidtqq",
     "name": "shmidt",
-    "hits": 44,
-    "days": 32,
-    "views": 2103629,
+    "hits": 45,
+    "days": 33,
+    "views": 2109301,
     "best": 498268,
     "best_url": "https://x.com/shmidtqq/status/2119410279788286146",
     "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -6622,9 +7099,9 @@
    {
     "handle": "@bl888m_eth",
     "name": "bl888m",
-    "hits": 42,
-    "days": 34,
-    "views": 1483164,
+    "hits": 43,
+    "days": 35,
+    "views": 1510076,
     "best": 285500,
     "best_url": "https://x.com/bl888m_eth/status/2119067938896716197",
     "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -6641,53 +7118,11 @@
     "handle_label": "@bl888m_eth (13.8K, +35)"
    },
    {
-    "handle": "@Sprytixl",
-    "name": "Sprytix",
-    "hits": 34,
-    "days": 28,
-    "views": 1435897,
-    "best": 340159,
-    "best_url": "https://x.com/Sprytixl/status/2100489442674798669",
-    "best_as_of": "2026-11-22T10:59:47+03:00",
-    "best_stale": false,
-    "is_you": false,
-    "followers": {
-     "count": 9236,
-     "label": "9.2K",
-     "as_of": "2026-11-22T11:01:22+03:00",
-     "stale": false,
-     "delta": 179,
-     "delta_since": "2026-11-21T10:56:44+03:00"
-    },
-    "handle_label": "@Sprytixl (9.2K, +179)"
-   },
-   {
-    "handle": "@zostaff",
-    "name": "zostaff",
-    "hits": 22,
-    "days": 18,
-    "views": 1366690,
-    "best": 403377,
-    "best_url": "https://x.com/zostaff/status/2118753789935051124",
-    "best_as_of": "2026-11-22T10:59:47+03:00",
-    "best_stale": false,
-    "is_you": false,
-    "followers": {
-     "count": 18337,
-     "label": "18.3K",
-     "as_of": "2026-11-22T11:01:22+03:00",
-     "stale": false,
-     "delta": 15,
-     "delta_since": "2026-11-21T10:56:44+03:00"
-    },
-    "handle_label": "@zostaff (18.3K, +15)"
-   },
-   {
     "handle": "@flxrnc",
     "name": "Florence",
-    "hits": 19,
-    "days": 19,
-    "views": 1333677,
+    "hits": 20,
+    "days": 20,
+    "views": 1387458,
     "best": 557940,
     "best_url": "https://x.com/flxrnc/status/2120207374250049675",
     "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -6702,6 +7137,27 @@
      "delta_since": "2026-11-21T10:56:44+03:00"
     },
     "handle_label": "@flxrnc (4.3K, +157)"
+   },
+   {
+    "handle": "@zostaff",
+    "name": "zostaff",
+    "hits": 23,
+    "days": 19,
+    "views": 1382112,
+    "best": 403377,
+    "best_url": "https://x.com/zostaff/status/2118753789935051124",
+    "best_as_of": "2026-11-22T10:59:47+03:00",
+    "best_stale": false,
+    "is_you": false,
+    "followers": {
+     "count": 18337,
+     "label": "18.3K",
+     "as_of": "2026-11-22T11:01:22+03:00",
+     "stale": false,
+     "delta": 15,
+     "delta_since": "2026-11-21T10:56:44+03:00"
+    },
+    "handle_label": "@zostaff (18.3K, +15)"
    },
    {
     "handle": "@Shelpid_WI3M",
@@ -6727,12 +7183,12 @@
    {
     "handle": "@RetroChainer",
     "name": "RetroChainer",
-    "hits": 28,
-    "days": 23,
-    "views": 261759,
-    "best": 23635,
-    "best_url": "https://x.com/RetroChainer/status/2121553740574400698",
-    "best_as_of": "2026-11-22T10:59:47+03:00",
+    "hits": 29,
+    "days": 24,
+    "views": 330145,
+    "best": 68386,
+    "best_url": "https://x.com/RetroChainer/status/2124205345606103149",
+    "best_as_of": "2026-11-22T11:01:55+03:00",
     "best_stale": false,
     "is_you": false,
     "followers": {
@@ -6748,9 +7204,9 @@
    {
     "handle": "@0x_rody",
     "name": "rody",
-    "hits": 4,
-    "days": 4,
-    "views": 95790,
+    "hits": 5,
+    "days": 5,
+    "views": 101500,
     "best": 27787,
     "best_url": "https://x.com/0x_rody/status/2122769182098104525",
     "best_as_of": "2026-11-22T10:59:47+03:00",
@@ -7114,7 +7570,7 @@
    {
     "id": "2124078042653831620",
     "handle": "@Sprytixl",
-    "name": "sprytixl",
+    "name": "Sprytix",
     "url": "https://x.com/Sprytixl/status/2124078042653831620",
     "hook": "Rockstar Games fired me on Wednesday. GTA 6 launched on Thursday.",
     "is_you": false,
@@ -7142,7 +7598,7 @@
    {
     "id": "2124213283607749013",
     "handle": "@Argona0x",
-    "name": "argona0x",
+    "name": "Argona",
     "url": "https://x.com/Argona0x/status/2124213283607749013",
     "hook": "this is f*cking dangerous",
     "is_you": false,
@@ -7175,7 +7631,7 @@
    {
     "id": "2124205345606103149",
     "handle": "@RetroChainer",
-    "name": "retrochainer",
+    "name": "RetroChainer",
     "url": "https://x.com/RetroChainer/status/2124205345606103149",
     "hook": "This is f**king wild. Google paid $40 million for Fossil's smartwatch tech and $2.1 billion for Fitbit. One developer took a $40 board and got a Pixel Watch-style interface running at 60 FPS in two ev",
     "is_you": false,
@@ -7208,7 +7664,7 @@
    {
     "id": "2124231511499026436",
     "handle": "@flxrnc",
-    "name": "flxrnc",
+    "name": "Florence",
     "url": "https://x.com/flxrnc/status/2124231511499026436",
     "hook": "I make a new animation every day now, these 18 GitHub repos are my secret",
     "is_you": false,
@@ -7241,7 +7697,7 @@
    {
     "id": "2124133328773128526",
     "handle": "@N01ennn",
-    "name": "n01ennn",
+    "name": "NO1ennn",
     "url": "https://x.com/N01ennn/status/2124133328773128526",
     "hook": "This is f*cking insane... uncensored Claude Code is porting GTA VI to PC",
     "is_you": false,
@@ -7274,7 +7730,7 @@
    {
     "id": "2124078093962719419",
     "handle": "@Sprytixl",
-    "name": "sprytixl",
+    "name": "Sprytix",
     "url": "https://x.com/Sprytixl/status/2124078093962719419",
     "hook": "The part I left out of the thread:",
     "is_you": false,
@@ -7302,7 +7758,7 @@
    {
     "id": "2124118317405241466",
     "handle": "@slash1sol",
-    "name": "slash1sol",
+    "name": "slash1s",
     "url": "https://x.com/slash1sol/status/2124118317405241466",
     "hook": "GTA 6 IS FINALLY OUT, AND IT IS ABOUT TO CREATE A WHOLE NEW WAVE OF ONLINE MILLIONAIRES",
     "is_you": false,
@@ -7335,7 +7791,7 @@
    {
     "id": "2124078124799279149",
     "handle": "@Sprytixl",
-    "name": "sprytixl",
+    "name": "Sprytix",
     "url": "https://x.com/Sprytixl/status/2124078124799279149",
     "hook": "People keep asking if this is real.",
     "is_you": false,
@@ -7363,7 +7819,7 @@
    {
     "id": "2124146501949775973",
     "handle": "@bl888m_eth",
-    "name": "bl888m_eth",
+    "name": "bl888m",
     "url": "https://x.com/bl888m_eth/status/2124146501949775973",
     "hook": "AI trading is about to create a new wave of online millionaires.",
     "is_you": false,
@@ -7427,7 +7883,7 @@
    {
     "id": "2124133809469772088",
     "handle": "@Bober_smart",
-    "name": "bober_smart",
+    "name": "Bober_smart",
     "url": "https://x.com/Bober_smart/status/2124133809469772088",
     "hook": "I don't understand why everyone isn't doing this yet. You will never give a store your real email address again. Elon Musk reposted my setup guide, you no longer have to give anyone your real email",
     "is_you": false,
@@ -7460,7 +7916,7 @@
    {
     "id": "2124146312652136618",
     "handle": "@Mr_Buzzoni",
-    "name": "mr_buzzoni",
+    "name": "Mr. Buzzoni",
     "url": "https://x.com/Mr_Buzzoni/status/2124146312652136618",
     "hook": "one year at Stanford costs more than $60,000",
     "is_you": false,
@@ -7495,7 +7951,7 @@
    {
     "id": "2124226906342256988",
     "handle": "@Bober_smart",
-    "name": "bober_smart",
+    "name": "Bober_smart",
     "url": "https://x.com/Bober_smart/status/2124226906342256988",
     "hook": "No f*cking way... Grok Bot runs my TikTok now, 5.2M views and I've never shown my face",
     "is_you": false,
@@ -7597,7 +8053,7 @@
    {
     "id": "2124188976118485326",
     "handle": "@0xCodila",
-    "name": "0xcodila",
+    "name": "codila",
     "url": "https://x.com/0xCodila/status/2124188976118485326",
     "hook": "Finally... I made cutting GrokBot usage prompt that works through uncensored &amp; unlimited AI model",
     "is_you": false,
@@ -7630,7 +8086,7 @@
    {
     "id": "2124181222863917418",
     "handle": "@ScottyBeamIO",
-    "name": "scottybeamio",
+    "name": "SCOTTY BEAM",
     "url": "https://x.com/ScottyBeamIO/status/2124181222863917418",
     "hook": "STOP F*CKING JUST PLAYING GTA 6, YOU CAN MAKE $1M IN A YEAR ON THE GTA 6 HYPE",
     "is_you": false,
@@ -7663,7 +8119,7 @@
    {
     "id": "2124052695820702100",
     "handle": "@cyrilXBT",
-    "name": "cyrilxbt",
+    "name": "CyrilXBT",
     "url": "https://x.com/cyrilXBT/status/2124052695820702100",
     "hook": "YOU CAN NOW RECREATE ALMOST ANY ANIMATION YOU SEE WITH FABLE 5.2.",
     "is_you": false,
@@ -7696,7 +8152,7 @@
    {
     "id": "2124163017093021957",
     "handle": "@everestchris6",
-    "name": "everestchris6",
+    "name": "Chris",
     "url": "https://x.com/everestchris6/status/2124163017093021957",
     "hook": "i built 120+ free video components for gta 6 videos",
     "is_you": false,
@@ -7724,7 +8180,7 @@
    {
     "id": "2124138160993325133",
     "handle": "@carverfomo",
-    "name": "carverfomo",
+    "name": "Carver",
     "url": "https://x.com/carverfomo/status/2124138160993325133",
     "hook": "Clavicular knew a girl for 30 seconds, asked “you wanna go f*ck?” and got a YES with zero hesitation 😭 https://t.co/j6yPZQMiDm",
     "is_you": false,
@@ -7752,7 +8208,7 @@
    {
     "id": "2124246036533371286",
     "handle": "@beamnxw",
-    "name": "beamnxw",
+    "name": "beamnxw ./",
     "url": "https://x.com/beamnxw/status/2124246036533371286",
     "hook": "I highly recommend Matt Pocock’s walkthrough on building a 21,000-line PR with AI using mattpocock/skills",
     "is_you": false,
@@ -7785,7 +8241,7 @@
    {
     "id": "2124083146291622001",
     "handle": "@cyrilXBT",
-    "name": "cyrilxbt",
+    "name": "CyrilXBT",
     "url": "https://x.com/cyrilXBT/status/2124083146291622001",
     "hook": "SOME PEOPLE WILL MAKE MONEY OFF GTA 6 WITHOUT PLAYING A SINGLE MINUTE.",
     "is_you": false,
@@ -7813,7 +8269,7 @@
    {
     "id": "2124202144504926266",
     "handle": "@mika_systems",
-    "name": "mika_systems",
+    "name": "Mika",
     "url": "https://x.com/mika_systems/status/2124202144504926266",
     "hook": "no f*cking way... OpenAI just dropped the one thing that makes Codex scary. 110 plugins and skills, all free, built by NVIDIA, Adobe, Stripe, Shopify and Figma themselves. even Microsoft is in there",
     "is_you": false,
@@ -7846,7 +8302,7 @@
    {
     "id": "2124119680788967581",
     "handle": "@beamnxw",
-    "name": "beamnxw",
+    "name": "beamnxw ./",
     "url": "https://x.com/beamnxw/status/2124119680788967581",
     "hook": "this paper is a must-read if you want to actually understand \"Harness engineering\" and save up to 90% of your tokens",
     "is_you": false,
@@ -7879,7 +8335,7 @@
    {
     "id": "2124147727730667560",
     "handle": "@shmidtqq",
-    "name": "shmidtqq",
+    "name": "shmidt",
     "url": "https://x.com/shmidtqq/status/2124147727730667560",
     "hook": "Anthropic accidentally turned Claude Code into a literal 24/7 unpaid engineering team, and 99% of developers still close their laptop at 11 PM like it's 2022.",
     "is_you": false,
@@ -7910,7 +8366,7 @@
    {
     "id": "2124133981411324383",
     "handle": "@cyrilXBT",
-    "name": "cyrilxbt",
+    "name": "CyrilXBT",
     "url": "https://x.com/cyrilXBT/status/2124133981411324383",
     "hook": "GROK BOT JUST STOPPED BEING YOUR ASSISTANT. IT'S YOUR WHOLE TEAM'S COWORKER NOW.",
     "is_you": false,
@@ -7938,7 +8394,7 @@
    {
     "id": "2124211450248085792",
     "handle": "@cyrilXBT",
-    "name": "cyrilxbt",
+    "name": "CyrilXBT",
     "url": "https://x.com/cyrilXBT/status/2124211450248085792",
     "hook": "This is BEYOND insane:",
     "is_you": false,
@@ -9774,8 +10230,8 @@
    {
     "name": "Grok Bot как оператор: почта, TikTok, команда, Coinbase",
     "keywords": [
-     "workflow",
      "Grok Bot",
+     "workflow",
      "AI agents",
      "24/7"
     ],
@@ -9933,8 +10389,8 @@
     "name": "Harness / loops / second brain",
     "keywords": [
      "Harness",
-     "loops",
      "vault",
+     "loops",
      "Andrej Karpathy's"
     ],
     "posts_24h": 5,
@@ -11846,7 +12302,7 @@
   "handle": "@thegreatest_sv",
   "start": "2026-10-24",
   "end": "2026-10-31",
-  "updated": "2026-11-22T11:07+03:00",
+  "updated": "2026-11-22T11:17+03:00",
   "content_day": "2026-11-21",
   "baseline": {
    "median": 13818,
@@ -11943,7 +12399,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 691.8,
+    "age_h": 692.0,
     "mature": true,
     "date": "24.10 15:19"
    },
@@ -12032,7 +12488,7 @@
     "label": "тренд",
     "declared": "тренд",
     "declared_note": "первый пост эксперимента (24.10): Kimi K3.1 Pro vs Claude Opus 5.5 - сравнение дизайна",
-    "age_h": 688.9,
+    "age_h": 689.1,
     "mature": true,
     "date": "24.10 18:11"
    },
@@ -12120,7 +12576,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 685.8,
+    "age_h": 685.9,
     "mature": true,
     "date": "24.10 21:22"
    },
@@ -12206,7 +12662,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 668.1,
+    "age_h": 668.2,
     "mature": true,
     "date": "25.10 15:03"
    },
@@ -12292,7 +12748,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 664.7,
+    "age_h": 664.8,
     "mature": true,
     "date": "25.10 18:27"
    },
@@ -12378,7 +12834,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 661.9,
+    "age_h": 662.1,
     "mature": true,
     "date": "25.10 21:11"
    },
@@ -12427,7 +12883,7 @@
     "label": "не тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 646.6,
+    "age_h": 646.8,
     "mature": true,
     "date": "26.10 12:32"
    },
@@ -12511,7 +12967,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 643.8,
+    "age_h": 644.0,
     "mature": true,
     "date": "26.10 15:19"
    },
@@ -12595,7 +13051,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 640.8,
+    "age_h": 640.9,
     "mature": true,
     "date": "26.10 18:21"
    },
@@ -12680,7 +13136,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 637.8,
+    "age_h": 637.9,
     "mature": true,
     "date": "26.10 21:21"
    },
@@ -12760,7 +13216,7 @@
     "label": "не тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 620.1,
+    "age_h": 620.2,
     "mature": true,
     "date": "27.10 15:04"
    },
@@ -12842,7 +13298,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 616.9,
+    "age_h": 617.1,
     "mature": true,
     "date": "27.10 18:13"
    },
@@ -12924,7 +13380,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 614.0,
+    "age_h": 614.2,
     "mature": true,
     "date": "27.10 21:06"
    },
@@ -13004,7 +13460,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 595.8,
+    "age_h": 596.0,
     "mature": true,
     "date": "28.10 15:19"
    },
@@ -13082,7 +13538,7 @@
     "label": "не тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 592.9,
+    "age_h": 593.1,
     "mature": true,
     "date": "28.10 18:13"
    },
@@ -13162,7 +13618,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 589.8,
+    "age_h": 589.9,
     "mature": true,
     "date": "28.10 21:22"
    },
@@ -13238,7 +13694,7 @@
     "label": "не тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 571.9,
+    "age_h": 572.1,
     "mature": true,
     "date": "29.10 15:14"
    },
@@ -13316,7 +13772,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 568.4,
+    "age_h": 568.5,
     "mature": true,
     "date": "29.10 18:44"
    },
@@ -13394,7 +13850,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 565.4,
+    "age_h": 565.6,
     "mature": true,
     "date": "29.10 21:41"
    },
@@ -13471,7 +13927,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 547.8,
+    "age_h": 548.0,
     "mature": true,
     "date": "30.10 15:17"
    },
@@ -13547,7 +14003,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 544.7,
+    "age_h": 544.8,
     "mature": true,
     "date": "30.10 18:27"
    },
@@ -13621,7 +14077,7 @@
     "label": "не тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 541.3,
+    "age_h": 541.4,
     "mature": true,
     "date": "30.10 21:51"
    },
@@ -13695,7 +14151,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 524.6,
+    "age_h": 524.8,
     "mature": true,
     "date": "31.10 14:29"
    },
@@ -13769,7 +14225,7 @@
     "label": "не тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 518.4,
+    "age_h": 518.6,
     "mature": true,
     "date": "31.10 20:44"
    }

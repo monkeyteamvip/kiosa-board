@@ -13684,6 +13684,121 @@
   },
   "2026-11-21": {
    "accounts": {
+    "0x_rody": {
+     "handle": "@0x_rody",
+     "name": "rody",
+     "hits": 1,
+     "best": 5710,
+     "total": 5710,
+     "best_url": "https://x.com/0x_rody/status/2123916378528780479",
+     "post_ids": [
+      "2123916378528780479"
+     ],
+     "best_as_of": "2026-11-22T10:59:35+03:00",
+     "best_stale": false
+    },
+    "beamnxw": {
+     "handle": "@beamnxw",
+     "name": "beamnxw ./",
+     "hits": 3,
+     "best": 20579,
+     "total": 33933,
+     "best_url": "https://x.com/beamnxw/status/2123896959878717909",
+     "post_ids": [
+      "2123896959878717909",
+      "2124246036533371286",
+      "2124119680788967581"
+     ],
+     "best_as_of": "2026-11-22T10:59:35+03:00",
+     "best_stale": false
+    },
+    "carverfomo": {
+     "handle": "@carverfomo",
+     "name": "Carver",
+     "hits": 3,
+     "best": 17499,
+     "total": 30743,
+     "best_url": "https://x.com/carverfomo/status/2123917529441509486",
+     "post_ids": [
+      "2123917529441509486",
+      "2124138160993325133",
+      "2123970745617310020"
+     ],
+     "best_as_of": "2026-11-22T10:59:35+03:00",
+     "best_stale": false
+    },
+    "cyrilxbt": {
+     "handle": "@cyrilXBT",
+     "name": "CyrilXBT",
+     "hits": 6,
+     "best": 8001,
+     "total": 40484,
+     "best_url": "https://x.com/cyrilXBT/status/2124052695820702100",
+     "post_ids": [
+      "2124052695820702100",
+      "2124027564838818038",
+      "2124083146291622001",
+      "2124001125183685043",
+      "2124133981411324383",
+      "2124211450248085792"
+     ],
+     "best_as_of": "2026-11-22T11:02:35+03:00",
+     "best_stale": false
+    },
+    "mika_systems": {
+     "handle": "@mika_systems",
+     "name": "Mika",
+     "hits": 2,
+     "best": 75377,
+     "total": 82295,
+     "best_url": "https://x.com/mika_systems/status/2123887895840747960",
+     "post_ids": [
+      "2123887895840747960",
+      "2124202144504926266"
+     ],
+     "best_as_of": "2026-11-22T10:59:35+03:00",
+     "best_stale": false
+    },
+    "mr_buzzoni": {
+     "handle": "@Mr_Buzzoni",
+     "name": "Mr. Buzzoni",
+     "hits": 1,
+     "best": 7342,
+     "total": 7342,
+     "best_url": "https://x.com/Mr_Buzzoni/status/2124022412853608824",
+     "post_ids": [
+      "2124022412853608824"
+     ],
+     "best_as_of": "2026-11-22T10:59:35+03:00",
+     "best_stale": false
+    },
+    "n01ennn": {
+     "handle": "@N01ennn",
+     "name": "NO1ennn",
+     "hits": 2,
+     "best": 84986,
+     "total": 122351,
+     "best_url": "https://x.com/N01ennn/status/2123899443200065645",
+     "post_ids": [
+      "2123899443200065645",
+      "2124133328773128526"
+     ],
+     "best_as_of": "2026-11-22T10:59:35+03:00",
+     "best_stale": false
+    },
+    "ridark_eth": {
+     "handle": "@ridark_eth",
+     "name": "Ridark",
+     "hits": 1,
+     "best": 7477,
+     "total": 7477,
+     "best_url": "https://x.com/ridark_eth/status/2123889367047610529",
+     "post_ids": [
+      "2123889367047610529"
+     ],
+     "best_as_of": "2026-11-22T10:59:35+03:00",
+     "best_stale": false
+    },
     "thegreatest_sv": {
      "handle": "@thegreatest_sv",
      "name": "The Greatest",
@@ -13695,6 +13810,178 @@
       "2124137504907337791"
      ],
      "best_as_of": "2026-11-22T11:02:50+03:00",
+     "best_stale": false
+    },
+    "0xcodila": {
+     "handle": "@0xCodila",
+     "name": "codila",
+     "hits": 1,
+     "best": 12721,
+     "total": 12721,
+     "best_url": "https://x.com/0xCodila/status/2124188976118485326",
+     "post_ids": [
+      "2124188976118485326"
+     ],
+     "best_as_of": "2026-11-22T11:02:44+03:00",
+     "best_stale": false
+    },
+    "argona0x": {
+     "handle": "@Argona0x",
+     "name": "Argona",
+     "hits": 1,
+     "best": 161140,
+     "total": 161140,
+     "best_url": "https://x.com/Argona0x/status/2124213283607749013",
+     "post_ids": [
+      "2124213283607749013"
+     ],
+     "best_as_of": "2026-11-22T11:01:52+03:00",
+     "best_stale": false
+    },
+    "bl888m_eth": {
+     "handle": "@bl888m_eth",
+     "name": "bl888m",
+     "hits": 1,
+     "best": 26912,
+     "total": 26912,
+     "best_url": "https://x.com/bl888m_eth/status/2124146501949775973",
+     "post_ids": [
+      "2124146501949775973"
+     ],
+     "best_as_of": "2026-11-22T11:02:01+03:00",
+     "best_stale": false
+    },
+    "bober_smart": {
+     "handle": "@Bober_smart",
+     "name": "Bober_smart",
+     "hits": 2,
+     "best": 25650,
+     "total": 41620,
+     "best_url": "https://x.com/Bober_smart/status/2124133809469772088",
+     "post_ids": [
+      "2124133809469772088",
+      "2124226906342256988"
+     ],
+     "best_as_of": "2026-11-22T11:01:28+03:00",
+     "best_stale": false
+    },
+    "everestchris6": {
+     "handle": "@everestchris6",
+     "name": "Chris",
+     "hits": 1,
+     "best": 7904,
+     "total": 7904,
+     "best_url": "https://x.com/everestchris6/status/2124163017093021957",
+     "post_ids": [
+      "2124163017093021957"
+     ],
+     "best_as_of": "2026-11-22T11:02:26+03:00",
+     "best_stale": false
+    },
+    "flxrnc": {
+     "handle": "@flxrnc",
+     "name": "Florence",
+     "hits": 1,
+     "best": 53781,
+     "total": 53781,
+     "best_url": "https://x.com/flxrnc/status/2124231511499026436",
+     "post_ids": [
+      "2124231511499026436"
+     ],
+     "best_as_of": "2026-11-22T11:02:41+03:00",
+     "best_stale": false
+    },
+    "leopardracer": {
+     "handle": "@leopardracer",
+     "name": "leopardracer",
+     "hits": 1,
+     "best": 26662,
+     "total": 26662,
+     "best_url": "https://x.com/leopardracer/status/2124143193251860823",
+     "post_ids": [
+      "2124143193251860823"
+     ],
+     "best_as_of": "2026-11-22T11:02:16+03:00",
+     "best_stale": false
+    },
+    "retrochainer": {
+     "handle": "@RetroChainer",
+     "name": "RetroChainer",
+     "hits": 1,
+     "best": 68386,
+     "total": 68386,
+     "best_url": "https://x.com/RetroChainer/status/2124205345606103149",
+     "post_ids": [
+      "2124205345606103149"
+     ],
+     "best_as_of": "2026-11-22T11:01:55+03:00",
+     "best_stale": false
+    },
+    "scottybeamio": {
+     "handle": "@ScottyBeamIO",
+     "name": "SCOTTY BEAM",
+     "hits": 1,
+     "best": 10260,
+     "total": 10260,
+     "best_url": "https://x.com/ScottyBeamIO/status/2124181222863917418",
+     "post_ids": [
+      "2124181222863917418"
+     ],
+     "best_as_of": "2026-11-22T11:01:25+03:00",
+     "best_stale": false
+    },
+    "shmidtqq": {
+     "handle": "@shmidtqq",
+     "name": "shmidt",
+     "hits": 1,
+     "best": 5672,
+     "total": 5672,
+     "best_url": "https://x.com/shmidtqq/status/2124147727730667560",
+     "post_ids": [
+      "2124147727730667560"
+     ],
+     "best_as_of": "2026-11-22T11:01:43+03:00",
+     "best_stale": false
+    },
+    "slash1sol": {
+     "handle": "@slash1sol",
+     "name": "slash1s",
+     "hits": 1,
+     "best": 28154,
+     "total": 28154,
+     "best_url": "https://x.com/slash1sol/status/2124118317405241466",
+     "post_ids": [
+      "2124118317405241466"
+     ],
+     "best_as_of": "2026-11-22T11:02:13+03:00",
+     "best_stale": false
+    },
+    "sprytixl": {
+     "handle": "@Sprytixl",
+     "name": "Sprytix",
+     "hits": 3,
+     "best": 671600,
+     "total": 728762,
+     "best_url": "https://x.com/Sprytixl/status/2124078042653831620",
+     "post_ids": [
+      "2124078042653831620",
+      "2124078093962719419",
+      "2124078124799279149"
+     ],
+     "best_as_of": "2026-11-22T11:02:09+03:00",
+     "best_stale": false
+    },
+    "zostaff": {
+     "handle": "@zostaff",
+     "name": "zostaff",
+     "hits": 1,
+     "best": 15422,
+     "total": 15422,
+     "best_url": "https://x.com/zostaff/status/2124244980789125160",
+     "post_ids": [
+      "2124244980789125160"
+     ],
+     "best_as_of": "2026-11-22T11:01:38+03:00",
      "best_stale": false
     }
    }
@@ -553421,10 +553708,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "0x_rody",
    "handle": "@0x_rody",
-   "name": "0x_rody",
+   "name": "rody",
    "url": "https://x.com/0x_rody/status/2123916378528780479",
    "posted_at": "2026-11-21T02:08:19+03:00",
    "hook": "this is insane...",
@@ -553869,10 +554156,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "beamnxw",
    "handle": "@beamnxw",
-   "name": "beamnxw",
+   "name": "beamnxw ./",
    "url": "https://x.com/beamnxw/status/2123896959878717909",
    "posted_at": "2026-11-21T00:51:09+03:00",
    "hook": "Andrej Karpathy's coding rules turned into a single CLAUDE.md file just passed 232,000+ stars on GitHub:",
@@ -554114,10 +554401,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "carverfomo",
    "handle": "@carverfomo",
-   "name": "carverfomo",
+   "name": "Carver",
    "url": "https://x.com/carverfomo/status/2123970745617310020",
    "posted_at": "2026-11-21T05:44:21+03:00",
    "hook": "Xposed just robbed the Greedy King for $2.3M on @Roobet 👑 https://t.co/dzN7yPhmpd",
@@ -554157,10 +554444,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "carverfomo",
    "handle": "@carverfomo",
-   "name": "carverfomo",
+   "name": "Carver",
    "url": "https://x.com/carverfomo/status/2123917529441509486",
    "posted_at": "2026-11-21T02:12:54+03:00",
    "hook": "Lily had ONE chance to prove she never stole from Clavicular 😬 https://t.co/k8tK3VnQ0G",
@@ -554237,10 +554524,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "cyrilxbt",
    "handle": "@cyrilXBT",
-   "name": "cyrilxbt",
+   "name": "CyrilXBT",
    "url": "https://x.com/cyrilXBT/status/2124027564838818038",
    "posted_at": "2026-11-21T09:30:08+03:00",
    "hook": "THIS IS A GOLD MINE",
@@ -554280,10 +554567,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "cyrilxbt",
    "handle": "@cyrilXBT",
-   "name": "cyrilxbt",
+   "name": "CyrilXBT",
    "url": "https://x.com/cyrilXBT/status/2124001125183685043",
    "posted_at": "2026-11-21T07:45:04+03:00",
    "hook": "ONE OPUS 5.5 PROMPT NOW SETS UP YOUR OWN UNCENSORED AI WITH CLAUDE CODE.",
@@ -554906,10 +555193,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "mika_systems",
    "handle": "@mika_systems",
-   "name": "mika_systems",
+   "name": "Mika",
    "url": "https://x.com/mika_systems/status/2123887895840747960",
    "posted_at": "2026-11-21T00:15:08+03:00",
    "hook": "holy f*ck... Claude just did what the best mathematicians couldn't do in 167 years. Levent Alpoge (mathematician at Anthropic) says he and Claude proved the Riemann hypothesis, and he shipped every step as code a machine can check: 175,187 files of Lean",
@@ -554949,10 +555236,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "mr_buzzoni",
    "handle": "@Mr_Buzzoni",
-   "name": "mr_buzzoni",
+   "name": "Mr. Buzzoni",
    "url": "https://x.com/Mr_Buzzoni/status/2124022412853608824",
    "posted_at": "2026-11-21T09:09:40+03:00",
    "hook": "this prompt runs on Andrej Karpathy's autoresearch ideas (ex-OpenAI, ex-Tesla) and turns Opus 5.5 into a graph that actually finishes any job",
@@ -555114,10 +555401,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "n01ennn",
    "handle": "@N01ennn",
-   "name": "n01ennn",
+   "name": "NO1ennn",
    "url": "https://x.com/N01ennn/status/2123899443200065645",
    "posted_at": "2026-11-21T01:01:02+03:00",
    "hook": "https://t.co/1LNsQxRlSa",
@@ -555236,10 +555523,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "ridark_eth",
    "handle": "@ridark_eth",
-   "name": "ridark_eth",
+   "name": "Ridark",
    "url": "https://x.com/ridark_eth/status/2123889367047610529",
    "posted_at": "2026-11-21T00:20:59+03:00",
    "hook": "6 AI agents took over the entire content pipeline.",
@@ -556284,10 +556571,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "0xcodila",
    "handle": "@0xCodila",
-   "name": "0xcodila",
+   "name": "codila",
    "url": "https://x.com/0xCodila/status/2124188976118485326",
    "posted_at": "2026-11-21T20:11:32+03:00",
    "hook": "Finally... I made cutting GrokBot usage prompt that works through uncensored &amp; unlimited AI model",
@@ -556459,10 +556746,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "argona0x",
    "handle": "@Argona0x",
-   "name": "argona0x",
+   "name": "Argona",
    "url": "https://x.com/Argona0x/status/2124213283607749013",
    "posted_at": "2026-11-21T21:48:07+03:00",
    "hook": "this is f*cking dangerous",
@@ -556522,10 +556809,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "beamnxw",
    "handle": "@beamnxw",
-   "name": "beamnxw",
+   "name": "beamnxw ./",
    "url": "https://x.com/beamnxw/status/2124246036533371286",
    "posted_at": "2026-11-21T23:58:16+03:00",
    "hook": "I highly recommend Matt Pocock’s walkthrough on building a 21,000-line PR with AI using mattpocock/skills",
@@ -556586,10 +556873,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "beamnxw",
    "handle": "@beamnxw",
-   "name": "beamnxw",
+   "name": "beamnxw ./",
    "url": "https://x.com/beamnxw/status/2124119680788967581",
    "posted_at": "2026-11-21T15:36:10+03:00",
    "hook": "this paper is a must-read if you want to actually understand \"Harness engineering\" and save up to 90% of your tokens",
@@ -556621,10 +556908,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "bl888m_eth",
    "handle": "@bl888m_eth",
-   "name": "bl888m_eth",
+   "name": "bl888m",
    "url": "https://x.com/bl888m_eth/status/2124146501949775973",
    "posted_at": "2026-11-21T17:22:45+03:00",
    "hook": "AI trading is about to create a new wave of online millionaires.",
@@ -556656,10 +556943,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "bober_smart",
    "handle": "@Bober_smart",
-   "name": "bober_smart",
+   "name": "Bober_smart",
    "url": "https://x.com/Bober_smart/status/2124226906342256988",
    "posted_at": "2026-11-21T22:42:15+03:00",
    "hook": "No f*cking way... Grok Bot runs my TikTok now, 5.2M views and I've never shown my face",
@@ -556691,10 +556978,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "bober_smart",
    "handle": "@Bober_smart",
-   "name": "bober_smart",
+   "name": "Bober_smart",
    "url": "https://x.com/Bober_smart/status/2124133809469772088",
    "posted_at": "2026-11-21T16:32:19+03:00",
    "hook": "I don't understand why everyone isn't doing this yet. You will never give a store your real email address again. Elon Musk reposted my setup guide, you no longer have to give anyone your real email",
@@ -556760,10 +557047,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "carverfomo",
    "handle": "@carverfomo",
-   "name": "carverfomo",
+   "name": "Carver",
    "url": "https://x.com/carverfomo/status/2124138160993325133",
    "posted_at": "2026-11-21T16:49:36+03:00",
    "hook": "Clavicular knew a girl for 30 seconds, asked “you wanna go f*ck?” and got a YES with zero hesitation 😭 https://t.co/j6yPZQMiDm",
@@ -556882,10 +557169,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "cyrilxbt",
    "handle": "@cyrilXBT",
-   "name": "cyrilxbt",
+   "name": "CyrilXBT",
    "url": "https://x.com/cyrilXBT/status/2124211450248085792",
    "posted_at": "2026-11-21T21:40:50+03:00",
    "hook": "This is BEYOND insane:",
@@ -556911,10 +557198,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "cyrilxbt",
    "handle": "@cyrilXBT",
-   "name": "cyrilxbt",
+   "name": "CyrilXBT",
    "url": "https://x.com/cyrilXBT/status/2124133981411324383",
    "posted_at": "2026-11-21T16:33:00+03:00",
    "hook": "GROK BOT JUST STOPPED BEING YOUR ASSISTANT. IT'S YOUR WHOLE TEAM'S COWORKER NOW.",
@@ -556940,10 +557227,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "cyrilxbt",
    "handle": "@cyrilXBT",
-   "name": "cyrilxbt",
+   "name": "CyrilXBT",
    "url": "https://x.com/cyrilXBT/status/2124083146291622001",
    "posted_at": "2026-11-21T13:11:00+03:00",
    "hook": "SOME PEOPLE WILL MAKE MONEY OFF GTA 6 WITHOUT PLAYING A SINGLE MINUTE.",
@@ -556969,10 +557256,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "cyrilxbt",
    "handle": "@cyrilXBT",
-   "name": "cyrilxbt",
+   "name": "CyrilXBT",
    "url": "https://x.com/cyrilXBT/status/2124052695820702100",
    "posted_at": "2026-11-21T11:10:00+03:00",
    "hook": "YOU CAN NOW RECREATE ALMOST ANY ANIMATION YOU SEE WITH FABLE 5.2.",
@@ -557032,10 +557319,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "everestchris6",
    "handle": "@everestchris6",
-   "name": "everestchris6",
+   "name": "Chris",
    "url": "https://x.com/everestchris6/status/2124163017093021957",
    "posted_at": "2026-11-21T18:28:22+03:00",
    "hook": "i built 120+ free video components for gta 6 videos",
@@ -557061,10 +557348,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "flxrnc",
    "handle": "@flxrnc",
-   "name": "flxrnc",
+   "name": "Florence",
    "url": "https://x.com/flxrnc/status/2124231511499026436",
    "posted_at": "2026-11-21T23:00:33+03:00",
    "hook": "I make a new animation every day now, these 18 GitHub repos are my secret",
@@ -557323,7 +557610,7 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "leopardracer",
    "handle": "@leopardracer",
    "name": "leopardracer",
@@ -557393,10 +557680,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "mika_systems",
    "handle": "@mika_systems",
-   "name": "mika_systems",
+   "name": "Mika",
    "url": "https://x.com/mika_systems/status/2124202144504926266",
    "posted_at": "2026-11-21T21:03:51+03:00",
    "hook": "no f*cking way... OpenAI just dropped the one thing that makes Codex scary. 110 plugins and skills, all free, built by NVIDIA, Adobe, Stripe, Shopify and Figma themselves. even Microsoft is in there",
@@ -557463,10 +557750,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "mr_buzzoni",
    "handle": "@Mr_Buzzoni",
-   "name": "mr_buzzoni",
+   "name": "Mr. Buzzoni",
    "url": "https://x.com/Mr_Buzzoni/status/2124146312652136618",
    "posted_at": "2026-11-21T17:22:00+03:00",
    "hook": "one year at Stanford costs more than $60,000\nthe CEO of Obsidian put his second brain setup on GitHub for $0",
@@ -557562,10 +557849,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "n01ennn",
    "handle": "@N01ennn",
-   "name": "n01ennn",
+   "name": "NO1ennn",
    "url": "https://x.com/N01ennn/status/2124133328773128526",
    "posted_at": "2026-11-21T16:30:24+03:00",
    "hook": "This is f*cking insane... uncensored Claude Code is porting GTA VI to PC",
@@ -557597,10 +557884,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "retrochainer",
    "handle": "@RetroChainer",
-   "name": "retrochainer",
+   "name": "RetroChainer",
    "url": "https://x.com/RetroChainer/status/2124205345606103149",
    "posted_at": "2026-11-21T21:16:34+03:00",
    "hook": "This is f**king wild. Google paid $40 million for Fossil's smartwatch tech and $2.1 billion for Fitbit. One developer took a $40 board and got a Pixel Watch-style interface running at 60 FPS in two evenings with Claude Code:",
@@ -557940,10 +558227,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "scottybeamio",
    "handle": "@ScottyBeamIO",
-   "name": "scottybeamio",
+   "name": "SCOTTY BEAM",
    "url": "https://x.com/ScottyBeamIO/status/2124181222863917418",
    "posted_at": "2026-11-21T19:40:43+03:00",
    "hook": "STOP F*CKING JUST PLAYING GTA 6, YOU CAN MAKE $1M IN A YEAR ON THE GTA 6 HYPE",
@@ -558090,10 +558377,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "shmidtqq",
    "handle": "@shmidtqq",
-   "name": "shmidtqq",
+   "name": "shmidt",
    "url": "https://x.com/shmidtqq/status/2124147727730667560",
    "posted_at": "2026-11-21T17:27:37+03:00",
    "hook": "Anthropic accidentally turned Claude Code into a literal 24/7 unpaid engineering team, and 99% of developers still close their laptop at 11 PM like it's 2022.",
@@ -558304,10 +558591,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "slash1sol",
    "handle": "@slash1sol",
-   "name": "slash1sol",
+   "name": "slash1s",
    "url": "https://x.com/slash1sol/status/2124118317405241466",
    "posted_at": "2026-11-21T15:30:45+03:00",
    "hook": "GTA 6 IS FINALLY OUT, AND IT IS ABOUT TO CREATE A WHOLE NEW WAVE OF ONLINE MILLIONAIRES",
@@ -558339,10 +558626,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "sprytixl",
    "handle": "@Sprytixl",
-   "name": "sprytixl",
+   "name": "Sprytix",
    "url": "https://x.com/Sprytixl/status/2124078124799279149",
    "posted_at": "2026-11-21T12:51:03+03:00",
    "hook": "People keep asking if this is real.",
@@ -558368,10 +558655,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "sprytixl",
    "handle": "@Sprytixl",
-   "name": "sprytixl",
+   "name": "Sprytix",
    "url": "https://x.com/Sprytixl/status/2124078093962719419",
    "posted_at": "2026-11-21T12:50:55+03:00",
    "hook": "The part I left out of the thread:",
@@ -558397,10 +558684,10 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "sprytixl",
    "handle": "@Sprytixl",
-   "name": "sprytixl",
+   "name": "Sprytix",
    "url": "https://x.com/Sprytixl/status/2124078042653831620",
    "posted_at": "2026-11-21T12:50:43+03:00",
    "hook": "Rockstar Games fired me on Wednesday. GTA 6 launched on Thursday.",
@@ -558426,7 +558713,7 @@
     }
    },
    "day": "2026-11-21",
-   "kind": "h24",
+   "kind": "hit",
    "key": "zostaff",
    "handle": "@zostaff",
    "name": "zostaff",
@@ -558447,6 +558734,426 @@
    "in_h24": true,
    "last_ok": "2026-11-22T11:01:38+03:00",
    "stale": false
+  },
+  "2124238164512714925": {
+   "id": "2124238164512714925",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 2272611,
+     "likes": 30143,
+     "reposts": 2806,
+     "replies": 1728,
+     "bookmarks": 2779,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "elonmusk",
+   "handle": "@elonmusk",
+   "name": "Elon Musk",
+   "url": "https://x.com/elonmusk/status/2124238164512714925",
+   "posted_at": "2026-11-21T23:26:59+03:00",
+   "hook": "@elonmusk: FSD V15 re-renders reality with chevrons in the sky for turns"
+  },
+  "2124270426402836626": {
+   "id": "2124270426402836626",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 1637348,
+     "likes": 15216,
+     "reposts": 1355,
+     "replies": 1098,
+     "bookmarks": 1399,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "elonmusk",
+   "handle": "@elonmusk",
+   "name": "Elon Musk",
+   "url": "https://x.com/elonmusk/status/2124270426402836626",
+   "posted_at": "2026-11-22T01:35:11+03:00",
+   "hook": "@elonmusk: real-time AI video generation on half of one AI4 accelerator"
+  },
+  "2124219378489311656": {
+   "id": "2124219378489311656",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 1172665,
+     "likes": 5077,
+     "reposts": 572,
+     "replies": 633,
+     "bookmarks": 236,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "elonmusk",
+   "handle": "@elonmusk",
+   "name": "Elon Musk",
+   "url": "https://x.com/elonmusk/status/2124219378489311656",
+   "posted_at": "2026-11-21T22:12:20+03:00",
+   "hook": "@elonmusk: Grok understands"
+  },
+  "2124280710747840889": {
+   "id": "2124280710747840889",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 947028,
+     "likes": 3541,
+     "reposts": 482,
+     "replies": 856,
+     "bookmarks": 324,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "elonmusk",
+   "handle": "@elonmusk",
+   "name": "Elon Musk",
+   "url": "https://x.com/elonmusk/status/2124280710747840889",
+   "posted_at": "2026-11-22T02:16:03+03:00",
+   "hook": "@elonmusk: Give Grok Bot your hardest tasks"
+  },
+  "2124138507367281023": {
+   "id": "2124138507367281023",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 109007,
+     "likes": 1780,
+     "reposts": 270,
+     "replies": 188,
+     "bookmarks": 1061,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "thesupermannx",
+   "handle": "@thesupermannx",
+   "name": "Superman",
+   "url": "https://x.com/thesupermannx/status/2124138507367281023",
+   "posted_at": "2026-11-21T16:50:59+03:00",
+   "hook": "@thesupermannx: MIT published the most uncomfortable paper on vibe coding"
+  },
+  "2124014299483873352": {
+   "id": "2124014299483873352",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 57132,
+     "likes": 1074,
+     "reposts": 115,
+     "replies": 65,
+     "bookmarks": 1308,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "dani_avila7",
+   "handle": "@dani_avila7",
+   "name": "Daniel San",
+   "url": "https://x.com/dani_avila7/status/2124014299483873352",
+   "posted_at": "2026-11-21T08:37:25+03:00",
+   "hook": "@dani_avila7: run the vulnerability-scanner skill on your projects"
+  },
+  "2124270289131602109": {
+   "id": "2124270289131602109",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 20453,
+     "likes": 135,
+     "reposts": 14,
+     "replies": 9,
+     "bookmarks": 267,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "xsmryze",
+   "handle": "@xsmryze",
+   "name": "xsmryze",
+   "url": "https://x.com/xsmryze/status/2124270289131602109",
+   "posted_at": "2026-11-22T01:34:38+03:00",
+   "hook": "@xsmryze: Anthropic's Claude Code trick - Sonnet, Haiku and Opus at once"
+  },
+  "2124148329114468476": {
+   "id": "2124148329114468476",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 18788,
+     "likes": 290,
+     "reposts": 51,
+     "replies": 8,
+     "bookmarks": 419,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "ishh_021",
+   "handle": "@Ishh_021",
+   "name": "Ishika Rawat",
+   "url": "https://x.com/Ishh_021/status/2124148329114468476",
+   "posted_at": "2026-11-21T17:30:01+03:00",
+   "hook": "@Ishh_021: Andrew Ng's free 1-hour agentic engineer course"
+  },
+  "2123983900959740140": {
+   "id": "2123983900959740140",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 9358,
+     "likes": 161,
+     "reposts": 36,
+     "replies": 6,
+     "bookmarks": 222,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "dipanshu_ai",
+   "handle": "@Dipanshu_AI",
+   "name": "Dipanshu Kushwaha",
+   "url": "https://x.com/Dipanshu_AI/status/2123983900959740140",
+   "posted_at": "2026-11-21T06:36:38+03:00",
+   "hook": "@Dipanshu_AI: Andrew Ng's agentic engineer playbook, 1-hour course"
+  },
+  "2123812141199143385": {
+   "id": "2123812141199143385",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 8527,
+     "likes": 26,
+     "reposts": 3,
+     "replies": 15,
+     "bookmarks": 21,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "kaggii_",
+   "handle": "@Kaggii_",
+   "name": "Kagi",
+   "url": "https://x.com/Kaggii_/status/2123812141199143385",
+   "posted_at": "2026-11-20T19:14:07+03:00",
+   "hook": "@Kaggii_: Claude Code can run up to 20 agents, 5 text files make a dev team"
+  },
+  "2123767154054959406": {
+   "id": "2123767154054959406",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 5456,
+     "likes": 76,
+     "reposts": 3,
+     "replies": 2,
+     "bookmarks": 100,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "neue_academy",
+   "handle": "@neue_academy",
+   "name": "Neue Academy",
+   "url": "https://x.com/neue_academy/status/2123767154054959406",
+   "posted_at": "2026-11-20T16:15:21+03:00",
+   "hook": "@neue_academy: first look at Neue Studio AI video editor"
+  },
+  "2124211755140129171": {
+   "id": "2124211755140129171",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 5430,
+     "likes": 51,
+     "reposts": 2,
+     "replies": 11,
+     "bookmarks": 138,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "0xcloudvex",
+   "handle": "@0xcloudvex",
+   "name": "0xCloudvex",
+   "url": "https://x.com/0xcloudvex/status/2124211755140129171",
+   "posted_at": "2026-11-21T21:42:03+03:00",
+   "hook": "@0xcloudvex: 19 free GitHub repos to max out a stock Grok Bot"
+  },
+  "2123894848834904367": {
+   "id": "2123894848834904367",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 5152,
+     "likes": 68,
+     "reposts": 3,
+     "replies": 2,
+     "bookmarks": 79,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "le0xet",
+   "handle": "@le0xet",
+   "name": "le0xet",
+   "url": "https://x.com/le0xet/status/2123894848834904367",
+   "posted_at": "2026-11-21T00:42:46+03:00",
+   "hook": "@le0xet: Sonnet, Haiku and Opus running at once in Claude Code"
+  },
+  "2123775484185973166": {
+   "id": "2123775484185973166",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 5011,
+     "likes": 62,
+     "reposts": 8,
+     "replies": 4,
+     "bookmarks": 85,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "rvaniaaaa",
+   "handle": "@rvaniaaaa",
+   "name": "rvaniaaa",
+   "url": "https://x.com/rvaniaaaa/status/2123775484185973166",
+   "posted_at": "2026-11-20T16:48:27+03:00",
+   "hook": "@rvaniaaaa: Anthropic's free courses on GitHub + 11 repos to AI engineer"
+  },
+  "2124135969884454975": {
+   "id": "2124135969884454975",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 4674,
+     "likes": 104,
+     "reposts": 9,
+     "replies": 3,
+     "bookmarks": 122,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "anstapnever",
+   "handle": "@anstapnever",
+   "name": "anstap",
+   "url": "https://x.com/anstapnever/status/2124135969884454975",
+   "posted_at": "2026-11-21T16:40:54+03:00",
+   "hook": "@anstapnever: 20 free GitHub repos turn Fable 5.2 into a motion design studio"
+  },
+  "2123793068503843093": {
+   "id": "2123793068503843093",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 4511,
+     "likes": 85,
+     "reposts": 9,
+     "replies": 37,
+     "bookmarks": 27,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "davidpawlan",
+   "handle": "@DavidPawlan",
+   "name": "David Pawlan",
+   "url": "https://x.com/DavidPawlan/status/2123793068503843093",
+   "posted_at": "2026-11-20T17:58:20+03:00",
+   "hook": "@DavidPawlan: X group chats for people obsessed with personal AI agents"
+  },
+  "2124146521595650385": {
+   "id": "2124146521595650385",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 4470,
+     "likes": 48,
+     "reposts": 8,
+     "replies": 6,
+     "bookmarks": 57,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "alucardiox",
+   "handle": "@alucardiox",
+   "name": "alucardio",
+   "url": "https://x.com/alucardiox/status/2124146521595650385",
+   "posted_at": "2026-11-21T17:22:50+03:00",
+   "hook": "@alucardiox: Grok Bot set itself up from official docs with Obsidian memory"
+  },
+  "2124164409178386716": {
+   "id": "2124164409178386716",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 4147,
+     "likes": 21,
+     "reposts": 5,
+     "replies": 4,
+     "bookmarks": 3,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "andrey676767",
+   "handle": "@andrey676767",
+   "name": "andrey",
+   "url": "https://x.com/andrey676767/status/2124164409178386716",
+   "posted_at": "2026-11-21T18:33:54+03:00",
+   "hook": "@andrey676767: ChatGPT Pro silently downgrading models in Codex"
+  },
+  "2124031568989847643": {
+   "id": "2124031568989847643",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 3949,
+     "likes": 8,
+     "reposts": 1,
+     "replies": 1,
+     "bookmarks": 9,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "bebuu_ai",
+   "handle": "@bebuu_ai",
+   "name": "bebu",
+   "url": "https://x.com/bebuu_ai/status/2124031568989847643",
+   "posted_at": "2026-11-21T09:46:03+03:00",
+   "hook": "@bebuu_ai: Claude Code v2.1.330 hidden unreleased features"
+  },
+  "2124383124432068751": {
+   "id": "2124383124432068751",
+   "snapshots": {
+    "2026-11-22T10:57:15+03:00": {
+     "views": 3123,
+     "likes": 23,
+     "reposts": 1,
+     "replies": 5,
+     "bookmarks": 9,
+     "src": "collect"
+    }
+   },
+   "day": "2026-11-21",
+   "kind": "outsider",
+   "key": "aakashgupta",
+   "handle": "@aakashgupta",
+   "name": "Aakash Gupta",
+   "url": "https://x.com/aakashgupta/status/2124383124432068751",
+   "posted_at": "2026-11-22T09:03:00+03:00",
+   "hook": "@aakashgupta: famous math problem solved with AI help, proof nobody has read"
   }
  },
  "followers": {
