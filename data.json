@@ -2,7 +2,7 @@
  "title": "X Digest Board",
  "date": "2026-11-25",
  "timezone": "Europe/Moscow",
- "updated": "2026-11-26T11:07:29+03:00",
+ "updated": "2026-11-26T11:11:26+03:00",
  "hits": [
   {
    "display_name": "CyrilXBT",
@@ -102,14 +102,17 @@
    "full_text": "fu*ck bloomberg terminal\n\nhttps://t.co/AcIVH4WcZk\n\nsave it rn",
    "metrics_note": "exact metrics from x connector API (impression_count) at fetch time 2026-11-26 ~11:00 MSK",
    "hook": "fu*ck bloomberg terminal",
-   "draft_en": "Who still pays for a Bloomberg terminal?\n\nBookmark this before it disappears.",
+   "draft_en": "Who still pays for a Bloomberg terminal?\n\nI've bookmarked this one - save it before it gets buried.",
    "video_tip": "Screen recording: scroll the free Bloomberg-terminal alternative, open 3 panels in 8s. Caption 'save it'.",
+   "draft_keywords": [
+    "I've"
+   ],
    "original_en": "fu*ck bloomberg terminal\n\nsave it rn",
    "board_rank": 3,
    "draft_check": {
     "rules": "v4",
     "g4_overlap": 0.0,
-    "word_overlap": 0.4,
+    "word_overlap": 0.375,
     "max_copied_run": 2
    },
    "top10_rank": 3,
@@ -128,7 +131,6 @@
    "views_first": 269386,
    "first_at": "2026-11-26T11:00:23+03:00",
    "growth_since_first": 1406,
-   "draft_keywords": [],
    "why_hit": {
     "trend_match": 0,
     "verdict": "совпадение/другое",
@@ -9912,8 +9914,8 @@
     "name": "GitHub-репо и бесплатные курсы",
     "keywords": [
      "repos",
-     "GitHub repos",
      "open-source",
+     "GitHub repos",
      "workflows"
     ],
     "posts_24h": 3,
@@ -9952,8 +9954,8 @@
     "name": "Agent teams: Claude Fable 5.2, Gemini 4 Neon + Antigravity",
     "keywords": [
      "Antigravity",
-     "Gemini 4 Neon",
      "AI Agents",
+     "Gemini 4 Neon",
      "Claude Fable 5.2",
      "Agent teams"
     ],
@@ -11695,7 +11697,7 @@
   "handle": "@thegreatest_sv",
   "start": "2026-10-24",
   "end": "2026-10-31",
-  "updated": "2026-11-26T11:07+03:00",
+  "updated": "2026-11-26T11:11+03:00",
   "content_day": "2026-11-25",
   "baseline": {
    "median": 13830,
@@ -11800,7 +11802,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 787.8,
+    "age_h": 787.9,
     "mature": true,
     "date": "24.10 15:19"
    },
@@ -11897,7 +11899,7 @@
     "label": "тренд",
     "declared": "тренд",
     "declared_note": "первый пост эксперимента (24.10): Kimi K3.1 Pro vs Claude Opus 5.5 - сравнение дизайна",
-    "age_h": 784.9,
+    "age_h": 785.0,
     "mature": true,
     "date": "24.10 18:11"
    },
@@ -12275,7 +12277,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 757.9,
+    "age_h": 758.0,
     "mature": true,
     "date": "25.10 21:11"
    },
@@ -12420,7 +12422,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 739.8,
+    "age_h": 739.9,
     "mature": true,
     "date": "26.10 15:19"
    },
@@ -12783,7 +12785,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 712.9,
+    "age_h": 713.0,
     "mature": true,
     "date": "27.10 18:13"
    },
@@ -12873,7 +12875,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 710.0,
+    "age_h": 710.1,
     "mature": true,
     "date": "27.10 21:06"
    },
@@ -12961,7 +12963,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 691.8,
+    "age_h": 691.9,
     "mature": true,
     "date": "28.10 15:19"
    },
@@ -13047,7 +13049,7 @@
     "label": "не тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 688.9,
+    "age_h": 689.0,
     "mature": true,
     "date": "28.10 18:13"
    },
@@ -13219,7 +13221,7 @@
     "label": "не тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 667.9,
+    "age_h": 668.0,
     "mature": true,
     "date": "29.10 15:14"
    },
@@ -13391,7 +13393,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 661.4,
+    "age_h": 661.5,
     "mature": true,
     "date": "29.10 21:41"
    },
@@ -13476,7 +13478,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 643.8,
+    "age_h": 643.9,
     "mature": true,
     "date": "30.10 15:17"
    },
@@ -13724,7 +13726,7 @@
     "label": "тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 620.6,
+    "age_h": 620.7,
     "mature": true,
     "date": "31.10 14:29"
    },
@@ -13806,7 +13808,7 @@
     "label": "не тренд",
     "declared": null,
     "declared_note": null,
-    "age_h": 614.4,
+    "age_h": 614.5,
     "mature": true,
     "date": "31.10 20:44"
    }
